@@ -1666,5 +1666,392 @@
     "lastVerified": "2026-05-10",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
+  },
+  {
+    "id": "UNI_0041",
+    "slug": "university-of-copenhagen",
+    "name": "University of Copenhagen (Københavns Universitet)",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "city": "Copenhagen",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.ku.dk",
+    "admissionsUrl": null,
+    "primaryLanguage": "Danish and English",
+    "subjects": [
+      "Humanities",
+      "Health Sciences",
+      "Medicine",
+      "Nursing",
+      "Dentistry",
+      "Pharmacy",
+      "Law",
+      "Life Sciences",
+      "Natural Sciences",
+      "Social Sciences",
+      "Theology"
+    ],
+    "categoryTags": [
+      "public",
+      "research-university",
+      "comprehensive",
+      "flagship"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS or TOEFL required for English-taught programs; many Master's and PhD programs taught in English",
+    "tuitionNote": "Free for EU/EEA students. Non-EU/EEA tuition typically €8,000–€15,000 per year depending on program.",
+    "studentNotes": "Founded 1479 — Denmark's oldest and largest university, second-oldest in Scandinavia. 38,000+ students, 200+ study programs across all major fields including medicine, law, theology, and natural sciences. Ranks among the top 100 universities globally per QS. Major destination for international healthcare and research migrants.",
+    "accreditationBody": "Danmarks Akkrediteringsinstitution (Danish Accreditation Institution)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_denmark_danske_universiteter",
+      "title": "De 8 universiteter (The 8 Danish Universities)",
+      "publisher": "Danske Universiteter",
+      "url": "https://dkuni.dk/om-os/de-8-universiteter/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0166",
+    "slug": "aarhus-university",
+    "name": "Aarhus University (Aarhus Universitet)",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "city": "Aarhus",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.au.dk",
+    "admissionsUrl": null,
+    "primaryLanguage": "Danish and English",
+    "subjects": [
+      "Engineering",
+      "Business",
+      "Arts",
+      "Natural Sciences",
+      "Health Sciences",
+      "Social Sciences",
+      "Humanities"
+    ],
+    "categoryTags": [
+      "public",
+      "research-university",
+      "comprehensive"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS or TOEFL required; 50+ Bachelor's and Master's programs offered in English; all PhD programs in English",
+    "tuitionNote": "Free for EU/EEA students. Non-EU/EEA tuition typically €8,000–€14,800 per year.",
+    "studentNotes": "Founded 1928. Comprehensive research university with main campus in Aarhus and additional facilities in Copenhagen, Roskilde, Silkeborg, Foulum, and Herning. Approximately 12% of students are international, drawn from 120 countries. Ranks among the top 150 globally.",
+    "accreditationBody": "Danmarks Akkrediteringsinstitution (Danish Accreditation Institution)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_denmark_danske_universiteter",
+      "title": "De 8 universiteter (The 8 Danish Universities)",
+      "publisher": "Danske Universiteter",
+      "url": "https://dkuni.dk/om-os/de-8-universiteter/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0167",
+    "slug": "university-of-southern-denmark",
+    "name": "University of Southern Denmark (Syddansk Universitet)",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "city": "Odense",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.sdu.dk",
+    "admissionsUrl": null,
+    "primaryLanguage": "Danish and English",
+    "subjects": [
+      "Engineering",
+      "Humanities",
+      "Health Sciences",
+      "Business",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "research-university",
+      "multi-campus"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS or TOEFL required for English-taught programs; substantial English-medium offering at Master's level",
+    "tuitionNote": "Free for EU/EEA students. Non-EU/EEA tuition typically €6,500–€13,500 per year.",
+    "studentNotes": "Founded 1998 through merger of Odense University (founded 1966), the Southern Denmark School of Business and Engineering, and the South Jutland University Centre. Main campus in Odense; additional campuses in Kolding, Esbjerg, Sønderborg, Slagelse, and Copenhagen. Affiliated with Odense University Hospital (OUH) for clinical training.",
+    "accreditationBody": "Danmarks Akkrediteringsinstitution (Danish Accreditation Institution)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_denmark_danske_universiteter",
+      "title": "De 8 universiteter (The 8 Danish Universities)",
+      "publisher": "Danske Universiteter",
+      "url": "https://dkuni.dk/om-os/de-8-universiteter/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0168",
+    "slug": "roskilde-university",
+    "name": "Roskilde University (Roskilde Universitet)",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "city": "Roskilde",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.ruc.dk",
+    "admissionsUrl": null,
+    "primaryLanguage": "Danish and English",
+    "subjects": [
+      "Humanities",
+      "Humanistic Technologies",
+      "Social Sciences",
+      "Natural Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "interdisciplinary",
+      "small-research"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "IELTS or TOEFL required for English-taught programs",
+    "tuitionNote": "Free for EU/EEA students. Non-EU/EEA tuition typically €7,500–€15,000 per year.",
+    "studentNotes": "Founded 1972. Smaller research university east of central Roskilde, distinctive for its problem-oriented, project-based interdisciplinary teaching model (tværfaglige studier). Programs span four areas: humanities, humanistic technologies, social sciences, and natural sciences.",
+    "accreditationBody": "Danmarks Akkrediteringsinstitution (Danish Accreditation Institution)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_denmark_danske_universiteter",
+      "title": "De 8 universiteter (The 8 Danish Universities)",
+      "publisher": "Danske Universiteter",
+      "url": "https://dkuni.dk/om-os/de-8-universiteter/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0169",
+    "slug": "aalborg-university",
+    "name": "Aalborg University (Aalborg Universitet)",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "city": "Aalborg",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.aau.dk",
+    "admissionsUrl": null,
+    "primaryLanguage": "Danish and English",
+    "subjects": [
+      "Engineering",
+      "Information Technology",
+      "Social Sciences",
+      "Design",
+      "Humanities",
+      "Medical Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "research-university",
+      "problem-based-learning",
+      "engineering-strong"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS or TOEFL required for English-taught programs; English-medium offering strong at Master's level",
+    "tuitionNote": "Free for EU/EEA students. Non-EU/EEA tuition typically €8,000–€14,000 per year.",
+    "studentNotes": "Founded 1974. Headquartered in Aalborg with additional campuses in Copenhagen and Esbjerg. Internationally recognized for its Problem-Based Learning (PBL) pedagogical model. Strong emphasis on engineering, IT, and applied research. Notable destination for South Asian engineering and IT migrants.",
+    "accreditationBody": "Danmarks Akkrediteringsinstitution (Danish Accreditation Institution)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_denmark_danske_universiteter",
+      "title": "De 8 universiteter (The 8 Danish Universities)",
+      "publisher": "Danske Universiteter",
+      "url": "https://dkuni.dk/om-os/de-8-universiteter/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0170",
+    "slug": "technical-university-of-denmark",
+    "name": "Technical University of Denmark (Danmarks Tekniske Universitet)",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "city": "Kongens Lyngby",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.dtu.dk",
+    "admissionsUrl": null,
+    "primaryLanguage": "Danish and English",
+    "subjects": [
+      "Engineering",
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Chemical Engineering",
+      "Biotechnology",
+      "Applied Sciences",
+      "Technology"
+    ],
+    "categoryTags": [
+      "public",
+      "research-university",
+      "subject-focused",
+      "engineering-only",
+      "elite"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS or TOEFL required; majority of Master's programs taught in English",
+    "tuitionNote": "Free for EU/EEA students. Non-EU/EEA tuition typically €13,500–€16,000 per year (verify current rates).",
+    "studentNotes": "Subject-focused: engineering and applied sciences only — not a comprehensive university. Founded 1829 by physicist H.C. Ørsted. Located in Kongens Lyngby, a Copenhagen suburb. Among Europe's top technical universities; ranks in the global top 100 for engineering. Approximately 20% of scientific staff recruited internationally. Major destination for South Asian engineering migrants.",
+    "accreditationBody": "Danmarks Akkrediteringsinstitution (Danish Accreditation Institution)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_denmark_danske_universiteter",
+      "title": "De 8 universiteter (The 8 Danish Universities)",
+      "publisher": "Danske Universiteter",
+      "url": "https://dkuni.dk/om-os/de-8-universiteter/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0171",
+    "slug": "copenhagen-business-school",
+    "name": "Copenhagen Business School (CBS)",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "city": "Frederiksberg",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.cbs.dk",
+    "admissionsUrl": null,
+    "primaryLanguage": "Danish and English",
+    "subjects": [
+      "Business",
+      "Finance",
+      "Economics",
+      "Management",
+      "Digital Management",
+      "Marketing"
+    ],
+    "categoryTags": [
+      "public",
+      "subject-focused",
+      "business-only",
+      "large"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "IELTS or TOEFL required; substantial English-medium offering at Bachelor's and Master's levels",
+    "tuitionNote": "Free for EU/EEA students. Non-EU/EEA tuition varies by program (verify with university).",
+    "studentNotes": "Subject-focused: business, finance, economics, and management only — not a comprehensive university. Founded 1917. Located in Frederiksberg (Copenhagen). 22,000+ students, making it one of Europe's largest business schools. Globally recognized MBA program. Strong fit for migrants pursuing business or finance credentials.",
+    "accreditationBody": "Danmarks Akkrediteringsinstitution (Danish Accreditation Institution)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_denmark_danske_universiteter",
+      "title": "De 8 universiteter (The 8 Danish Universities)",
+      "publisher": "Danske Universiteter",
+      "url": "https://dkuni.dk/om-os/de-8-universiteter/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0172",
+    "slug": "it-university-of-copenhagen",
+    "name": "IT University of Copenhagen (IT-Universitetet i København)",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "city": "Copenhagen",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.itu.dk",
+    "admissionsUrl": null,
+    "primaryLanguage": "Danish and English",
+    "subjects": [
+      "Computer Science",
+      "Software Development",
+      "Data Science",
+      "Digital Design",
+      "Business IT"
+    ],
+    "categoryTags": [
+      "public",
+      "subject-focused",
+      "it-only",
+      "specialist"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "IELTS or TOEFL required; substantial English-medium offering at Master's level",
+    "tuitionNote": "Free for EU/EEA students. Non-EU/EEA tuition typically €12,500–€14,000 per year.",
+    "studentNotes": "Subject-focused: information technology only (computer science, software development, data science, digital design, business IT) — not a comprehensive university. Founded 1999. Public autonomous university located in Copenhagen. Strong fit for migrants pursuing software, data, or digital-design credentials.",
+    "accreditationBody": "Danmarks Akkrediteringsinstitution (Danish Accreditation Institution)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_denmark_danske_universiteter",
+      "title": "De 8 universiteter (The 8 Danish Universities)",
+      "publisher": "Danske Universiteter",
+      "url": "https://dkuni.dk/om-os/de-8-universiteter/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
   }
 ]
