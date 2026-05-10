@@ -1337,5 +1337,334 @@
     "lastVerified": "2026-05-09",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
+  },
+  {
+    "id": "UNI_0159",
+    "slug": "university-of-iceland",
+    "name": "University of Iceland (Háskóli Íslands)",
+    "country": {
+      "iso2": "IS",
+      "name": "Iceland",
+      "slug": "iceland"
+    },
+    "city": "Reykjavík",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://hi.is/",
+    "admissionsUrl": null,
+    "primaryLanguage": "Icelandic",
+    "subjects": [
+      "Humanities",
+      "Natural Sciences",
+      "Medicine",
+      "Engineering",
+      "Nursing",
+      "Law",
+      "Social Sciences",
+      "Theology",
+      "Pharmacy",
+      "Dentistry"
+    ],
+    "categoryTags": [
+      "research-university",
+      "public",
+      "comprehensive"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "IELTS or TOEFL required for English-taught graduate programs; check program-specific requirements",
+    "tuitionNote": "Public — annual registration fee only (~75,000 ISK / ~500 EUR). No tuition for EU/EEA or international students at undergraduate level.",
+    "studentNotes": "Iceland's oldest and largest university. Broadest program range — humanities through medicine. Most undergraduate programs taught in Icelandic; English-medium offerings concentrated at the graduate level. Acceptance ~80–89%.",
+    "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
+    "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_iceland_enic_naric_universities",
+      "title": "Accredited Universities in Iceland",
+      "publisher": "ENIC/NARIC Iceland",
+      "url": "https://english.enicnaric.is/universities.html",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0160",
+    "slug": "reykjavik-university",
+    "name": "Reykjavík University (Háskólinn í Reykjavík)",
+    "country": {
+      "iso2": "IS",
+      "name": "Iceland",
+      "slug": "iceland"
+    },
+    "city": "Reykjavík",
+    "region": "Europe",
+    "controlType": "private",
+    "officialWebsite": "https://www.ru.is/",
+    "admissionsUrl": null,
+    "primaryLanguage": "Icelandic and English",
+    "subjects": [
+      "Business",
+      "Law",
+      "Computer Science",
+      "Engineering",
+      "Sport Science",
+      "Psychology"
+    ],
+    "categoryTags": [
+      "private",
+      "international-focus",
+      "english-medium"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "Many programs taught in English; IELTS/TOEFL required for non-native speakers",
+    "tuitionNote": "Private — semester-based tuition fees (typically several thousand USD per semester depending on program). Confirm current rates with university.",
+    "studentNotes": "Private non-profit founded 1998. Substantial English-medium offering across business, law, computer science and engineering. Stronger international student presence than the public Icelandic universities.",
+    "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
+    "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_iceland_enic_naric_universities",
+      "title": "Accredited Universities in Iceland",
+      "publisher": "ENIC/NARIC Iceland",
+      "url": "https://english.enicnaric.is/universities.html",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0161",
+    "slug": "university-of-akureyri",
+    "name": "University of Akureyri (Háskólinn á Akureyri)",
+    "country": {
+      "iso2": "IS",
+      "name": "Iceland",
+      "slug": "iceland"
+    },
+    "city": "Akureyri",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.unak.is/",
+    "admissionsUrl": null,
+    "primaryLanguage": "Icelandic",
+    "subjects": [
+      "Nursing",
+      "Business",
+      "Education",
+      "Social Sciences",
+      "Fisheries",
+      "Law"
+    ],
+    "categoryTags": [
+      "public",
+      "regional",
+      "nursing-program"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "IELTS or TOEFL required for English-taught programs (notably nursing)",
+    "tuitionNote": "Public — annual registration fee only (~75,000 ISK / ~500 EUR).",
+    "studentNotes": "Public university in north Iceland (Akureyri, Iceland's second city). Notable for an English-medium nursing program — relevant for healthcare workers seeking Nordic credentials. Smaller than University of Iceland.",
+    "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
+    "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_iceland_enic_naric_universities",
+      "title": "Accredited Universities in Iceland",
+      "publisher": "ENIC/NARIC Iceland",
+      "url": "https://english.enicnaric.is/universities.html",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0162",
+    "slug": "bifrost-university",
+    "name": "Bifröst University",
+    "country": {
+      "iso2": "IS",
+      "name": "Iceland",
+      "slug": "iceland"
+    },
+    "city": "Bifröst",
+    "region": "Europe",
+    "controlType": "private",
+    "officialWebsite": "https://www.bifrost.is/",
+    "admissionsUrl": null,
+    "primaryLanguage": "Icelandic and English",
+    "subjects": [
+      "Business",
+      "Law",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "private",
+      "specialist",
+      "small"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "IELTS/TOEFL required for English programs",
+    "tuitionNote": "Tuition-free following 2024 state funding agreements. Verify current arrangement with university.",
+    "studentNotes": "Niche specialist institution — not a comprehensive university. Focus is business, law, and social sciences. Founded 1918 on the Ruskin College, Oxford model. Rural campus in Borgarfjörður (~100 km from Reykjavík). Included for honest coverage of Iceland's full accredited list, not as a general option.",
+    "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
+    "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_iceland_enic_naric_universities",
+      "title": "Accredited Universities in Iceland",
+      "publisher": "ENIC/NARIC Iceland",
+      "url": "https://english.enicnaric.is/universities.html",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0163",
+    "slug": "iceland-university-of-the-arts",
+    "name": "Iceland University of the Arts (Listaháskóli Íslands)",
+    "country": {
+      "iso2": "IS",
+      "name": "Iceland",
+      "slug": "iceland"
+    },
+    "city": "Reykjavík",
+    "region": "Europe",
+    "controlType": "private",
+    "officialWebsite": "https://www.lhi.is/",
+    "admissionsUrl": null,
+    "primaryLanguage": "Icelandic and English",
+    "subjects": [
+      "Fine Arts",
+      "Design",
+      "Music",
+      "Dance",
+      "Theatre",
+      "Art Education",
+      "Architecture"
+    ],
+    "categoryTags": [
+      "private",
+      "specialist",
+      "arts"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "IELTS/TOEFL required for English-taught programs",
+    "tuitionNote": "Tuition-free following 2024 state funding agreements. Verify current arrangement with university.",
+    "studentNotes": "Niche specialist institution — Iceland's only accredited arts university. Programs are strictly arts and design (fine arts, music, dance, theatre, design, architecture). Not a general university. Relevant for migrants specifically seeking arts/design credentials.",
+    "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
+    "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_iceland_enic_naric_universities",
+      "title": "Accredited Universities in Iceland",
+      "publisher": "ENIC/NARIC Iceland",
+      "url": "https://english.enicnaric.is/universities.html",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0164",
+    "slug": "agricultural-university-of-iceland",
+    "name": "Agricultural University of Iceland (Landbúnaðarháskóli Íslands)",
+    "country": {
+      "iso2": "IS",
+      "name": "Iceland",
+      "slug": "iceland"
+    },
+    "city": "Hvanneyri",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.lbhi.is/",
+    "admissionsUrl": null,
+    "primaryLanguage": "Icelandic",
+    "subjects": [
+      "Agricultural Sciences",
+      "Environmental Sciences",
+      "Horticulture",
+      "Forestry",
+      "Planning"
+    ],
+    "categoryTags": [
+      "public",
+      "specialist",
+      "small",
+      "agriculture"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "IELTS/TOEFL required for English-taught programs (limited at this institution)",
+    "tuitionNote": "Public — annual registration fee only (~75,000 ISK / ~500 EUR).",
+    "studentNotes": "Niche specialist institution — not a comprehensive university. Focused on agriculture, environment, and rural planning. Very small (~200 students). Rural campus in Hvanneyri. Included for honest coverage of Iceland's accredited list; relevant only for migrants specifically seeking agricultural or environmental science credentials.",
+    "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
+    "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_iceland_enic_naric_universities",
+      "title": "Accredited Universities in Iceland",
+      "publisher": "ENIC/NARIC Iceland",
+      "url": "https://english.enicnaric.is/universities.html",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0165",
+    "slug": "holar-university",
+    "name": "Hólar University (Háskólinn á Hólum)",
+    "country": {
+      "iso2": "IS",
+      "name": "Iceland",
+      "slug": "iceland"
+    },
+    "city": "Hólar í Hjaltadal",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.holar.is/",
+    "admissionsUrl": null,
+    "primaryLanguage": "Icelandic",
+    "subjects": [
+      "Aquaculture and Fish Biology",
+      "Equine Science",
+      "Rural Tourism"
+    ],
+    "categoryTags": [
+      "public",
+      "specialist",
+      "small",
+      "rural"
+    ],
+    "scholarshipsAvailable": "limited",
+    "englishTestNote": "Some English at graduate level; verify program-specific",
+    "tuitionNote": "Public — annual registration fee only (~75,000 ISK / ~500 EUR).",
+    "studentNotes": "Niche specialist institution — not a comprehensive university. Smallest accredited Icelandic university. Programs are limited to aquaculture, equine science, and rural tourism. Site has historical roots to 1106; institutional university status since 2007. Included for honest coverage of Iceland's accredited list; relevant only for migrants specifically seeking these specialized fields.",
+    "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
+    "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_iceland_enic_naric_universities",
+      "title": "Accredited Universities in Iceland",
+      "publisher": "ENIC/NARIC Iceland",
+      "url": "https://english.enicnaric.is/universities.html",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
   }
 ]
