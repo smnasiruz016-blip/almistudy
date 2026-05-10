@@ -1,0 +1,1341 @@
+[
+  {
+    "id": "UNI_0129",
+    "slug": "king-saud-bin-abdulaziz-university-for-health-sciences-ksau-hs",
+    "name": "King Saud bin Abdulaziz University for Health Sciences (KSAU-HS)",
+    "country": {
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia"
+    },
+    "city": "Riyadh",
+    "region": "Middle East",
+    "controlType": "public",
+    "officialWebsite": "https://www.ksau-hs.edu.sa",
+    "admissionsUrl": null,
+    "primaryLanguage": "Arabic; English",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Pharmacy",
+      "Public Health",
+      "Dentistry",
+      "Applied Medical Sciences"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "Government-affiliated"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Affiliated with the Ministry of National Guard Health Affairs. Premier health-sciences institution in KSA. Strong nursing and medical programs.",
+    "accreditationBody": "Education and Training Evaluation Commission (ETEC) — National Center for Academic Accreditation (NCAAA)",
+    "accreditationRegistryUrl": "https://etec.gov.sa/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_001",
+      "title": "Official website: King Saud bin Abdulaziz University for Health Sciences (KSAU-HS)",
+      "publisher": "King Saud bin Abdulaziz University for Health Sciences (KSAU-HS)",
+      "url": "https://www.ksau-hs.edu.sa",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0130",
+    "slug": "king-faisal-university",
+    "name": "King Faisal University",
+    "country": {
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia"
+    },
+    "city": "Al-Hasa",
+    "region": "Middle East",
+    "controlType": "public",
+    "officialWebsite": "https://www.kfu.edu.sa",
+    "admissionsUrl": null,
+    "primaryLanguage": "Arabic; English",
+    "subjects": [
+      "Medicine",
+      "Veterinary",
+      "Engineering",
+      "Agriculture",
+      "Education",
+      "Business"
+    ],
+    "categoryTags": [
+      "Comprehensive",
+      "Government"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Comprehensive public university serving Eastern Province.",
+    "accreditationBody": "Education and Training Evaluation Commission (ETEC) — National Center for Academic Accreditation (NCAAA)",
+    "accreditationRegistryUrl": "https://etec.gov.sa/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_002",
+      "title": "Official website: King Faisal University",
+      "publisher": "King Faisal University",
+      "url": "https://www.kfu.edu.sa",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0131",
+    "slug": "king-abdulaziz-university",
+    "name": "King Abdulaziz University",
+    "country": {
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia"
+    },
+    "city": "Jeddah",
+    "region": "Middle East",
+    "controlType": "public",
+    "officialWebsite": "https://www.kau.edu.sa",
+    "admissionsUrl": null,
+    "primaryLanguage": "Arabic; English",
+    "subjects": [
+      "Medicine",
+      "Engineering",
+      "Business",
+      "Marine Sciences",
+      "Computer Science"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Comprehensive"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Largest public university in Saudi Arabia by enrollment. Strong international rankings.",
+    "accreditationBody": "Education and Training Evaluation Commission (ETEC) — National Center for Academic Accreditation (NCAAA)",
+    "accreditationRegistryUrl": "https://etec.gov.sa/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_003",
+      "title": "Official website: King Abdulaziz University",
+      "publisher": "King Abdulaziz University",
+      "url": "https://www.kau.edu.sa",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0132",
+    "slug": "imam-abdulrahman-bin-faisal-university",
+    "name": "Imam Abdulrahman bin Faisal University",
+    "country": {
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia"
+    },
+    "city": "Dammam",
+    "region": "Middle East",
+    "controlType": "public",
+    "officialWebsite": "https://www.iau.edu.sa",
+    "admissionsUrl": null,
+    "primaryLanguage": "Arabic; English",
+    "subjects": [
+      "Medicine",
+      "Dentistry",
+      "Engineering",
+      "Architecture",
+      "Public Health"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "Comprehensive"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Major medical and health-sciences hub in Eastern Province.",
+    "accreditationBody": "Education and Training Evaluation Commission (ETEC) — National Center for Academic Accreditation (NCAAA)",
+    "accreditationRegistryUrl": "https://etec.gov.sa/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_004",
+      "title": "Official website: Imam Abdulrahman bin Faisal University",
+      "publisher": "Imam Abdulrahman bin Faisal University",
+      "url": "https://www.iau.edu.sa",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0133",
+    "slug": "khalifa-university",
+    "name": "Khalifa University",
+    "country": {
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "slug": "united-arab-emirates"
+    },
+    "city": "Abu Dhabi",
+    "region": "Middle East",
+    "controlType": "public",
+    "officialWebsite": "https://www.ku.ac.ae",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Engineering",
+      "Medicine",
+      "Computer Science",
+      "Energy",
+      "Aerospace"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "STEM"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "UAE's flagship research university. English-medium. Strong engineering and medicine.",
+    "accreditationBody": "Commission for Academic Accreditation (CAA), UAE Ministry of Education",
+    "accreditationRegistryUrl": "https://www.caa.ae/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_005",
+      "title": "Official website: Khalifa University",
+      "publisher": "Khalifa University",
+      "url": "https://www.ku.ac.ae",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0134",
+    "slug": "american-university-of-sharjah",
+    "name": "American University of Sharjah",
+    "country": {
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "slug": "united-arab-emirates"
+    },
+    "city": "Sharjah",
+    "region": "Middle East",
+    "controlType": "private",
+    "officialWebsite": "https://www.aus.edu",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Engineering",
+      "Architecture",
+      "Business",
+      "Arts and Sciences"
+    ],
+    "categoryTags": [
+      "American Curriculum",
+      "Private"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "American liberal-arts model in the UAE. English-medium throughout.",
+    "accreditationBody": "Commission for Academic Accreditation (CAA), UAE Ministry of Education",
+    "accreditationRegistryUrl": "https://www.caa.ae/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_006",
+      "title": "Official website: American University of Sharjah",
+      "publisher": "American University of Sharjah",
+      "url": "https://www.aus.edu",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0135",
+    "slug": "mohammed-bin-rashid-university-of-medicine-and-health-sciences",
+    "name": "Mohammed Bin Rashid University of Medicine and Health Sciences",
+    "country": {
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "slug": "united-arab-emirates"
+    },
+    "city": "Dubai",
+    "region": "Middle East",
+    "controlType": "private",
+    "officialWebsite": "https://www.mbru.ac.ae",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Dentistry",
+      "Nursing",
+      "Health Sciences"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "Specialist"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Specialist health-sciences university. Modern medical education focused on Dubai healthcare cluster.",
+    "accreditationBody": "Commission for Academic Accreditation (CAA), UAE Ministry of Education",
+    "accreditationRegistryUrl": "https://www.caa.ae/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_007",
+      "title": "Official website: Mohammed Bin Rashid University of Medicine and Health Sciences",
+      "publisher": "Mohammed Bin Rashid University of Medicine and Health Sciences",
+      "url": "https://www.mbru.ac.ae",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0136",
+    "slug": "sultan-qaboos-university",
+    "name": "Sultan Qaboos University",
+    "country": {
+      "iso2": "OM",
+      "name": "Oman",
+      "slug": "oman"
+    },
+    "city": "Muscat",
+    "region": "Middle East",
+    "controlType": "public",
+    "officialWebsite": "https://www.squ.edu.om",
+    "admissionsUrl": null,
+    "primaryLanguage": "Arabic; English",
+    "subjects": [
+      "Medicine",
+      "Engineering",
+      "Agriculture",
+      "Education",
+      "Sciences"
+    ],
+    "categoryTags": [
+      "Comprehensive",
+      "National Flagship"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Oman's national flagship university. Medical college trains the country's physicians.",
+    "accreditationBody": "Oman Authority for Academic Accreditation and Quality Assurance of Education (OAAAQA)",
+    "accreditationRegistryUrl": "https://www.oaaaqa.gov.om/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_008",
+      "title": "Official website: Sultan Qaboos University",
+      "publisher": "Sultan Qaboos University",
+      "url": "https://www.squ.edu.om",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0137",
+    "slug": "university-of-bahrain",
+    "name": "University of Bahrain",
+    "country": {
+      "iso2": "BH",
+      "name": "Bahrain",
+      "slug": "bahrain"
+    },
+    "city": "Sakhir",
+    "region": "Middle East",
+    "controlType": "public",
+    "officialWebsite": "https://www.uob.edu.bh",
+    "admissionsUrl": null,
+    "primaryLanguage": "Arabic; English",
+    "subjects": [
+      "Engineering",
+      "Business",
+      "Information Technology",
+      "Health and Sport Sciences",
+      "Law"
+    ],
+    "categoryTags": [
+      "Comprehensive",
+      "National Flagship"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Bahrain's national university. Largest by enrollment in the country.",
+    "accreditationBody": "Education & Training Quality Authority (BQA), Kingdom of Bahrain",
+    "accreditationRegistryUrl": "https://www.bqa.gov.bh/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_009",
+      "title": "Official website: University of Bahrain",
+      "publisher": "University of Bahrain",
+      "url": "https://www.uob.edu.bh",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0138",
+    "slug": "hamad-bin-khalifa-university",
+    "name": "Hamad Bin Khalifa University",
+    "country": {
+      "iso2": "QA",
+      "name": "Qatar",
+      "slug": "qatar"
+    },
+    "city": "Doha",
+    "region": "Middle East",
+    "controlType": "private",
+    "officialWebsite": "https://www.hbku.edu.qa",
+    "admissionsUrl": null,
+    "primaryLanguage": "English; Arabic",
+    "subjects": [
+      "Computer Science",
+      "Public Policy",
+      "Islamic Studies",
+      "Science and Engineering"
+    ],
+    "categoryTags": [
+      "Research",
+      "Graduate-Focused"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Member of Qatar Foundation. Mostly graduate-focused. English-medium.",
+    "accreditationBody": "Qatar Ministry of Education and Higher Education",
+    "accreditationRegistryUrl": "https://www.edu.gov.qa/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_010",
+      "title": "Official website: Hamad Bin Khalifa University",
+      "publisher": "Hamad Bin Khalifa University",
+      "url": "https://www.hbku.edu.qa",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0139",
+    "slug": "kuwait-university",
+    "name": "Kuwait University",
+    "country": {
+      "iso2": "KW",
+      "name": "Kuwait",
+      "slug": "kuwait"
+    },
+    "city": "Kuwait City",
+    "region": "Middle East",
+    "controlType": "public",
+    "officialWebsite": "https://www.ku.edu.kw",
+    "admissionsUrl": null,
+    "primaryLanguage": "Arabic; English",
+    "subjects": [
+      "Medicine",
+      "Engineering",
+      "Business",
+      "Law",
+      "Science",
+      "Allied Health"
+    ],
+    "categoryTags": [
+      "Comprehensive",
+      "National Flagship"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Kuwait's national university. Faculty of Medicine and Allied Health Sciences are key for healthcare workforce.",
+    "accreditationBody": "Kuwait Ministry of Higher Education",
+    "accreditationRegistryUrl": "https://www.mohe.edu.kw/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_011",
+      "title": "Official website: Kuwait University",
+      "publisher": "Kuwait University",
+      "url": "https://www.ku.edu.kw",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0140",
+    "slug": "aga-khan-university",
+    "name": "Aga Khan University",
+    "country": {
+      "iso2": "PK",
+      "name": "Pakistan",
+      "slug": "pakistan"
+    },
+    "city": "Karachi",
+    "region": "South Asia",
+    "controlType": "private",
+    "officialWebsite": "https://www.aku.edu",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Education",
+      "Allied Health Sciences"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "Top Ranking",
+      "International"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Top private medical & nursing university in Pakistan. Internationally accredited. Major source of nurses for global migration.",
+    "accreditationBody": "Higher Education Commission (HEC) Pakistan",
+    "accreditationRegistryUrl": "https://www.hec.gov.pk/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_012",
+      "title": "Official website: Aga Khan University",
+      "publisher": "Aga Khan University",
+      "url": "https://www.aku.edu",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0141",
+    "slug": "king-edward-medical-university",
+    "name": "King Edward Medical University",
+    "country": {
+      "iso2": "PK",
+      "name": "Pakistan",
+      "slug": "pakistan"
+    },
+    "city": "Lahore",
+    "region": "South Asia",
+    "controlType": "public",
+    "officialWebsite": "https://www.kemu.edu.pk",
+    "admissionsUrl": null,
+    "primaryLanguage": "English; Urdu",
+    "subjects": [
+      "Medicine",
+      "Surgery",
+      "Allied Health"
+    ],
+    "categoryTags": [
+      "Medical",
+      "Historic",
+      "Public"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "One of the oldest medical institutions in South Asia (est. 1860). Public medical school.",
+    "accreditationBody": "Higher Education Commission (HEC) Pakistan; Pakistan Medical Commission (PMC)",
+    "accreditationRegistryUrl": "https://www.pmc.gov.pk/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_013",
+      "title": "Official website: King Edward Medical University",
+      "publisher": "King Edward Medical University",
+      "url": "https://www.kemu.edu.pk",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0142",
+    "slug": "allama-iqbal-medical-college",
+    "name": "Allama Iqbal Medical College",
+    "country": {
+      "iso2": "PK",
+      "name": "Pakistan",
+      "slug": "pakistan"
+    },
+    "city": "Lahore",
+    "region": "South Asia",
+    "controlType": "public",
+    "officialWebsite": "https://www.aimc.edu.pk",
+    "admissionsUrl": null,
+    "primaryLanguage": "English; Urdu",
+    "subjects": [
+      "Medicine",
+      "Allied Health"
+    ],
+    "categoryTags": [
+      "Medical",
+      "Public"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Major public medical college in Punjab, Pakistan.",
+    "accreditationBody": "Higher Education Commission (HEC) Pakistan; Pakistan Medical Commission (PMC)",
+    "accreditationRegistryUrl": "https://www.pmc.gov.pk/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_014",
+      "title": "Official website: Allama Iqbal Medical College",
+      "publisher": "Allama Iqbal Medical College",
+      "url": "https://www.aimc.edu.pk",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0143",
+    "slug": "all-india-institute-of-medical-sciences-aiims-new-delhi",
+    "name": "All India Institute of Medical Sciences (AIIMS) New Delhi",
+    "country": {
+      "iso2": "IN",
+      "name": "India",
+      "slug": "india"
+    },
+    "city": "New Delhi",
+    "region": "South Asia",
+    "controlType": "public",
+    "officialWebsite": "https://www.aiims.edu",
+    "admissionsUrl": null,
+    "primaryLanguage": "English; Hindi",
+    "subjects": [
+      "Medicine",
+      "Surgery",
+      "Nursing",
+      "Allied Health",
+      "Research"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "National Flagship",
+      "Research"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "India's top medical institution. Highly competitive. National Importance status.",
+    "accreditationBody": "Institute of National Importance (Act of Parliament); National Medical Commission (NMC) India",
+    "accreditationRegistryUrl": "https://www.nmc.org.in/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_015",
+      "title": "Official website: All India Institute of Medical Sciences (AIIMS) New Delhi",
+      "publisher": "All India Institute of Medical Sciences (AIIMS) New Delhi",
+      "url": "https://www.aiims.edu",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0144",
+    "slug": "christian-medical-college-vellore",
+    "name": "Christian Medical College Vellore",
+    "country": {
+      "iso2": "IN",
+      "name": "India",
+      "slug": "india"
+    },
+    "city": "Vellore",
+    "region": "South Asia",
+    "controlType": "private",
+    "officialWebsite": "https://www.cmch-vellore.edu",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Allied Health",
+      "Research"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "Christian",
+      "Top Ranking"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Top Christian-affiliated medical school. Strong nursing and allied health programs.",
+    "accreditationBody": "National Medical Commission (NMC) India; National Assessment and Accreditation Council (NAAC)",
+    "accreditationRegistryUrl": "https://www.nmc.org.in/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_016",
+      "title": "Official website: Christian Medical College Vellore",
+      "publisher": "Christian Medical College Vellore",
+      "url": "https://www.cmch-vellore.edu",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0145",
+    "slug": "maulana-azad-medical-college",
+    "name": "Maulana Azad Medical College",
+    "country": {
+      "iso2": "IN",
+      "name": "India",
+      "slug": "india"
+    },
+    "city": "New Delhi",
+    "region": "South Asia",
+    "controlType": "public",
+    "officialWebsite": "https://www.mamc.ac.in",
+    "admissionsUrl": null,
+    "primaryLanguage": "English; Hindi",
+    "subjects": [
+      "Medicine",
+      "Allied Health"
+    ],
+    "categoryTags": [
+      "Medical",
+      "Public"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Major Delhi public medical college affiliated with University of Delhi.",
+    "accreditationBody": "National Medical Commission (NMC) India; University of Delhi (affiliating university)",
+    "accreditationRegistryUrl": "https://www.nmc.org.in/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_017",
+      "title": "Official website: Maulana Azad Medical College",
+      "publisher": "Maulana Azad Medical College",
+      "url": "https://www.mamc.ac.in",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0146",
+    "slug": "bangabandhu-sheikh-mujib-medical-university",
+    "name": "Bangabandhu Sheikh Mujib Medical University",
+    "country": {
+      "iso2": "BD",
+      "name": "Bangladesh",
+      "slug": "bangladesh"
+    },
+    "city": "Dhaka",
+    "region": "South Asia",
+    "controlType": "public",
+    "officialWebsite": "https://www.bsmmu.edu.bd",
+    "admissionsUrl": null,
+    "primaryLanguage": "English; Bengali",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Public Health",
+      "Allied Health"
+    ],
+    "categoryTags": [
+      "Medical",
+      "National Flagship"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Only medical university in Bangladesh. Postgraduate medical education hub.",
+    "accreditationBody": "Bangladesh Medical and Dental Council (BMDC); University Grants Commission of Bangladesh",
+    "accreditationRegistryUrl": "https://bmdc.org.bd/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_018",
+      "title": "Official website: Bangabandhu Sheikh Mujib Medical University",
+      "publisher": "Bangabandhu Sheikh Mujib Medical University",
+      "url": "https://www.bsmmu.edu.bd",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0147",
+    "slug": "dhaka-medical-college",
+    "name": "Dhaka Medical College",
+    "country": {
+      "iso2": "BD",
+      "name": "Bangladesh",
+      "slug": "bangladesh"
+    },
+    "city": "Dhaka",
+    "region": "South Asia",
+    "controlType": "public",
+    "officialWebsite": "https://www.dmc.gov.bd",
+    "admissionsUrl": null,
+    "primaryLanguage": "English; Bengali",
+    "subjects": [
+      "Medicine",
+      "Surgery"
+    ],
+    "categoryTags": [
+      "Medical",
+      "Public",
+      "Historic"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Oldest medical college in Bangladesh.",
+    "accreditationBody": "Bangladesh Medical and Dental Council (BMDC); University of Dhaka (affiliating university)",
+    "accreditationRegistryUrl": "https://bmdc.org.bd/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_019",
+      "title": "Official website: Dhaka Medical College",
+      "publisher": "Dhaka Medical College",
+      "url": "https://www.dmc.gov.bd",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0148",
+    "slug": "tribhuvan-university-institute-of-medicine",
+    "name": "Tribhuvan University Institute of Medicine",
+    "country": {
+      "iso2": "NP",
+      "name": "Nepal",
+      "slug": "nepal"
+    },
+    "city": "Kathmandu",
+    "region": "South Asia",
+    "controlType": "public",
+    "officialWebsite": "https://www.iom.edu.np",
+    "admissionsUrl": null,
+    "primaryLanguage": "English; Nepali",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Pharmacy",
+      "Public Health"
+    ],
+    "categoryTags": [
+      "Medical",
+      "National Flagship"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Nepal's main public medical institution.",
+    "accreditationBody": "University Grants Commission Nepal; Nepal Medical Council",
+    "accreditationRegistryUrl": "https://www.ugcnepal.edu.np/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_020",
+      "title": "Official website: Tribhuvan University Institute of Medicine",
+      "publisher": "Tribhuvan University Institute of Medicine",
+      "url": "https://www.iom.edu.np",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0149",
+    "slug": "university-of-the-philippines-manila",
+    "name": "University of the Philippines Manila",
+    "country": {
+      "iso2": "PH",
+      "name": "Philippines",
+      "slug": "philippines"
+    },
+    "city": "Manila",
+    "region": "Southeast Asia",
+    "controlType": "public",
+    "officialWebsite": "https://www.upm.edu.ph",
+    "admissionsUrl": null,
+    "primaryLanguage": "English; Filipino",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Public Health",
+      "Allied Health Sciences",
+      "Pharmacy"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "National Flagship"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "The Philippines' national health-sciences flagship. Major source of nursing/medical professionals worldwide.",
+    "accreditationBody": "Commission on Higher Education (CHED) Philippines; UP System Charter",
+    "accreditationRegistryUrl": "https://ched.gov.ph/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_021",
+      "title": "Official website: University of the Philippines Manila",
+      "publisher": "University of the Philippines Manila",
+      "url": "https://www.upm.edu.ph",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0150",
+    "slug": "university-of-santo-tomas",
+    "name": "University of Santo Tomas",
+    "country": {
+      "iso2": "PH",
+      "name": "Philippines",
+      "slug": "philippines"
+    },
+    "city": "Manila",
+    "region": "Southeast Asia",
+    "controlType": "private",
+    "officialWebsite": "https://www.ust.edu.ph",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Pharmacy",
+      "Architecture",
+      "Engineering"
+    ],
+    "categoryTags": [
+      "Catholic",
+      "Historic",
+      "Top Ranking"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Asia's oldest existing university (1611). Major nursing and medical programs. Key Filipino diaspora pipeline.",
+    "accreditationBody": "Commission on Higher Education (CHED) Philippines; PAASCU",
+    "accreditationRegistryUrl": "https://ched.gov.ph/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_022",
+      "title": "Official website: University of Santo Tomas",
+      "publisher": "University of Santo Tomas",
+      "url": "https://www.ust.edu.ph",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0151",
+    "slug": "adventist-university-of-the-philippines",
+    "name": "Adventist University of the Philippines",
+    "country": {
+      "iso2": "PH",
+      "name": "Philippines",
+      "slug": "philippines"
+    },
+    "city": "Silang, Cavite",
+    "region": "Southeast Asia",
+    "controlType": "private",
+    "officialWebsite": "https://www.aup.edu.ph",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Nursing",
+      "Medicine",
+      "Theology",
+      "Allied Health"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "Adventist"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Strong nursing program. Adventist health-sciences emphasis.",
+    "accreditationBody": "Commission on Higher Education (CHED) Philippines; PAASCU",
+    "accreditationRegistryUrl": "https://ched.gov.ph/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_023",
+      "title": "Official website: Adventist University of the Philippines",
+      "publisher": "Adventist University of the Philippines",
+      "url": "https://www.aup.edu.ph",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0152",
+    "slug": "st-lukes-college-of-medicine",
+    "name": "St. Luke's College of Medicine",
+    "country": {
+      "iso2": "PH",
+      "name": "Philippines",
+      "slug": "philippines"
+    },
+    "city": "Quezon City",
+    "region": "Southeast Asia",
+    "controlType": "private",
+    "officialWebsite": "https://www.slmc-cm.edu.ph",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Nursing"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "Specialist"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Specialist medical college affiliated with St. Luke's Medical Center.",
+    "accreditationBody": "Commission on Higher Education (CHED) Philippines; Professional Regulation Commission (PRC)",
+    "accreditationRegistryUrl": "https://ched.gov.ph/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_024",
+      "title": "Official website: St. Luke's College of Medicine",
+      "publisher": "St. Luke's College of Medicine",
+      "url": "https://www.slmc-cm.edu.ph",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0153",
+    "slug": "cebu-doctors-university",
+    "name": "Cebu Doctors' University",
+    "country": {
+      "iso2": "PH",
+      "name": "Philippines",
+      "slug": "philippines"
+    },
+    "city": "Mandaue, Cebu",
+    "region": "Southeast Asia",
+    "controlType": "private",
+    "officialWebsite": "https://www.cebudoctorsuniversity.edu",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Pharmacy",
+      "Allied Health"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "Specialist"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Key Visayas nursing/medical school. Significant US/Gulf nursing pipeline.",
+    "accreditationBody": "Commission on Higher Education (CHED) Philippines; Professional Regulation Commission (PRC)",
+    "accreditationRegistryUrl": "https://ched.gov.ph/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_025",
+      "title": "Official website: Cebu Doctors' University",
+      "publisher": "Cebu Doctors' University",
+      "url": "https://www.cebudoctorsuniversity.edu",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0154",
+    "slug": "kings-college-london-florence-nightingale-faculty-of-nursing",
+    "name": "King's College London — Florence Nightingale Faculty of Nursing",
+    "country": {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "slug": "united-kingdom"
+    },
+    "city": "London",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.kcl.ac.uk/nmpc",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Nursing",
+      "Midwifery",
+      "Palliative Care",
+      "Health Sciences"
+    ],
+    "categoryTags": [
+      "Health Sciences",
+      "Top Ranking"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "World's first nursing school established by Florence Nightingale (1860). Top-tier nursing research.",
+    "accreditationBody": "Office for Students (OfS); Quality Assurance Agency for Higher Education (QAA); Nursing and Midwifery Council (NMC) for nursing programmes",
+    "accreditationRegistryUrl": "https://www.officeforstudents.org.uk/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_026",
+      "title": "Official website: King's College London — Florence Nightingale Faculty of Nursing",
+      "publisher": "King's College London — Florence Nightingale Faculty of Nursing",
+      "url": "https://www.kcl.ac.uk/nmpc",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0155",
+    "slug": "mcgill-university",
+    "name": "McGill University",
+    "country": {
+      "iso2": "CA",
+      "name": "Canada",
+      "slug": "canada"
+    },
+    "city": "Montreal",
+    "region": "North America",
+    "controlType": "public",
+    "officialWebsite": "https://www.mcgill.ca",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Engineering",
+      "Law",
+      "Management"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "Bilingual"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Canada's top research university (alongside U of T). Strong medical and nursing schools.",
+    "accreditationBody": "Ministère de l'Enseignement supérieur du Québec; Universities Canada (member institution)",
+    "accreditationRegistryUrl": "https://www.univcan.ca/universities/member-universities/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_027",
+      "title": "Official website: McGill University",
+      "publisher": "McGill University",
+      "url": "https://www.mcgill.ca",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0156",
+    "slug": "karolinska-institutet",
+    "name": "Karolinska Institutet",
+    "country": {
+      "iso2": "SE",
+      "name": "Sweden",
+      "slug": "sweden"
+    },
+    "city": "Stockholm",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://ki.se",
+    "admissionsUrl": null,
+    "primaryLanguage": "Swedish; English",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Biomedical Sciences",
+      "Public Health"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "Health Sciences"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "One of the world's leading medical universities. Awards the Nobel Prize in Physiology or Medicine.",
+    "accreditationBody": "Swedish Higher Education Authority (Universitetskanslersämbetet, UKÄ)",
+    "accreditationRegistryUrl": "https://www.uka.se/in-english.html",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_028",
+      "title": "Official website: Karolinska Institutet",
+      "publisher": "Karolinska Institutet",
+      "url": "https://ki.se",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0157",
+    "slug": "university-college-dublin",
+    "name": "University College Dublin",
+    "country": {
+      "iso2": "IE",
+      "name": "Ireland",
+      "slug": "ireland"
+    },
+    "city": "Dublin",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.ucd.ie",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Engineering",
+      "Business",
+      "Arts"
+    ],
+    "categoryTags": [
+      "Comprehensive",
+      "Top Ranking"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Ireland's largest university. Strong nursing and health-sciences programs. EU-accessible.",
+    "accreditationBody": "Quality and Qualifications Ireland (QQI); Higher Education Authority (HEA)",
+    "accreditationRegistryUrl": "https://www.qqi.ie/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_029",
+      "title": "Official website: University College Dublin",
+      "publisher": "University College Dublin",
+      "url": "https://www.ucd.ie",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0158",
+    "slug": "university-of-edinburgh",
+    "name": "University of Edinburgh",
+    "country": {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "slug": "united-kingdom"
+    },
+    "city": "Edinburgh",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.ed.ac.uk",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Nursing",
+      "Engineering",
+      "Informatics",
+      "Veterinary",
+      "Business"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "Comprehensive"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Scotland's flagship. Top medical school. Florence Nightingale Foundation Scholarships available.",
+    "accreditationBody": "Office for Students (OfS); Quality Assurance Agency for Higher Education (QAA); Royal Charter",
+    "accreditationRegistryUrl": "https://www.officeforstudents.org.uk/",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_030",
+      "title": "Official website: University of Edinburgh",
+      "publisher": "University of Edinburgh",
+      "url": "https://www.ed.ac.uk",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-09",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  }
+]

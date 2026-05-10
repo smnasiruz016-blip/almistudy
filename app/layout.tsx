@@ -13,7 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AlmiStudy — Where to study for credentials that transfer",
+  title: {
+    default: "AlmiStudy — Where to study for credentials that transfer",
+    template: "%s · AlmiStudy"
+  },
   description:
     "Curated directory of accredited universities for working migrants seeking academic credentials.",
 };
