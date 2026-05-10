@@ -5579,5 +5579,117 @@
     "lastVerified": "2026-05-10",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
+  },
+  {
+    "id": "UNI_0085",
+    "slug": "national-university-of-sciences-and-technology",
+    "name": "National University of Sciences and Technology (NUST)",
+    "country": {
+      "iso2": "PK",
+      "name": "Pakistan",
+      "slug": "pakistan"
+    },
+    "city": "Islamabad",
+    "region": "South Asia",
+    "controlType": "public",
+    "officialWebsite": "https://www.nust.edu.pk/",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Engineering",
+      "Computer Science",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Aerospace Engineering",
+      "Medicine",
+      "Business Administration",
+      "Social Sciences",
+      "Natural Sciences",
+      "Architecture"
+    ],
+    "categoryTags": [
+      "public",
+      "federal",
+      "research-university",
+      "comprehensive",
+      "engineering-strong",
+      "elite",
+      "military-affiliated"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "Programs in English; NET (NUST Entry Test) required for undergraduate",
+    "tuitionNote": "Public federal — subsidized fees but generally higher than other public unis. Scholarships available.",
+    "studentNotes": "Founded March 1991, granted university charter 1993. Federal public university under administration of the Pakistan Armed Forces, established to promote science and technology in Pakistan. Comprehensive — strong in engineering but also offers medicine, business, social sciences, and architecture. Main campus in Islamabad H-12 sector; constituent colleges in Risalpur (military engineering) and Karachi (computing). Major schools include NUST Business School (NBS) and School of Electrical Engineering and Computer Science (SEECS). Programmatic accreditations: Pakistan Engineering Council, PMDC. HEC #1 nationally (multiple years). QS World #334 (2022) — Pakistan's highest-ranked university.",
+    "accreditationBody": "Higher Education Commission (HEC) Pakistan",
+    "accreditationRegistryUrl": "https://www.hec.gov.pk/english/universities/pages/recognised.aspx",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_pakistan_hec_recognized_universities",
+      "title": "HEC Recognized Universities and Degree Awarding Institutions",
+      "publisher": "Higher Education Commission of Pakistan",
+      "url": "https://www.hec.gov.pk/english/universities/pages/recognised.aspx",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0187",
+    "slug": "ghulam-ishaq-khan-institute",
+    "name": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology (GIKI)",
+    "country": {
+      "iso2": "PK",
+      "name": "Pakistan",
+      "slug": "pakistan"
+    },
+    "city": "Topi",
+    "region": "South Asia",
+    "controlType": "private",
+    "officialWebsite": "https://giki.edu.pk/",
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Computer Engineering",
+      "Computer Science",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Materials Engineering",
+      "Engineering Sciences",
+      "Applied Mathematics",
+      "Applied Physics",
+      "Management Sciences"
+    ],
+    "categoryTags": [
+      "private",
+      "specialist",
+      "engineering-only",
+      "elite",
+      "rural-campus",
+      "washington-accord",
+      "hostel-mandatory"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "Programs in English; GIKI Test required, highly competitive entry",
+    "tuitionNote": "Private — high tuition (~PKR 300,000+/semester). Mandatory hostel residence (no day scholars). Need-based financial aid available.",
+    "studentNotes": "Niche specialist — engineering and applied sciences only. Not a comprehensive university. Located in Topi, Swabi District, Khyber Pakhtunkhwa (rural setting, ~2 hours from Islamabad — NOT in Lahore or Islamabad). Founded 1993 by former President Ghulam Ishaq Khan. Private chartered by Government of Khyber Pakhtunkhwa. ~1,670-2,000 students (small, highly selective elite). 400-acre rural campus. Mandatory hostel residence. Accreditations: HEC, Pakistan Engineering Council, Washington Accord (international engineering degree recognition). Chancellor: President of Pakistan. QS WUR by Subject #451-500 (2023). One of Pakistan's most selective engineering institutions.",
+    "accreditationBody": "Higher Education Commission (HEC) Pakistan",
+    "accreditationRegistryUrl": "https://www.hec.gov.pk/english/universities/pages/recognised.aspx",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_pakistan_hec_recognized_universities",
+      "title": "HEC Recognized Universities and Degree Awarding Institutions",
+      "publisher": "Higher Education Commission of Pakistan",
+      "url": "https://www.hec.gov.pk/english/universities/pages/recognised.aspx",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
   }
 ]
