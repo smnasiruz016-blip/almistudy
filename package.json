@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "validate:data": "node scripts/validate-universities.mjs"
   },
   "dependencies": {
     "next": "16.2.6",

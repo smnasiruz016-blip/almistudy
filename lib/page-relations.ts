@@ -17,6 +17,12 @@ export type University = {
   englishTestNote: string | null;
   tuitionNote: string | null;
   studentNotes: string | null;
+  contactUrl?: string;
+  admissionsEmail?: string;
+  mainPhone?: string;
+  deadlinesUrl?: string;
+  deadlinesNote?: string;
+  scholarshipsUrl?: string;
   accreditationBody: string | null;
   accreditationRegistryUrl: string | null;
   accreditationBodyVerifiedDate: string | null;
