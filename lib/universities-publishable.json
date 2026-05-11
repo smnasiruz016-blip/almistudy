@@ -2889,5 +2889,500 @@
     "lastVerified": "2026-05-10",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
+  },
+  {
+    "id": "UNI_0027",
+    "slug": "technical-university-of-munich",
+    "name": "Technical University of Munich (TUM)",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Munich",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.tum.de",
+    "admissionsUrl": "https://www.tum.de/en/studies/application",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences",
+      "Medicine",
+      "Management",
+      "Life Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "technical-university",
+      "comprehensive",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition for EU/EEA students. Non-EU undergraduates: €2,000–€3,000/semester (introduced 2024). Semester contribution ~€85.",
+    "studentNotes": "Broad comprehensive technical university with engineering, sciences, medicine, and management. Many graduate programs taught in English. State-recognized by Bavarian Land Ministry; accredited via the German Accreditation Council system. Located in Munich — high cost-of-living city but strong industrial network (BMW, Siemens, Allianz nearby).",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and Bavarian State Ministry of Science and the Arts",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0028",
+    "slug": "ludwig-maximilian-university-of-munich",
+    "name": "Ludwig Maximilian University of Munich (LMU)",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Munich",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.lmu.de",
+    "admissionsUrl": "https://www.lmu.de/en/study/all-degrees-and-programs/application-and-admission/",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Medicine",
+      "Humanities",
+      "Natural Sciences",
+      "Law",
+      "Business",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "comprehensive",
+      "historic",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition for EU/EEA students. Non-EU undergraduates: €2,000–€3,000/semester (introduced 2024). Semester contribution ~€85.",
+    "studentNotes": "Comprehensive research university, founded 1472. Strong in medicine, humanities, sciences, and law. Most master's programs taught in German; selected programs in English. State-recognized by Bavarian Land Ministry; accredited via the German Accreditation Council system.",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and Bavarian State Ministry of Science and the Arts",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0029",
+    "slug": "heidelberg-university",
+    "name": "Heidelberg University",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Heidelberg",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.uni-heidelberg.de",
+    "admissionsUrl": "https://www.uni-heidelberg.de/en/study/application-enrolment",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Medicine",
+      "Life Sciences",
+      "Humanities",
+      "Law",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "comprehensive",
+      "historic",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition for EU/EEA students. Non-EU undergraduates in Baden-Württemberg: €1,500/semester. Semester contribution ~€170.",
+    "studentNotes": "Germany's oldest university, founded 1386. Comprehensive research profile with particular strength in medicine and life sciences. Many master's and PhD programs taught in English. State-recognized by Baden-Württemberg Land Ministry; accredited via the German Accreditation Council system.",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and Baden-Württemberg State Ministry of Science, Research and the Arts",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0188",
+    "slug": "humboldt-university-of-berlin",
+    "name": "Humboldt University of Berlin",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Berlin",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.hu-berlin.de",
+    "admissionsUrl": "https://www.hu-berlin.de/en/studies/application",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Humanities",
+      "Social Sciences",
+      "Natural Sciences",
+      "Law",
+      "Theology",
+      "Agriculture and Horticulture"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "comprehensive",
+      "historic",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition. Semester contribution ~€315 (includes Berlin public transit ticket).",
+    "studentNotes": "Founded 1810, one of Berlin's two principal comprehensive universities. Strong humanities and social sciences profile. State-recognized by Berlin Senate Department for Higher Education; accredited via the German Accreditation Council system. Berlin's semester ticket covers public transit citywide.",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and Berlin Senate Department for Higher Education and Research",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0189",
+    "slug": "free-university-of-berlin",
+    "name": "Free University of Berlin",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Berlin",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.fu-berlin.de",
+    "admissionsUrl": "https://www.fu-berlin.de/en/studium/index.html",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Humanities",
+      "Political Science",
+      "Natural Sciences",
+      "Veterinary Medicine",
+      "Medicine",
+      "Law"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "comprehensive",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition. Semester contribution ~€315 (includes Berlin public transit ticket).",
+    "studentNotes": "Founded 1948. Comprehensive university with particular strength in political science, humanities, and veterinary medicine. Wide range of English-taught master's programs in international relations and area studies. State-recognized by Berlin Senate Department for Higher Education; accredited via the German Accreditation Council system.",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and Berlin Senate Department for Higher Education and Research",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0190",
+    "slug": "technical-university-of-berlin",
+    "name": "Technical University of Berlin",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Berlin",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.tu.berlin",
+    "admissionsUrl": "https://www.tu.berlin/en/studying/applying-and-getting-started",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Engineering",
+      "Computer Science",
+      "Planning and Architecture",
+      "Natural Sciences",
+      "Economics and Management"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "technical-university",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition. Semester contribution ~€315 (includes Berlin public transit ticket).",
+    "studentNotes": "Niche specialist — technical and engineering focus with planning, architecture, and computer science. Not a comprehensive university. Founded 1879. State-recognized by Berlin Senate Department for Higher Education; accredited via the German Accreditation Council system. Strong industrial and startup network in Berlin.",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and Berlin Senate Department for Higher Education and Research",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0030",
+    "slug": "rwth-aachen-university",
+    "name": "RWTH Aachen University",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Aachen",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.rwth-aachen.de",
+    "admissionsUrl": "https://www.rwth-aachen.de/go/id/bkqs/lidx/1",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Computer Science",
+      "Materials Science",
+      "Civil Engineering",
+      "Natural Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "technical-university",
+      "engineering-strong",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition for EU/EEA students. Non-EU students: no tuition in North Rhine-Westphalia. Semester contribution ~€320 (includes regional transit ticket).",
+    "studentNotes": "Niche specialist — engineering and applied sciences focus. Not a comprehensive university. Founded 1870. State-recognized by North Rhine-Westphalia Land Ministry; accredited via the German Accreditation Council system. Strong industrial network with Ford, e.GO Mobile, and Aachen tech corridor.",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and North Rhine-Westphalia Ministry of Culture and Science",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0191",
+    "slug": "karlsruhe-institute-of-technology",
+    "name": "Karlsruhe Institute of Technology (KIT)",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Karlsruhe",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.kit.edu",
+    "admissionsUrl": "https://www.kit.edu/studying/admission.php",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences",
+      "Economics",
+      "Humanities and Social Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "technical-university",
+      "engineering-strong",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition for EU/EEA students. Non-EU undergraduates in Baden-Württemberg: €1,500/semester. Semester contribution ~€170.",
+    "studentNotes": "Niche specialist — engineering, computer science, and natural sciences focus. Formed in 2009 from a merger of the University of Karlsruhe and the Forschungszentrum Karlsruhe national research lab. State-recognized by Baden-Württemberg Land Ministry; accredited via the German Accreditation Council system. Strong research-lab integration.",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and Baden-Württemberg State Ministry of Science, Research and the Arts",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0192",
+    "slug": "university-of-bonn",
+    "name": "University of Bonn",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Bonn",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.uni-bonn.de",
+    "admissionsUrl": "https://www.uni-bonn.de/en/studying/international-students/applying-as-an-international-student",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Mathematics",
+      "Economics",
+      "Law",
+      "Medicine",
+      "Humanities",
+      "Natural Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "comprehensive",
+      "historic",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition for EU/EEA students. Non-EU students: no tuition in North Rhine-Westphalia. Semester contribution ~€320 (includes regional transit ticket).",
+    "studentNotes": "Comprehensive research university founded 1818. Particular international strength in mathematics and economics. State-recognized by North Rhine-Westphalia Land Ministry; accredited via the German Accreditation Council system. English-taught master's options in economics and mathematics.",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and North Rhine-Westphalia Ministry of Culture and Science",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0193",
+    "slug": "university-of-hohenheim",
+    "name": "University of Hohenheim",
+    "country": {
+      "iso2": "DE",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "city": "Stuttgart",
+    "region": "Europe",
+    "controlType": "public",
+    "officialWebsite": "https://www.uni-hohenheim.de",
+    "admissionsUrl": "https://www.uni-hohenheim.de/en/online-application",
+    "primaryLanguage": "German and English",
+    "subjects": [
+      "Agricultural Sciences",
+      "Food Science",
+      "Nutritional Sciences",
+      "Business and Economics",
+      "Natural Sciences"
+    ],
+    "categoryTags": [
+      "public",
+      "state-recognized",
+      "research",
+      "specialist",
+      "agriculture-strong",
+      "english-programs-available"
+    ],
+    "scholarshipsAvailable": "yes",
+    "englishTestNote": "IELTS/TOEFL for English-taught programs; DSH/TestDaF for German-taught programs",
+    "tuitionNote": "Public — no tuition for EU/EEA students. Non-EU undergraduates in Baden-Württemberg: €1,500/semester. Semester contribution ~€170.",
+    "studentNotes": "Niche specialist — agricultural sciences, food science, and nutritional sciences only. Not a comprehensive university. Founded 1818 as an agricultural academy. State-recognized by Baden-Württemberg Land Ministry; accredited via the German Accreditation Council system. Germany's leading agricultural sciences faculty; relevant for students targeting agribusiness, food technology, and sustainable agriculture.",
+    "accreditationBody": "German Accreditation Council (Stiftung Akkreditierungsrat) and Baden-Württemberg State Ministry of Science, Research and the Arts",
+    "accreditationRegistryUrl": "https://www.akkreditierungsrat.de/en",
+    "accreditationBodyVerifiedDate": "2026-05-10",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "src_germany_state_recognized_universities",
+      "title": "German Accreditation Council Registry and State Ministry Recognition",
+      "publisher": "Stiftung Akkreditierungsrat",
+      "url": "https://www.akkreditierungsrat.de/en",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
   }
 ]
