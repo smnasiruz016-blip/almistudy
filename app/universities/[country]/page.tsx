@@ -201,6 +201,75 @@ export default async function CountryPage({
                     <dd>{u.scholarshipsAvailable}</dd>
                   </>
                 ) : null}
+                {u.contactUrl ? (
+                  <>
+                    <dt className="text-xs uppercase tracking-wide text-zinc-500 sm:pt-0.5">
+                      Contact
+                    </dt>
+                    <dd>
+                      <a
+                        href={u.contactUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline hover:no-underline"
+                      >
+                        University contact page
+                      </a>
+                    </dd>
+                  </>
+                ) : null}
+                {u.admissionsEmail ? (
+                  <>
+                    <dt className="text-xs uppercase tracking-wide text-zinc-500 sm:pt-0.5">
+                      Email
+                    </dt>
+                    <dd>
+                      <a
+                        href={`mailto:${u.admissionsEmail}`}
+                        className="underline hover:no-underline"
+                      >
+                        {u.admissionsEmail}
+                      </a>
+                    </dd>
+                  </>
+                ) : null}
+                {u.mainPhone ? (
+                  <>
+                    <dt className="text-xs uppercase tracking-wide text-zinc-500 sm:pt-0.5">
+                      Phone
+                    </dt>
+                    <dd>
+                      <a
+                        href={`tel:${u.mainPhone}`}
+                        className="underline hover:no-underline"
+                      >
+                        {u.mainPhone}
+                      </a>
+                    </dd>
+                  </>
+                ) : null}
+                {u.deadlinesUrl ? (
+                  <>
+                    <dt className="text-xs uppercase tracking-wide text-zinc-500 sm:pt-0.5">
+                      Deadlines
+                    </dt>
+                    <dd>
+                      <a
+                        href={u.deadlinesUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline hover:no-underline"
+                      >
+                        View official deadlines
+                      </a>
+                      {u.deadlinesNote ? (
+                        <span className="block text-xs text-zinc-500 mt-1 italic">
+                          {u.deadlinesNote}
+                        </span>
+                      ) : null}
+                    </dd>
+                  </>
+                ) : null}
               </dl>
 
               {u.studentNotes ? (
@@ -228,6 +297,16 @@ export default async function CountryPage({
                     className="underline hover:no-underline"
                   >
                     Admissions →
+                  </a>
+                ) : null}
+                {u.scholarshipsUrl ? (
+                  <a
+                    href={u.scholarshipsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="underline hover:no-underline"
+                  >
+                    Scholarships info →
                   </a>
                 ) : null}
               </div>
