@@ -2859,51 +2859,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0085",
-    "slug": "national-university-of-sciences-and-technology-nust",
-    "name": "National University of Sciences and Technology (NUST)",
-    "country": {
-      "iso2": "PK",
-      "name": "Pakistan",
-      "slug": "pakistan"
-    },
-    "city": "Islamabad",
-    "region": "South Asia",
-    "controlType": null,
-    "officialWebsite": "https://nust.edu.pk",
-    "admissionsUrl": "https://nust.edu.pk/admissions/",
-    "primaryLanguage": null,
-    "subjects": [
-      "Engineering",
-      "Computer Science",
-      "Business",
-      "Medicine",
-      "Social Sciences"
-    ],
-    "categoryTags": [
-      "Technology",
-      "Research"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "Program-dependent",
-    "tuitionNote": "Strong STEM and applied research",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0086",
     "slug": "university-of-malaya",
     "name": "University of Malaya",

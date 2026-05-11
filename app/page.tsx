@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-3xl">
             {total} {total === 1 ? "university" : "universities"} across {countries.length}{" "}
-            {countries.length === 1 ? "country" : "countries"} reviewed so far. Phase 1 — coverage
+            {countries.length === 1 ? "country" : "countries"}{" "}reviewed so far. Phase 1 — coverage
             is intentionally small. We&apos;re expanding deliberately rather than padding the list.
           </p>
         </header>
