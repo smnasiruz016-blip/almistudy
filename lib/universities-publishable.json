@@ -1174,14 +1174,15 @@
     "region": "North America",
     "controlType": "public",
     "officialWebsite": "https://www.mcgill.ca",
-    "admissionsUrl": null,
+    "admissionsUrl": "https://www.mcgill.ca/undergraduate-admissions/apply",
     "primaryLanguage": "English",
     "subjects": [
       "Medicine",
       "Nursing",
       "Engineering",
       "Law",
-      "Management"
+      "Management",
+      "Arts"
     ],
     "categoryTags": [
       "Top Ranking",
@@ -1190,11 +1191,15 @@
     ],
     "scholarshipsAvailable": null,
     "englishTestNote": null,
-    "tuitionNote": null,
-    "studentNotes": "Canada's top research university (alongside U of T). Strong medical and nursing schools.",
+    "tuitionNote": "International undergraduate tuition CAD 23,000–80,000 per year depending on program; living costs CAD 15,000–25,000 per year. PGWP eligible (up to 3 years post-graduation work permit).",
+    "studentNotes": "Founded 1821 — one of Canada's oldest and highest-ranked research universities. English-medium instruction in Montreal, a primarily French-speaking city (sibling French-language entry: Université de Montréal). U15 Canada member. International students require CAQ (Certificat d'acceptation du Québec) on top of the federal study permit.",
+    "contactUrl": "https://www.mcgill.ca/contact-us/",
+    "mainPhone": "+1 514-398-7878",
+    "deadlinesUrl": "https://www.mcgill.ca/undergraduate-admissions/apply",
+    "scholarshipsUrl": "https://www.mcgill.ca/studentaid/",
     "accreditationBody": "Ministère de l'Enseignement supérieur du Québec; Universities Canada (member institution)",
     "accreditationRegistryUrl": "https://www.univcan.ca/universities/member-universities/",
-    "accreditationBodyVerifiedDate": "2026-05-10",
+    "accreditationBodyVerifiedDate": "2026-05-11",
     "recognitionByDestination": [],
     "source": {
       "id": "SRC_PRIORITY_027",
@@ -1203,7 +1208,7 @@
       "url": "https://www.mcgill.ca",
       "tier": "tier_1_official"
     },
-    "lastVerified": "2026-05-09",
+    "lastVerified": "2026-05-11",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
   },
@@ -5689,6 +5694,317 @@
       "tier": "tier_1_official"
     },
     "lastVerified": "2026-05-10",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0214",
+    "slug": "university-of-toronto",
+    "name": "University of Toronto",
+    "country": {
+      "iso2": "CA",
+      "name": "Canada",
+      "slug": "canada"
+    },
+    "city": "Toronto",
+    "region": "North America",
+    "controlType": "public",
+    "officialWebsite": "https://www.utoronto.ca",
+    "admissionsUrl": "https://future.utoronto.ca/apply/applying/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Engineering",
+      "Medicine",
+      "Business",
+      "Arts",
+      "Computer Science"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "Public",
+      "Historic"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": "IELTS 6.5 (no band below 6.0); TOEFL iBT 89 (22 Speaking, 22 Writing); Duolingo 120; PTE 65 (no part below 60); CAEL 70.",
+    "tuitionNote": "International undergraduate tuition CAD 23,000–80,000 per year depending on program; living costs CAD 15,000–25,000 per year. PGWP eligible (up to 3 years post-graduation work permit).",
+    "studentNotes": "Founded 1827 — Canada's largest and one of its highest-ranked research universities. Tri-campus structure (St. George downtown Toronto, Scarborough, Mississauga); admissions and contact are per-campus, not centralized. U15 Canada member.",
+    "contactUrl": "https://future.utoronto.ca/contact-us",
+    "deadlinesUrl": "https://future.utoronto.ca/deadlines",
+    "deadlinesNote": "Program-dependent; January 15 deadline for Engineering, Music, Nursing; many Arts & Science programs extended to early February.",
+    "scholarshipsUrl": "https://utoronto.ca/scholarships",
+    "accreditationBody": "Ontario Ministry of Colleges and Universities; Universities Canada (member institution)",
+    "accreditationRegistryUrl": "https://www.univcan.ca/universities/member-universities/",
+    "accreditationBodyVerifiedDate": "2026-05-11",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_028",
+      "title": "Official website: University of Toronto",
+      "publisher": "University of Toronto",
+      "url": "https://www.utoronto.ca",
+      "tier": "tier_1_official",
+      "description": "University of Toronto official .ca pages: utoronto.ca/about-u-of-t (1827 founding verified verbatim), future.utoronto.ca/apply/applying/, /contact-us, /deadlines, /english-language-requirements; plus utoronto.ca/scholarships. Plus Universities Canada registry. No unified admissionsEmail or mainPhone exists per UofT's decentralized tri-campus structure. Verified 2026-05-11."
+    },
+    "lastVerified": "2026-05-11",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0215",
+    "slug": "university-of-british-columbia",
+    "name": "University of British Columbia",
+    "country": {
+      "iso2": "CA",
+      "name": "Canada",
+      "slug": "canada"
+    },
+    "city": "Vancouver",
+    "region": "North America",
+    "controlType": "public",
+    "officialWebsite": "https://www.ubc.ca",
+    "admissionsUrl": "https://you.ubc.ca/applying-ubc/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Forestry",
+      "Business",
+      "Engineering",
+      "Sciences",
+      "Arts"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "Public"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": "International undergraduate tuition CAD 23,000–80,000 per year depending on program; living costs CAD 15,000–25,000 per year. PGWP eligible (up to 3 years post-graduation work permit).",
+    "studentNotes": "Established 1908, admitted first students 1915 — major research university with main campus in Vancouver and a second campus in Kelowna (UBC Okanagan). U15 Canada member.",
+    "contactUrl": "https://you.ubc.ca/contact-us/",
+    "mainPhone": "+1 604-822-9836",
+    "deadlinesUrl": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+    "deadlinesNote": "International undergraduate: apply by January 15 for September intake; English Language Admission Standard documents due February 15.",
+    "accreditationBody": "BC Ministry of Post-Secondary Education and Future Skills; Universities Canada (member institution)",
+    "accreditationRegistryUrl": "https://www.univcan.ca/universities/member-universities/",
+    "accreditationBodyVerifiedDate": "2026-05-11",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_029",
+      "title": "Official website: University of British Columbia",
+      "publisher": "University of British Columbia",
+      "url": "https://www.ubc.ca",
+      "tier": "tier_1_official",
+      "description": "University of British Columbia official .ca pages: ubc.ca/about/ (chartered 1908 / opened 1915 dual-year confirmed verbatim), you.ubc.ca/applying-ubc/, /contact-us/, /applying-ubc/dates-deadlines/. Plus Universities Canada registry. scholarshipsUrl + englishTestNote deferred to follow-up PR (URL guesses 404'd in verification round). Verified 2026-05-11."
+    },
+    "lastVerified": "2026-05-11",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0216",
+    "slug": "university-of-waterloo",
+    "name": "University of Waterloo",
+    "country": {
+      "iso2": "CA",
+      "name": "Canada",
+      "slug": "canada"
+    },
+    "city": "Waterloo",
+    "region": "North America",
+    "controlType": "public",
+    "officialWebsite": "https://uwaterloo.ca",
+    "admissionsUrl": "https://uwaterloo.ca/future-students/admissions/applying",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Computer Science",
+      "Engineering",
+      "Mathematics",
+      "Business"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "Co-op",
+      "Technology",
+      "STEM"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": "IELTS 6.5 (6.5 Writing/Speaking, 6.0 Reading/Listening); TOEFL iBT 90 (25 W, 25 S); Duolingo 120.",
+    "tuitionNote": "International undergraduate tuition CAD 23,000–80,000 per year depending on program; living costs CAD 15,000–25,000 per year. PGWP eligible (up to 3 years post-graduation work permit).",
+    "studentNotes": "Founded 1957. Pioneered Canadian co-operative education — most undergraduate programs alternate study terms with paid work terms in industry. Subject focus: computer science, engineering, mathematics.",
+    "contactUrl": "https://uwaterloo.ca/future-students/contact-us",
+    "admissionsEmail": "myapplication@uwaterloo.ca",
+    "mainPhone": "+1 519-888-4567",
+    "scholarshipsUrl": "https://uwaterloo.ca/the-centre/awards-and-financial-aid",
+    "accreditationBody": "Ontario Ministry of Colleges and Universities; Universities Canada (member institution)",
+    "accreditationRegistryUrl": "https://www.univcan.ca/universities/member-universities/",
+    "accreditationBodyVerifiedDate": "2026-05-11",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_030",
+      "title": "Official website: University of Waterloo",
+      "publisher": "University of Waterloo",
+      "url": "https://uwaterloo.ca",
+      "tier": "tier_1_official",
+      "description": "University of Waterloo official .ca pages: uwaterloo.ca homepage, /future-students/admissions/applying, /future-students/contact-us, /future-students/admissions/english-language-requirements, /the-centre/awards-and-financial-aid (via 302 redirect). Plus Universities Canada registry. deadlinesUrl + deadlinesNote deferred to follow-up PR (URL guesses 404'd in verification round). Verified 2026-05-11."
+    },
+    "lastVerified": "2026-05-11",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0217",
+    "slug": "mcmaster-university",
+    "name": "McMaster University",
+    "country": {
+      "iso2": "CA",
+      "name": "Canada",
+      "slug": "canada"
+    },
+    "city": "Hamilton",
+    "region": "North America",
+    "controlType": "public",
+    "officialWebsite": "https://www.mcmaster.ca",
+    "admissionsUrl": "https://future.mcmaster.ca/info-hub/international/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine",
+      "Engineering",
+      "Business",
+      "Health Sciences",
+      "Sciences"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "Public",
+      "Health"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": "International undergraduate tuition CAD 23,000–80,000 per year depending on program; living costs CAD 15,000–25,000 per year. PGWP eligible (up to 3 years post-graduation work permit).",
+    "studentNotes": "Located in Hamilton, Ontario. Known for the Michael G. DeGroote School of Medicine. U15 Canada member.",
+    "accreditationBody": "Ontario Ministry of Colleges and Universities; Universities Canada (member institution)",
+    "accreditationRegistryUrl": "https://www.univcan.ca/universities/member-universities/",
+    "accreditationBodyVerifiedDate": "2026-05-11",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_031",
+      "title": "Official website: McMaster University",
+      "publisher": "McMaster University",
+      "url": "https://www.mcmaster.ca",
+      "tier": "tier_1_official",
+      "description": "McMaster University official .ca pages (mcmaster.ca homepage, future.mcmaster.ca/info-hub/international/), plus Universities Canada registry. Multiple deeper pages (contact, deadlines, scholarships, English requirements) returned cert errors or redirected to root during verification — those fields deferred to follow-up PR. Verified 2026-05-11."
+    },
+    "lastVerified": "2026-05-11",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0219",
+    "slug": "queens-university",
+    "name": "Queen's University",
+    "country": {
+      "iso2": "CA",
+      "name": "Canada",
+      "slug": "canada"
+    },
+    "city": "Kingston",
+    "region": "North America",
+    "controlType": "public",
+    "officialWebsite": "https://www.queensu.ca",
+    "admissionsUrl": "https://www.queensu.ca/admission/applying/how-to-apply",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Commerce",
+      "Health Sciences",
+      "Engineering",
+      "Arts",
+      "Sciences"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "Public",
+      "Historic"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": "IELTS 6.5 (no band below 6.0); TOEFL iBT 4.5 new-scale (4.0 each section); Duolingo 120; PTE 60; Cambridge 175.",
+    "tuitionNote": "International undergraduate tuition CAD 23,000–80,000 per year depending on program; living costs CAD 15,000–25,000 per year. PGWP eligible (up to 3 years post-graduation work permit).",
+    "studentNotes": "Founded 1841 in Kingston, Ontario. One of Canada's oldest universities. U15 Canada member.",
+    "contactUrl": "https://www.queensu.ca/contacts",
+    "admissionsEmail": "admission@queensu.ca",
+    "mainPhone": "+1 613-533-2218",
+    "deadlinesUrl": "https://www.queensu.ca/admission/applying/dates-deadlines",
+    "deadlinesNote": "February 1 deadline for Commerce, Health Sciences, Nursing; March 1 for all other programs; documents by March 31.",
+    "scholarshipsUrl": "https://www.queensu.ca/registrar/financial-aid/application-required/future-students",
+    "accreditationBody": "Ontario Ministry of Colleges and Universities; Universities Canada (member institution)",
+    "accreditationRegistryUrl": "https://www.univcan.ca/universities/member-universities/",
+    "accreditationBodyVerifiedDate": "2026-05-11",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_032",
+      "title": "Official website: Queen's University",
+      "publisher": "Queen's University",
+      "url": "https://www.queensu.ca",
+      "tier": "tier_1_official",
+      "description": "Queen's University official .ca pages: queensu.ca homepage, /admission/, /admission/applying/how-to-apply, /contacts, /admission/applying/dates-deadlines, /registrar/financial-aid/application-required/future-students, /admission/applicants/english-proficiency. Plus Universities Canada registry. All 10 new schema fields verified from official sources — fully verified benchmark entry. Verified 2026-05-11."
+    },
+    "lastVerified": "2026-05-11",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0220",
+    "slug": "universite-de-montreal",
+    "name": "Université de Montréal",
+    "country": {
+      "iso2": "CA",
+      "name": "Canada",
+      "slug": "canada"
+    },
+    "city": "Montreal",
+    "region": "North America",
+    "controlType": "public",
+    "officialWebsite": "https://www.umontreal.ca",
+    "admissionsUrl": "https://admission.umontreal.ca/",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Medicine",
+      "Engineering",
+      "Business",
+      "Arts",
+      "Sciences"
+    ],
+    "categoryTags": [
+      "Top Ranking",
+      "Research",
+      "Public",
+      "French-language",
+      "Bilingual"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": "International undergraduate tuition tiered (Tier A approximately CAD 14,000 per year, Tier B approximately CAD 6,700 per year — varies by program and bilateral agreement). Living costs CAD 12,000–20,000 per year in Montreal. CAQ required on top of federal study permit. PGWP eligible.",
+    "studentNotes": "Founded 1878 — Quebec's largest French-language research university. French-medium instruction (sibling English-language entry in Montreal: McGill University). U15 Canada member. International students require CAQ (Certificat d'acceptation du Québec) on top of the federal study permit.",
+    "contactUrl": "https://www.umontreal.ca/pour-nous-joindre/",
+    "mainPhone": "+1 514-343-6111",
+    "deadlinesUrl": "https://admission.umontreal.ca/admission/preparation-de-la-demande/respecter-les-dates-limites-de-depot/",
+    "deadlinesNote": "February 1 deadline standard; April 1 hard deadline for international applicants due to immigration processing time. CAQ + federal study permit required.",
+    "scholarshipsUrl": "https://admission.umontreal.ca/bourses-pour-etudiants-internationaux/",
+    "accreditationBody": "Ministère de l'Enseignement supérieur du Québec; Universities Canada (member institution)",
+    "accreditationRegistryUrl": "https://www.univcan.ca/universities/member-universities/",
+    "accreditationBodyVerifiedDate": "2026-05-11",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC_PRIORITY_033",
+      "title": "Official website: Université de Montréal",
+      "publisher": "Université de Montréal",
+      "url": "https://www.umontreal.ca",
+      "tier": "tier_1_official",
+      "description": "Université de Montréal official sites: umontreal.ca homepage and /l-udem/ (1878 founding verified verbatim), /pour-nous-joindre/, admission.umontreal.ca/ and its deadlines and scholarships sub-pages. Plus Universities Canada registry. English test note omitted — UdeM is French-primary, French proficiency required instead (captured in studentNotes). Verified 2026-05-11."
+    },
+    "lastVerified": "2026-05-11",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
   }

@@ -39,6 +39,7 @@ export type University = {
     publisher: string | null;
     url: string | null;
     tier: string | null;
+    description?: string;
   };
   lastVerified: string | null;
   verificationStatus: string;
