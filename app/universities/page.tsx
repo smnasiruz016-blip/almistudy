@@ -9,7 +9,7 @@ const PRINCIPLES_URL =
 export const metadata: Metadata = {
   title: "Accredited universities directory",
   description:
-    "AlmiStudy university directory by country. Verified-accreditation institutions for working migrants seeking academic credentials.",
+    "AlmiStudy university directory by country. Verified-accreditation institutions checked against recognized national accrediting bodies.",
   alternates: { canonical: `${SITE_URL}/universities` }
 };
 
@@ -63,8 +63,9 @@ export default function UniversitiesIndexPage() {
             Accredited universities directory
           </h1>
           <p className="text-base sm:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed mb-3 max-w-3xl">
-            Verified-accreditation universities organized by country. Built for working migrants
-            seeking academic credentials that destination-country regulators will recognize.
+            Verified-accreditation universities organized by country. Every listing is checked
+            against a recognized national accrediting body, with a public registry link so you can
+            verify it yourself.
           </p>
           <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-3xl">
             We&apos;ve reviewed {total} {total === 1 ? "university" : "universities"} across{" "}

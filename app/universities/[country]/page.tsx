@@ -25,7 +25,7 @@ export async function generateMetadata({
   if (!c) return {};
   const url = `${SITE_URL}/universities/${c.slug}`;
   const title = `${c.name} universities`;
-  const description = `Accredited universities in ${c.name} for working migrants seeking academic credentials. ${c.count} ${c.count === 1 ? "institution" : "institutions"} reviewed.`;
+  const description = `Accredited universities in ${c.name}, verified against a recognized national accrediting body. ${c.count} ${c.count === 1 ? "institution" : "institutions"} reviewed.`;
   return {
     title,
     description,
@@ -108,7 +108,7 @@ export default async function CountryPage({
             Accredited universities in {country.name}
           </h1>
           <p className="text-base sm:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed mb-3 max-w-3xl">
-            Verified-accreditation universities in {country.name} relevant to working migrants seeking transferable credentials. Each entry links to the accrediting body so you can verify independently.
+            Verified-accreditation universities in {country.name}. Each entry links to its national accrediting body so you can verify independently.
           </p>
           <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-3xl">
             We&apos;ve reviewed {unis.length}{" "}

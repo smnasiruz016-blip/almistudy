@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s · AlmiStudy"
   },
   description:
-    "Curated directory of accredited universities for working migrants seeking academic credentials.",
+    "Curated directory of accredited universities. Every listing is verified against a recognized national accrediting body.",
 };
 
 export const viewport: Viewport = {
