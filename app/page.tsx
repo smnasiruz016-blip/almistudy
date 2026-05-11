@@ -15,16 +15,30 @@ export default function Home() {
           <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight mb-4 leading-tight">
             Where to study for credentials that transfer.
           </h1>
-          <p className="text-base sm:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed mb-3 max-w-3xl">
-            AlmiStudy is a curated directory of accredited universities for working migrants
-            seeking academic credentials. Each listing is reviewed against a recognized national
-            accrediting body, with a public registry link so you can verify it yourself.
+          <p className="text-base sm:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed mb-4 max-w-3xl">
+            AlmiStudy is a curated directory of accredited universities. Every listing is verified
+            against a recognized national accrediting body, with a public registry link so you can
+            check it yourself.
           </p>
-          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-3xl">
-            {total} {total === 1 ? "university" : "universities"} across {countries.length}{" "}
-            {countries.length === 1 ? "country" : "countries"}{" "}reviewed so far. Phase 1 — coverage
-            is intentionally small. We&apos;re expanding deliberately rather than padding the list.
-          </p>
+          <ul className="text-base sm:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed space-y-2 list-disc pl-5 max-w-3xl">
+            <li>
+              <strong>A directory, not a counselor.</strong> We point you to verified universities.
+              We don&apos;t broker applications.
+            </li>
+            <li>
+              <strong>Verification, not opinion.</strong> Each university is checked against a
+              named national accrediting body. The registry link is public.
+            </li>
+            <li>
+              <strong>Free, no account required.</strong> No sign-up wall. No CV upload. No data
+              captured.
+            </li>
+            <li>
+              <strong>Built in the open.</strong> {total}{" "}
+              {total === 1 ? "university" : "universities"} reviewed so far. We expand
+              deliberately, country by country, not by padding the list.
+            </li>
+          </ul>
         </header>
 
         <section aria-label="Countries with reviewed universities" className="mb-10">
