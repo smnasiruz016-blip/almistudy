@@ -28,7 +28,7 @@ export default function Header() {
 
         <Link
           href="/universities"
-          className="bg-coral hover:bg-coral-deep text-white text-sm font-medium px-4 py-2 sm:px-5 sm:py-2.5 rounded-lg transition-colors shrink-0"
+          className="bg-coral hover:bg-coral-deep text-cream text-sm font-medium px-4 py-2 sm:px-5 sm:py-2.5 rounded-lg transition-colors shrink-0"
         >
           Browse universities
         </Link>
