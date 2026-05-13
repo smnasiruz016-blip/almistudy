@@ -7390,5 +7390,268 @@
     "lastVerified": "2026-05-12",
     "verificationStatus": "curator_added_registry_only",
     "publishable": true
+  },
+  {
+    "id": "UNI_0247",
+    "slug": "university-of-botswana",
+    "name": "University of Botswana",
+    "country": {
+      "iso2": "BW",
+      "name": "Botswana",
+      "slug": "botswana"
+    },
+    "city": "Gaborone",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://www.ub.bw",
+    "admissionsUrl": "https://www.ub.bw/admissions",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Natural Sciences",
+      "Engineering & Technology",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Architecture & Design",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Research University",
+      "Public University"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Botswana's leading public university with broad programme coverage",
+    "contactUrl": "https://www.ub.bw/contact",
+    "admissionsEmail": "admissions@ub.ac.bw",
+    "mainPhone": "+267 355 2000",
+    "deadlinesUrl": "https://www.ub.bw/admissions",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.ub.bw/scholarships",
+    "accreditationBody": "Botswana Qualifications Authority (BQA)",
+    "accreditationRegistryUrl": "https://www.bqa.org.bw",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-BW-001",
+      "title": "University of Botswana Official Website",
+      "publisher": "University of Botswana",
+      "url": "https://www.ub.bw",
+      "tier": "tier_1_official",
+      "description": "Official institutional source"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0248",
+    "slug": "botswana-international-university-of-science-and-technology",
+    "name": "Botswana International University of Science and Technology",
+    "country": {
+      "iso2": "BW",
+      "name": "Botswana",
+      "slug": "botswana"
+    },
+    "city": "Palapye",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://www.biust.ac.bw",
+    "admissionsUrl": "https://www.biust.ac.bw/admissions",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Natural Sciences",
+      "Engineering & Technology",
+      "Computer Science & IT",
+      "Mathematics & Statistics",
+      "Agriculture & Environmental Studies"
+    ],
+    "categoryTags": [
+      "STEM University",
+      "Public University"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Focused on science, engineering, and technology education",
+    "contactUrl": "https://www.biust.ac.bw/contact-us",
+    "admissionsEmail": "admissions@biust.ac.bw",
+    "mainPhone": "+267 493 1000",
+    "deadlinesUrl": "https://www.biust.ac.bw/admissions",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.biust.ac.bw",
+    "accreditationBody": "Botswana Qualifications Authority (BQA)",
+    "accreditationRegistryUrl": "https://www.bqa.org.bw",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-BW-002",
+      "title": "BIUST Official Website",
+      "publisher": "BIUST",
+      "url": "https://www.biust.ac.bw",
+      "tier": "tier_1_official",
+      "description": "Official institutional source"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0249",
+    "slug": "botho-university",
+    "name": "Botho University",
+    "country": {
+      "iso2": "BW",
+      "name": "Botswana",
+      "slug": "botswana"
+    },
+    "city": "Gaborone",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": "https://www.bothouniversity.com",
+    "admissionsUrl": "https://bothouniversity.com/admissions",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business & Management",
+      "Computer Science & IT",
+      "Education",
+      "Engineering & Technology",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Private University"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Known for ICT and business programmes",
+    "contactUrl": "https://bothouniversity.com/contact-us",
+    "admissionsEmail": "info@bothouniversity.com",
+    "mainPhone": "+267 363 5421",
+    "deadlinesUrl": "https://bothouniversity.com/admissions",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://bothouniversity.com",
+    "accreditationBody": "Botswana Qualifications Authority (BQA)",
+    "accreditationRegistryUrl": "https://www.bqa.org.bw",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-BW-003",
+      "title": "Botho University Official Website",
+      "publisher": "Botho University",
+      "url": "https://www.bothouniversity.com",
+      "tier": "tier_1_official",
+      "description": "Official institutional source"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0250",
+    "slug": "ba-isago-university",
+    "name": "BA ISAGO University",
+    "country": {
+      "iso2": "BW",
+      "name": "Botswana",
+      "slug": "botswana"
+    },
+    "city": "Gaborone",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": "https://www.baisago.ac.bw",
+    "admissionsUrl": "https://www.baisago.ac.bw/admissions",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business & Management",
+      "Education",
+      "Law",
+      "Social Sciences",
+      "Computer Science & IT",
+      "Arts & Humanities"
+    ],
+    "categoryTags": [
+      "Private University"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Offers flexible learning options and professional programmes",
+    "contactUrl": "https://www.baisago.ac.bw/contact",
+    "admissionsEmail": "info@baisago.ac.bw",
+    "mainPhone": "+267 395 7744",
+    "deadlinesUrl": "https://www.baisago.ac.bw/admissions",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.baisago.ac.bw",
+    "accreditationBody": "Botswana Qualifications Authority (BQA)",
+    "accreditationRegistryUrl": "https://www.bqa.org.bw",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-BW-004",
+      "title": "BA ISAGO University Official Website",
+      "publisher": "BA ISAGO University",
+      "url": "https://www.baisago.ac.bw",
+      "tier": "tier_1_official",
+      "description": "Official institutional source"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0251",
+    "slug": "botswana-accountancy-college",
+    "name": "Botswana Accountancy College",
+    "country": {
+      "iso2": "BW",
+      "name": "Botswana",
+      "slug": "botswana"
+    },
+    "city": "Gaborone",
+    "region": "Africa",
+    "controlType": "mixed",
+    "officialWebsite": "https://www.bac.ac.bw",
+    "admissionsUrl": "https://www.bac.ac.bw/admissions",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business & Management",
+      "Computer Science & IT",
+      "Education"
+    ],
+    "categoryTags": [
+      "Specialized Institution"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Focused on accounting, finance, and ICT programmes",
+    "contactUrl": "https://www.bac.ac.bw/contact-us",
+    "admissionsEmail": "enquiries@bac.ac.bw",
+    "mainPhone": "+267 395 3062",
+    "deadlinesUrl": "https://www.bac.ac.bw/admissions",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.bac.ac.bw",
+    "accreditationBody": "Botswana Qualifications Authority (BQA)",
+    "accreditationRegistryUrl": "https://www.bqa.org.bw",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-BW-005",
+      "title": "Botswana Accountancy College Official Website",
+      "publisher": "Botswana Accountancy College",
+      "url": "https://www.bac.ac.bw",
+      "tier": "tier_1_official",
+      "description": "Official institutional source"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
   }
 ]
