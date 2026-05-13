@@ -3811,52 +3811,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0114",
-    "slug": "university-of-nairobi",
-    "name": "University of Nairobi",
-    "country": {
-      "iso2": "KE",
-      "name": "Kenya",
-      "slug": "kenya"
-    },
-    "city": "Nairobi",
-    "region": "Africa",
-    "controlType": null,
-    "officialWebsite": "https://www.uonbi.ac.ke",
-    "admissionsUrl": "https://application.uonbi.ac.ke",
-    "primaryLanguage": null,
-    "subjects": [
-      "Medicine",
-      "Engineering",
-      "Law",
-      "Agriculture",
-      "Business"
-    ],
-    "categoryTags": [
-      "Public",
-      "Regional",
-      "Research"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "English requirements by program",
-    "tuitionNote": "Major East African university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0115",
     "slug": "makerere-university",
     "name": "Makerere University",
