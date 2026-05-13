@@ -16632,5 +16632,123 @@
     "tuitionNote": null,
     "deadlinesNote": null,
     "recognitionByDestination": []
+  },
+  {
+    "id": "UNI_0404",
+    "slug": "universite-omar-bongo",
+    "name": "Université Omar Bongo (UOB)",
+    "city": "Libreville",
+    "region": "Africa",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Law",
+      "Business & Management",
+      "Social Sciences",
+      "Arts & Humanities",
+      "Education",
+      "Mathematics & Statistics",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "Gabon",
+      "Province: Estuaire",
+      "Central Africa",
+      "Public flagship",
+      "Francophone Africa",
+      "National university",
+      "WHED-listed",
+      "Largest in Gabon"
+    ],
+    "accreditationBody": "Ministère de l'Enseignement Supérieur, de la Recherche Scientifique et du Développement Technologique, Gabon",
+    "accreditationRegistryUrl": "https://www.enseignement-superieur.gouv.ga",
+    "accreditationBodyVerifiedDate": "2026-05-13",
+    "lastVerified": "2026-05-13",
+    "studentNotes": "Founded 1970 (as Université nationale du Gabon; renamed Université Omar Bongo in 1978). Gabon's first and largest public university, located in Libreville. ~30,000 students (2020). Founded 1970 as Université nationale du Gabon (UNG), incorporating institutions previously part of the Fondation de l'Enseignement supérieur en Afrique Centrale (FESAC). Renamed in 1978 in honour of President Omar Bongo. Two main faculties: Faculté de droit et de sciences économiques (FDSE) and Faculté des lettres et sciences humaines (FLSH). Rector: Pr Jean Jacques Tony Ekomie. Address: Boulevard Léon Mba, BP 13131, Libreville. WHED-listed.",
+    "country": {
+      "iso2": "GA",
+      "name": "Gabon",
+      "slug": "gabon"
+    },
+    "source": {
+      "id": "SRC-GA-UNIVERSITE-OMAR-BONGO",
+      "title": "Université Omar Bongo (UOB) — independent verification (Day 11 rebuild)",
+      "publisher": "AlmiStudy curator (web-verified via Wikipedia / institutional websites)",
+      "url": "https://www.enseignement-superieur.gouv.ga",
+      "tier": "tier_1_official",
+      "description": "Entry built 2026-05-13 from web-verified sources after the original collector batch (Equatorial_Guinea_Gabon_Universities.xlsx) was rejected — sixth batch in a row from the same collector with the same fabrication pattern (all-zero phone placeholders such as +241 011 000 000, full root-domain URL copies across all five URL fields). Registry URL is the Gabonese Ministry of Higher Education, Research and Technological Development — institutional-list-level verification via the named accrediting body."
+    },
+    "officialWebsite": "https://uob.ga",
+    "mainPhone": "+241 01 73 20 45",
+    "admissionsUrl": null,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "deadlinesUrl": null,
+    "scholarshipsUrl": null,
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "deadlinesNote": null,
+    "recognitionByDestination": []
+  },
+  {
+    "id": "UNI_0405",
+    "slug": "universite-des-sciences-et-techniques-de-masuku",
+    "name": "Université des Sciences et Techniques de Masuku (USTM)",
+    "city": "Franceville",
+    "region": "Africa",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Natural Sciences",
+      "Engineering & Technology",
+      "Computer Science & IT",
+      "Mathematics & Statistics",
+      "Agriculture & Environmental Studies"
+    ],
+    "categoryTags": [
+      "Gabon",
+      "Province: Haut-Ogooué",
+      "Central Africa",
+      "Public",
+      "Science & technology",
+      "Polytechnic",
+      "AUF member",
+      "LMD system"
+    ],
+    "accreditationBody": "Ministère de l'Enseignement Supérieur, de la Recherche Scientifique et du Développement Technologique, Gabon",
+    "accreditationRegistryUrl": "https://www.enseignement-superieur.gouv.ga",
+    "accreditationBodyVerifiedDate": "2026-05-13",
+    "lastVerified": "2026-05-13",
+    "studentNotes": "Founded 1986 (Law N°7/85, by transfer from Libreville to Franceville). Gabon's premier public science and technology university, located in Franceville in the Haut-Ogooué province (southeastern Gabon). Established 1986 by Law N°7/85 through the transfer of the Faculty of Sciences and the École nationale supérieure d'ingénieurs de Libreville (ENSIL) from the capital to Franceville. Three main establishments: Faculté des Sciences, École polytechnique de Masuku (EPM), and Institut National Supérieur d'Agronomie et de Biotechnologies (INSAB). LMD-system since 2007. Degrees from DUT to Doctorate. Rector: Pr Crépin Ella Missang (appointed February 2024). Member of AUF (Agence Universitaire de la Francophonie). Funded with support from the Gabonese Investment Fund, Saudi Development Fund, Islamic Development Bank, and the French Republic.",
+    "country": {
+      "iso2": "GA",
+      "name": "Gabon",
+      "slug": "gabon"
+    },
+    "source": {
+      "id": "SRC-GA-UNIVERSITE-DES-SCIENCES-ET-TECHNIQUES-DE-MASUKU",
+      "title": "Université des Sciences et Techniques de Masuku (USTM) — independent verification (Day 11 rebuild)",
+      "publisher": "AlmiStudy curator (web-verified via Wikipedia / institutional websites)",
+      "url": "https://www.enseignement-superieur.gouv.ga",
+      "tier": "tier_1_official",
+      "description": "Entry built 2026-05-13 from web-verified sources after the original collector batch (Equatorial_Guinea_Gabon_Universities.xlsx) was rejected — sixth batch in a row from the same collector with the same fabrication pattern (all-zero phone placeholders such as +241 011 000 000, full root-domain URL copies across all five URL fields). Registry URL is the Gabonese Ministry of Higher Education, Research and Technological Development — institutional-list-level verification via the named accrediting body."
+    },
+    "officialWebsite": "https://univ-masuku.org",
+    "mainPhone": "+241 66 19 07 34",
+    "admissionsEmail": "contact@univ-masuku.org",
+    "admissionsUrl": null,
+    "contactUrl": null,
+    "deadlinesUrl": null,
+    "scholarshipsUrl": null,
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "deadlinesNote": null,
+    "recognitionByDestination": []
   }
 ]
