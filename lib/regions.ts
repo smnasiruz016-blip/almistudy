@@ -34,6 +34,7 @@ export const DB_REGION_TO_V2_SLUG: Record<string, V2RegionSlug> = {
   Oceania: "oceania",
   Africa: "africa",
   "West Africa": "africa",
+  "Central Africa": "africa",
 };
 
 export const V2_REGION_ORDER: V2RegionSlug[] = [
