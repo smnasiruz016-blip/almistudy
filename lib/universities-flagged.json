@@ -3949,51 +3949,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0116",
-    "slug": "addis-ababa-university",
-    "name": "Addis Ababa University",
-    "country": {
-      "iso2": "ET",
-      "name": "Ethiopia",
-      "slug": "ethiopia"
-    },
-    "city": "Addis Ababa",
-    "region": "Africa",
-    "controlType": null,
-    "officialWebsite": "https://www.aau.edu.et",
-    "admissionsUrl": "https://www.aau.edu.et/admission/",
-    "primaryLanguage": null,
-    "subjects": [
-      "Medicine",
-      "Engineering",
-      "Social Sciences",
-      "Business",
-      "Agriculture"
-    ],
-    "categoryTags": [
-      "Public",
-      "Research"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "Program-dependent",
-    "tuitionNote": "Major Ethiopian public university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0117",
     "slug": "university-of-lagos",
     "name": "University of Lagos",
