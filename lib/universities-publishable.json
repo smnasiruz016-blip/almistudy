@@ -15710,5 +15710,62 @@
     "tuitionNote": null,
     "deadlinesNote": null,
     "recognitionByDestination": []
+  },
+  {
+    "id": "UNI_0388",
+    "slug": "equator-university-of-science-and-technology",
+    "name": "Equator University of Science & Technology (EQUSaT)",
+    "city": "Masaka",
+    "region": "Africa",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "officialWebsite": "https://equsat.ac.ug/",
+    "admissionsUrl": "https://eadmissions.equsat.ac.ug/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Natural Sciences",
+      "Engineering & Technology",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "Medicine",
+      "Technology",
+      "Business",
+      "IT",
+      "Public Health",
+      "East Africa"
+    ],
+    "accreditationBody": "National Council for Higher Education (NCHE) Uganda",
+    "accreditationRegistryUrl": "https://unche.or.ug/institution/equator-university-of-science-and-technology-equsat/",
+    "accreditationBodyVerifiedDate": "2026-04-02",
+    "lastVerified": "2026-05-12",
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": "English proficiency may be required depending on applicant background.",
+    "studentNotes": "EQUSaT is a private-not-for-profit higher education institution offering accredited programmes in medicine, business, IT, and public health.",
+    "contactUrl": "https://equsat.ac.ug/contact-us/",
+    "admissionsEmail": "info@equsat.ac.ug",
+    "mainPhone": "+256 704 953 904",
+    "deadlinesUrl": "https://eadmissions.equsat.ac.ug/",
+    "deadlinesNote": "Admissions deadlines vary by programme and intake.",
+    "country": {
+      "iso2": "UG",
+      "name": "Uganda",
+      "slug": "uganda"
+    },
+    "source": {
+      "id": "SRC-UG-EQUSAT-001",
+      "title": "NCHE Uganda – EQUSaT Accredited Programmes",
+      "publisher": "National Council for Higher Education Uganda",
+      "url": "https://unche.or.ug/institution/equator-university-of-science-and-technology-equsat/",
+      "tier": "tier_1_official",
+      "description": "Official accreditation and programme listing for Equator University of Science & Technology."
+    },
+    "scholarshipsUrl": null,
+    "tuitionNote": null,
+    "recognitionByDestination": []
   }
 ]
