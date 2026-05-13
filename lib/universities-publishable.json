@@ -9137,5 +9137,266 @@
     "lastVerified": "2026-05-12",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
+  },
+  {
+    "id": "UNI_0279",
+    "slug": "universite-de-kinshasa",
+    "name": "Université de Kinshasa",
+    "country": {
+      "iso2": "CD",
+      "name": "Democratic Republic of the Congo",
+      "slug": "democratic-republic-of-the-congo"
+    },
+    "city": "Kinshasa",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://www.unikin.ac.cd",
+    "admissionsUrl": "https://www.unikin.ac.cd",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Natural Sciences",
+      "Medicine & Health Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Research University",
+      "Public"
+    ],
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "One of the leading public universities in DR Congo.",
+    "contactUrl": "https://www.unikin.ac.cd/contact",
+    "admissionsEmail": "info@unikin.ac.cd",
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.unikin.ac.cd",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.unikin.ac.cd",
+    "accreditationBody": "Ministry of Higher and University Education (ESU)",
+    "accreditationRegistryUrl": "https://mesu.gouv.cd",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-CD-001",
+      "title": "Official University Website",
+      "publisher": "Université de Kinshasa",
+      "url": "https://www.unikin.ac.cd",
+      "tier": "tier_1_official",
+      "description": "Official university and ministry information"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0280",
+    "slug": "universite-catholique-du-congo",
+    "name": "Université Catholique du Congo",
+    "country": {
+      "iso2": "CD",
+      "name": "Democratic Republic of the Congo",
+      "slug": "democratic-republic-of-the-congo"
+    },
+    "city": "Kinshasa",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": "https://www.ucc.ac.cd",
+    "admissionsUrl": "https://www.ucc.ac.cd",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Business & Management"
+    ],
+    "categoryTags": [
+      "Catholic University",
+      "Private"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Recognized Catholic higher education institution.",
+    "contactUrl": "https://www.ucc.ac.cd",
+    "admissionsEmail": "contact@ucc.ac.cd",
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.ucc.ac.cd",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.ucc.ac.cd",
+    "accreditationBody": "Ministry of Higher and University Education (ESU)",
+    "accreditationRegistryUrl": "https://mesu.gouv.cd",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-CD-002",
+      "title": "Official University Website",
+      "publisher": "Université Catholique du Congo",
+      "url": "https://www.ucc.ac.cd",
+      "tier": "tier_1_official",
+      "description": "Official university information"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0281",
+    "slug": "universite-de-lubumbashi",
+    "name": "Université de Lubumbashi",
+    "country": {
+      "iso2": "CD",
+      "name": "Democratic Republic of the Congo",
+      "slug": "democratic-republic-of-the-congo"
+    },
+    "city": "Lubumbashi",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://unilu.ac.cd",
+    "admissionsUrl": "https://unilu.ac.cd",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Natural Sciences",
+      "Engineering & Technology",
+      "Medicine & Health Sciences",
+      "Agriculture & Environmental Studies",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "Research University",
+      "Public"
+    ],
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Major public university in southern DR Congo.",
+    "contactUrl": "https://unilu.ac.cd",
+    "admissionsEmail": "info@unilu.ac.cd",
+    "mainPhone": null,
+    "deadlinesUrl": "https://unilu.ac.cd",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://unilu.ac.cd",
+    "accreditationBody": "Ministry of Higher and University Education (ESU)",
+    "accreditationRegistryUrl": "https://mesu.gouv.cd",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-CD-003",
+      "title": "Official University Website",
+      "publisher": "Université de Lubumbashi",
+      "url": "https://unilu.ac.cd",
+      "tier": "tier_1_official",
+      "description": "Official university information"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0282",
+    "slug": "universite-protestante-au-congo",
+    "name": "Université Protestante au Congo",
+    "country": {
+      "iso2": "CD",
+      "name": "Democratic Republic of the Congo",
+      "slug": "democratic-republic-of-the-congo"
+    },
+    "city": "Kinshasa",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": "https://upc.ac.cd",
+    "admissionsUrl": "https://upc.ac.cd",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "Protestant University",
+      "Private"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Private Christian university recognized in DR Congo.",
+    "contactUrl": "https://upc.ac.cd",
+    "admissionsEmail": "contact@upc.ac.cd",
+    "mainPhone": null,
+    "deadlinesUrl": "https://upc.ac.cd",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://upc.ac.cd",
+    "accreditationBody": "Ministry of Higher and University Education (ESU)",
+    "accreditationRegistryUrl": "https://mesu.gouv.cd",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-CD-004",
+      "title": "Official University Website",
+      "publisher": "Université Protestante au Congo",
+      "url": "https://upc.ac.cd",
+      "tier": "tier_1_official",
+      "description": "Official university information"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0283",
+    "slug": "institut-superieur-des-techniques-appliquees",
+    "name": "Institut Supérieur des Techniques Appliquées",
+    "country": {
+      "iso2": "CD",
+      "name": "Democratic Republic of the Congo",
+      "slug": "democratic-republic-of-the-congo"
+    },
+    "city": "Kinshasa",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://ista.ac.cd",
+    "admissionsUrl": "https://ista.ac.cd",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Engineering & Technology",
+      "Computer Science & IT",
+      "Architecture & Design",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Technical Institute",
+      "Public"
+    ],
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Leading applied sciences institution in DR Congo.",
+    "contactUrl": "https://ista.ac.cd",
+    "admissionsEmail": "info@ista.ac.cd",
+    "mainPhone": null,
+    "deadlinesUrl": "https://ista.ac.cd",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://ista.ac.cd",
+    "accreditationBody": "Ministry of Higher and University Education (ESU)",
+    "accreditationRegistryUrl": "https://mesu.gouv.cd",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-CD-005",
+      "title": "Official University Website",
+      "publisher": "Institut Supérieur des Techniques Appliquées",
+      "url": "https://ista.ac.cd",
+      "tier": "tier_1_official",
+      "description": "Official institution information"
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
   }
 ]
