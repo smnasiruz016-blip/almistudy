@@ -9028,5 +9028,114 @@
     "lastVerified": "2026-05-12",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
+  },
+  {
+    "id": "UNI_0277",
+    "slug": "university-of-the-comoros",
+    "name": "University of the Comoros",
+    "country": {
+      "iso2": "KM",
+      "name": "Comoros",
+      "slug": "comoros"
+    },
+    "city": "Moroni",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://univ-comores.km",
+    "admissionsUrl": "https://univ-comores.km",
+    "primaryLanguage": "French, Arabic",
+    "subjects": [
+      "Arts & Humanities",
+      "Natural Sciences",
+      "Engineering & Technology",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Public University",
+      "Higher Education"
+    ],
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Main public university in Comoros offering programmes across multiple faculties.",
+    "contactUrl": "https://univ-comores.km",
+    "admissionsEmail": "contact@univ-comores.km",
+    "mainPhone": "+269 773 05 64",
+    "deadlinesUrl": "https://univ-comores.km",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://univ-comores.km",
+    "accreditationBody": "Ministry of National Education, Higher Education and Scientific Research of Comoros",
+    "accreditationRegistryUrl": "https://mineducomores.gouv.km/en/comoros-university/",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-KM-001",
+      "title": "Comoros University - Ministry of Education",
+      "publisher": "Government of Comoros",
+      "url": "https://mineducomores.gouv.km/en/comoros-university/",
+      "tier": "tier_1_official",
+      "description": "Official ministry information confirming university status and academic offerings."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0278",
+    "slug": "midocean-university",
+    "name": "Midocean University",
+    "country": {
+      "iso2": "KM",
+      "name": "Comoros",
+      "slug": "comoros"
+    },
+    "city": "Moroni",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Business & Management",
+      "Social Sciences",
+      "Computer Science & IT",
+      "Education"
+    ],
+    "categoryTags": [
+      "Private University",
+      "Higher Education"
+    ],
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Private higher education institution listed by the Ministry of Education.",
+    "contactUrl": null,
+    "admissionsEmail": "info@midocean-university.km",
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": null,
+    "scholarshipsUrl": null,
+    "accreditationBody": "Ministry of National Education, Higher Education and Scientific Research of Comoros",
+    "accreditationRegistryUrl": "https://mineducomores.gouv.km/en/comoros-university/",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-KM-002",
+      "title": "Comoros Ministry Education Institutions",
+      "publisher": "Government of Comoros",
+      "url": "https://mineducomores.gouv.km/en/comoros-university/",
+      "tier": "tier_1_official",
+      "description": "Government listing of recognized university institutions in Comoros."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
   }
 ]
