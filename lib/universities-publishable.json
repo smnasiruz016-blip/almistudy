@@ -18630,10 +18630,10 @@
       "publisher": "AlmiStudy curator (cross-verified via CUE / institutional sources)",
       "url": "https://www.cue.or.ke/",
       "tier": "tier_2_directory",
-      "description": "Entry built 2026-05-13 from collector batch (Kenya_Approved_Universities_Data.xlsx) — fourth high-quality collector batch in a row with no GQ padding entries (after Eswatini, Ethiopia, Ghana). Promoted from flagged UNI_0114 (was a minimal migrated_unverified entry with null accreditation/control fields) — id preserved per promote-not-duplicate convention. Collector got accreditation body (CUE), registry URL, cities, control types, and admissions email patterns all correct. All 4 collector phones in this batch nulled (UoN +254-20-4910000, JKUAT +254-67-5870001, Strathmore +254-703-034000, Amref +254-20-6994000) — 3/4 trailing-zero plus 1 sequential -0001 matches collector-fabrication signal, well above the Ghana reference (1/4 trailing-zero on phones that were retained). null > fabrication. Source tier downgraded to tier_2_directory: CUE homepage is the official regulator's site but does not entry-specifically confirm any of the 4 institutions; if a deep-link path on cue.or.ke is later verified, follow-up patch to upgrade tier."
+      "description": "Entry built 2026-05-13 from collector batch (Kenya_Approved_Universities_Data.xlsx) — fourth high-quality collector batch in a row with no GQ padding entries (after Eswatini, Ethiopia, Ghana). Promoted from flagged UNI_0114 (was a minimal migrated_unverified entry with null accreditation/control fields) — id preserved per promote-not-duplicate convention. Collector got accreditation body (CUE), registry URL, cities, control types, and admissions email patterns all correct. Phones initially nulled on 4/4 trailing-zero pattern (vs Ghana 1/4), then web-verified 2026-05-13 against official contact pages: 3 of 4 confirmed genuine and restored — UoN main pilot +254-20-4910000 (uonbi.ac.ke telephone directory), JKUAT +254-67-5870001 (first of published 5870001-5 range on jkuat.ac.ke/contact-us), Strathmore +254-703-034000 (exact match on strathmore.edu/contact-us). Trailing-zero pattern in Kenyan landlines reflects PBX pilot-line and sequential-extension conventions, not fabrication — the heuristic from the Ghana batch does not transfer. Amref +254-20-6994000 alone confirmed fabricated (actual switchboard is +254(0)2699-3122/3218 per amref.ac.ke/contact-us); kept null. Source tier downgraded to tier_2_directory: CUE homepage is the official regulator's site but does not entry-specifically confirm any of the 4 institutions; if a deep-link path on cue.or.ke is later verified, follow-up patch to upgrade tier."
     },
     "officialWebsite": "https://www.uonbi.ac.ke",
-    "mainPhone": null,
+    "mainPhone": "+254-20-4910000",
     "admissionsEmail": "admissions@uonbi.ac.ke",
     "admissionsUrl": "https://application.uonbi.ac.ke",
     "contactUrl": null,
@@ -18692,13 +18692,13 @@
       "publisher": "AlmiStudy curator (cross-verified via CUE / institutional sources)",
       "url": "https://www.cue.or.ke/",
       "tier": "tier_2_directory",
-      "description": "Entry built 2026-05-13 from collector batch (Kenya_Approved_Universities_Data.xlsx) — fourth high-quality collector batch in a row with no GQ padding entries (after Eswatini, Ethiopia, Ghana). Collector got accreditation body (CUE), registry URL, cities (correctly including Juja for JKUAT, not Thika as commonly miscited), control types, and admissions email patterns all correct. All 4 collector phones in this batch nulled (UoN +254-20-4910000, JKUAT +254-67-5870001, Strathmore +254-703-034000, Amref +254-20-6994000) — 3/4 trailing-zero plus 1 sequential -0001 matches collector-fabrication signal, well above the Ghana reference (1/4 trailing-zero on phones that were retained). null > fabrication. Source tier downgraded to tier_2_directory: CUE homepage is the official regulator's site but does not entry-specifically confirm any of the 4 institutions; if a deep-link path on cue.or.ke is later verified, follow-up patch to upgrade tier."
+      "description": "Entry built 2026-05-13 from collector batch (Kenya_Approved_Universities_Data.xlsx) — fourth high-quality collector batch in a row with no GQ padding entries (after Eswatini, Ethiopia, Ghana). Collector got accreditation body (CUE), registry URL, cities (correctly including Juja for JKUAT, not Thika as commonly miscited), control types, and admissions email patterns all correct. Phones initially nulled on 4/4 trailing-zero pattern (vs Ghana 1/4), then web-verified 2026-05-13 against official contact pages: 3 of 4 confirmed genuine and restored — UoN main pilot +254-20-4910000 (uonbi.ac.ke telephone directory), JKUAT +254-67-5870001 (first of published 5870001-5 range on jkuat.ac.ke/contact-us), Strathmore +254-703-034000 (exact match on strathmore.edu/contact-us). Trailing-zero pattern in Kenyan landlines reflects PBX pilot-line and sequential-extension conventions, not fabrication — the heuristic from the Ghana batch does not transfer. Amref +254-20-6994000 alone confirmed fabricated (actual switchboard is +254(0)2699-3122/3218 per amref.ac.ke/contact-us); kept null. Source tier downgraded to tier_2_directory: CUE homepage is the official regulator's site but does not entry-specifically confirm any of the 4 institutions; if a deep-link path on cue.or.ke is later verified, follow-up patch to upgrade tier."
     },
     "officialWebsite": "https://www.jkuat.ac.ke",
-    "mainPhone": null,
+    "mainPhone": "+254-67-5870001",
     "admissionsEmail": "admissions@jkuat.ac.ke",
     "admissionsUrl": null,
-    "contactUrl": null,
+    "contactUrl": "https://www.jkuat.ac.ke/contact-us/",
     "deadlinesUrl": null,
     "scholarshipsUrl": null,
     "scholarshipsAvailable": null,
@@ -18754,13 +18754,13 @@
       "publisher": "AlmiStudy curator (cross-verified via CUE / institutional sources)",
       "url": "https://www.cue.or.ke/",
       "tier": "tier_2_directory",
-      "description": "Entry built 2026-05-13 from collector batch (Kenya_Approved_Universities_Data.xlsx) — fourth high-quality collector batch in a row with no GQ padding entries (after Eswatini, Ethiopia, Ghana). Collector got accreditation body (CUE), registry URL, cities, control types, and admissions email patterns all correct. All 4 collector phones in this batch nulled (UoN +254-20-4910000, JKUAT +254-67-5870001, Strathmore +254-703-034000, Amref +254-20-6994000) — 3/4 trailing-zero plus 1 sequential -0001 matches collector-fabrication signal, well above the Ghana reference (1/4 trailing-zero on phones that were retained). null > fabrication. Source tier downgraded to tier_2_directory: CUE homepage is the official regulator's site but does not entry-specifically confirm any of the 4 institutions; if a deep-link path on cue.or.ke is later verified, follow-up patch to upgrade tier."
+      "description": "Entry built 2026-05-13 from collector batch (Kenya_Approved_Universities_Data.xlsx) — fourth high-quality collector batch in a row with no GQ padding entries (after Eswatini, Ethiopia, Ghana). Collector got accreditation body (CUE), registry URL, cities, control types, and admissions email patterns all correct. Phones initially nulled on 4/4 trailing-zero pattern (vs Ghana 1/4), then web-verified 2026-05-13 against official contact pages: 3 of 4 confirmed genuine and restored — UoN main pilot +254-20-4910000 (uonbi.ac.ke telephone directory), JKUAT +254-67-5870001 (first of published 5870001-5 range on jkuat.ac.ke/contact-us), Strathmore +254-703-034000 (exact match on strathmore.edu/contact-us). Trailing-zero pattern in Kenyan landlines reflects PBX pilot-line and sequential-extension conventions, not fabrication — the heuristic from the Ghana batch does not transfer. Amref +254-20-6994000 alone confirmed fabricated (actual switchboard is +254(0)2699-3122/3218 per amref.ac.ke/contact-us); kept null. Source tier downgraded to tier_2_directory: CUE homepage is the official regulator's site but does not entry-specifically confirm any of the 4 institutions; if a deep-link path on cue.or.ke is later verified, follow-up patch to upgrade tier."
     },
     "officialWebsite": "https://www.strathmore.edu",
-    "mainPhone": null,
+    "mainPhone": "+254-703-034000",
     "admissionsEmail": "admissions@strathmore.edu",
     "admissionsUrl": null,
-    "contactUrl": null,
+    "contactUrl": "https://strathmore.edu/contact-us/",
     "deadlinesUrl": null,
     "scholarshipsUrl": null,
     "scholarshipsAvailable": null,
@@ -18811,13 +18811,13 @@
       "publisher": "AlmiStudy curator (cross-verified via CUE / institutional sources)",
       "url": "https://www.cue.or.ke/",
       "tier": "tier_2_directory",
-      "description": "Entry built 2026-05-13 from collector batch (Kenya_Approved_Universities_Data.xlsx) — fourth high-quality collector batch in a row with no GQ padding entries (after Eswatini, Ethiopia, Ghana). Collector got accreditation body (CUE), registry URL, cities, control types, and admissions email patterns all correct. All 4 collector phones in this batch nulled (UoN +254-20-4910000, JKUAT +254-67-5870001, Strathmore +254-703-034000, Amref +254-20-6994000) — 3/4 trailing-zero plus 1 sequential -0001 matches collector-fabrication signal, well above the Ghana reference (1/4 trailing-zero on phones that were retained). null > fabrication. Source tier downgraded to tier_2_directory: CUE homepage is the official regulator's site but does not entry-specifically confirm any of the 4 institutions; if a deep-link path on cue.or.ke is later verified, follow-up patch to upgrade tier."
+      "description": "Entry built 2026-05-13 from collector batch (Kenya_Approved_Universities_Data.xlsx) — fourth high-quality collector batch in a row with no GQ padding entries (after Eswatini, Ethiopia, Ghana). Collector got accreditation body (CUE), registry URL, cities, control types, and admissions email patterns all correct. Phones initially nulled on 4/4 trailing-zero pattern (vs Ghana 1/4), then web-verified 2026-05-13 against official contact pages: 3 of 4 confirmed genuine and restored — UoN main pilot +254-20-4910000 (uonbi.ac.ke telephone directory), JKUAT +254-67-5870001 (first of published 5870001-5 range on jkuat.ac.ke/contact-us), Strathmore +254-703-034000 (exact match on strathmore.edu/contact-us). Trailing-zero pattern in Kenyan landlines reflects PBX pilot-line and sequential-extension conventions, not fabrication — the heuristic from the Ghana batch does not transfer. Amref +254-20-6994000 alone confirmed fabricated (actual switchboard is +254(0)2699-3122/3218 per amref.ac.ke/contact-us); kept null. Source tier downgraded to tier_2_directory: CUE homepage is the official regulator's site but does not entry-specifically confirm any of the 4 institutions; if a deep-link path on cue.or.ke is later verified, follow-up patch to upgrade tier."
     },
     "officialWebsite": "https://amref.ac.ke",
     "mainPhone": null,
     "admissionsEmail": "admissions@amref.ac.ke",
     "admissionsUrl": null,
-    "contactUrl": null,
+    "contactUrl": "https://amref.ac.ke/contact-us/",
     "deadlinesUrl": null,
     "scholarshipsUrl": null,
     "scholarshipsAvailable": null,
