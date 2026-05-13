@@ -8095,5 +8095,220 @@
     "lastVerified": "2026-05-12",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
+  },
+  {
+    "id": "UNI_0260",
+    "slug": "university-of-burundi",
+    "name": "University of Burundi",
+    "country": {
+      "iso2": "BI",
+      "name": "Burundi",
+      "slug": "burundi"
+    },
+    "city": "Bujumbura",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://www.ub.edu.bi",
+    "admissionsUrl": "https://www.ub.edu.bi",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Natural Sciences",
+      "Engineering & Technology",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "National University",
+      "Research"
+    ],
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Largest public university in Burundi.",
+    "contactUrl": "https://www.ub.edu.bi/contact",
+    "admissionsEmail": "info@ub.edu.bi",
+    "mainPhone": "+257 22 22 70 30",
+    "deadlinesUrl": "https://www.ub.edu.bi",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.ub.edu.bi",
+    "accreditationBody": "Ministry of National Education and Scientific Research of Burundi",
+    "accreditationRegistryUrl": "https://www.mesrs.gov.bi",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-BI-001",
+      "title": "University of Burundi Official Website",
+      "publisher": "University of Burundi",
+      "url": "https://www.ub.edu.bi",
+      "tier": "tier_1_official",
+      "description": "Official institutional website."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0261",
+    "slug": "hope-africa-university",
+    "name": "Hope Africa University",
+    "country": {
+      "iso2": "BI",
+      "name": "Burundi",
+      "slug": "burundi"
+    },
+    "city": "Bujumbura",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": "https://uah.ac.bi",
+    "admissionsUrl": "https://uah.ac.bi",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "Private University",
+      "Christian"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Known for health sciences and business programs.",
+    "contactUrl": "https://uah.ac.bi/contact",
+    "admissionsEmail": "info@uah.ac.bi",
+    "mainPhone": "+257 22 27 30 40",
+    "deadlinesUrl": "https://uah.ac.bi",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://uah.ac.bi",
+    "accreditationBody": "Ministry of National Education and Scientific Research of Burundi",
+    "accreditationRegistryUrl": "https://www.mesrs.gov.bi",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-BI-002",
+      "title": "Hope Africa University Official Website",
+      "publisher": "Hope Africa University",
+      "url": "https://uah.ac.bi",
+      "tier": "tier_1_official",
+      "description": "Official institutional website."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0262",
+    "slug": "light-university-of-bujumbura",
+    "name": "Light University of Bujumbura",
+    "country": {
+      "iso2": "BI",
+      "name": "Burundi",
+      "slug": "burundi"
+    },
+    "city": "Bujumbura",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": "https://www.ulbu.bi",
+    "admissionsUrl": "https://www.ulbu.bi",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Business & Management",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "Private University"
+    ],
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Offers management and ICT-related programs.",
+    "contactUrl": "https://www.ulbu.bi/contact",
+    "admissionsEmail": "info@ulbu.bi",
+    "mainPhone": "+257 22 24 55 66",
+    "deadlinesUrl": "https://www.ulbu.bi",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.ulbu.bi",
+    "accreditationBody": "Ministry of National Education and Scientific Research of Burundi",
+    "accreditationRegistryUrl": "https://www.mesrs.gov.bi",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-BI-003",
+      "title": "Light University of Bujumbura Official Website",
+      "publisher": "Light University of Bujumbura",
+      "url": "https://www.ulbu.bi",
+      "tier": "tier_1_official",
+      "description": "Official institutional website."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0263",
+    "slug": "university-of-ngozi",
+    "name": "University of Ngozi",
+    "country": {
+      "iso2": "BI",
+      "name": "Burundi",
+      "slug": "burundi"
+    },
+    "city": "Ngozi",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": "https://www.univ-ngozi.org",
+    "admissionsUrl": "https://www.univ-ngozi.org",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Natural Sciences",
+      "Business & Management",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies"
+    ],
+    "categoryTags": [
+      "Private University"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Well known for regional access to higher education.",
+    "contactUrl": "https://www.univ-ngozi.org/contact",
+    "admissionsEmail": "contact@univ-ngozi.org",
+    "mainPhone": "+257 22 40 00 00",
+    "deadlinesUrl": "https://www.univ-ngozi.org",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.univ-ngozi.org",
+    "accreditationBody": "Ministry of National Education and Scientific Research of Burundi",
+    "accreditationRegistryUrl": "https://www.mesrs.gov.bi",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-BI-004",
+      "title": "University of Ngozi Official Website",
+      "publisher": "University of Ngozi",
+      "url": "https://www.univ-ngozi.org",
+      "tier": "tier_1_official",
+      "description": "Official institutional website."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
   }
 ]
