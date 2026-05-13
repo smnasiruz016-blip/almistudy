@@ -16923,5 +16923,123 @@
     "tuitionNote": null,
     "deadlinesNote": null,
     "recognitionByDestination": []
+  },
+  {
+    "id": "UNI_0409",
+    "slug": "national-university-of-lesotho",
+    "name": "National University of Lesotho (NUL)",
+    "city": "Roma",
+    "region": "Africa",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Education",
+      "Natural Sciences",
+      "Arts & Humanities",
+      "Social Sciences",
+      "Law",
+      "Medicine & Health Sciences",
+      "Agriculture & Environmental Studies",
+      "Business & Management"
+    ],
+    "categoryTags": [
+      "Lesotho",
+      "Region: Maseru District",
+      "Southern Africa",
+      "Public flagship",
+      "National university",
+      "CHE-accredited",
+      "Royally chartered (King as Chancellor)"
+    ],
+    "accreditationBody": "Lesotho Council on Higher Education (CHE)",
+    "accreditationRegistryUrl": "https://www.che.ac.ls/national-university-of-lesotho-profile/",
+    "accreditationBodyVerifiedDate": "2026-05-13",
+    "lastVerified": "2026-05-13",
+    "studentNotes": "Founded 1945 (as Pius XII College); became National University of Lesotho in 1975. Lesotho's flagship public university and the country's premier institution of higher education, located in Roma in the Maseru District. Originated as Pius XII College (Roman Catholic) in 1945, later became part of the University of Botswana, Lesotho and Swaziland (1964–1975), and acquired its current name and autonomy in 1975. Chancellor: His Majesty King Letsie III. Faculties span Education, Sciences, Humanities, Social Sciences, Law, Health Sciences, Agriculture, and Postgraduate Studies. Statutory regulator: Lesotho Higher Education Act 2004 (CHE accreditation). Ranked #1 in Lesotho. Affiliated nursing institutions include Roma College of Nursing.",
+    "country": {
+      "iso2": "LS",
+      "name": "Lesotho",
+      "slug": "lesotho"
+    },
+    "source": {
+      "id": "SRC-LS-NATIONAL-UNIVERSITY-OF-LESOTHO",
+      "title": "National University of Lesotho (NUL) — independent verification (Day 11 rebuild)",
+      "publisher": "AlmiStudy curator (web-verified via Lesotho CHE per-institution registry / institutional sources)",
+      "url": "https://www.che.ac.ls/national-university-of-lesotho-profile/",
+      "tier": "tier_1_official",
+      "description": "Entry built 2026-05-13 from web-verified sources. The original collector batch (Equatorial_Guinea_Lesotho_Universities.xlsx) is the eighth in a row from the same collector; the Lesotho-specific data was partially accurate (real .ls domains, real CHE accreditation body, plausible-format phones) but Limkokwing's collector-provided phone \"+266 2231 3091\" did not match the institution's own verified contact line \"+266 2231 5767\". Registry URL is the Lesotho Council on Higher Education (CHE) per-institution profile page for this institution — UNESCO/IAU WHED-equivalent gold-standard verification, since CHE is the statutory regulator of all tertiary education in Lesotho per the Higher Education Act 2004."
+    },
+    "officialWebsite": "https://www.nul.ls",
+    "mainPhone": "+266 22 340 0601",
+    "admissionsEmail": "registrar@nul.ls",
+    "admissionsUrl": null,
+    "contactUrl": null,
+    "deadlinesUrl": null,
+    "scholarshipsUrl": null,
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "deadlinesNote": null,
+    "recognitionByDestination": []
+  },
+  {
+    "id": "UNI_0410",
+    "slug": "limkokwing-university-of-creative-technology-lesotho",
+    "name": "Limkokwing University of Creative Technology, Lesotho",
+    "city": "Maseru",
+    "region": "Africa",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Computer Science & IT",
+      "Business & Management",
+      "Arts & Humanities",
+      "Architecture & Design",
+      "Communication & Media Studies"
+    ],
+    "categoryTags": [
+      "Lesotho",
+      "Region: Maseru District",
+      "Southern Africa",
+      "Private",
+      "Global network campus",
+      "Creative industries focus",
+      "UNAI member",
+      "CHE-accredited"
+    ],
+    "accreditationBody": "Lesotho Council on Higher Education (CHE)",
+    "accreditationRegistryUrl": "https://www.che.ac.ls/limkokwing-university-of-creative-technology-profile/",
+    "accreditationBodyVerifiedDate": "2026-05-13",
+    "lastVerified": "2026-05-13",
+    "studentNotes": "Founded August 2008 (Maseru campus; global network founded 1991 in Malaysia). The Lesotho campus of Limkokwing University of Creative Technology, a Malaysia-headquartered global education network founded 1991 with campuses in Botswana, Cambodia, Eswatini, and elsewhere. The Maseru campus opened in August 2008 with 1,200 pioneer students across 54 creative-industry programmes. Focus areas: design, multimedia, information technology, architecture, business, and creative arts. Address: Moshoeshoe Road, Maseru Central, P.O. Box 8971 Maseru 100. UN Academic Impact (UNAI) member since 2010. Accredited by the Lesotho Council on Higher Education (CHE) — programme-level accreditation verifiable via CHE's per-institution profile page.",
+    "country": {
+      "iso2": "LS",
+      "name": "Lesotho",
+      "slug": "lesotho"
+    },
+    "source": {
+      "id": "SRC-LS-LIMKOKWING-UNIVERSITY-OF-CREATIVE-TECHNOLOGY-LESOTHO",
+      "title": "Limkokwing University of Creative Technology, Lesotho — independent verification (Day 11 rebuild)",
+      "publisher": "AlmiStudy curator (web-verified via Lesotho CHE per-institution registry / institutional sources)",
+      "url": "https://www.che.ac.ls/limkokwing-university-of-creative-technology-profile/",
+      "tier": "tier_1_official",
+      "description": "Entry built 2026-05-13 from web-verified sources. The original collector batch (Equatorial_Guinea_Lesotho_Universities.xlsx) is the eighth in a row from the same collector; the Lesotho-specific data was partially accurate (real .ls domains, real CHE accreditation body, plausible-format phones) but Limkokwing's collector-provided phone \"+266 2231 3091\" did not match the institution's own verified contact line \"+266 2231 5767\". Registry URL is the Lesotho Council on Higher Education (CHE) per-institution profile page for this institution — UNESCO/IAU WHED-equivalent gold-standard verification, since CHE is the statutory regulator of all tertiary education in Lesotho per the Higher Education Act 2004."
+    },
+    "officialWebsite": "https://www.limkokwing.net/lesotho",
+    "mainPhone": "+266 2231 5767",
+    "admissionsUrl": null,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "deadlinesUrl": null,
+    "scholarshipsUrl": null,
+    "scholarshipsAvailable": null,
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "deadlinesNote": null,
+    "recognitionByDestination": []
   }
 ]
