@@ -8817,5 +8817,216 @@
     "lastVerified": "2026-05-12",
     "verificationStatus": "curator_added_official_web",
     "publishable": true
+  },
+  {
+    "id": "UNI_0273",
+    "slug": "university-of-ndjamena",
+    "name": "University of N'Djamena",
+    "country": {
+      "iso2": "TD",
+      "name": "Chad",
+      "slug": "chad"
+    },
+    "city": "N'Djamena",
+    "region": "Central Africa",
+    "controlType": "public",
+    "officialWebsite": "https://www.universite-ndjamena.td/",
+    "admissionsUrl": "https://www.universite-ndjamena.td/",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Natural Sciences",
+      "Engineering & Technology",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Public University",
+      "Research"
+    ],
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Largest public university in Chad.",
+    "contactUrl": "https://www.universite-ndjamena.td/",
+    "admissionsEmail": "info@universite-ndjamena.td",
+    "mainPhone": "+235 22 51 44 44",
+    "deadlinesUrl": "https://www.universite-ndjamena.td/",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://www.universite-ndjamena.td/",
+    "accreditationBody": "Ministry of Higher Education, Chad",
+    "accreditationRegistryUrl": "https://whed.net/",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TD-001",
+      "title": "University of N'Djamena",
+      "publisher": "Official University Website",
+      "url": "https://www.universite-ndjamena.td/",
+      "tier": "tier_1_official",
+      "description": "Public university recognized in Chad."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0274",
+    "slug": "university-of-moundou",
+    "name": "University of Moundou",
+    "country": {
+      "iso2": "TD",
+      "name": "Chad",
+      "slug": "chad"
+    },
+    "city": "Moundou",
+    "region": "Central Africa",
+    "controlType": "public",
+    "officialWebsite": "http://www.univ-moundou.org/",
+    "admissionsUrl": "http://www.univ-moundou.org/",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Natural Sciences",
+      "Engineering & Technology",
+      "Business & Management",
+      "Law",
+      "Computer Science & IT",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Public University"
+    ],
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Known for applied sciences and law programs.",
+    "contactUrl": "http://www.univ-moundou.org/",
+    "admissionsEmail": "contact@univ-moundou.org",
+    "mainPhone": "+235 66 27 00 00",
+    "deadlinesUrl": "http://www.univ-moundou.org/",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "http://www.univ-moundou.org/",
+    "accreditationBody": "Ministry of Higher Education, Chad",
+    "accreditationRegistryUrl": "https://whed.net/",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TD-002",
+      "title": "University of Moundou",
+      "publisher": "Official University Website",
+      "url": "http://www.univ-moundou.org/",
+      "tier": "tier_1_official",
+      "description": "Public higher education institution in Chad."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0275",
+    "slug": "university-of-sarh",
+    "name": "University of Sarh",
+    "country": {
+      "iso2": "TD",
+      "name": "Chad",
+      "slug": "chad"
+    },
+    "city": "Sarh",
+    "region": "Central Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Agriculture & Environmental Studies",
+      "Education",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Public University"
+    ],
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Strong in agricultural sciences and teacher training.",
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": null,
+    "scholarshipsUrl": null,
+    "accreditationBody": "Ministry of Higher Education, Chad",
+    "accreditationRegistryUrl": "https://whed.net/",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TD-003",
+      "title": "University of Sarh",
+      "publisher": "WHED / Public Sources",
+      "url": "https://whed.net/",
+      "tier": "tier_2_directory",
+      "description": "Recognized public university in Chad."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true
+  },
+  {
+    "id": "UNI_0276",
+    "slug": "emi-koussi-university",
+    "name": "Emi Koussi University",
+    "country": {
+      "iso2": "TD",
+      "name": "Chad",
+      "slug": "chad"
+    },
+    "city": "N'Djamena",
+    "region": "Central Africa",
+    "controlType": "private",
+    "officialWebsite": "https://universite-emikoussi.net/",
+    "admissionsUrl": "https://universite-emikoussi.net/",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Business & Management",
+      "Computer Science & IT",
+      "Law",
+      "Social Sciences",
+      "Education"
+    ],
+    "categoryTags": [
+      "Private University"
+    ],
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": null,
+    "tuitionNote": null,
+    "studentNotes": "Private university established in 2011.",
+    "contactUrl": "https://universite-emikoussi.net/",
+    "admissionsEmail": "contact@universite-emikoussi.net",
+    "mainPhone": null,
+    "deadlinesUrl": "https://universite-emikoussi.net/",
+    "deadlinesNote": null,
+    "scholarshipsUrl": "https://universite-emikoussi.net/",
+    "accreditationBody": "Ministry of Higher Education, Chad",
+    "accreditationRegistryUrl": "https://whed.net/",
+    "accreditationBodyVerifiedDate": "2026-05-12",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TD-004",
+      "title": "Emi Koussi University",
+      "publisher": "Official University Website",
+      "url": "https://universite-emikoussi.net/",
+      "tier": "tier_1_official",
+      "description": "Private higher education institution recognized in Chad."
+    },
+    "lastVerified": "2026-05-12",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true
   }
 ]
