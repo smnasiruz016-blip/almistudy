@@ -3811,52 +3811,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0113",
-    "slug": "university-of-ghana",
-    "name": "University of Ghana",
-    "country": {
-      "iso2": "GH",
-      "name": "Ghana",
-      "slug": "ghana"
-    },
-    "city": "Legon, Accra",
-    "region": "Africa",
-    "controlType": null,
-    "officialWebsite": "https://www.ug.edu.gh",
-    "admissionsUrl": "https://admission.ug.edu.gh",
-    "primaryLanguage": null,
-    "subjects": [
-      "Business",
-      "Social Sciences",
-      "Agriculture",
-      "Law",
-      "Medicine"
-    ],
-    "categoryTags": [
-      "Public",
-      "Regional",
-      "Study Abroad"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "English requirements by program",
-    "tuitionNote": "Leading Ghanaian university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0114",
     "slug": "university-of-nairobi",
     "name": "University of Nairobi",
