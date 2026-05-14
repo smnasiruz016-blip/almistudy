@@ -3585,52 +3585,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0115",
-    "slug": "makerere-university",
-    "name": "Makerere University",
-    "country": {
-      "iso2": "UG",
-      "name": "Uganda",
-      "slug": "uganda"
-    },
-    "city": "Kampala",
-    "region": "Africa",
-    "controlType": null,
-    "officialWebsite": "https://www.mak.ac.ug",
-    "admissionsUrl": "https://www.mak.ac.ug/admissions",
-    "primaryLanguage": null,
-    "subjects": [
-      "Public Health",
-      "Agriculture",
-      "Engineering",
-      "Business",
-      "Humanities"
-    ],
-    "categoryTags": [
-      "Public",
-      "Research",
-      "Historic"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "English requirements by program",
-    "tuitionNote": "Historic East African university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0119",
     "slug": "university-of-sao-paulo",
     "name": "University of São Paulo",
