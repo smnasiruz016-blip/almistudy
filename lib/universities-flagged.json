@@ -3129,52 +3129,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0092",
-    "slug": "university-of-the-philippines-diliman",
-    "name": "University of the Philippines Diliman",
-    "country": {
-      "iso2": "PH",
-      "name": "Philippines",
-      "slug": "philippines"
-    },
-    "city": "Quezon City",
-    "region": "Southeast Asia",
-    "controlType": null,
-    "officialWebsite": "https://upd.edu.ph",
-    "admissionsUrl": "https://upd.edu.ph/admissions/",
-    "primaryLanguage": null,
-    "subjects": [
-      "Engineering",
-      "Science",
-      "Arts",
-      "Social Sciences",
-      "Public Administration"
-    ],
-    "categoryTags": [
-      "Affordable",
-      "Public",
-      "Research"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "Program-dependent",
-    "tuitionNote": "Flagship UP campus",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0093",
     "slug": "american-university-of-beirut",
     "name": "American University of Beirut",
