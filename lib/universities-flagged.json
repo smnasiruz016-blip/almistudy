@@ -3766,51 +3766,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0112",
-    "slug": "mohammed-v-university",
-    "name": "Mohammed V University",
-    "country": {
-      "iso2": "MA",
-      "name": "Morocco",
-      "slug": "morocco"
-    },
-    "city": "Rabat",
-    "region": "Africa",
-    "controlType": null,
-    "officialWebsite": "https://www.um5.ac.ma",
-    "admissionsUrl": "https://www.um5.ac.ma/um5/en/admission",
-    "primaryLanguage": null,
-    "subjects": [
-      "Law",
-      "Economics",
-      "Science",
-      "Medicine",
-      "Humanities"
-    ],
-    "categoryTags": [
-      "Affordable",
-      "Public"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "French/Arabic/English by program",
-    "tuitionNote": "Major Moroccan public university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0115",
     "slug": "makerere-university",
     "name": "Makerere University",
