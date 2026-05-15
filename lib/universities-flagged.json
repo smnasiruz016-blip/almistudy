@@ -2498,52 +2498,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0093",
-    "slug": "american-university-of-beirut",
-    "name": "American University of Beirut",
-    "country": {
-      "iso2": "LB",
-      "name": "Lebanon",
-      "slug": "lebanon"
-    },
-    "city": "Beirut",
-    "region": "Middle East",
-    "controlType": null,
-    "officialWebsite": "https://www.aub.edu.lb",
-    "admissionsUrl": "https://www.aub.edu.lb/admissions/",
-    "primaryLanguage": null,
-    "subjects": [
-      "Medicine",
-      "Engineering",
-      "Business",
-      "Arts",
-      "Public Health"
-    ],
-    "categoryTags": [
-      "Private",
-      "Study Abroad",
-      "Research"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "IELTS/TOEFL accepted",
-    "tuitionNote": "Strong regional reputation",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0095",
     "slug": "united-arab-emirates-university",
     "name": "United Arab Emirates University",
