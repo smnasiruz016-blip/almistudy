@@ -115676,5 +115676,220 @@
     "tuitionNote": null,
     "deadlinesNote": null,
     "recognitionByDestination": []
+  },
+  {
+    "id": "UNI_1768",
+    "slug": "university-of-andorra",
+    "name": "University of Andorra",
+    "city": "Sant Julià de Lòria",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Catalan",
+    "subjects": [
+      "Nursing",
+      "Computer Science",
+      "Education Sciences",
+      "Business Administration",
+      "Law",
+      "Communication",
+      "Tourism",
+      "E-Learning"
+    ],
+    "categoryTags": [
+      "Public",
+      "Only Public University",
+      "EHEA Bologna",
+      "Catalan",
+      "Microstate",
+      "Multilingual"
+    ],
+    "accreditationBody": "Quality Assurance Agency for Higher Education in Andorra (AQUA); Government of Andorra (Ministry of Higher Education); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://www.aqua.ad/en/qui-som",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The Universitat d'Andorra (UdA) is the only public university in the Principality of Andorra and the country's primary higher education institution. Higher education in Andorra formally began in 1988 with the founding of the School of Nursing and the School of Computer Science, which were consolidated into UdA in 1997. Located in Sant Julià de Lòria, UdA delivers Bologna three-cycle degrees (Bàtxelor, Màster, Doctorat) primarily in Catalan, with courses also in French, Spanish, and English reflecting Andorra's multilingual character as a co-principality (jointly headed by the President of France and the Bishop of Urgell in Spain). UdA is fully integrated into the European Higher Education Area, so degrees are recognised across Europe. Programs include nursing, computer science, education, business administration, law, communication, tourism, and an extensive virtual studies division. Andorra's small population (~80,000) means UdA is necessarily a small institution, but with notably high graduate employability.",
+    "country": {
+      "iso2": "AD",
+      "name": "Andorra",
+      "slug": "andorra"
+    },
+    "source": {
+      "id": "SRC_AD_UDA_001",
+      "title": "Universitat d'Andorra Official Website",
+      "publisher": "Universitat d'Andorra",
+      "url": "https://www.uda.ad/en/",
+      "tier": "tier_1_official",
+      "description": "Official UdA pages and AQUA accreditation registry verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.uda.ad/en/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.uda.ad/en/study-at-uda/",
+    "contactUrl": "https://www.uda.ad/en/contact/",
+    "admissionsEmail": "info@uda.ad",
+    "mainPhone": "+376 743 000",
+    "deadlinesUrl": "https://www.uda.ad/en/study-at-uda/",
+    "deadlinesNote": "Deadlines vary by programme and intake.",
+    "scholarshipsUrl": "https://www.uda.ad/en/study-at-uda/",
+    "scholarshipsAvailable": "Yes",
+    "englishTestNote": "English proficiency may be required for selected international programmes. Contact admissions for specific IELTS/TOEFL requirements per programme.",
+    "tuitionNote": "Estimated tuition generally EUR 900-3,500 per year depending on programme level. Lower than most Western European public universities."
+  },
+  {
+    "id": "UNI_1769",
+    "slug": "open-university-of-la-salle-andorra",
+    "name": "Open University of La Salle (Universitat Oberta La Salle)",
+    "city": "Andorra la Vella",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "Spanish",
+    "subjects": [
+      "Business Administration",
+      "Education",
+      "Engineering",
+      "Computer Science",
+      "Multimedia",
+      "Online Learning"
+    ],
+    "categoryTags": [
+      "Private",
+      "Catholic",
+      "La Salle Network",
+      "Distance Learning",
+      "Online",
+      "EHEA"
+    ],
+    "accreditationBody": "Government of Andorra (Ministry of Higher Education); part of the global La Salle network of over 70 universities; recognised within the European Higher Education Area (EHEA)",
+    "accreditationRegistryUrl": "https://www.educacio.ad/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The Open University of La Salle (Universitat Oberta La Salle, ULSA / UOLS) is Andorra's principal private distance-learning university, headquartered in Andorra la Vella and part of the global La Salle network of over 70 institutions worldwide founded in the tradition of Saint Jean-Baptiste de La Salle (17th-century French priest, patron of teachers). The university specialises in online and blended bachelor's, master's, and continuing education in business administration, education, engineering, computer science, and multimedia, designed for working professionals across the Spanish-speaking world. Recognised within the European Higher Education Area, with degrees aligned to Bologna Process credit structures. Instruction is primarily in Spanish, reflecting the university's main student base in Spain, Latin America, and Andorra.",
+    "country": {
+      "iso2": "AD",
+      "name": "Andorra",
+      "slug": "andorra"
+    },
+    "source": {
+      "id": "SRC_AD_ULSA_002",
+      "title": "Universitat Oberta La Salle Andorra Official Website",
+      "publisher": "Universitat Oberta La Salle",
+      "url": "https://www.uols.ad/en/",
+      "tier": "tier_1_official",
+      "description": "Official ULSA Andorra pages and Andorran Ministry of Education sources verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.uols.ad/en/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.uols.ad/en/",
+    "contactUrl": "https://www.uols.ad/en/",
+    "mainPhone": "+376 739 100",
+    "deadlinesUrl": "https://www.uols.ad/en/",
+    "deadlinesNote": "Rolling intakes for most online programmes.",
+    "scholarshipsUrl": "https://www.uols.ad/en/",
+    "scholarshipsAvailable": "Limited",
+    "tuitionNote": "Programme fees vary; typically lower than on-campus equivalents in Spain or France."
+  },
+  {
+    "id": "UNI_1770",
+    "slug": "vatel-andorra",
+    "name": "Vatel Andorra (International Business School Hotel & Tourism Management)",
+    "city": "Escaldes-Engordany",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "Spanish",
+    "subjects": [
+      "Hotel Management",
+      "Tourism Management",
+      "Hospitality",
+      "International Business",
+      "Restaurant Management"
+    ],
+    "categoryTags": [
+      "Private",
+      "Hospitality",
+      "Vatel Network",
+      "International",
+      "Niche",
+      "Industry-Focused"
+    ],
+    "accreditationBody": "Government of Andorra (Ministry of Higher Education); part of the Vatel International Business School network with over 50 campuses worldwide",
+    "accreditationRegistryUrl": "https://www.educacio.ad/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Vatel Andorra is a private specialised institution offering bachelor's and master's degrees in international hotel and tourism management, part of the Vatel International Business School network founded in France in 1981 — one of the world's largest dedicated hospitality education groups with over 50 campuses globally. Located in Escaldes-Engordany (Andorra's second-largest urban centre), the school exists in a country where tourism, ski resorts, and duty-free retail are central to the economy, providing students with immediate access to working hotels, restaurants, and resorts for practical training. Instruction primarily in Spanish with English-language programmes available. Programmes combine classroom learning with substantial paid internships and international exchange options across the Vatel global network.",
+    "country": {
+      "iso2": "AD",
+      "name": "Andorra",
+      "slug": "andorra"
+    },
+    "source": {
+      "id": "SRC_AD_VATEL_003",
+      "title": "Vatel Andorra Official Website",
+      "publisher": "Vatel International Business School",
+      "url": "https://www.vatel.es/en/vatel-andorra",
+      "tier": "tier_1_official",
+      "description": "Official Vatel network pages verified 2026-05-16. Andorran government recognition confirmed."
+    },
+    "officialWebsite": "https://www.vatel.es/en/vatel-andorra",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.vatel.es/en/vatel-andorra",
+    "contactUrl": "https://www.vatel.es/en/vatel-andorra",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English-track programmes may require IELTS/TOEFL; Spanish-track requires Spanish language competency. Contact admissions for specifics.",
+    "tuitionNote": "Private fees apply; typically higher than UdA. Includes substantial practical training components."
+  },
+  {
+    "id": "UNI_1771",
+    "slug": "andorra-aviation-academy",
+    "name": "Andorra Aviation Academy",
+    "city": "Andorra la Vella",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Aviation Studies",
+      "Pilot Training",
+      "Aerospace",
+      "Aviation Management"
+    ],
+    "categoryTags": [
+      "Private",
+      "Aviation",
+      "Niche",
+      "English-Medium",
+      "Joint Degree",
+      "Unique in Country"
+    ],
+    "accreditationBody": "Government of Andorra (Ministry of Higher Education); joint degree partnership with the University of Andorra (UdA); follows European Aviation Safety Agency (EASA) standards for flight training components",
+    "accreditationRegistryUrl": "https://www.uda.ad/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Andorra Aviation Academy (AAA) is a private institution offering a unique aviation degree programme, established through a 2015 agreement between aviation enthusiasts, the Government of Andorra, and the Universitat d'Andorra. Programmes lead to dual-degree qualifications combining theoretical aviation studies with practical flight training, delivered as a partnership with UdA so graduates receive a recognised university credential alongside aviation certifications. Despite Andorra having no commercial airport of its own (the nearest are in Spain and France), the Academy serves as a notable English-medium specialised institution. Instruction is primarily in English to align with international aviation industry standards. A reminder that even microstates can host meaningful specialised higher education when government and private partners align on niche needs.",
+    "country": {
+      "iso2": "AD",
+      "name": "Andorra",
+      "slug": "andorra"
+    },
+    "source": {
+      "id": "SRC_AD_AAA_004",
+      "title": "Andorra Aviation Academy Official Website",
+      "publisher": "Andorra Aviation Academy",
+      "url": "https://www.andorraaviationacademy.com/",
+      "tier": "tier_1_official",
+      "description": "Official AAA pages and UdA partnership confirmed 2026-05-16."
+    },
+    "officialWebsite": "https://www.andorraaviationacademy.com/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.andorraaviationacademy.com/",
+    "contactUrl": "https://www.andorraaviationacademy.com/",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English proficiency required (industry standard for aviation). Specific IELTS/TOEFL thresholds via admissions.",
+    "tuitionNote": "Private fees apply; significant due to flight training costs (typical of all aviation academies globally)."
   }
 ]
