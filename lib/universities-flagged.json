@@ -1998,51 +1998,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0090",
-    "slug": "vietnam-national-university-hanoi",
-    "name": "Vietnam National University, Hanoi",
-    "country": {
-      "iso2": "VN",
-      "name": "Vietnam",
-      "slug": "vietnam"
-    },
-    "city": "Hanoi",
-    "region": "Southeast Asia",
-    "controlType": null,
-    "officialWebsite": "https://vnu.edu.vn",
-    "admissionsUrl": "https://vnu.edu.vn/eng/?C1654",
-    "primaryLanguage": null,
-    "subjects": [
-      "Science",
-      "Technology",
-      "Economics",
-      "Education",
-      "Humanities"
-    ],
-    "categoryTags": [
-      "Affordable",
-      "Research"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "Program-dependent",
-    "tuitionNote": "Major Vietnamese public university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0104",
     "slug": "university-of-auckland",
     "name": "University of Auckland",
