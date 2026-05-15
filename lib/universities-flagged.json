@@ -2678,51 +2678,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0091",
-    "slug": "university-of-indonesia",
-    "name": "University of Indonesia",
-    "country": {
-      "iso2": "ID",
-      "name": "Indonesia",
-      "slug": "indonesia"
-    },
-    "city": "Depok/Jakarta",
-    "region": "Southeast Asia",
-    "controlType": null,
-    "officialWebsite": "https://www.ui.ac.id",
-    "admissionsUrl": "https://admission.ui.ac.id",
-    "primaryLanguage": null,
-    "subjects": [
-      "Medicine",
-      "Engineering",
-      "Economics",
-      "Law",
-      "Social Sciences"
-    ],
-    "categoryTags": [
-      "Research",
-      "Affordable-ish"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "IELTS/TOEFL for international programs",
-    "tuitionNote": "Indonesia flagship university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0093",
     "slug": "american-university-of-beirut",
     "name": "American University of Beirut",
