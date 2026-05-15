@@ -2724,51 +2724,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0094",
-    "slug": "tel-aviv-university",
-    "name": "Tel Aviv University",
-    "country": {
-      "iso2": "IL",
-      "name": "Israel",
-      "slug": "israel"
-    },
-    "city": "Tel Aviv",
-    "region": "Middle East",
-    "controlType": null,
-    "officialWebsite": "https://english.tau.ac.il",
-    "admissionsUrl": "https://international.tau.ac.il/admissions",
-    "primaryLanguage": null,
-    "subjects": [
-      "Engineering",
-      "Business",
-      "Medicine",
-      "Arts",
-      "Life Sciences"
-    ],
-    "categoryTags": [
-      "Research",
-      "Innovation"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "IELTS/TOEFL accepted for English programs",
-    "tuitionNote": "Strong tech/innovation ecosystem",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0095",
     "slug": "united-arab-emirates-university",
     "name": "United Arab Emirates University",
