@@ -2544,52 +2544,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0096",
-    "slug": "king-saud-university",
-    "name": "King Saud University",
-    "country": {
-      "iso2": "SA",
-      "name": "Saudi Arabia",
-      "slug": "saudi-arabia"
-    },
-    "city": "Riyadh",
-    "region": "Middle East",
-    "controlType": null,
-    "officialWebsite": "https://ksu.edu.sa",
-    "admissionsUrl": "https://dar.ksu.edu.sa/en",
-    "primaryLanguage": null,
-    "subjects": [
-      "Medicine",
-      "Engineering",
-      "Science",
-      "Business",
-      "Humanities"
-    ],
-    "categoryTags": [
-      "Public",
-      "Research",
-      "Regional"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "Program-dependent",
-    "tuitionNote": "Large Saudi public university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0104",
     "slug": "university-of-auckland",
     "name": "University of Auckland",
