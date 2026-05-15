@@ -1998,51 +1998,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0074",
-    "slug": "national-taiwan-university",
-    "name": "National Taiwan University",
-    "country": {
-      "iso2": "TW",
-      "name": "Taiwan",
-      "slug": "taiwan"
-    },
-    "city": "Taipei",
-    "region": "East Asia",
-    "controlType": null,
-    "officialWebsite": "https://www.ntu.edu.tw/english/",
-    "admissionsUrl": "https://admissions.ntu.edu.tw/",
-    "primaryLanguage": null,
-    "subjects": [
-      "Electrical Engineering",
-      "Medicine",
-      "Management",
-      "Liberal Arts",
-      "Agriculture"
-    ],
-    "categoryTags": [
-      "Research",
-      "Comprehensive"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "English/Chinese requirements by program",
-    "tuitionNote": "Taiwan flagship university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0088",
     "slug": "chulalongkorn-university",
     "name": "Chulalongkorn University",
