@@ -2043,52 +2043,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0095",
-    "slug": "united-arab-emirates-university",
-    "name": "United Arab Emirates University",
-    "country": {
-      "iso2": "AE",
-      "name": "United Arab Emirates",
-      "slug": "united-arab-emirates"
-    },
-    "city": "Al Ain",
-    "region": "Middle East",
-    "controlType": null,
-    "officialWebsite": "https://www.uaeu.ac.ae",
-    "admissionsUrl": "https://www.uaeu.ac.ae/en/admission/",
-    "primaryLanguage": null,
-    "subjects": [
-      "Engineering",
-      "Medicine",
-      "Business",
-      "IT",
-      "Education"
-    ],
-    "categoryTags": [
-      "Public",
-      "Research",
-      "Regional"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "IELTS/TOEFL accepted",
-    "tuitionNote": "Major UAE public university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0104",
     "slug": "university-of-auckland",
     "name": "University of Auckland",
