@@ -2590,52 +2590,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0097",
-    "slug": "qatar-university",
-    "name": "Qatar University",
-    "country": {
-      "iso2": "QA",
-      "name": "Qatar",
-      "slug": "qatar"
-    },
-    "city": "Doha",
-    "region": "Middle East",
-    "controlType": null,
-    "officialWebsite": "https://www.qu.edu.qa",
-    "admissionsUrl": "https://www.qu.edu.qa/students/admission",
-    "primaryLanguage": null,
-    "subjects": [
-      "Engineering",
-      "Business",
-      "Medicine",
-      "Law",
-      "Education"
-    ],
-    "categoryTags": [
-      "Public",
-      "Regional",
-      "Research"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "IELTS/TOEFL accepted",
-    "tuitionNote": "National university of Qatar",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0104",
     "slug": "university-of-auckland",
     "name": "University of Auckland",
