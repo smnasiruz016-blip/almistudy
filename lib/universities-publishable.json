@@ -1961,7 +1961,7 @@
     "region": "Europe",
     "controlType": "public",
     "officialWebsite": "https://hi.is/",
-    "admissionsUrl": null,
+    "admissionsUrl": "https://english.hi.is/",
     "primaryLanguage": "Icelandic",
     "subjects": [
       "Humanities",
@@ -1986,7 +1986,7 @@
     "studentNotes": "Iceland's oldest and largest university. Broadest program range — humanities through medicine. Most undergraduate programs taught in Icelandic; English-medium offerings concentrated at the graduate level. Acceptance ~80–89%.",
     "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
     "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
-    "accreditationBodyVerifiedDate": "2026-05-10",
+    "accreditationBodyVerifiedDate": "2026-05-16",
     "recognitionByDestination": [],
     "source": {
       "id": "src_iceland_enic_naric_universities",
@@ -1995,9 +1995,14 @@
       "url": "https://english.enicnaric.is/universities.html",
       "tier": "tier_1_official"
     },
-    "lastVerified": "2026-05-10",
+    "lastVerified": "2026-05-16",
     "verificationStatus": "curator_added_official_web",
-    "publishable": true
+    "publishable": true,
+    "mainPhone": "+354 525 4000",
+    "admissionsEmail": "admissions@hi.is",
+    "contactUrl": "https://english.hi.is/",
+    "deadlinesUrl": "https://english.hi.is/",
+    "deadlinesNote": "Icelandic academic year begins late August / early September. Non-EU/EEA applicants typically apply by 1 February for autumn entry."
   },
   {
     "id": "UNI_0160",
@@ -2012,7 +2017,7 @@
     "region": "Europe",
     "controlType": "private",
     "officialWebsite": "https://www.ru.is/",
-    "admissionsUrl": null,
+    "admissionsUrl": "https://en.ru.is/",
     "primaryLanguage": "Icelandic and English",
     "subjects": [
       "Business",
@@ -2033,7 +2038,7 @@
     "studentNotes": "Private non-profit founded 1998. Substantial English-medium offering across business, law, computer science and engineering. Stronger international student presence than the public Icelandic universities.",
     "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
     "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
-    "accreditationBodyVerifiedDate": "2026-05-10",
+    "accreditationBodyVerifiedDate": "2026-05-16",
     "recognitionByDestination": [],
     "source": {
       "id": "src_iceland_enic_naric_universities",
@@ -2042,9 +2047,14 @@
       "url": "https://english.enicnaric.is/universities.html",
       "tier": "tier_1_official"
     },
-    "lastVerified": "2026-05-10",
+    "lastVerified": "2026-05-16",
     "verificationStatus": "curator_added_official_web",
-    "publishable": true
+    "publishable": true,
+    "mainPhone": "+354 599 6200",
+    "admissionsEmail": "admissions@ru.is",
+    "contactUrl": "https://en.ru.is/",
+    "deadlinesUrl": "https://en.ru.is/",
+    "deadlinesNote": "Icelandic academic year begins late August / early September. Non-EU/EEA applicants typically apply by 1 February for autumn entry."
   },
   {
     "id": "UNI_0161",
@@ -2059,7 +2069,7 @@
     "region": "Europe",
     "controlType": "public",
     "officialWebsite": "https://www.unak.is/",
-    "admissionsUrl": null,
+    "admissionsUrl": "https://www.unak.is/english/",
     "primaryLanguage": "Icelandic",
     "subjects": [
       "Nursing",
@@ -2080,7 +2090,7 @@
     "studentNotes": "Public university in north Iceland (Akureyri, Iceland's second city). Notable for an English-medium nursing program — relevant for healthcare workers seeking Nordic credentials. Smaller than University of Iceland.",
     "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
     "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
-    "accreditationBodyVerifiedDate": "2026-05-10",
+    "accreditationBodyVerifiedDate": "2026-05-16",
     "recognitionByDestination": [],
     "source": {
       "id": "src_iceland_enic_naric_universities",
@@ -2089,9 +2099,14 @@
       "url": "https://english.enicnaric.is/universities.html",
       "tier": "tier_1_official"
     },
-    "lastVerified": "2026-05-10",
+    "lastVerified": "2026-05-16",
     "verificationStatus": "curator_added_official_web",
-    "publishable": true
+    "publishable": true,
+    "mainPhone": "+354 460 8000",
+    "admissionsEmail": "admissions@unak.is",
+    "contactUrl": "https://www.unak.is/english/",
+    "deadlinesUrl": "https://www.unak.is/english/",
+    "deadlinesNote": "Icelandic academic year begins late August / early September. Non-EU/EEA applicants typically apply by 1 February for autumn entry."
   },
   {
     "id": "UNI_0162",
@@ -2106,7 +2121,7 @@
     "region": "Europe",
     "controlType": "private",
     "officialWebsite": "https://www.bifrost.is/",
-    "admissionsUrl": null,
+    "admissionsUrl": "https://www.bifrost.is/english",
     "primaryLanguage": "Icelandic and English",
     "subjects": [
       "Business",
@@ -2124,7 +2139,7 @@
     "studentNotes": "Niche specialist institution — not a comprehensive university. Focus is business, law, and social sciences. Founded 1918 on the Ruskin College, Oxford model. Rural campus in Borgarfjörður (~100 km from Reykjavík). Included for honest coverage of Iceland's full accredited list, not as a general option.",
     "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
     "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
-    "accreditationBodyVerifiedDate": "2026-05-10",
+    "accreditationBodyVerifiedDate": "2026-05-16",
     "recognitionByDestination": [],
     "source": {
       "id": "src_iceland_enic_naric_universities",
@@ -2133,9 +2148,14 @@
       "url": "https://english.enicnaric.is/universities.html",
       "tier": "tier_1_official"
     },
-    "lastVerified": "2026-05-10",
+    "lastVerified": "2026-05-16",
     "verificationStatus": "curator_added_official_web",
-    "publishable": true
+    "publishable": true,
+    "mainPhone": "+354 433 3000",
+    "admissionsEmail": "bifrost@bifrost.is",
+    "contactUrl": "https://www.bifrost.is/english",
+    "deadlinesUrl": "https://www.bifrost.is/english",
+    "deadlinesNote": "Icelandic academic year begins late August / early September. Non-EU/EEA applicants typically apply by 1 February for autumn entry."
   },
   {
     "id": "UNI_0163",
@@ -2150,7 +2170,7 @@
     "region": "Europe",
     "controlType": "private",
     "officialWebsite": "https://www.lhi.is/",
-    "admissionsUrl": null,
+    "admissionsUrl": "https://www.lhi.is/en",
     "primaryLanguage": "Icelandic and English",
     "subjects": [
       "Fine Arts",
@@ -2172,7 +2192,7 @@
     "studentNotes": "Niche specialist institution — Iceland's only accredited arts university. Programs are strictly arts and design (fine arts, music, dance, theatre, design, architecture). Not a general university. Only relevant if you specifically want arts/design credentials from Iceland.",
     "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
     "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
-    "accreditationBodyVerifiedDate": "2026-05-10",
+    "accreditationBodyVerifiedDate": "2026-05-16",
     "recognitionByDestination": [],
     "source": {
       "id": "src_iceland_enic_naric_universities",
@@ -2181,9 +2201,14 @@
       "url": "https://english.enicnaric.is/universities.html",
       "tier": "tier_1_official"
     },
-    "lastVerified": "2026-05-10",
+    "lastVerified": "2026-05-16",
     "verificationStatus": "curator_added_official_web",
-    "publishable": true
+    "publishable": true,
+    "mainPhone": "+354 552 4000",
+    "admissionsEmail": "lhi@lhi.is",
+    "contactUrl": "https://www.lhi.is/en",
+    "deadlinesUrl": "https://www.lhi.is/en",
+    "deadlinesNote": "Icelandic academic year begins late August / early September. Non-EU/EEA applicants typically apply by 1 February for autumn entry."
   },
   {
     "id": "UNI_0164",
@@ -2198,7 +2223,7 @@
     "region": "Europe",
     "controlType": "public",
     "officialWebsite": "https://www.lbhi.is/",
-    "admissionsUrl": null,
+    "admissionsUrl": "https://www.lbhi.is/english",
     "primaryLanguage": "Icelandic",
     "subjects": [
       "Agricultural Sciences",
@@ -2219,7 +2244,7 @@
     "studentNotes": "Niche specialist institution — not a comprehensive university. Focused on agriculture, environment, and rural planning. Very small (~200 students). Rural campus in Hvanneyri. Included for honest coverage of Iceland's accredited list; only relevant if you specifically want agricultural or environmental science credentials.",
     "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
     "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
-    "accreditationBodyVerifiedDate": "2026-05-10",
+    "accreditationBodyVerifiedDate": "2026-05-16",
     "recognitionByDestination": [],
     "source": {
       "id": "src_iceland_enic_naric_universities",
@@ -2228,9 +2253,14 @@
       "url": "https://english.enicnaric.is/universities.html",
       "tier": "tier_1_official"
     },
-    "lastVerified": "2026-05-10",
+    "lastVerified": "2026-05-16",
     "verificationStatus": "curator_added_official_web",
-    "publishable": true
+    "publishable": true,
+    "mainPhone": "+354 433 5000",
+    "admissionsEmail": "lbhi@lbhi.is",
+    "contactUrl": "https://www.lbhi.is/english",
+    "deadlinesUrl": "https://www.lbhi.is/english",
+    "deadlinesNote": "Icelandic academic year begins late August / early September. Non-EU/EEA applicants typically apply by 1 February for autumn entry."
   },
   {
     "id": "UNI_0165",
@@ -2245,7 +2275,7 @@
     "region": "Europe",
     "controlType": "public",
     "officialWebsite": "https://www.holar.is/",
-    "admissionsUrl": null,
+    "admissionsUrl": "https://www.holar.is/en/",
     "primaryLanguage": "Icelandic",
     "subjects": [
       "Aquaculture and Fish Biology",
@@ -2264,7 +2294,7 @@
     "studentNotes": "Niche specialist institution — not a comprehensive university. Smallest accredited Icelandic university. Programs are limited to aquaculture, equine science, and rural tourism. Site has historical roots to 1106; institutional university status since 2007. Included for honest coverage of Iceland's accredited list; only relevant if you specifically want one of these fields.",
     "accreditationBody": "Ministry of Culture, Innovation and Higher Education (Iceland)",
     "accreditationRegistryUrl": "https://english.enicnaric.is/universities.html",
-    "accreditationBodyVerifiedDate": "2026-05-10",
+    "accreditationBodyVerifiedDate": "2026-05-16",
     "recognitionByDestination": [],
     "source": {
       "id": "src_iceland_enic_naric_universities",
@@ -2273,9 +2303,14 @@
       "url": "https://english.enicnaric.is/universities.html",
       "tier": "tier_1_official"
     },
-    "lastVerified": "2026-05-10",
+    "lastVerified": "2026-05-16",
     "verificationStatus": "curator_added_official_web",
-    "publishable": true
+    "publishable": true,
+    "mainPhone": "+354 455 6300",
+    "admissionsEmail": "holar@holar.is",
+    "contactUrl": "https://www.holar.is/en/",
+    "deadlinesUrl": "https://www.holar.is/en/",
+    "deadlinesNote": "Icelandic academic year begins late August / early September. Non-EU/EEA applicants typically apply by 1 February for autumn entry."
   },
   {
     "id": "UNI_0041",
