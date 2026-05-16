@@ -139995,5 +139995,162 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "Romanian is primary (Russian at some). English-medium available principally in medicine + some private/international. Typical: IELTS 6.0+ / TOEFL iBT 70+; Medicine IELTS 6.0-6.5+.",
     "tuitionNote": "Low tuition by EU standards. Public unis EUR 1,000-2,500/yr; Medicine EUR 4,500-6,500/yr. Private EUR 1,200-3,000/yr. Cost of living EUR 350-550/mo (among Europe's lowest)."
+  },
+  {
+    "id": "UNI_2240",
+    "slug": "international-university-of-monaco",
+    "name": "International University of Monaco (IUM)",
+    "city": "Monaco",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "International Business",
+      "Finance",
+      "Luxury Management",
+      "Marketing",
+      "Sports Business Management",
+      "Entrepreneurship",
+      "MBA"
+    ],
+    "categoryTags": [
+      "Private",
+      "Specialist",
+      "International Business",
+      "English-Medium",
+      "EHEA Reference"
+    ],
+    "accreditationBody": "Monaco Department of Education, Youth and Sport (Direction de l'Éducation Nationale, de la Jeunesse et des Sports); arts diplomas recognised via the French higher-education / EHEA framework",
+    "accreditationRegistryUrl": "https://en.gouv.mc/Government-Institutions/The-Government/Ministry-of-the-Interior/Department-of-Education-Youth-and-Sport",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 1986, the International University of Monaco (IUM) is the principality's principal degree-granting university — a private, English-medium business school specialising in international business, finance, and (distinctively) LUXURY MANAGEMENT and sports business, reflecting Monaco's economy. Part of the INSEEC/OMNES Education group. Small, highly international student body drawn from across the world; programmes from Bachelor's to MBA and doctoral level. All collector data (URL, phone, email) verified genuine and kept.",
+    "country": {
+      "iso2": "MC",
+      "name": "Monaco",
+      "slug": "monaco"
+    },
+    "source": {
+      "id": "SRC_MC_IUM_001",
+      "title": "International University of Monaco (IUM) Official Website",
+      "publisher": "International University of Monaco (IUM)",
+      "url": "https://www.monaco.edu/",
+      "tier": "tier_1_official",
+      "description": "Collector data verified genuine and kept (URL + phone + email). Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.monaco.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.monaco.edu/",
+    "contactUrl": "https://www.monaco.edu/",
+    "admissionsEmail": "admissions@monaco.edu",
+    "mainPhone": "+377 97 986 986",
+    "deadlinesUrl": "https://www.monaco.edu/",
+    "deadlinesNote": "Academic year begins September/October. Applicants should consult each institution directly; deadlines vary by programme.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "French is official. IUM teaches primarily ENGLISH (international business). Arts/music French-medium. IUM English: IELTS 6.5+ / TOEFL iBT 88+. All IUM programmes English-medium.",
+    "tuitionNote": "Monaco is very high-cost. IUM (private business): premium EUR 18,000-30,000/yr Bachelor's (MBA higher). Public arts (Pavillon Bosio, Rainier III) modest fees. Cost of living among world's highest."
+  },
+  {
+    "id": "UNI_2241",
+    "slug": "pavillon-bosio-monaco",
+    "name": "Pavillon Bosio — École supérieure d'arts plastiques de la Ville de Monaco",
+    "city": "Monaco",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Fine Arts",
+      "Visual Arts",
+      "Scenography",
+      "Set Design",
+      "Contemporary Art Practice"
+    ],
+    "categoryTags": [
+      "Public",
+      "Specialist",
+      "Higher Art and Scenography School",
+      "EHEA Reference (French diploma framework)"
+    ],
+    "accreditationBody": "Monaco Department of Education, Youth and Sport (Direction de l'Éducation Nationale, de la Jeunesse et des Sports); arts diplomas recognised via the French higher-education / EHEA framework",
+    "accreditationRegistryUrl": "https://en.gouv.mc/Government-Institutions/The-Government/Ministry-of-the-Interior/Department-of-Education-Youth-and-Sport",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Pavillon Bosio is Monaco's public higher school of visual arts and scenography (École supérieure d'arts plastiques de la Ville de Monaco). It awards France/Monaco-recognised higher-education arts diplomas — the DNA (Diplôme National d'Art, Bachelor-level) and DNSEP (Diplôme National Supérieur d'Expression Plastique, Master-level) — within the French higher arts-education framework, with a distinctive specialisation in scenography and set design (fitting Monaco's strong performing-arts and operatic tradition). Small, selective via portfolio. ⚠️ Added by curator (collector omission of Monaco's recognised public higher art school).",
+    "country": {
+      "iso2": "MC",
+      "name": "Monaco",
+      "slug": "monaco"
+    },
+    "source": {
+      "id": "SRC_MC_BOSIO_CUR",
+      "title": "Pavillon Bosio — École supérieure d'arts plastiques de la Ville de Monaco Official Website",
+      "publisher": "Pavillon Bosio — École supérieure d'arts plastiques de la Ville de Monaco",
+      "url": "https://www.pavillonbosio.com/",
+      "tier": "tier_1_official",
+      "description": "Curator-added (collector omission). Verified against pavillonbosio.com 2026-05-16."
+    },
+    "officialWebsite": "https://www.pavillonbosio.com/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.pavillonbosio.com/",
+    "contactUrl": "https://www.pavillonbosio.com/",
+    "deadlinesUrl": "https://www.pavillonbosio.com/",
+    "deadlinesNote": "Academic year begins September/October. Applicants should consult each institution directly; deadlines vary by programme.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Primarily French-medium; portfolio and interview required.",
+    "tuitionNote": "Monaco is very high-cost. IUM EUR 18,000-30,000/yr Bachelor's (MBA higher). Public arts school fees modest (French public-school fee scale). Cost of living among world's highest."
+  },
+  {
+    "id": "UNI_2242",
+    "slug": "rainier-iii-academy-monaco",
+    "name": "Rainier III Academy (Académie de Musique et de Théâtre Fondation Prince Rainier III)",
+    "city": "Monaco",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "French",
+    "subjects": [
+      "Music Performance",
+      "Music Theory and Composition",
+      "Dramatic Arts",
+      "Dance"
+    ],
+    "categoryTags": [
+      "Public",
+      "Specialist",
+      "Music and Dramatic Arts Academy",
+      "Conservatory-Level"
+    ],
+    "accreditationBody": "Monaco Department of Education, Youth and Sport (Direction de l'Éducation Nationale, de la Jeunesse et des Sports); arts diplomas recognised via the French higher-education / EHEA framework",
+    "accreditationRegistryUrl": "https://en.gouv.mc/Government-Institutions/The-Government/Ministry-of-the-Interior/Department-of-Education-Youth-and-Sport",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The Rainier III Academy (Académie de Musique et de Théâtre Fondation Prince Rainier III) is Monaco's public academy for music, dramatic arts, and dance. It provides advanced conservatory-level training (founded under the patronage of Prince Rainier III) and is central to Monaco's notable musical and operatic life (the Opéra de Monte-Carlo and the Monte-Carlo Philharmonic). Note: it functions primarily as a conservatory/academy rather than a degree-awarding university; included for completeness of Monaco's recognised higher-arts education. ⚠️ Added by curator (collector omission).",
+    "country": {
+      "iso2": "MC",
+      "name": "Monaco",
+      "slug": "monaco"
+    },
+    "source": {
+      "id": "SRC_MC_RAINIER3_CUR",
+      "title": "Rainier III Academy (Académie de Musique et de Théâtre Fondation Prince Rainier III) Official Website",
+      "publisher": "Rainier III Academy (Académie de Musique et de Théâtre Fondation Prince Rainier III)",
+      "url": "https://www.academie-rainier3.mc/",
+      "tier": "tier_1_official",
+      "description": "Curator-added (collector omission). Conservatory/academy nature noted honestly. Verified against academie-rainier3.mc 2026-05-16."
+    },
+    "officialWebsite": "https://www.academie-rainier3.mc/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.academie-rainier3.mc/",
+    "contactUrl": "https://www.academie-rainier3.mc/",
+    "deadlinesUrl": "https://www.academie-rainier3.mc/",
+    "deadlinesNote": "Academic year begins September/October. Applicants should consult each institution directly; deadlines vary by programme.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "French-medium; auditions required.",
+    "tuitionNote": "Monaco is very high-cost. IUM EUR 18,000-30,000/yr Bachelor's (MBA higher). Public academy fees modest. Cost of living among world's highest (students often live in nearby France)."
   }
 ]
