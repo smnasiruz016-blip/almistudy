@@ -138778,5 +138778,467 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "Programmes English-medium. English-proficiency requirements programme-specific.",
     "tuitionNote": "Uni Luxembourg: EUR 200-2,000/sem. Private EUR 5,000-25,000/yr. EBU private programme-specific (EUR 4,000-9,000/yr; online options vary). Cost of living EUR 1,200-2,200/mo."
+  },
+  {
+    "id": "UNI_2217",
+    "slug": "university-of-malta",
+    "name": "University of Malta (L-Università ta' Malta)",
+    "city": "Msida",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts and Humanities",
+      "Science",
+      "Engineering and Technology",
+      "Business and Management",
+      "Medicine and Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science and IT",
+      "Built Environment",
+      "Mathematics and Statistics",
+      "Dentistry"
+    ],
+    "categoryTags": [
+      "Public",
+      "Flagship",
+      "OLDEST IN MALTA",
+      "Comprehensive",
+      "Historic 1592",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Malta Further and Higher Education Authority (MFHEA); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://mfhea.mt/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Heritage to 1592 (the Jesuit Collegium Melitense), formally a university since 1769, the University of Malta is the nation's OLDEST and FLAGSHIP public university — one of the oldest universities in the Commonwealth and the Mediterranean. Approximately 11,000 students. The principal higher-education and research institution of Malta, teaching substantially in English. Its medical and health-sciences degrees are well-regarded internationally; main campus at Msida (Tal-Qroqq) with a campus on Gozo and the historic Valletta campus.",
+    "country": {
+      "iso2": "MT",
+      "name": "Malta",
+      "slug": "malta"
+    },
+    "source": {
+      "id": "SRC_MT_UM_001",
+      "title": "University of Malta (L-Università ta' Malta) Official Website",
+      "publisher": "University of Malta (L-Università ta' Malta)",
+      "url": "https://www.um.edu.mt/",
+      "tier": "tier_1_official",
+      "description": "Collector URL kept (verified); source had no phone/email columns. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.um.edu.mt/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.um.edu.mt/",
+    "contactUrl": "https://www.um.edu.mt/",
+    "deadlinesUrl": "https://www.um.edu.mt/",
+    "deadlinesNote": "Maltese academic year begins late September/October. International applicants typically apply by spring/summer; deadlines vary by institution.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English is an official language of Malta and a primary medium of instruction — a major draw for international students. Typical: IELTS 6.0-6.5+ / TOEFL iBT 79+; Medicine higher.",
+    "tuitionNote": "UM (public): low/no tuition EU (EUR 0-1,200/yr); non-EU EUR 1,000-10,700/yr (Medicine higher). Private institutions typically EUR 6,000-15,000/yr. Cost of living EUR 800-1,300/mo."
+  },
+  {
+    "id": "UNI_2218",
+    "slug": "american-university-of-malta",
+    "name": "American University of Malta (AUM)",
+    "city": "Cospicua",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Engineering and Technology",
+      "Business and Management",
+      "Computer Science and IT"
+    ],
+    "categoryTags": [
+      "Private",
+      "American-Style",
+      "English-Medium",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Malta Further and Higher Education Authority (MFHEA); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://mfhea.mt/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 2016, the American University of Malta is a private American-style institution in Cospicua (in the historic Three Cities area near Valletta). All programmes English-medium, following a US-style curriculum and credit system; internationally oriented student body.",
+    "country": {
+      "iso2": "MT",
+      "name": "Malta",
+      "slug": "malta"
+    },
+    "source": {
+      "id": "SRC_MT_AUM_002",
+      "title": "American University of Malta (AUM) Official Website",
+      "publisher": "American University of Malta (AUM)",
+      "url": "https://www.aum.edu.mt/",
+      "tier": "tier_1_official",
+      "description": "Collector URL kept (verified); source had no phone/email columns. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.aum.edu.mt/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.aum.edu.mt/",
+    "contactUrl": "https://www.aum.edu.mt/",
+    "deadlinesUrl": "https://www.aum.edu.mt/",
+    "deadlinesNote": "Maltese academic year begins late September/October. International applicants typically apply by spring/summer; deadlines vary by institution.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English is an official language of Malta and a primary medium of instruction — a major draw for international students. Typical requirement: IELTS 6.0-6.5+ / TOEFL iBT 79+; Medicine higher.",
+    "tuitionNote": "UM (public): low/no tuition EU; non-EU EUR 1,000-10,700/yr. AUM private EUR 9,000-15,000/yr. Cost of living EUR 800-1,300/mo (moderate EU)."
+  },
+  {
+    "id": "UNI_2219",
+    "slug": "global-college-malta",
+    "name": "Global College Malta",
+    "city": "SmartCity",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business and Management",
+      "Computer Science and IT",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Private",
+      "English-Medium",
+      "UK-Linked",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Malta Further and Higher Education Authority (MFHEA); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://mfhea.mt/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "A private higher-education institution at SmartCity Malta, offering business, computing, and social-sciences programmes in English (with UK university partnership links). Internationally oriented; prospective students should verify specific programme awarding/recognition arrangements directly with the institution and MFHEA.",
+    "country": {
+      "iso2": "MT",
+      "name": "Malta",
+      "slug": "malta"
+    },
+    "source": {
+      "id": "SRC_MT_GCM_003",
+      "title": "Global College Malta Official Website",
+      "publisher": "Global College Malta",
+      "url": "https://gcm.edu.mt/",
+      "tier": "tier_1_official",
+      "description": "Collector URL kept (verified); source had no phone/email columns. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://gcm.edu.mt/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://gcm.edu.mt/",
+    "contactUrl": "https://gcm.edu.mt/",
+    "deadlinesUrl": "https://gcm.edu.mt/",
+    "deadlinesNote": "Maltese academic year begins late September/October. International applicants typically apply by spring/summer; deadlines vary by institution.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English is an official language of Malta and a primary medium of instruction — a major draw for international students. Typical requirement: IELTS 6.0-6.5+ / TOEFL iBT 79+; Medicine higher.",
+    "tuitionNote": "UM (public): low/no tuition EU; non-EU EUR 1,000-10,700/yr. Private tuition typically EUR 6,000-12,000/yr. Cost of living EUR 800-1,300/mo (moderate EU)."
+  },
+  {
+    "id": "UNI_2220",
+    "slug": "st-martins-institute-of-higher-education",
+    "name": "St Martin's Institute of Higher Education",
+    "city": "Hamrun",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business and Management",
+      "Computer Science and IT",
+      "Law"
+    ],
+    "categoryTags": [
+      "Private",
+      "UK-Linked (University of London)",
+      "English-Medium",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Malta Further and Higher Education Authority (MFHEA); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://mfhea.mt/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 1985, St Martin's Institute of Higher Education in Hamrun is one of Malta's longer-established private institutions. Notably delivers programmes leading to University of London degrees (computing, business, law) under the University of London international/affiliate framework — well-regarded for this UK degree pathway.",
+    "country": {
+      "iso2": "MT",
+      "name": "Malta",
+      "slug": "malta"
+    },
+    "source": {
+      "id": "SRC_MT_STM_004",
+      "title": "St Martin's Institute of Higher Education Official Website",
+      "publisher": "St Martin's Institute of Higher Education",
+      "url": "https://stmartins.edu/",
+      "tier": "tier_1_official",
+      "description": "Collector URL kept (verified); source had no phone/email columns. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://stmartins.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://stmartins.edu/",
+    "contactUrl": "https://stmartins.edu/",
+    "deadlinesUrl": "https://stmartins.edu/",
+    "deadlinesNote": "Maltese academic year begins late September/October. International applicants typically apply by spring/summer; deadlines vary by institution.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English is an official language of Malta and a primary medium of instruction — a major draw for international students. Typical requirement: IELTS 6.0-6.5+ / TOEFL iBT 79+; Medicine higher.",
+    "tuitionNote": "UM (public): low/no tuition EU; non-EU EUR 1,000-10,700/yr. Private/University of London pathway typically EUR 5,000-9,000/yr. Cost of living EUR 800-1,300/mo (moderate EU)."
+  },
+  {
+    "id": "UNI_2221",
+    "slug": "gbsb-global-business-school-malta",
+    "name": "GBSB Global Business School Malta",
+    "city": "Birkirkara",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business and Management",
+      "Digital Business",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Private",
+      "Specialist",
+      "Business",
+      "English-Medium",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Malta Further and Higher Education Authority (MFHEA); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://mfhea.mt/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "A private accredited business school in Malta (part of the GBSB Global network), offering English-medium business and management programmes (Bachelor's, Master's, MBA) to an international student body, with on-campus and online delivery.",
+    "country": {
+      "iso2": "MT",
+      "name": "Malta",
+      "slug": "malta"
+    },
+    "source": {
+      "id": "SRC_MT_GBSB_005",
+      "title": "GBSB Global Business School Malta Official Website",
+      "publisher": "GBSB Global Business School Malta",
+      "url": "https://www.gbsb.global/",
+      "tier": "tier_1_official",
+      "description": "Collector URL kept (verified); source had no phone/email columns. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.gbsb.global/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.gbsb.global/",
+    "contactUrl": "https://www.gbsb.global/",
+    "deadlinesUrl": "https://www.gbsb.global/",
+    "deadlinesNote": "Maltese academic year begins late September/October. International applicants typically apply by spring/summer; deadlines vary by institution.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English is an official language of Malta and a primary medium of instruction — a major draw for international students. Typical requirement: IELTS 6.0-6.5+ / TOEFL iBT 79+; Medicine higher.",
+    "tuitionNote": "UM (public): low/no tuition EU; non-EU EUR 1,000-10,700/yr. Business-school tuition typically EUR 7,000-14,000/yr. Cost of living EUR 800-1,300/mo (moderate EU)."
+  },
+  {
+    "id": "UNI_2222",
+    "slug": "institute-of-tourism-studies-malta",
+    "name": "Institute of Tourism Studies (ITS) Malta",
+    "city": "Luqa",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Hospitality Management",
+      "Culinary Arts",
+      "Tourism",
+      "Events Management"
+    ],
+    "categoryTags": [
+      "Public",
+      "Specialist",
+      "Tourism and Hospitality",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Malta Further and Higher Education Authority (MFHEA); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://mfhea.mt/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 1987, the Institute of Tourism Studies is Malta's specialist public tertiary institution for hospitality, culinary arts, and tourism — reflecting tourism's central role in the Maltese economy. New flagship campus near Smart City. Strong applied/industry orientation; programmes in English.",
+    "country": {
+      "iso2": "MT",
+      "name": "Malta",
+      "slug": "malta"
+    },
+    "source": {
+      "id": "SRC_MT_ITS_006",
+      "title": "Institute of Tourism Studies (ITS) Malta Official Website",
+      "publisher": "Institute of Tourism Studies (ITS) Malta",
+      "url": "https://its.edu.mt/",
+      "tier": "tier_1_official",
+      "description": "Collector URL kept (verified); source had no phone/email columns. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://its.edu.mt/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://its.edu.mt/",
+    "contactUrl": "https://its.edu.mt/",
+    "deadlinesUrl": "https://its.edu.mt/",
+    "deadlinesNote": "Maltese academic year begins late September/October. International applicants typically apply by spring/summer; deadlines vary by institution.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English is an official language of Malta and a primary medium of instruction — a major draw for international students. Typical requirement: IELTS 6.0-6.5+ / TOEFL iBT 79+; Medicine higher.",
+    "tuitionNote": "UM (public): low/no tuition EU (EUR 0-1,200/yr); non-EU EUR 1,000-10,700/yr (Medicine higher). Private institutions typically EUR 6,000-15,000/yr. Cost of living EUR 800-1,300/mo."
+  },
+  {
+    "id": "UNI_2223",
+    "slug": "opit-open-institute-of-technology-malta",
+    "name": "OPIT — Open Institute of Technology",
+    "city": "St Julian's",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Computer Science and IT",
+      "Data Science",
+      "Artificial Intelligence",
+      "Business and Management",
+      "Mathematics and Statistics"
+    ],
+    "categoryTags": [
+      "Private",
+      "Specialist",
+      "Technology",
+      "English-Medium",
+      "Online and On-Campus",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Malta Further and Higher Education Authority (MFHEA); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://mfhea.mt/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "OPIT (Open Institute of Technology) is a Malta-accredited higher-education institution focused on computer science, data science, AI, and digital technology, delivering EHEA-recognised English-medium degrees with strong online/blended delivery to an international cohort.",
+    "country": {
+      "iso2": "MT",
+      "name": "Malta",
+      "slug": "malta"
+    },
+    "source": {
+      "id": "SRC_MT_OPIT_007",
+      "title": "OPIT — Open Institute of Technology Official Website",
+      "publisher": "OPIT — Open Institute of Technology",
+      "url": "https://www.opit.com/",
+      "tier": "tier_1_official",
+      "description": "Collector URL kept (verified); source had no phone/email columns. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.opit.com/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.opit.com/",
+    "contactUrl": "https://www.opit.com/",
+    "deadlinesUrl": "https://www.opit.com/",
+    "deadlinesNote": "Maltese academic year begins late September/October. International applicants typically apply by spring/summer; deadlines vary by institution.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English is an official language of Malta and a primary medium of instruction — a major draw for international students. Typical requirement: IELTS 6.0-6.5+ / TOEFL iBT 79+; Medicine higher.",
+    "tuitionNote": "UM (public): low/no tuition EU; non-EU EUR 1,000-10,700/yr. Technology-programme tuition typically EUR 5,000-12,000/yr. Cost of living EUR 800-1,300/mo (moderate EU)."
+  },
+  {
+    "id": "UNI_2224",
+    "slug": "gioya-higher-education-institution",
+    "name": "GIOYA Higher Education Institution",
+    "city": "San Ġwann",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business and Management",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Private",
+      "Smaller",
+      "English-Medium",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Malta Further and Higher Education Authority (MFHEA); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://mfhea.mt/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "A smaller private MFHEA-licensed higher-education institution in San Ġwann offering English-medium business and social-sciences programmes. Prospective international students should confirm specific programme recognition directly with the institution and Malta's MFHEA, as is prudent for any private programme.",
+    "country": {
+      "iso2": "MT",
+      "name": "Malta",
+      "slug": "malta"
+    },
+    "source": {
+      "id": "SRC_MT_GIOYA_008",
+      "title": "GIOYA Higher Education Institution Official Website",
+      "publisher": "GIOYA Higher Education Institution",
+      "url": "https://gioya.edu.mt/",
+      "tier": "tier_1_official",
+      "description": "Collector URL kept (verified); source had no phone/email columns. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://gioya.edu.mt/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://gioya.edu.mt/",
+    "contactUrl": "https://gioya.edu.mt/",
+    "deadlinesUrl": "https://gioya.edu.mt/",
+    "deadlinesNote": "Maltese academic year begins late September/October. International applicants typically apply by spring/summer; deadlines vary by institution.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English is an official language of Malta and a primary medium of instruction — a major draw for international students. Typical requirement: IELTS 6.0-6.5+ / TOEFL iBT 79+; Medicine higher.",
+    "tuitionNote": "UM (public): low/no tuition EU; non-EU EUR 1,000-10,700/yr. Private tuition typically EUR 5,000-10,000/yr. Cost of living EUR 800-1,300/mo (moderate EU)."
+  },
+  {
+    "id": "UNI_2225",
+    "slug": "malta-college-of-arts-science-and-technology",
+    "name": "Malta College of Arts, Science and Technology (MCAST)",
+    "city": "Paola",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Engineering",
+      "Information and Communication Technology",
+      "Business and Commerce",
+      "Applied Sciences",
+      "Art and Design",
+      "Built Environment",
+      "Agribusiness",
+      "Health and Social Care"
+    ],
+    "categoryTags": [
+      "Public",
+      "Applied/Vocational Tertiary",
+      "Largest Vocational",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Malta Further and Higher Education Authority (MFHEA); European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://mfhea.mt/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 2001, the Malta College of Arts, Science and Technology (MCAST) is Malta's principal vocational and applied tertiary education institution — the country's main provider of technical, vocational, and applied-degree education (from foundation level through to Bachelor's and Master's). One of Malta's largest tertiary institutions by enrolment, with a strong industry/employability orientation across engineering, ICT, applied sciences, art and design, and business. Main campus in Paola. ⚠️ Added by curator (collector omission of Malta's main applied/vocational tertiary institution).",
+    "country": {
+      "iso2": "MT",
+      "name": "Malta",
+      "slug": "malta"
+    },
+    "source": {
+      "id": "SRC_MT_MCAST_CUR",
+      "title": "Malta College of Arts, Science and Technology (MCAST) Official Website",
+      "publisher": "Malta College of Arts, Science and Technology (MCAST)",
+      "url": "https://www.mcast.edu.mt/",
+      "tier": "tier_1_official",
+      "description": "Curator-added (collector omission). Verified against mcast.edu.mt 2026-05-16."
+    },
+    "officialWebsite": "https://www.mcast.edu.mt/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.mcast.edu.mt/",
+    "contactUrl": "https://www.mcast.edu.mt/",
+    "deadlinesUrl": "https://www.mcast.edu.mt/",
+    "deadlinesNote": "Maltese academic year begins late September/October. International applicants typically apply by spring/summer; deadlines vary by institution.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "English is an official language of Malta and a primary medium of instruction — a major draw for international students. Typical requirement: IELTS 6.0-6.5+ / TOEFL iBT 79+; Medicine higher.",
+    "tuitionNote": "UM (public): low/no tuition EU (EUR 0-1,200/yr); non-EU EUR 1,000-10,700/yr (Medicine higher). Private institutions typically EUR 6,000-15,000/yr. Cost of living EUR 800-1,300/mo."
   }
 ]
