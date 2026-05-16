@@ -167789,5 +167789,169 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "The language of instruction is Spanish; Spanish proficiency is normally required (some graduate/professional programmes use English materials). Verify per programme.",
     "tuitionNote": "The University of El Salvador (public) charges low, subsidised fees; private universities set their own fees (commonly USD 1,500-5,000/year; medicine higher). The country uses the US dollar. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2747",
+    "slug": "st-georges-university",
+    "name": "St. George's University (SGU)",
+    "city": "St. George's",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Veterinary Medicine (DVM)",
+      "Arts and Sciences",
+      "Public Health",
+      "Nursing",
+      "Business",
+      "Graduate Studies"
+    ],
+    "categoryTags": [
+      "Private",
+      "University",
+      "Offshore Medical/Veterinary",
+      "Large International Intake",
+      "Established/Major",
+      "Historic 1976"
+    ],
+    "accreditationBody": "Grenada National Accreditation Board / Ministry of Education of Grenada; for medical/veterinary education, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.sgu.edu/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "St. George's University (SGU, founded 1976) is one of the largest and most established universities in the Caribbean, internationally known for its School of Medicine and School of Veterinary Medicine, with a very large international student body and a long-standing US/UK/Canada clinical and residency pipeline; it also has schools of Arts & Sciences, Public Health, and Business. ⚠️ CRITICAL RECOGNITION ADVISORY (neutral, factual): eligibility to practise depends on the school's CURRENT accreditation, World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and the approval of the specific medical/veterinary board/country where you intend to practise; status and match outcomes VARY and CHANGE — you MUST verify the current position with the relevant authority for the country where you intend to practise BEFORE enrolling. AlmiStudy provides this so you can decide safely.",
+    "country": {
+      "iso2": "GD",
+      "name": "Grenada",
+      "slug": "grenada"
+    },
+    "source": {
+      "id": "SRC_GD_ST_759",
+      "title": "St. George's University (SGU) Official Website",
+      "publisher": "St. George's University (SGU)",
+      "url": "https://www.sgu.edu/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email + plausible +1-473 phone verified and kept. Offshore medical/veterinary university — recognition advisory embedded. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.sgu.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.sgu.edu/",
+    "contactUrl": "https://www.sgu.edu/",
+    "admissionsEmail": "admissions@sgu.edu",
+    "mainPhone": "+1 473-444-4175",
+    "deadlinesUrl": "https://www.sgu.edu/",
+    "deadlinesNote": "TAMCC follows Aug/Sep academic year; SGU runs multi-intake (Jan/Apr/Aug). Timelines vary — verify directly; confirm recognition before applying to SGU medical/veterinary programmes.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "T.A. Marryshow Community College (public) charges modest fees for Grenadians (higher for other international students); St. George's University charges US-style tuition (MD commonly USD 20,000-30,000+ per term). Cost of living is moderate-to-high. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2748",
+    "slug": "ta-marryshow-community-college",
+    "name": "T.A. Marryshow Community College (TAMCC)",
+    "city": "St. George's",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts and Sciences (A-Level/Associate)",
+      "Teacher Education",
+      "Nursing and Health Sciences",
+      "Technical and Vocational",
+      "Business",
+      "Continuing Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "National Community College",
+      "Associate/A-Level Pathways",
+      "Historic 1988"
+    ],
+    "accreditationBody": "Grenada National Accreditation Board / Ministry of Education of Grenada; for medical/veterinary education, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.sgu.edu/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "T.A. Marryshow Community College (TAMCC, 1988) is Grenada's principal public tertiary college, offering A-level/associate, teacher-education, nursing, and technical-vocational programmes — the main local pathway to university study.",
+    "country": {
+      "iso2": "GD",
+      "name": "Grenada",
+      "slug": "grenada"
+    },
+    "source": {
+      "id": "SRC_GD_TA_760",
+      "title": "T.A. Marryshow Community College (TAMCC) Official Website",
+      "publisher": "T.A. Marryshow Community College (TAMCC)",
+      "url": "https://tamcc.edu.gd/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://tamcc.edu.gd/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://tamcc.edu.gd/",
+    "contactUrl": "https://tamcc.edu.gd/",
+    "admissionsEmail": "info@tamcc.edu.gd",
+    "mainPhone": "+1 473-440-1389",
+    "deadlinesUrl": "https://tamcc.edu.gd/",
+    "deadlinesNote": "TAMCC follows Aug/Sep academic year; SGU runs multi-intake (Jan/Apr/Aug). Timelines vary — verify directly; confirm recognition before applying to SGU medical/veterinary programmes.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "T.A. Marryshow Community College (public) charges modest fees for Grenadians (higher for other international students); St. George's University charges US-style tuition (MD commonly USD 20,000-30,000+ per term). Cost of living is moderate-to-high. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2749",
+    "slug": "university-of-the-west-indies-open-campus-grenada",
+    "name": "University of the West Indies Open Campus — Grenada",
+    "city": "St. George's",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Open and Distance Learning",
+      "Education",
+      "Social Sciences",
+      "Business",
+      "Continuing and Professional Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "Regional University (UWI)",
+      "Open/Distance",
+      "Commonwealth"
+    ],
+    "accreditationBody": "Grenada National Accreditation Board / Ministry of Education of Grenada; for medical/veterinary education, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.sgu.edu/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of the West Indies Open Campus serves Grenada (a UWI contributing country) through open and distance learning, delivering UWI degrees and professional programmes; UWI qualifications are widely recognised across the Commonwealth Caribbean and internationally.",
+    "country": {
+      "iso2": "GD",
+      "name": "Grenada",
+      "slug": "grenada"
+    },
+    "source": {
+      "id": "SRC_GD_UNIVERSITY_761",
+      "title": "University of the West Indies Open Campus — Grenada Official Website",
+      "publisher": "University of the West Indies Open Campus — Grenada",
+      "url": "https://www.open.uwi.edu/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email verified and kept. Phone kept but is the UWI Open Campus REGIONAL/HQ line (+1 246 = Barbados, where the Open Campus is administered), not a Grenada-specific number — annotated honestly. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.open.uwi.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.open.uwi.edu/",
+    "contactUrl": "https://www.open.uwi.edu/",
+    "admissionsEmail": "opencampus@open.uwi.edu",
+    "mainPhone": "+1 246-417-4128",
+    "deadlinesUrl": "https://www.open.uwi.edu/",
+    "deadlinesNote": "TAMCC follows Aug/Sep academic year; SGU runs multi-intake (Jan/Apr/Aug). Timelines vary — verify directly; confirm recognition before applying to SGU medical/veterinary programmes.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "T.A. Marryshow Community College (public) charges modest fees for Grenadians (higher for other international students); St. George's University charges US-style tuition (MD commonly USD 20,000-30,000+ per term). Cost of living is moderate-to-high. Verify current fees directly."
   }
 ]
