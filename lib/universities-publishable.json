@@ -137502,5 +137502,167 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "Latvian is primary. Substantial English-medium at Riga in medicine/business/engineering. Typical: IELTS 6.0+ / TOEFL iBT 72+; Medicine IELTS 6.5+. Auditions required.",
     "tuitionNote": "EU/EEA: many state-funded (free) places; otherwise EUR 1,500-4,000/yr. Non-EU EUR 2,000-6,000/yr Bachelor's/Master's; Medicine EUR 9,000-15,000/yr. Cost of living EUR 500-800/mo (Riga higher)."
+  },
+  {
+    "id": "UNI_2194",
+    "slug": "university-of-liechtenstein",
+    "name": "University of Liechtenstein (Universität Liechtenstein)",
+    "city": "Vaduz",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "German",
+    "subjects": [
+      "Architecture and Spatial Development",
+      "Business Administration",
+      "Entrepreneurship",
+      "Finance",
+      "Information Systems",
+      "Sustainable Real Estate"
+    ],
+    "categoryTags": [
+      "Public",
+      "Flagship",
+      "National University",
+      "Specialist",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Liechtenstein Office of Education / Office of Economic Affairs (higher education oversight); European Higher Education Area (EHEA / Bologna Process participant); institutionally accredited; AACSB member (business)",
+    "accreditationRegistryUrl": "https://www.llv.li/en/national-administration/office-of-economic-affairs",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of Liechtenstein is the principality's national public university, based in the capital Vaduz. Its roots go back to 1961 (as an evening engineering school); it gained university status in 2011. Approximately 1,000 students — small but internationally connected, with a focus on two areas: Architecture & Spatial Development, and Business/Finance/Information Systems. Notably international given the country's size — many students and faculty come from neighbouring Switzerland, Austria, and Germany, and from across Europe. Several English-medium Master's programmes (particularly in finance and entrepreneurship) attract international students. Campus is located near the Rhine in Vaduz, in a converted former cotton-spinning mill.",
+    "country": {
+      "iso2": "LI",
+      "name": "Liechtenstein",
+      "slug": "liechtenstein"
+    },
+    "source": {
+      "id": "SRC_LI_UNILI_001",
+      "title": "University of Liechtenstein (Universität Liechtenstein) Official Website",
+      "publisher": "University of Liechtenstein (Universität Liechtenstein)",
+      "url": "https://www.uni.li/en",
+      "tier": "tier_1_official",
+      "description": "All collector data verified genuine and kept (URL + phone + email). Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.uni.li/en",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.uni.li/en/studies",
+    "contactUrl": "https://www.uni.li/en",
+    "admissionsEmail": "info@uni.li",
+    "mainPhone": "+423 265 11 11",
+    "deadlinesUrl": "https://www.uni.li/en",
+    "deadlinesNote": "Liechtenstein academic year begins September. Applicants should consult each institution directly; deadlines typically spring/summer for autumn entry.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "German is primary. University of Liechtenstein offers English-medium Master's (esp. business/finance). Typical: IELTS 6.0-6.5+ / TOEFL iBT 80+.",
+    "tuitionNote": "University of Liechtenstein: ~CHF 950/semester Bachelor's (higher Master's). Private (UFL, IAP) programme-specific CHF 5,000-20,000/yr. Swiss-franc economy; CHF 1,200-2,000/mo cost of living."
+  },
+  {
+    "id": "UNI_2195",
+    "slug": "private-university-in-the-principality-of-liechtenstein-ufl",
+    "name": "Private University in the Principality of Liechtenstein (UFL — Private Universität im Fürstentum Liechtenstein)",
+    "city": "Triesen",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "German",
+    "subjects": [
+      "Medical Sciences",
+      "Law",
+      "Doctoral Studies (PhD / Dr.)",
+      "Health Sciences"
+    ],
+    "categoryTags": [
+      "Private",
+      "Specialist",
+      "Postgraduate Focus",
+      "Medical Sciences and Law",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Liechtenstein Office of Education / Office of Economic Affairs (higher education oversight); European Higher Education Area (EHEA / Bologna Process participant); institutionally accredited by Liechtenstein authorities",
+    "accreditationRegistryUrl": "https://www.llv.li/en/national-administration/office-of-economic-affairs",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 2000, the Private University in the Principality of Liechtenstein (UFL) is a private institution in Triesen specialising in postgraduate education in Medical Sciences and Law. Distinctive for its focus on part-time doctoral and continuing-education programmes — many students are working professionals from the German-speaking region (Liechtenstein, Switzerland, Austria, Germany) pursuing doctoral degrees alongside employment. Small, specialised institution; the medical-sciences doctorate is its flagship offering.",
+    "country": {
+      "iso2": "LI",
+      "name": "Liechtenstein",
+      "slug": "liechtenstein"
+    },
+    "source": {
+      "id": "SRC_LI_UFL_002",
+      "title": "Private University in the Principality of Liechtenstein (UFL — Private Universität im Fürstentum Liechtenstein) Official Website",
+      "publisher": "Private University in the Principality of Liechtenstein (UFL — Private Universität im Fürstentum Liechtenstein)",
+      "url": "https://www.ufl.li/",
+      "tier": "tier_1_official",
+      "description": "All collector data verified genuine and kept (URL + phone + email). Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.ufl.li/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.ufl.li/",
+    "contactUrl": "https://www.ufl.li/",
+    "admissionsEmail": "info@ufl.li",
+    "mainPhone": "+423 265 20 00",
+    "deadlinesUrl": "https://www.ufl.li/",
+    "deadlinesNote": "Liechtenstein academic year begins September. Applicants should consult each institution directly; deadlines typically spring/summer for autumn entry.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "German is the primary language of instruction; programmes are predominantly German-medium.",
+    "tuitionNote": "University of Liechtenstein: ~CHF 950/sem. Private (UFL, IAP) CHF 5,000-20,000/yr. UFL doctoral/CE programmes fee-based (several thousand CHF/yr). Cost of living CHF 1,200-2,000/mo."
+  },
+  {
+    "id": "UNI_2196",
+    "slug": "international-academy-of-philosophy-liechtenstein",
+    "name": "International Academy of Philosophy (Internationale Akademie für Philosophie / IAP)",
+    "city": "Vaduz",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "German",
+    "subjects": [
+      "Philosophy",
+      "Phenomenology",
+      "Ethics",
+      "Philosophy of Religion",
+      "Metaphysics"
+    ],
+    "categoryTags": [
+      "Private",
+      "Specialist",
+      "Philosophy",
+      "Postgraduate",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Liechtenstein Office of Education / Office of Economic Affairs (higher education oversight); European Higher Education Area (EHEA / Bologna Process participant); institutionally recognised by Liechtenstein authorities",
+    "accreditationRegistryUrl": "https://www.llv.li/en/national-administration/office-of-economic-affairs",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The International Academy of Philosophy (IAP) is a small private specialist institution in Vaduz dedicated to philosophy — particularly the realist phenomenological tradition. Founded in its Liechtenstein form in 1986 (with roots in an earlier philosophical academy), it offers focused graduate study in philosophy (MA/PhD level) to a small international student body. One of the very few institutions worldwide dedicated specifically to realist phenomenology and classical philosophical traditions; attracts a niche international scholarly community. Programmes offered in German and, for some, English given the international student base.",
+    "country": {
+      "iso2": "LI",
+      "name": "Liechtenstein",
+      "slug": "liechtenstein"
+    },
+    "source": {
+      "id": "SRC_LI_IAP_003",
+      "title": "International Academy of Philosophy (Internationale Akademie für Philosophie / IAP) Official Website",
+      "publisher": "International Academy of Philosophy (Internationale Akademie für Philosophie / IAP)",
+      "url": "https://www.iap.li/",
+      "tier": "tier_1_official",
+      "description": "All collector data verified genuine and kept (URL + phone + email). Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.iap.li/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.iap.li/",
+    "contactUrl": "https://www.iap.li/",
+    "admissionsEmail": "info@iap.li",
+    "mainPhone": "+423 265 25 25",
+    "deadlinesUrl": "https://www.iap.li/",
+    "deadlinesNote": "Liechtenstein academic year begins September. Applicants should consult each institution directly; deadlines typically spring/summer for autumn entry.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "German is primary; some seminars and supervision available in English given the international student body.",
+    "tuitionNote": "University of Liechtenstein: ~CHF 950/sem. Private (UFL, IAP) CHF 5,000-20,000/yr. IAP programme-specific tuition for specialised philosophy. Cost of living CHF 1,200-2,000/mo."
   }
 ]
