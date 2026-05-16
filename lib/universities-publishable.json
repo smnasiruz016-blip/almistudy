@@ -175966,5 +175966,321 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
     "tuitionNote": "Sir Arthur Lewis Community College (public) charges modest fees for nationals (higher for other international students); the offshore medical schools and the US branch charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2896",
+    "slug": "st-vincent-and-the-grenadines-community-college",
+    "name": "St. Vincent and the Grenadines Community College (SVGCC)",
+    "city": "Kingstown (Villa)",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts, Sciences and General Studies (A-Level/Associate)",
+      "Teacher Education",
+      "Nursing and Health Sciences",
+      "Technical and Vocational",
+      "Continuing Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "National Community College",
+      "Associate/A-Level Pathways",
+      "Historic 2005"
+    ],
+    "accreditationBody": "Saint Vincent and the Grenadines / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://svgcc.vc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The St. Vincent and the Grenadines Community College (SVGCC, 2005) is the country's principal public tertiary college, offering A-level/associate, teacher-education, nursing, and technical-vocational programmes — the main local pathway to university study.",
+    "country": {
+      "iso2": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "slug": "saint-vincent-and-the-grenadines"
+    },
+    "source": {
+      "id": "SRC_VC_ST_910",
+      "title": "St. Vincent and the Grenadines Community College (SVGCC) Official Website",
+      "publisher": "St. Vincent and the Grenadines Community College (SVGCC)",
+      "url": "https://svgcc.vc/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://svgcc.vc/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://svgcc.vc/",
+    "contactUrl": "https://svgcc.vc/",
+    "admissionsEmail": "info@svgcc.vc",
+    "mainPhone": "+1 784 457 4503",
+    "deadlinesUrl": "https://svgcc.vc/",
+    "deadlinesNote": "The Community College follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The Community College and NCTI (public) charge modest fees for nationals (higher for other international students); the offshore medical schools charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2897",
+    "slug": "svg-national-centre-for-technological-innovation",
+    "name": "SVG National Centre for Technological Innovation (NCTI)",
+    "city": "Kingstown",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Information Technology",
+      "Software Development",
+      "Networking",
+      "Technical Skills",
+      "Digital Innovation",
+      "Vocational Technology"
+    ],
+    "categoryTags": [
+      "Public",
+      "Specialist",
+      "Technology/ICT Skills",
+      "National",
+      "Modern"
+    ],
+    "accreditationBody": "Saint Vincent and the Grenadines / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://svgcc.vc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The SVG National Centre for Technological Innovation (NCTI) is a public institution focused on information technology, digital skills, and technological innovation training in Saint Vincent and the Grenadines.",
+    "country": {
+      "iso2": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "slug": "saint-vincent-and-the-grenadines"
+    },
+    "source": {
+      "id": "SRC_VC_SVG_911",
+      "title": "SVG National Centre for Technological Innovation (NCTI) Official Website",
+      "publisher": "SVG National Centre for Technological Innovation (NCTI)",
+      "url": "https://ncti.edu.vc/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://ncti.edu.vc/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://ncti.edu.vc/",
+    "contactUrl": "https://ncti.edu.vc/",
+    "admissionsEmail": "info@ncti.edu.vc",
+    "mainPhone": "+1 784 457 5500",
+    "deadlinesUrl": "https://ncti.edu.vc/",
+    "deadlinesNote": "The Community College follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The Community College and NCTI (public) charge modest fees for nationals (higher for other international students); the offshore medical schools charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2898",
+    "slug": "trinity-school-of-medicine",
+    "name": "Trinity School of Medicine",
+    "city": "Kingstown",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (overseas rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Vincent and the Grenadines / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://svgcc.vc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Trinity School of Medicine, in Kingstown, is an offshore medical school offering a US-model MD with basic-science teaching in Saint Vincent and clinical rotations at affiliated sites abroad. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and the approval of the specific medical board/country where you intend to practise; status & outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "slug": "saint-vincent-and-the-grenadines"
+    },
+    "source": {
+      "id": "SRC_VC_TRINITY_912",
+      "title": "Trinity School of Medicine Official Website",
+      "publisher": "Trinity School of Medicine",
+      "url": "https://www.trinityschoolofmedicine.org/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email kept; phone '+1 770...' is the US (Georgia) admin/admissions line that this offshore school lists — plausible, kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.trinityschoolofmedicine.org/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.trinityschoolofmedicine.org/",
+    "contactUrl": "https://www.trinityschoolofmedicine.org/",
+    "admissionsEmail": "admissions@trinityschoolofmedicine.org",
+    "mainPhone": "+1 770 978 2130",
+    "deadlinesUrl": "https://www.trinityschoolofmedicine.org/",
+    "deadlinesNote": "The Community College follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The Community College and NCTI (public) charge modest fees for nationals (higher for other international students); the offshore medical schools charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2899",
+    "slug": "saint-james-school-of-medicine-svg",
+    "name": "Saint James School of Medicine (Saint Vincent)",
+    "city": "Arnos Vale",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (overseas rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "Multi-Campus",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Vincent and the Grenadines / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://svgcc.vc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Saint James School of Medicine (Saint Vincent campus, Arnos Vale) is an offshore medical school (part of a multi-campus group) offering a US-model MD with basic-science teaching in the Caribbean and clinical rotations at affiliated sites abroad. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and the approval of the specific medical board/country where you intend to practise; status & outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "slug": "saint-vincent-and-the-grenadines"
+    },
+    "source": {
+      "id": "SRC_VC_SAINT_913",
+      "title": "Saint James School of Medicine (Saint Vincent) Official Website",
+      "publisher": "Saint James School of Medicine (Saint Vincent)",
+      "url": "https://www.sjsm.org/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email kept; phone '+1 847...' is the US (Illinois) admin/admissions line that this offshore school lists — plausible, kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.sjsm.org/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.sjsm.org/",
+    "contactUrl": "https://www.sjsm.org/",
+    "admissionsEmail": "admissions@sjsm.org",
+    "mainPhone": "+1 847 375 9121",
+    "deadlinesUrl": "https://www.sjsm.org/",
+    "deadlinesNote": "The Community College follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The Community College and NCTI (public) charge modest fees for nationals (higher for other international students); the offshore medical schools charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2900",
+    "slug": "all-saints-university-saint-vincent",
+    "name": "All Saints University (Saint Vincent)",
+    "city": "Kingstown",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (overseas rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "International Intake",
+      "NOTE: same university group as the Dominica campus",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Vincent and the Grenadines / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://svgcc.vc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "All Saints University (Saint Vincent, Kingstown) is an offshore medical school — part of the same university group as the All Saints campus in Dominica (the allsaintsu.org domain is shared); this is the separate Saint Vincent campus. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and the approval of the specific medical board/country where you intend to practise; status & outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "slug": "saint-vincent-and-the-grenadines"
+    },
+    "source": {
+      "id": "SRC_VC_ALL_914",
+      "title": "All Saints University (Saint Vincent) Official Website",
+      "publisher": "All Saints University (Saint Vincent)",
+      "url": "https://allsaintsu.org/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email kept. Phone '+1 784 456 7890' was a sequential-placeholder signature (456-7890) → nulled. Shares the allsaintsu.org domain with the Dominica campus (same university group) — recorded honestly. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://allsaintsu.org/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://allsaintsu.org/",
+    "contactUrl": "https://allsaintsu.org/",
+    "admissionsEmail": "info@allsaintsu.org",
+    "deadlinesUrl": "https://allsaintsu.org/",
+    "deadlinesNote": "The Community College follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The Community College and NCTI (public) charge modest fees for nationals (higher for other international students); the offshore medical schools charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2901",
+    "slug": "university-of-the-west-indies-open-campus-saint-vincent",
+    "name": "University of the West Indies Open Campus — Saint Vincent and the Grenadines",
+    "city": "Kingstown",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Open and Distance Learning",
+      "Education",
+      "Social Sciences",
+      "Business",
+      "Continuing and Professional Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "Regional University (UWI)",
+      "Open/Distance",
+      "Commonwealth"
+    ],
+    "accreditationBody": "Saint Vincent and the Grenadines / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://svgcc.vc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of the West Indies Open Campus serves Saint Vincent and the Grenadines (a UWI contributing country) through open and distance learning, delivering UWI degrees and professional programmes; UWI qualifications are widely recognised across the Commonwealth Caribbean and internationally. ⚠️ Added by curator (collector omission of the UWI presence).",
+    "country": {
+      "iso2": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "slug": "saint-vincent-and-the-grenadines"
+    },
+    "source": {
+      "id": "SRC_VC_UNIVERSITY_915",
+      "title": "University of the West Indies Open Campus — Saint Vincent and the Grenadines Official Website",
+      "publisher": "University of the West Indies Open Campus — Saint Vincent and the Grenadines",
+      "url": "https://www.open.uwi.edu/",
+      "tier": "tier_1_official",
+      "description": "Curator-added (collector omission). Verified against open.uwi.edu 2026-05-16; phone+email nulled (not fabricated)."
+    },
+    "officialWebsite": "https://www.open.uwi.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.open.uwi.edu/",
+    "contactUrl": "https://www.open.uwi.edu/",
+    "deadlinesUrl": "https://www.open.uwi.edu/",
+    "deadlinesNote": "The Community College follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The Community College and NCTI (public) charge modest fees for nationals (higher for other international students); the offshore medical schools charge US-style tuition. Cost of living is moderate. Verify current fees directly."
   }
 ]
