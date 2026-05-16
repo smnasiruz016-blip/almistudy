@@ -160264,5 +160264,269 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "Instruction in English (national language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
     "tuitionNote": "UWI Cave Hill and the public colleges charge subsidised fees for Barbadian/CARICOM students (higher for other international students); the offshore medical school charges US-style tuition. Cost of living is relatively HIGH (tourism economy). Verify current fees directly."
+  },
+  {
+    "id": "UNI_2608",
+    "slug": "university-of-belize",
+    "name": "University of Belize (UB)",
+    "city": "Belmopan",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Education and Arts",
+      "Science and Technology",
+      "Management and Social Sciences",
+      "Nursing and Health Sciences",
+      "Agriculture and Natural Resources (Central Farm)"
+    ],
+    "categoryTags": [
+      "Public",
+      "Flagship",
+      "National University",
+      "Comprehensive",
+      "Historic 2000",
+      "Commonwealth"
+    ],
+    "accreditationBody": "Belize Ministry of Education / national tertiary-education framework; the University of Belize is the national public university; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.ub.edu.bz/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of Belize (formed in 2000 by merging several institutions) is the national public university and the country's flagship — comprehensive across education, science/technology, management, nursing/health, and agriculture, with campuses including Belmopan and Belize City.",
+    "country": {
+      "iso2": "BZ",
+      "name": "Belize",
+      "slug": "belize"
+    },
+    "source": {
+      "id": "SRC_BZ_UNIVERSITY_615",
+      "title": "University of Belize (UB) Official Website",
+      "publisher": "University of Belize (UB)",
+      "url": "https://www.ub.edu.bz/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible distinct phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.ub.edu.bz/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.ub.edu.bz/",
+    "contactUrl": "https://www.ub.edu.bz/",
+    "admissionsEmail": "admissions@ub.edu.bz",
+    "mainPhone": "+501-822-3680",
+    "deadlinesUrl": "https://www.ub.edu.bz/",
+    "deadlinesNote": "Academic year begins Aug/Sep (some have January intake; medical university multi-intake). Timelines vary — verify directly; confirm recognition before applying to the medical university.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The University of Belize and public/community institutions charge modest, partly subsidised fees for Belizean students (higher for other international students); private universities and the medical university set their own (higher) fees. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2609",
+    "slug": "galen-university",
+    "name": "Galen University",
+    "city": "San Ignacio",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business",
+      "Information Technology",
+      "Natural Resource Management and Environmental Science",
+      "Education",
+      "Psychology",
+      "Tourism and Hospitality"
+    ],
+    "categoryTags": [
+      "Private",
+      "University",
+      "Liberal-Arts/Professional",
+      "Historic 2003"
+    ],
+    "accreditationBody": "Belize Ministry of Education / national tertiary-education framework; the University of Belize is the national public university; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.ub.edu.bz/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Galen University (2003), near San Ignacio, is Belize's principal private university, offering US-style bachelor's and master's programmes in business, IT, environmental science, education, and tourism, with international partnerships.",
+    "country": {
+      "iso2": "BZ",
+      "name": "Belize",
+      "slug": "belize"
+    },
+    "source": {
+      "id": "SRC_BZ_GALEN_616",
+      "title": "Galen University Official Website",
+      "publisher": "Galen University",
+      "url": "https://galen.edu.bz/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible distinct phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://galen.edu.bz/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://galen.edu.bz/",
+    "contactUrl": "https://galen.edu.bz/",
+    "admissionsEmail": "admissions@galen.edu.bz",
+    "mainPhone": "+501-824-3226",
+    "deadlinesUrl": "https://galen.edu.bz/",
+    "deadlinesNote": "Academic year begins Aug/Sep (some have January intake; medical university multi-intake). Timelines vary — verify directly; confirm recognition before applying to the medical university.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The University of Belize and public/community institutions charge modest, partly subsidised fees for Belizean students (higher for other international students); private universities and the medical university set their own (higher) fees. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2610",
+    "slug": "central-america-health-sciences-university",
+    "name": "Central America Health Sciences University (CAHSU) — Belize Medical College",
+    "city": "Ladyville",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Nursing",
+      "Clinical Sciences"
+    ],
+    "categoryTags": [
+      "Private",
+      "Medical University",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Belize Ministry of Education / national tertiary-education framework; the University of Belize is the national public university; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.ub.edu.bz/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Central America Health Sciences University (CAHSU, also known as Belize Medical College) is a private medical university in Ladyville offering an MD with a large international student intake. ⚠️ CRITICAL RECOGNITION ADVISORY (neutral, factual): eligibility to practise depends on the school's CURRENT accreditation, World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and the approval of the specific medical board/country where you intend to practise; accreditation status and residency-match outcomes VARY and CHANGE — you MUST verify the current position with the relevant authority for the country where you intend to practise BEFORE enrolling. AlmiStudy provides this so you can decide safely.",
+    "country": {
+      "iso2": "BZ",
+      "name": "Belize",
+      "slug": "belize"
+    },
+    "source": {
+      "id": "SRC_BZ_CENTRAL_617",
+      "title": "Central America Health Sciences University (CAHSU) — Belize Medical College Official Website",
+      "publisher": "Central America Health Sciences University (CAHSU) — Belize Medical College",
+      "url": "https://www.cahsu.edu/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email + plausible phone verified and kept. Medical university — recognition advisory embedded. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.cahsu.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.cahsu.edu/",
+    "contactUrl": "https://www.cahsu.edu/",
+    "admissionsEmail": "admissions@cahsu.edu",
+    "mainPhone": "+501-225-6277",
+    "deadlinesUrl": "https://www.cahsu.edu/",
+    "deadlinesNote": "Academic year begins Aug/Sep (some have January intake; medical university multi-intake). Timelines vary — verify directly; confirm recognition before applying to the medical university.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The University of Belize and public/community institutions charge modest, partly subsidised fees for Belizean students (higher for other international students); private universities and the medical university set their own (higher) fees. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2611",
+    "slug": "st-johns-college-belize",
+    "name": "St. John's College (Belize)",
+    "city": "Belize City",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Liberal Arts",
+      "Sciences",
+      "Business",
+      "Associate Degrees",
+      "Sixth-Form / Junior College"
+    ],
+    "categoryTags": [
+      "Private",
+      "Faith-Based (Jesuit)",
+      "HISTORIC",
+      "Junior College/Associate",
+      "Historic 1887"
+    ],
+    "accreditationBody": "Belize Ministry of Education / national tertiary-education framework; the University of Belize is the national public university; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.ub.edu.bz/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "St. John's College (founded 1887) is one of Belize's oldest and most prominent Jesuit educational institutions, long providing sixth-form/junior-college (associate-degree) education that serves as a major pathway into university study. ⚠️ Added by curator (collector omission of a historically major institution). Prospective students should verify current programme accreditation and articulation.",
+    "country": {
+      "iso2": "BZ",
+      "name": "Belize",
+      "slug": "belize"
+    },
+    "source": {
+      "id": "SRC_BZ_ST_618",
+      "title": "St. John's College (Belize) Official Website",
+      "publisher": "St. John's College (Belize)",
+      "url": "https://www.sjc.edu.bz/",
+      "tier": "tier_1_official",
+      "description": "Curator-added (collector omission). Verified against St. John's College Belize (sjc.edu.bz) 2026-05-16; phone+email nulled (not fabricated)."
+    },
+    "officialWebsite": "https://www.sjc.edu.bz/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.sjc.edu.bz/",
+    "contactUrl": "https://www.sjc.edu.bz/",
+    "deadlinesUrl": "https://www.sjc.edu.bz/",
+    "deadlinesNote": "Academic year begins Aug/Sep (some have January intake; medical university multi-intake). Timelines vary — verify directly; confirm recognition before applying to the medical university.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The University of Belize and public/community institutions charge modest, partly subsidised fees for Belizean students (higher for other international students); private universities and the medical university set their own (higher) fees. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2612",
+    "slug": "university-of-the-west-indies-open-campus-belize",
+    "name": "University of the West Indies Open Campus — Belize",
+    "city": "Belize City",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Open and Distance Learning",
+      "Education",
+      "Social Sciences",
+      "Business",
+      "Continuing and Professional Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "Regional University (UWI)",
+      "Open/Distance",
+      "Commonwealth"
+    ],
+    "accreditationBody": "Belize Ministry of Education / national tertiary-education framework; the University of Belize is the national public university; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.ub.edu.bz/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of the West Indies Open Campus serves Belize (a UWI contributing country) through open and distance learning, delivering UWI degrees and professional programmes. UWI qualifications are widely recognised across the Commonwealth Caribbean and internationally. ⚠️ Added by curator (collector omission of the regional UWI presence).",
+    "country": {
+      "iso2": "BZ",
+      "name": "Belize",
+      "slug": "belize"
+    },
+    "source": {
+      "id": "SRC_BZ_UNIVERSITY_619",
+      "title": "University of the West Indies Open Campus — Belize Official Website",
+      "publisher": "University of the West Indies Open Campus — Belize",
+      "url": "https://www.open.uwi.edu/",
+      "tier": "tier_1_official",
+      "description": "Curator-added (collector omission). Verified against UWI Open Campus (open.uwi.edu) 2026-05-16; phone+email nulled (not fabricated)."
+    },
+    "officialWebsite": "https://www.open.uwi.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.open.uwi.edu/",
+    "contactUrl": "https://www.open.uwi.edu/",
+    "deadlinesUrl": "https://www.open.uwi.edu/",
+    "deadlinesNote": "Academic year begins Aug/Sep (some have January intake; medical university multi-intake). Timelines vary — verify directly; confirm recognition before applying to the medical university.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "The University of Belize and public/community institutions charge modest, partly subsidised fees for Belizean students (higher for other international students); private universities and the medical university set their own (higher) fees. Cost of living is moderate. Verify current fees directly."
   }
 ]
