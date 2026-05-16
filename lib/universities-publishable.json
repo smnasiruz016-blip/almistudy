@@ -147831,5 +147831,63 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "Russian primary; English-medium exists (notably medicine and international universities). Typical: IELTS 6.0+ / TOEFL iBT 70+. Russian-medium requires foundation year. See practical advisory.",
     "tuitionNote": "Tuition is relatively low by Western standards (commonly USD 2,000-7,000/year; medicine often USD 4,000-9,000/year), and cost of living is moderate. HOWEVER — and critically — international sanctions since 2022 mean PAYING tuition and transferring money into Russia is difficult or impossible from many countries (SWIFT disconnection of many banks). Confirm a workable payment route and degree-recognition status BEFORE committing. ⚠️ IMPORTANT PRACTICAL ADVISORY (factual, neutral): Since 2022, extensive international sanctions affect prospective international students in Russia. PAYMENTS: many Russian banks are disconnected from SWIFT — paying tuition/living costs from abroad is difficult or impossible from many countries. TRAVEL: air connectivity is heavily restricted and several governments advise against or caution travel to Russia. DEGREE RECOGNITION: Russia was suspended from and has announced withdrawal from the Bologna Process/EHEA (2022-2023) — you MUST verify whether a Russian degree will be recognised by the relevant authority in your country (or where you plan to work/study) BEFORE enrolling. Verify the current situation from official sources before making any decision. AlmiStudy provides this so you can decide for yourself; it is not a political statement."
+  },
+  {
+    "id": "UNI_2379",
+    "slug": "university-of-the-republic-of-san-marino",
+    "name": "University of the Republic of San Marino (Università degli Studi della Repubblica di San Marino / UNIRSM)",
+    "city": "San Marino City / Dogana / Montegiardino",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Italian",
+    "subjects": [
+      "Economics",
+      "Design",
+      "Engineering and Architecture",
+      "Health Sciences",
+      "Historical Studies",
+      "Communication and Digital Media",
+      "Computer Science"
+    ],
+    "categoryTags": [
+      "Public",
+      "National University",
+      "Microstate",
+      "Specialist-Breadth",
+      "Historic 1985",
+      "Design and Historical Studies Strength",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "San Marino Ministry of Education and Culture / Department of Education; University of the Republic of San Marino statutory framework; participant in the European Higher Education Area (EHEA / Bologna Process)",
+    "accreditationRegistryUrl": "https://www.unirsm.sm/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 1985, the University of the Republic of San Marino (UNIRSM) is the national university of San Marino — one of the world's oldest republics. Small but distinctive, it is particularly noted for its DESIGN school and its international programme in HISTORICAL STUDIES (including a long-running international PhD), alongside economics, engineering/architecture, health sciences, and digital media. Campuses/sites are distributed across San Marino (including Dogana and Montegiardino). As the only degree-granting university of this microstate, this single entry represents complete coverage for San Marino. 🕯️ Honest context: San Marino is one of the world's oldest surviving republics (tradition: 301 AD; the 1600 Statutes remain in force). Though officially neutral in WWII, it was mistakenly bombed by the RAF in June 1944 and briefly occupied, yet sheltered more than 100,000 refugees fleeing the fighting in Italy — a remarkable humanitarian act for so small a state.",
+    "country": {
+      "iso2": "SM",
+      "name": "San Marino",
+      "slug": "san-marino"
+    },
+    "source": {
+      "id": "SRC_SM_UNIRSM_001",
+      "title": "University of the Republic of San Marino Official Website",
+      "publisher": "Università degli Studi della Repubblica di San Marino",
+      "url": "https://www.unirsm.sm/",
+      "tier": "tier_1_official",
+      "description": "All collector data verified genuine and kept (URL + phone + email). Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.unirsm.sm/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.unirsm.sm/",
+    "contactUrl": "https://www.unirsm.sm/",
+    "admissionsEmail": "segreteria.studenti@unirsm.sm",
+    "mainPhone": "+378 0549 883633",
+    "deadlinesUrl": "https://www.unirsm.sm/",
+    "deadlinesNote": "Academic year begins autumn (broadly aligned with the Italian system). International applicants should verify programme-specific deadlines and admission procedures directly with the university.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Italian primary. Some programmes (incl. PhD in Historical Studies) have English components; verify per programme. Where English required: IELTS 6.0+ / TOEFL iBT 70+ typical.",
+    "tuitionNote": "Tuition is moderate and broadly comparable to Italian public-university levels (commonly EUR 1,000-3,500/year depending on programme). As San Marino is enclaved within Italy with open borders, many students live in or commute from neighbouring Italy; cost of living is comparable to the surrounding Italian region (~EUR 700-1,100/month). Confirm current fees and any international-student procedures directly with the university."
   }
 ]
