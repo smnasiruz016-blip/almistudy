@@ -21,20 +21,17 @@ export type V2Region = {
   status: "active" | "coming-soon";
 };
 
-// Map current DB region strings to v2 consolidated region slugs.
-// Middle East + South Asia + Southeast Asia all map to 'asia' — single
-// Asia region per v2 IA decision; sub-regions preserved at country level
-// for users who want to browse by specific country.
+// Map DB region strings to v2 region slugs. Data is normalized to the
+// 6 canonical continents (see PR #146); legacy buckets like "Middle East"
+// or "South Asia" are no longer present and would silently drop if they
+// reappear, so keep the data side canonical.
 export const DB_REGION_TO_V2_SLUG: Record<string, V2RegionSlug> = {
-  "Middle East": "asia",
-  "South Asia": "asia",
-  "Southeast Asia": "asia",
+  Asia: "asia",
   Europe: "europe",
-  "North America": "north-america",
-  Oceania: "oceania",
   Africa: "africa",
-  "West Africa": "africa",
-  "Central Africa": "africa",
+  "North America": "north-america",
+  "South America": "south-america",
+  Oceania: "oceania",
 };
 
 export const V2_REGION_ORDER: V2RegionSlug[] = [
