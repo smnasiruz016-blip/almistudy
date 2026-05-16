@@ -175700,5 +175700,271 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
     "tuitionNote": "Clarence Fitzroy Bryant College (public) charges modest fees for nationals (higher for other international students); the offshore medical/veterinary schools charge US-style tuition (commonly USD 15,000-25,000+ per term/semester). Cost of living is moderate-to-high. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2891",
+    "slug": "sir-arthur-lewis-community-college",
+    "name": "Sir Arthur Lewis Community College (SALCC)",
+    "city": "Castries",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts, Science and General Studies (A-Level/Associate)",
+      "Teacher Education",
+      "Nursing and Health Sciences",
+      "Technical and Vocational",
+      "Business",
+      "Continuing Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "National Community College",
+      "Associate/A-Level Pathways",
+      "Named for a Nobel Laureate",
+      "Historic 1985"
+    ],
+    "accreditationBody": "Saint Lucia / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.salcc.edu.lc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Sir Arthur Lewis Community College (SALCC, 1985) is the principal public tertiary college of Saint Lucia — named after the Saint Lucian Nobel laureate Sir W. Arthur Lewis (Economic Sciences, 1979) — offering A-level/associate, teacher-education, nursing, and technical-vocational programmes, the main local pathway to university study.",
+    "country": {
+      "iso2": "LC",
+      "name": "Saint Lucia",
+      "slug": "saint-lucia"
+    },
+    "source": {
+      "id": "SRC_LC_SIR_905",
+      "title": "Sir Arthur Lewis Community College (SALCC) Official Website",
+      "publisher": "Sir Arthur Lewis Community College (SALCC)",
+      "url": "https://www.salcc.edu.lc/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. No Queen's-Canada template row. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.salcc.edu.lc/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.salcc.edu.lc/",
+    "contactUrl": "https://www.salcc.edu.lc/",
+    "admissionsEmail": "info@salcc.edu.lc",
+    "mainPhone": "+1 758-457-7300",
+    "deadlinesUrl": "https://www.salcc.edu.lc/",
+    "deadlinesNote": "SALCC follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Sir Arthur Lewis Community College (public) charges modest fees for nationals (higher for other international students); the offshore medical schools and the US branch charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2892",
+    "slug": "university-of-the-west-indies-open-campus-saint-lucia",
+    "name": "University of the West Indies Open Campus — Saint Lucia",
+    "city": "Castries",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Open and Distance Learning",
+      "Education",
+      "Social Sciences",
+      "Business",
+      "Continuing and Professional Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "Regional University (UWI)",
+      "Open/Distance",
+      "Commonwealth"
+    ],
+    "accreditationBody": "Saint Lucia / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.salcc.edu.lc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of the West Indies Open Campus serves Saint Lucia (a UWI contributing country) through open and distance learning, delivering UWI degrees and professional programmes; UWI qualifications are widely recognised across the Commonwealth Caribbean and internationally.",
+    "country": {
+      "iso2": "LC",
+      "name": "Saint Lucia",
+      "slug": "saint-lucia"
+    },
+    "source": {
+      "id": "SRC_LC_UNIVERSITY_906",
+      "title": "University of the West Indies Open Campus — Saint Lucia Official Website",
+      "publisher": "University of the West Indies Open Campus — Saint Lucia",
+      "url": "https://www.open.uwi.edu/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. No Queen's-Canada template row. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.open.uwi.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.open.uwi.edu/",
+    "contactUrl": "https://www.open.uwi.edu/",
+    "admissionsEmail": "opencampus@open.uwi.edu",
+    "mainPhone": "+1 758-452-3865",
+    "deadlinesUrl": "https://www.open.uwi.edu/",
+    "deadlinesNote": "SALCC follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Sir Arthur Lewis Community College (public) charges modest fees for nationals (higher for other international students); the offshore medical schools and the US branch charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2893",
+    "slug": "spartan-health-sciences-university",
+    "name": "Spartan Health Sciences University",
+    "city": "Vieux Fort",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (overseas rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "International Intake",
+      "One of the Older Caribbean Offshore Schools",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Lucia / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.salcc.edu.lc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Spartan Health Sciences University (Vieux Fort) is one of the older Caribbean offshore medical schools, offering a US-model MD with basic-science teaching in Saint Lucia and clinical rotations at affiliated sites abroad. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and the approval of the specific medical board/country where you intend to practise; status & outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "LC",
+      "name": "Saint Lucia",
+      "slug": "saint-lucia"
+    },
+    "source": {
+      "id": "SRC_LC_SPARTAN_907",
+      "title": "Spartan Health Sciences University Official Website",
+      "publisher": "Spartan Health Sciences University",
+      "url": "https://www.spartanmed.org/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. No Queen's-Canada template row. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.spartanmed.org/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.spartanmed.org/",
+    "contactUrl": "https://www.spartanmed.org/",
+    "admissionsEmail": "admissions@spartanmed.org",
+    "mainPhone": "+1 758-454-6000",
+    "deadlinesUrl": "https://www.spartanmed.org/",
+    "deadlinesNote": "SALCC follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Sir Arthur Lewis Community College (public) charges modest fees for nationals (higher for other international students); the offshore medical schools and the US branch charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2894",
+    "slug": "international-american-university-college-of-medicine",
+    "name": "International American University College of Medicine (IAU)",
+    "city": "Vieux Fort",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (overseas rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Lucia / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.salcc.edu.lc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "International American University College of Medicine (IAU), in Vieux Fort, is an offshore medical school offering a US-model MD with basic-science teaching in Saint Lucia and clinical rotations at affiliated sites abroad. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and the approval of the specific medical board/country where you intend to practise; status & outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "LC",
+      "name": "Saint Lucia",
+      "slug": "saint-lucia"
+    },
+    "source": {
+      "id": "SRC_LC_INTERNATIONAL_908",
+      "title": "International American University College of Medicine (IAU) Official Website",
+      "publisher": "International American University College of Medicine (IAU)",
+      "url": "https://www.iau.edu.lc/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. No Queen's-Canada template row. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.iau.edu.lc/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.iau.edu.lc/",
+    "contactUrl": "https://www.iau.edu.lc/",
+    "admissionsEmail": "admissions@iau.edu.lc",
+    "mainPhone": "+1 758-454-2660",
+    "deadlinesUrl": "https://www.iau.edu.lc/",
+    "deadlinesNote": "SALCC follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Sir Arthur Lewis Community College (public) charges modest fees for nationals (higher for other international students); the offshore medical schools and the US branch charge US-style tuition. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2895",
+    "slug": "monroe-college-saint-lucia-campus",
+    "name": "Monroe College — Saint Lucia Campus",
+    "city": "Castries",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business",
+      "Hospitality and Tourism Management",
+      "Information Technology",
+      "Health Services Administration",
+      "Criminal Justice"
+    ],
+    "categoryTags": [
+      "Private",
+      "US Institution Branch Campus",
+      "Business/Hospitality Focus",
+      "Caribbean Campus"
+    ],
+    "accreditationBody": "Saint Lucia / OECS accreditation authorities and the Ministry of Education; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.salcc.edu.lc/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The Saint Lucia campus of Monroe College (a US institution) offers US-accredited business, hospitality, and professional programmes in the Caribbean. International students should verify the campus's current programme offerings and the recognition of its qualifications for their intended use.",
+    "country": {
+      "iso2": "LC",
+      "name": "Saint Lucia",
+      "slug": "saint-lucia"
+    },
+    "source": {
+      "id": "SRC_LC_MONROE_909",
+      "title": "Monroe College — Saint Lucia Campus Official Website",
+      "publisher": "Monroe College — Saint Lucia Campus",
+      "url": "https://www.monroecollege.edu/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. No Queen's-Canada template row. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.monroecollege.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.monroecollege.edu/",
+    "contactUrl": "https://www.monroecollege.edu/",
+    "admissionsEmail": "admissions@monroecollege.edu",
+    "mainPhone": "+1 800-556-6676",
+    "deadlinesUrl": "https://www.monroecollege.edu/",
+    "deadlinesNote": "SALCC follows Aug/Sep academic year; offshore medical schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Sir Arthur Lewis Community College (public) charges modest fees for nationals (higher for other international students); the offshore medical schools and the US branch charge US-style tuition. Cost of living is moderate. Verify current fees directly."
   }
 ]
