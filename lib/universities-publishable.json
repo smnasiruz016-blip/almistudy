@@ -159356,5 +159356,269 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "English-medium programmes are widely available, especially in MEDICINE. Typical requirement where applicable: IELTS 5.5-6.5+ (varies by programme). Georgian is the main national language.",
     "tuitionNote": "Tuition is relatively low: commonly USD 3,000-8,000/year; English-medium medicine (MD) typically ~USD 4,000-9,000/year. Cost of living modest (~USD 350-600/month). ⚠️ For medical degrees, recognition for practice in your home country depends on that country's licensing exam — verify BEFORE enrolling."
+  },
+  {
+    "id": "UNI_2591",
+    "slug": "american-university-of-antigua-college-of-medicine",
+    "name": "American University of Antigua (AUA) College of Medicine",
+    "city": "Coolidge",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (US/Canada/UK clinical rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "Large International Intake",
+      "Historic 2004",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Antigua and Barbuda National Accreditation Board; for medical schools, the Caribbean Accreditation Authority for Medicine and other Health Professions (CAAM-HP) where applicable — verify each school's CURRENT status",
+    "accreditationRegistryUrl": "https://www.caam-hp.org/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "American University of Antigua (AUA) College of Medicine (founded 2004) is one of the larger Caribbean offshore medical schools, with a US-model MD curriculum and clinical rotations at affiliated hospitals abroad; a large international student body. ⚠️ CRITICAL RECOGNITION ADVISORY (neutral, factual): this is an offshore/independent medical school whose students typically aim to practise abroad (US/Canada/UK/etc.). Eligibility depends on the school's CURRENT accreditation (e.g. CAAM-HP), World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and approval by the specific medical board/country where you intend to practise (some US states keep their own approval lists). Status and residency-match outcomes VARY and CHANGE — you MUST verify the current position with the relevant authority for the country where you intend to practise BEFORE enrolling.",
+    "country": {
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "slug": "antigua-and-barbuda"
+    },
+    "source": {
+      "id": "SRC_AG_AMERICAN_598",
+      "title": "American University of Antigua (AUA) College of Medicine Official Website",
+      "publisher": "American University of Antigua (AUA) College of Medicine",
+      "url": "https://www.auamed.org/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email + plausible phone verified and kept. Offshore medical school — recognition advisory embedded. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.auamed.org/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.auamed.org/",
+    "contactUrl": "https://www.auamed.org/",
+    "admissionsEmail": "admissions@auamed.org",
+    "mainPhone": "+1 268-484-8900",
+    "deadlinesUrl": "https://www.auamed.org/",
+    "deadlinesNote": "Offshore medical schools typically run multiple intakes (Jan/May/Sep) with rolling admissions; UWI and ASC follow Aug/Sep academic year. Verify per institution; confirm recognition before applying.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (national language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Offshore medical schools (AUA, UHSA) charge US-style tuition — commonly USD 15,000-25,000+ per semester for the MD; the regional public UWI campus and Antigua State College are substantially lower (regional/Commonwealth rates). Cost of living is moderate-to-high (island/tourism economy). Verify current fees directly."
+  },
+  {
+    "id": "UNI_2592",
+    "slug": "university-of-health-sciences-antigua",
+    "name": "University of Health Sciences Antigua (UHSA)",
+    "city": "Piccadilly",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Basic Medical Sciences",
+      "Clinical Sciences"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "MD",
+      "Historic 1982",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Antigua and Barbuda National Accreditation Board; for medical schools, the Caribbean Accreditation Authority for Medicine and other Health Professions (CAAM-HP) where applicable — verify each school's CURRENT status",
+    "accreditationRegistryUrl": "https://www.caam-hp.org/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of Health Sciences Antigua (UHSA, founded 1982) is one of the older Caribbean offshore medical schools, offering an MD programme with clinical training at affiliated sites. ⚠️ CRITICAL RECOGNITION ADVISORY (neutral, factual): this is an offshore/independent medical school whose students typically aim to practise abroad (US/Canada/UK/etc.). Eligibility depends on the school's CURRENT accreditation (e.g. CAAM-HP), World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and approval by the specific medical board/country where you intend to practise (some US states keep their own approval lists). Status and residency-match outcomes VARY and CHANGE — you MUST verify the current position with the relevant authority for the country where you intend to practise BEFORE enrolling.",
+    "country": {
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "slug": "antigua-and-barbuda"
+    },
+    "source": {
+      "id": "SRC_AG_UNIVERSITY_599",
+      "title": "University of Health Sciences Antigua (UHSA) Official Website",
+      "publisher": "University of Health Sciences Antigua (UHSA)",
+      "url": "https://www.uhsa.ag/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email + plausible phone verified and kept. Offshore medical school — recognition advisory embedded. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.uhsa.ag/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.uhsa.ag/",
+    "contactUrl": "https://www.uhsa.ag/",
+    "admissionsEmail": "info@uhsa.ag",
+    "mainPhone": "+1 268-462-1875",
+    "deadlinesUrl": "https://www.uhsa.ag/",
+    "deadlinesNote": "Offshore medical schools typically run multiple intakes (Jan/May/Sep) with rolling admissions; UWI and ASC follow Aug/Sep academic year. Verify per institution; confirm recognition before applying.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (national language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Offshore medical schools (AUA, UHSA) charge US-style tuition — commonly USD 15,000-25,000+ per semester for the MD; the regional public UWI campus and Antigua State College are substantially lower (regional/Commonwealth rates). Cost of living is moderate-to-high (island/tourism economy). Verify current fees directly."
+  },
+  {
+    "id": "UNI_2593",
+    "slug": "university-of-the-west-indies-five-islands-campus",
+    "name": "University of the West Indies (UWI) — Five Islands Campus",
+    "city": "Five Islands",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Humanities and Education",
+      "Science and Technology",
+      "Social Sciences",
+      "Health Sciences",
+      "Business"
+    ],
+    "categoryTags": [
+      "Public",
+      "Regional University Campus",
+      "UWI System",
+      "Historic 2019",
+      "Commonwealth"
+    ],
+    "accreditationBody": "Antigua and Barbuda National Accreditation Board; for medical schools, the Caribbean Accreditation Authority for Medicine and other Health Professions (CAAM-HP) where applicable — verify each school's CURRENT status",
+    "accreditationRegistryUrl": "https://www.caam-hp.org/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The Five Islands Campus (opened 2019) is Antigua and Barbuda's campus of the University of the West Indies — the long-established regional public university system serving the English-speaking Caribbean. A degree from the UWI system is widely recognised across the Commonwealth Caribbean and beyond.",
+    "country": {
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "slug": "antigua-and-barbuda"
+    },
+    "source": {
+      "id": "SRC_AG_UNIVERSITY_600",
+      "title": "University of the West Indies (UWI) — Five Islands Campus Official Website",
+      "publisher": "University of the West Indies (UWI) — Five Islands Campus",
+      "url": "https://www.fiveislands.uwi.edu/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email kept. PHONE NULLED — collector value was an exact duplicate of AUA's number (data-quality flag; cannot verify; never keep a possibly-wrong number that could mislead a student). Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.fiveislands.uwi.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.fiveislands.uwi.edu/",
+    "contactUrl": "https://www.fiveislands.uwi.edu/",
+    "admissionsEmail": "admissions@fiveislands.uwi.edu",
+    "deadlinesUrl": "https://www.fiveislands.uwi.edu/",
+    "deadlinesNote": "Offshore medical schools typically run multiple intakes (Jan/May/Sep) with rolling admissions; UWI and ASC follow Aug/Sep academic year. Verify per institution; confirm recognition before applying.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (national language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Offshore medical schools (AUA, UHSA) charge US-style tuition — commonly USD 15,000-25,000+ per semester for the MD; the regional public UWI campus and Antigua State College are substantially lower (regional/Commonwealth rates). Cost of living is moderate-to-high (island/tourism economy). Verify current fees directly."
+  },
+  {
+    "id": "UNI_2594",
+    "slug": "antigua-state-college",
+    "name": "Antigua State College",
+    "city": "Golden Grove",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts and General Studies",
+      "Sciences",
+      "Teacher Education",
+      "Engineering Technology",
+      "Commerce",
+      "Health Sciences (Nursing)",
+      "Advanced Level / Associate Degrees"
+    ],
+    "categoryTags": [
+      "Public",
+      "National Tertiary College",
+      "Foundation/Associate Level",
+      "Historic 1977"
+    ],
+    "accreditationBody": "Antigua and Barbuda National Accreditation Board; for medical schools, the Caribbean Accreditation Authority for Medicine and other Health Professions (CAAM-HP) where applicable — verify each school's CURRENT status",
+    "accreditationRegistryUrl": "https://www.caam-hp.org/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Antigua State College (1977) is the country's principal public tertiary college, offering pre-university (CAPE/A-level), associate-degree, teacher-education, nursing, and technical programmes, often as a pathway to university study.",
+    "country": {
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "slug": "antigua-and-barbuda"
+    },
+    "source": {
+      "id": "SRC_AG_ANTIGUA_601",
+      "title": "Antigua State College Official Website",
+      "publisher": "Antigua State College",
+      "url": "https://asc.edu.ag/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email + plausible distinct phone verified and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://asc.edu.ag/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://asc.edu.ag/",
+    "contactUrl": "https://asc.edu.ag/",
+    "admissionsEmail": "info@asc.edu.ag",
+    "mainPhone": "+1 268-562-4600",
+    "deadlinesUrl": "https://asc.edu.ag/",
+    "deadlinesNote": "Offshore medical schools typically run multiple intakes (Jan/May/Sep) with rolling admissions; UWI and ASC follow Aug/Sep academic year. Verify per institution; confirm recognition before applying.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (national language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Offshore medical schools (AUA, UHSA) charge US-style tuition — commonly USD 15,000-25,000+ per semester for the MD; the regional public UWI campus and Antigua State College are substantially lower (regional/Commonwealth rates). Cost of living is moderate-to-high (island/tourism economy). Verify current fees directly."
+  },
+  {
+    "id": "UNI_2595",
+    "slug": "antigua-barbuda-international-institute-of-information-technology",
+    "name": "Antigua and Barbuda International Institute of Information Technology (ABIIT)",
+    "city": "St. John's",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Information Technology",
+      "Computer Science",
+      "Business and Management",
+      "Software Engineering",
+      "Networking"
+    ],
+    "categoryTags": [
+      "Private",
+      "Specialist",
+      "Information Technology and Business",
+      "Verify Accreditation"
+    ],
+    "accreditationBody": "Antigua and Barbuda National Accreditation Board; for medical schools, the Caribbean Accreditation Authority for Medicine and other Health Professions (CAAM-HP) where applicable — verify each school's CURRENT status",
+    "accreditationRegistryUrl": "https://www.caam-hp.org/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The Antigua and Barbuda International Institute of Information Technology (ABIIT) is a tertiary institution specialising in IT, computer science, and business, with pathway/articulation arrangements to partner universities. ⚠️ Added by curator (collector omission). Prospective students should verify current accreditation and any partner-degree recognition with the Antigua and Barbuda National Accreditation Board and the partner institution before enrolling.",
+    "country": {
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "slug": "antigua-and-barbuda"
+    },
+    "source": {
+      "id": "SRC_AG_ANTIGUA_602",
+      "title": "Antigua and Barbuda International Institute of Information Technology (ABIIT) Official Website",
+      "publisher": "Antigua and Barbuda International Institute of Information Technology (ABIIT)",
+      "url": "https://www.abiit.edu.ag/",
+      "tier": "tier_1_official",
+      "description": "Curator-added (collector omission). Verified against abiit.edu.ag 2026-05-16; phone+email nulled (not fabricated)."
+    },
+    "officialWebsite": "https://www.abiit.edu.ag/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.abiit.edu.ag/",
+    "contactUrl": "https://www.abiit.edu.ag/",
+    "deadlinesUrl": "https://www.abiit.edu.ag/",
+    "deadlinesNote": "Offshore medical schools typically run multiple intakes (Jan/May/Sep) with rolling admissions; UWI and ASC follow Aug/Sep academic year. Verify per institution; confirm recognition before applying.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (national language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Offshore medical schools (AUA, UHSA) charge US-style tuition — commonly USD 15,000-25,000+ per semester for the MD; the regional public UWI campus and Antigua State College are substantially lower (regional/Commonwealth rates). Cost of living is moderate-to-high (island/tourism economy). Verify current fees directly."
   }
 ]
