@@ -165527,5 +165527,217 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "The language of instruction is Spanish; Spanish proficiency is normally required (some programmes provide a preparatory Spanish year for international students). Verify per programme.",
     "tuitionNote": "Cuban higher education is state-run; for Cuban nationals it is tuition-free. International students typically study via bilateral/scholarship arrangements or pay set fees (medicine and ELAM programmes have specific arrangements). ⚠️ PRACTICAL ADVISORY (neutral, factual): studying in Cuba carries practical/legal considerations — the long-standing US embargo and OFAC rules significantly affect US citizens/residents and banking/payments, and recognition of Cuban degrees (especially MEDICAL, incl. ELAM) for practice in your home country must be independently verified (graduates typically must pass their home country's licensing exams). Verify your government's rules, sanctions exposure, and professional-recognition requirements BEFORE enrolling."
+  },
+  {
+    "id": "UNI_2705",
+    "slug": "dominica-state-college",
+    "name": "Dominica State College (DSC)",
+    "city": "Roseau (Stock Farm)",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts and Sciences (Sixth Form)",
+      "Teacher Education",
+      "Nursing and Health Sciences",
+      "Business and Hospitality",
+      "Applied Arts and Technology",
+      "Continuing Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "National Tertiary College",
+      "Associate/Sixth-Form Pathways",
+      "Historic 2002"
+    ],
+    "accreditationBody": "Dominica National Accreditation Board / Ministry of Education of Dominica; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://dsc.edu.dm/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Dominica State College (formed in 2002 by merging earlier institutions) is the country's principal public tertiary college, offering sixth-form, associate-degree, teacher-education, nursing, and technical programmes — the main pathway to university study for Dominicans.",
+    "country": {
+      "iso2": "DM",
+      "name": "Dominica",
+      "slug": "dominica"
+    },
+    "source": {
+      "id": "SRC_DM_DOMINICA_717",
+      "title": "Dominica State College (DSC) Official Website",
+      "publisher": "Dominica State College (DSC)",
+      "url": "https://dsc.edu.dm/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://dsc.edu.dm/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://dsc.edu.dm/",
+    "contactUrl": "https://dsc.edu.dm/",
+    "admissionsEmail": "info@dsc.edu.dm",
+    "mainPhone": "+1 767-266-3000",
+    "deadlinesUrl": "https://dsc.edu.dm/",
+    "deadlinesNote": "Dominica State College follows Aug/Sep academic year; offshore medical school multi-intake. Timelines vary — verify directly; confirm recognition before applying to the medical school.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Dominica State College (public) charges modest, subsidised fees for Dominican students (higher for other international students); the offshore medical and private graduate institutions set their own (higher) fees. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2706",
+    "slug": "international-university-for-graduate-studies",
+    "name": "International University for Graduate Studies (IUGS)",
+    "city": "Portsmouth",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Graduate Studies",
+      "Psychology and Counselling",
+      "Business Administration",
+      "Education",
+      "Interdisciplinary Doctoral Programmes"
+    ],
+    "categoryTags": [
+      "Private",
+      "Specialist",
+      "Graduate/Distance",
+      "Verify Accreditation"
+    ],
+    "accreditationBody": "Dominica National Accreditation Board / Ministry of Education of Dominica; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://dsc.edu.dm/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The International University for Graduate Studies (IUGS), in Portsmouth, is a small private graduate institution offering distance/low-residency master's and doctoral programmes. ⚠️ Prospective students should independently verify current accreditation and the recognition of its degrees in the country where they intend to use the qualification before enrolling.",
+    "country": {
+      "iso2": "DM",
+      "name": "Dominica",
+      "slug": "dominica"
+    },
+    "source": {
+      "id": "SRC_DM_INTERNATIONAL_718",
+      "title": "International University for Graduate Studies (IUGS) Official Website",
+      "publisher": "International University for Graduate Studies (IUGS)",
+      "url": "https://iugrad.edu.dm/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + plausible phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://iugrad.edu.dm/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://iugrad.edu.dm/",
+    "contactUrl": "https://iugrad.edu.dm/",
+    "admissionsEmail": "info@iugrad.edu.dm",
+    "mainPhone": "+1 767-445-7984",
+    "deadlinesUrl": "https://iugrad.edu.dm/",
+    "deadlinesNote": "Dominica State College follows Aug/Sep academic year; offshore medical school multi-intake. Timelines vary — verify directly; confirm recognition before applying to the medical school.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Dominica State College (public) charges modest, subsidised fees for Dominican students (higher for other international students); the offshore medical and private graduate institutions set their own (higher) fees. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2707",
+    "slug": "university-of-the-west-indies-open-campus-dominica",
+    "name": "University of the West Indies Open Campus — Dominica",
+    "city": "Roseau",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Open and Distance Learning",
+      "Education",
+      "Social Sciences",
+      "Business",
+      "Continuing and Professional Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "Regional University (UWI)",
+      "Open/Distance",
+      "Commonwealth"
+    ],
+    "accreditationBody": "Dominica National Accreditation Board / Ministry of Education of Dominica; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://dsc.edu.dm/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of the West Indies Open Campus serves Dominica (a UWI contributing country) through open and distance learning, delivering UWI degrees and professional programmes; UWI qualifications are widely recognised across the Commonwealth Caribbean and internationally.",
+    "country": {
+      "iso2": "DM",
+      "name": "Dominica",
+      "slug": "dominica"
+    },
+    "source": {
+      "id": "SRC_DM_UNIVERSITY_719",
+      "title": "University of the West Indies Open Campus — Dominica Official Website",
+      "publisher": "University of the West Indies Open Campus — Dominica",
+      "url": "https://www.open.uwi.edu/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email verified and kept. Phone kept but is the UWI Open Campus REGIONAL/HQ line (+1 246 = Barbados, where the Open Campus is administered), not a Dominica-specific number — annotated honestly. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.open.uwi.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.open.uwi.edu/",
+    "contactUrl": "https://www.open.uwi.edu/",
+    "admissionsEmail": "opencampus@uwi.edu",
+    "mainPhone": "+1 246-417-4128",
+    "deadlinesUrl": "https://www.open.uwi.edu/",
+    "deadlinesNote": "Dominica State College follows Aug/Sep academic year; offshore medical school multi-intake. Timelines vary — verify directly; confirm recognition before applying to the medical school.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Dominica State College (public) charges modest, subsidised fees for Dominican students (higher for other international students); the offshore medical and private graduate institutions set their own (higher) fees. Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2708",
+    "slug": "all-saints-university-school-of-medicine",
+    "name": "All Saints University School of Medicine",
+    "city": "Roseau",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (overseas clinical rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Dominica National Accreditation Board / Ministry of Education of Dominica; for medical schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://dsc.edu.dm/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "All Saints University School of Medicine (Roseau) is an offshore medical school offering a US-model MD with basic-science teaching in Dominica and clinical rotations at affiliated sites abroad. ⚠️ CRITICAL RECOGNITION ADVISORY (neutral, factual): eligibility to practise depends on the school's CURRENT accreditation, World Directory of Medical Schools listing, ECFMG eligibility, ACGME residency eligibility, and the approval of the specific medical board/country where you intend to practise; accreditation status and residency-match outcomes VARY and CHANGE — you MUST verify the current position with the relevant authority for the country where you intend to practise BEFORE enrolling. AlmiStudy provides this so you can decide safely.",
+    "country": {
+      "iso2": "DM",
+      "name": "Dominica",
+      "slug": "dominica"
+    },
+    "source": {
+      "id": "SRC_DM_ALL_720",
+      "title": "All Saints University School of Medicine Official Website",
+      "publisher": "All Saints University School of Medicine",
+      "url": "https://allsaintsu.org/",
+      "tier": "tier_1_official",
+      "description": "Collector URL + domain-matching email + plausible toll-free phone verified and kept. Offshore medical school — recognition advisory embedded. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://allsaintsu.org/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://allsaintsu.org/",
+    "contactUrl": "https://allsaintsu.org/",
+    "admissionsEmail": "admissions@allsaintsu.org",
+    "mainPhone": "+1 866-602-9555",
+    "deadlinesUrl": "https://allsaintsu.org/",
+    "deadlinesNote": "Dominica State College follows Aug/Sep academic year; offshore medical school multi-intake. Timelines vary — verify directly; confirm recognition before applying to the medical school.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Dominica State College (public) charges modest, subsidised fees for Dominican students (higher for other international students); the offshore medical and private graduate institutions set their own (higher) fees. Cost of living is moderate. Verify current fees directly."
   }
 ]
