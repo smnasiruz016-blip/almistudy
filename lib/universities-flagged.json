@@ -1679,51 +1679,6 @@
     "publishable": false
   },
   {
-    "id": "UNI_0052",
-    "slug": "university-of-lisbon",
-    "name": "University of Lisbon",
-    "country": {
-      "iso2": "PT",
-      "name": "Portugal",
-      "slug": "portugal"
-    },
-    "city": "Lisbon",
-    "region": "Europe",
-    "controlType": null,
-    "officialWebsite": "https://www.ulisboa.pt",
-    "admissionsUrl": "https://www.ulisboa.pt/en/info/applications",
-    "primaryLanguage": null,
-    "subjects": [
-      "Engineering",
-      "Medicine",
-      "Arts",
-      "Sciences",
-      "Business"
-    ],
-    "categoryTags": [
-      "Affordable",
-      "Research"
-    ],
-    "scholarshipsAvailable": "Yes",
-    "englishTestNote": "Portuguese/English requirements by program",
-    "tuitionNote": "Largest Portuguese university",
-    "studentNotes": "Official website/admissions pages",
-    "accreditationBody": null,
-    "accreditationRegistryUrl": null,
-    "accreditationBodyVerifiedDate": null,
-    "recognitionByDestination": [],
-    "source": {
-      "id": "SRC_OFFICIAL_WEB_MIGRATED",
-      "title": "Official university websites (migrated batch)",
-      "publisher": "Multiple universities",
-      "url": null,
-      "tier": "tier_1_official"
-    },
-    "lastVerified": "2026-05-09",
-    "verificationStatus": "migrated_unverified",
-    "publishable": false
-  },
-  {
     "id": "UNI_0053",
     "slug": "university-of-vienna",
     "name": "University of Vienna",
