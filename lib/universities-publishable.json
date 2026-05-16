@@ -124220,5 +124220,470 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "All programmes in English. TOEFL iBT 71+ / IELTS 6.0+ typical.",
     "tuitionNote": "Private American-style tuition: approximately EUR 9,000-11,000 per year. Need-based and merit scholarships available."
+  },
+  {
+    "id": "UNI_1924",
+    "slug": "via-university-college",
+    "name": "VIA University College",
+    "city": "Aarhus",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Danish",
+    "subjects": [
+      "Engineering",
+      "Business",
+      "Education",
+      "Health",
+      "Design",
+      "Animation"
+    ],
+    "categoryTags": [
+      "Public",
+      "University College",
+      "Professional Bachelor's",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Danish Accreditation Institution (Danmarks Akkrediteringsinstitution); Danish Agency for Higher Education and Science; European Higher Education Area (EHEA / Bologna Process since 1999)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 2008 from the merger of multiple Danish university colleges, VIA University College serves central Jutland from campuses in Aarhus, Horsens, Holstebro, Viborg, Randers, Silkeborg, and Herning. Approximately 20,000 students — Denmark's largest university college. Offers professional bachelor's degrees in applied fields including engineering, business, education, health, and animation. Note on Danish HE structure: University colleges (professionshøjskoler) deliver applied professional bachelor's degrees distinct from research universities; both are publicly funded.",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "source": {
+      "id": "SRC_DK_VIA_008",
+      "title": "VIA University College Official Website",
+      "publisher": "VIA University College",
+      "url": "https://en.via.dk/",
+      "tier": "tier_1_official",
+      "description": "Collector provided name only. URL via.dk verified from research. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://en.via.dk/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://en.via.dk/",
+    "contactUrl": "https://en.via.dk/",
+    "deadlinesUrl": "https://en.via.dk/",
+    "deadlinesNote": "Danish academic year begins late August / early September. Non-EU/EEA applicants generally apply by 15 January for autumn entry; EU/EEA applicants by 15 March.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Danish is primary; English-medium widely available, esp. Master's in business, engineering, IT. Typical: IELTS 6.5+ / TOEFL iBT 83+.",
+    "tuitionNote": "EU/EEA/Swiss: TUITION-FREE at public Danish unis. Non-EU/EEA: DKK 50,000-150,000 (~EUR 6,700-20,000)/yr. Cost of living EUR 1,200-1,800/mo Copenhagen, EUR 800-1,200/mo smaller cities."
+  },
+  {
+    "id": "UNI_1925",
+    "slug": "university-college-copenhagen",
+    "name": "University College Copenhagen (Københavns Professionshøjskole / KP)",
+    "city": "Copenhagen",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Danish",
+    "subjects": [
+      "Education",
+      "Health and Nursing",
+      "Social Education",
+      "Nutrition",
+      "Physiotherapy"
+    ],
+    "categoryTags": [
+      "Public",
+      "University College",
+      "Professional Bachelor's",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Danish Accreditation Institution (Danmarks Akkrediteringsinstitution); Danish Agency for Higher Education and Science; European Higher Education Area (EHEA / Bologna Process since 1999)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 2008 from the merger of multiple Copenhagen-region university colleges, becoming Københavns Professionshøjskole in 2018, KP is Denmark's largest professional bachelor's institution by enrolment. Approximately 19,000 students. Primary focus on training teachers, nurses, physiotherapists, social educators, and nutritionists for the Danish public sector.",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "source": {
+      "id": "SRC_DK_KP_009",
+      "title": "University College Copenhagen (Københavns Professionshøjskole / KP) Official Website",
+      "publisher": "University College Copenhagen (Københavns Professionshøjskole / KP)",
+      "url": "https://www.kp.dk/en/",
+      "tier": "tier_1_official",
+      "description": "Collector provided name only. URL kp.dk verified from research. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.kp.dk/en/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.kp.dk/en/",
+    "contactUrl": "https://www.kp.dk/en/",
+    "deadlinesUrl": "https://www.kp.dk/en/",
+    "deadlinesNote": "Danish academic year begins late August / early September. Non-EU/EEA applicants generally apply by 15 January for autumn entry; EU/EEA applicants by 15 March.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Danish is primary; English-medium widely available, esp. Master's in business, engineering, IT. Typical: IELTS 6.5+ / TOEFL iBT 83+.",
+    "tuitionNote": "EU/EEA/Swiss: TUITION-FREE at public Danish unis. Non-EU/EEA: DKK 50,000-150,000 (~EUR 6,700-20,000)/yr. Cost of living EUR 1,200-1,800/mo Copenhagen, EUR 800-1,200/mo smaller cities."
+  },
+  {
+    "id": "UNI_1926",
+    "slug": "ucl-university-college",
+    "name": "UCL University College (UCL Erhvervsakademi og Professionshøjskole)",
+    "city": "Vejle",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Danish",
+    "subjects": [
+      "Business",
+      "Engineering",
+      "Education",
+      "Health",
+      "IT",
+      "Communication"
+    ],
+    "categoryTags": [
+      "Public",
+      "University College",
+      "Professional Bachelor's",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Danish Accreditation Institution (Danmarks Akkrediteringsinstitution); Danish Agency for Higher Education and Science; European Higher Education Area (EHEA / Bologna Process since 1999)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 2018 through the merger of Lillebaelt Academy and University College Lillebaelt (the institution the collector referenced under the older name), UCL University College serves the Funen and southern Jutland regions with campuses in Odense, Vejle, Svendborg, and Jelling. Approximately 10,000 students. Combines academy professional degrees (kortere uddannelser) and professional bachelor's degrees.",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "source": {
+      "id": "SRC_DK_UCL_010",
+      "title": "UCL University College (UCL Erhvervsakademi og Professionshøjskole) Official Website",
+      "publisher": "UCL University College (UCL Erhvervsakademi og Professionshøjskole)",
+      "url": "https://www.ucl.dk/international",
+      "tier": "tier_1_official",
+      "description": "Collector used older name 'University College Lillebaelt' which was merged into UCL University College in 2018. URL ucl.dk verified from research 2026-05-16."
+    },
+    "officialWebsite": "https://www.ucl.dk/international",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.ucl.dk/international",
+    "contactUrl": "https://www.ucl.dk/international",
+    "deadlinesUrl": "https://www.ucl.dk/international",
+    "deadlinesNote": "Danish academic year begins late August / early September. Non-EU/EEA applicants generally apply by 15 January for autumn entry; EU/EEA applicants by 15 March.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Danish is primary; English-medium widely available, esp. Master's in business, engineering, IT. Typical: IELTS 6.5+ / TOEFL iBT 83+.",
+    "tuitionNote": "EU/EEA/Swiss: TUITION-FREE at public Danish unis. Non-EU/EEA: DKK 50,000-150,000 (~EUR 6,700-20,000)/yr. Cost of living EUR 1,200-1,800/mo Copenhagen, EUR 800-1,200/mo smaller cities."
+  },
+  {
+    "id": "UNI_1927",
+    "slug": "university-college-of-northern-denmark",
+    "name": "University College of Northern Denmark (UCN)",
+    "city": "Aalborg",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Danish",
+    "subjects": [
+      "Business",
+      "Technology",
+      "Health",
+      "Education",
+      "Social Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "University College",
+      "Professional Bachelor's",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Danish Accreditation Institution (Danmarks Akkrediteringsinstitution); Danish Agency for Higher Education and Science; European Higher Education Area (EHEA / Bologna Process since 1999)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 2008 from the merger of regional Northern Jutland institutions. Approximately 11,000 students across campuses in Aalborg, Hjørring, and Thisted. Offers professional bachelor's degrees in applied fields with significant English-medium programme availability for international students.",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "source": {
+      "id": "SRC_DK_UCN_011",
+      "title": "University College of Northern Denmark (UCN) Official Website",
+      "publisher": "University College of Northern Denmark (UCN)",
+      "url": "https://www.ucn.dk/english",
+      "tier": "tier_1_official",
+      "description": "Collector provided name only. URL ucn.dk verified from research. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.ucn.dk/english",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.ucn.dk/english",
+    "contactUrl": "https://www.ucn.dk/english",
+    "deadlinesUrl": "https://www.ucn.dk/english",
+    "deadlinesNote": "Danish academic year begins late August / early September. Non-EU/EEA applicants generally apply by 15 January for autumn entry; EU/EEA applicants by 15 March.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Danish is primary; English-medium widely available, esp. Master's in business, engineering, IT. Typical: IELTS 6.5+ / TOEFL iBT 83+.",
+    "tuitionNote": "EU/EEA/Swiss: TUITION-FREE at public Danish unis. Non-EU/EEA: DKK 50,000-150,000 (~EUR 6,700-20,000)/yr. Cost of living EUR 1,200-1,800/mo Copenhagen, EUR 800-1,200/mo smaller cities."
+  },
+  {
+    "id": "UNI_1928",
+    "slug": "ucsyd-university-college-south-denmark",
+    "name": "UC SYD (University College South Denmark)",
+    "city": "Esbjerg",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Danish",
+    "subjects": [
+      "Education",
+      "Health Sciences",
+      "Social Education",
+      "Nursing"
+    ],
+    "categoryTags": [
+      "Public",
+      "University College",
+      "Professional Bachelor's",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Danish Accreditation Institution (Danmarks Akkrediteringsinstitution); Danish Agency for Higher Education and Science; European Higher Education Area (EHEA / Bologna Process since 1999)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 2008 from the merger of regional southern Jutland institutions, UC SYD serves southern Denmark from campuses in Esbjerg, Kolding, Haderslev, Sønderborg, and Aabenraa. Approximately 6,000 students. Particular strengths in teacher education and nursing.",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "source": {
+      "id": "SRC_DK_UCSYD_012",
+      "title": "UC SYD (University College South Denmark) Official Website",
+      "publisher": "UC SYD (University College South Denmark)",
+      "url": "https://www.ucsyd.dk/en",
+      "tier": "tier_1_official",
+      "description": "Collector provided name only. URL ucsyd.dk verified from research. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.ucsyd.dk/en",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.ucsyd.dk/en",
+    "contactUrl": "https://www.ucsyd.dk/en",
+    "deadlinesUrl": "https://www.ucsyd.dk/en",
+    "deadlinesNote": "Danish academic year begins late August / early September. Non-EU/EEA applicants generally apply by 15 January for autumn entry; EU/EEA applicants by 15 March.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Danish is primary; English-medium widely available, esp. Master's in business, engineering, IT. Typical: IELTS 6.5+ / TOEFL iBT 83+.",
+    "tuitionNote": "EU/EEA/Swiss: TUITION-FREE at public Danish unis. Non-EU/EEA: DKK 50,000-150,000 (~EUR 6,700-20,000)/yr. Cost of living EUR 1,200-1,800/mo Copenhagen, EUR 800-1,200/mo smaller cities."
+  },
+  {
+    "id": "UNI_1929",
+    "slug": "kea-copenhagen-school-of-design-and-technology",
+    "name": "KEA – Copenhagen School of Design and Technology",
+    "city": "Copenhagen",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Danish",
+    "subjects": [
+      "Design",
+      "Technology",
+      "Business",
+      "Digital Concept Development",
+      "Fashion Design",
+      "Production Technology",
+      "Architectural Technology"
+    ],
+    "categoryTags": [
+      "Public",
+      "Specialist",
+      "Design and Technology",
+      "Professional Bachelor's",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Danish Accreditation Institution (Danmarks Akkrediteringsinstitution); Danish Agency for Higher Education and Science; European Higher Education Area (EHEA / Bologna Process since 1999)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 2008 from the merger of specialist Copenhagen colleges in design and technology, KEA is Denmark's principal specialist institution at the intersection of design, technology, and business. Approximately 4,500 students. Strong industry orientation reflecting Copenhagen's role as a Nordic design capital.",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "source": {
+      "id": "SRC_DK_KEA_013",
+      "title": "KEA – Copenhagen School of Design and Technology Official Website",
+      "publisher": "KEA – Copenhagen School of Design and Technology",
+      "url": "https://kea.dk/en",
+      "tier": "tier_1_official",
+      "description": "Verified against official website 2026-05-16."
+    },
+    "officialWebsite": "https://kea.dk/en",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://kea.dk/en",
+    "contactUrl": "https://kea.dk/en",
+    "deadlinesUrl": "https://kea.dk/en",
+    "deadlinesNote": "Danish academic year begins late August / early September. Non-EU/EEA applicants generally apply by 15 January for autumn entry; EU/EEA applicants by 15 March.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Danish is primary; English-medium widely available, esp. Master's in business, engineering, IT. Typical: IELTS 6.5+ / TOEFL iBT 83+.",
+    "tuitionNote": "EU/EEA/Swiss: TUITION-FREE at public Danish unis. Non-EU/EEA: DKK 50,000-150,000 (~EUR 6,700-20,000)/yr. Cost of living EUR 1,200-1,800/mo Copenhagen, EUR 800-1,200/mo smaller cities."
+  },
+  {
+    "id": "UNI_1930",
+    "slug": "danish-school-of-media-and-journalism",
+    "name": "Danish School of Media and Journalism (Danmarks Medie- og Journalisthøjskole / DMJX)",
+    "city": "Aarhus",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Danish",
+    "subjects": [
+      "Journalism",
+      "Photojournalism",
+      "TV and Media Production",
+      "Communication",
+      "Visual Communication",
+      "Graphic Design"
+    ],
+    "categoryTags": [
+      "Public",
+      "Specialist",
+      "Media and Journalism",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Danish Accreditation Institution (Danmarks Akkrediteringsinstitution); Danish Agency for Higher Education and Science; European Higher Education Area (EHEA / Bologna Process since 1999)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 1946 as the Danish School of Journalism, becoming DMJX in 2008 through merger with the Danish School of Media. Denmark's specialist higher education institution for journalism, media production, and communication. Approximately 1,500 students. Main campus in Aarhus with additional facilities in Copenhagen. ⚠️ Collector file URL 'danish.dk' was incorrect/fabricated; corrected to verified dmjx.dk.",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "source": {
+      "id": "SRC_DK_DMJX_014",
+      "title": "Danish School of Media and Journalism (Danmarks Medie- og Journalisthøjskole / DMJX) Official Website",
+      "publisher": "Danish School of Media and Journalism (Danmarks Medie- og Journalisthøjskole / DMJX)",
+      "url": "https://www.dmjx.dk/en",
+      "tier": "tier_1_official",
+      "description": "Collector URL 'danish.dk' was FAKE; corrected to verified dmjx.dk 2026-05-16."
+    },
+    "officialWebsite": "https://www.dmjx.dk/en",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.dmjx.dk/en",
+    "contactUrl": "https://www.dmjx.dk/en",
+    "deadlinesUrl": "https://www.dmjx.dk/en",
+    "deadlinesNote": "Danish academic year begins late August / early September. Non-EU/EEA applicants generally apply by 15 January for autumn entry; EU/EEA applicants by 15 March.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Danish is primary; English-medium widely available, esp. Master's in business, engineering, IT. Typical: IELTS 6.5+ / TOEFL iBT 83+.",
+    "tuitionNote": "EU/EEA/Swiss: TUITION-FREE at public Danish unis. Non-EU/EEA: DKK 50,000-150,000 (~EUR 6,700-20,000)/yr. Cost of living EUR 1,200-1,800/mo Copenhagen, EUR 800-1,200/mo smaller cities."
+  },
+  {
+    "id": "UNI_1931",
+    "slug": "aarhus-school-of-architecture",
+    "name": "Aarhus School of Architecture (Arkitektskolen Aarhus)",
+    "city": "Aarhus",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Danish",
+    "subjects": [
+      "Architecture",
+      "Urban Design",
+      "Heritage and Transformation",
+      "Sustainability"
+    ],
+    "categoryTags": [
+      "Public",
+      "Specialist",
+      "Architecture",
+      "Arts",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Danish Accreditation Institution (Danmarks Akkrediteringsinstitution); Danish Agency for Higher Education and Science; European Higher Education Area (EHEA / Bologna Process since 1999)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 1965, Aarhus School of Architecture is one of Denmark's two specialist higher education institutions for architecture (alongside the Royal Danish Academy in Copenhagen). Approximately 800 students. Particular reputation for sustainability, heritage transformation, and contemporary urban design. ⚠️ Collector file URL 'aarhus.dk' was the city of Aarhus website, not the architecture school; corrected to verified aarch.dk.",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "source": {
+      "id": "SRC_DK_AARCH_015",
+      "title": "Aarhus School of Architecture (Arkitektskolen Aarhus) Official Website",
+      "publisher": "Aarhus School of Architecture (Arkitektskolen Aarhus)",
+      "url": "https://aarch.dk/en/",
+      "tier": "tier_1_official",
+      "description": "Collector URL 'aarhus.dk' was the CITY of Aarhus's website, not the architecture school; corrected to aarch.dk 2026-05-16."
+    },
+    "officialWebsite": "https://aarch.dk/en/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://aarch.dk/en/",
+    "contactUrl": "https://aarch.dk/en/",
+    "deadlinesUrl": "https://aarch.dk/en/",
+    "deadlinesNote": "Danish academic year begins late August / early September. Non-EU/EEA applicants generally apply by 15 January for autumn entry; EU/EEA applicants by 15 March.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Danish is primary; English-medium widely available, esp. Master's in business, engineering, IT. Typical: IELTS 6.5+ / TOEFL iBT 83+.",
+    "tuitionNote": "EU/EEA/Swiss: TUITION-FREE at public Danish unis. Non-EU/EEA: DKK 50,000-150,000 (~EUR 6,700-20,000)/yr. Cost of living EUR 1,200-1,800/mo Copenhagen, EUR 800-1,200/mo smaller cities."
+  },
+  {
+    "id": "UNI_1932",
+    "slug": "design-school-kolding",
+    "name": "Design School Kolding (Designskolen Kolding)",
+    "city": "Kolding",
+    "region": "Europe",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "Danish",
+    "subjects": [
+      "Industrial Design",
+      "Communication Design",
+      "Fashion and Textile Design",
+      "Accessory Design",
+      "Game and Interaction Design"
+    ],
+    "categoryTags": [
+      "Public",
+      "Specialist",
+      "Design",
+      "Arts",
+      "EHEA Bologna"
+    ],
+    "accreditationBody": "Danish Accreditation Institution (Danmarks Akkrediteringsinstitution); Danish Agency for Higher Education and Science; European Higher Education Area (EHEA / Bologna Process since 1999)",
+    "accreditationRegistryUrl": "https://akkr.dk/en/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Founded in 1967, Design School Kolding is one of Denmark's specialist higher education institutions for design — alongside the Royal Danish Academy in Copenhagen. Approximately 350 students. Highly selective admission via portfolio. Located in Kolding in southern Jutland with strong industry orientation in fashion, textile, and product design. ⚠️ Collector file URL 'design.dk' was incorrect; corrected to verified designskolenkolding.dk.",
+    "country": {
+      "iso2": "DK",
+      "name": "Denmark",
+      "slug": "denmark"
+    },
+    "source": {
+      "id": "SRC_DK_DSK_016",
+      "title": "Design School Kolding (Designskolen Kolding) Official Website",
+      "publisher": "Design School Kolding (Designskolen Kolding)",
+      "url": "https://www.designskolenkolding.dk/en",
+      "tier": "tier_1_official",
+      "description": "Collector URL 'design.dk' was FAKE; corrected to verified designskolenkolding.dk 2026-05-16."
+    },
+    "officialWebsite": "https://www.designskolenkolding.dk/en",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.designskolenkolding.dk/en",
+    "contactUrl": "https://www.designskolenkolding.dk/en",
+    "deadlinesUrl": "https://www.designskolenkolding.dk/en",
+    "deadlinesNote": "Danish academic year begins late August / early September. Non-EU/EEA applicants generally apply by 15 January for autumn entry; EU/EEA applicants by 15 March.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Danish is primary; English-medium widely available, esp. Master's in business, engineering, IT. Typical: IELTS 6.5+ / TOEFL iBT 83+.",
+    "tuitionNote": "EU/EEA/Swiss: TUITION-FREE at public Danish unis. Non-EU/EEA: DKK 50,000-150,000 (~EUR 6,700-20,000)/yr. Cost of living EUR 1,200-1,800/mo Copenhagen, EUR 800-1,200/mo smaller cities."
   }
 ]
