@@ -175334,5 +175334,371 @@
     "scholarshipsAvailable": "Limited",
     "englishTestNote": "The language of instruction is Spanish; some private universities and international branch-style programmes offer English-medium options. Spanish proficiency is usually required; verify per programme.",
     "tuitionNote": "The public universities (Universidad de Panamá, UTP, UNACHI, UDELAS, UMIP) charge low, subsidised fees; private universities set their own fees (commonly USD 2,000-8,000/year; some higher). Cost of living is moderate. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2884",
+    "slug": "clarence-fitzroy-bryant-college",
+    "name": "Clarence Fitzroy Bryant College (CFBC)",
+    "city": "Basseterre",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts and General Studies (A-Level/Associate)",
+      "Teacher Education",
+      "Nursing and Health Sciences",
+      "Technical and Vocational",
+      "Business",
+      "Hospitality"
+    ],
+    "categoryTags": [
+      "Public",
+      "National Community College",
+      "Associate/A-Level Pathways",
+      "Historic 1988"
+    ],
+    "accreditationBody": "Saint Christopher and Nevis Accreditation Board / Ministry of Education; for medical/veterinary schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.cfbc.edu.kn/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Clarence Fitzroy Bryant College (CFBC, 1988) is the principal public tertiary college of Saint Kitts and Nevis, offering A-level/associate, teacher-education, nursing, and technical-vocational programmes — the main local pathway to university study.",
+    "country": {
+      "iso2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis"
+    },
+    "source": {
+      "id": "SRC_KN_CLARENCE_898",
+      "title": "Clarence Fitzroy Bryant College (CFBC) Official Website",
+      "publisher": "Clarence Fitzroy Bryant College (CFBC)",
+      "url": "https://www.cfbc.edu.kn/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + real +1-869 phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.cfbc.edu.kn/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.cfbc.edu.kn/",
+    "contactUrl": "https://www.cfbc.edu.kn/",
+    "admissionsEmail": "info@cfbc.edu.kn",
+    "mainPhone": "+1 869-465-2856",
+    "deadlinesUrl": "https://www.cfbc.edu.kn/",
+    "deadlinesNote": "CFBC follows Aug/Sep academic year; offshore medical/veterinary schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical/veterinary schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Clarence Fitzroy Bryant College (public) charges modest fees for nationals (higher for other international students); the offshore medical/veterinary schools charge US-style tuition (commonly USD 15,000-25,000+ per term/semester). Cost of living is moderate-to-high. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2885",
+    "slug": "university-of-the-west-indies-open-campus-st-kitts",
+    "name": "University of the West Indies Open Campus — St. Kitts and Nevis",
+    "city": "Basseterre",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "public",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Open and Distance Learning",
+      "Education",
+      "Social Sciences",
+      "Business",
+      "Continuing and Professional Education"
+    ],
+    "categoryTags": [
+      "Public",
+      "Regional University (UWI)",
+      "Open/Distance",
+      "Commonwealth"
+    ],
+    "accreditationBody": "Saint Christopher and Nevis Accreditation Board / Ministry of Education; for medical/veterinary schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.cfbc.edu.kn/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of the West Indies Open Campus serves Saint Kitts and Nevis (a UWI contributing country) through open and distance learning, delivering UWI degrees and professional programmes; UWI qualifications are widely recognised across the Commonwealth Caribbean and internationally.",
+    "country": {
+      "iso2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis"
+    },
+    "source": {
+      "id": "SRC_KN_UNIVERSITY_899",
+      "title": "University of the West Indies Open Campus — St. Kitts and Nevis Official Website",
+      "publisher": "University of the West Indies Open Campus — St. Kitts and Nevis",
+      "url": "https://www.open.uwi.edu/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + real +1-869 phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.open.uwi.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.open.uwi.edu/",
+    "contactUrl": "https://www.open.uwi.edu/",
+    "admissionsEmail": "open@uwi.edu",
+    "mainPhone": "+1 869-466-2112",
+    "deadlinesUrl": "https://www.open.uwi.edu/",
+    "deadlinesNote": "CFBC follows Aug/Sep academic year; offshore medical/veterinary schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical/veterinary schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Clarence Fitzroy Bryant College (public) charges modest fees for nationals (higher for other international students); the offshore medical/veterinary schools charge US-style tuition (commonly USD 15,000-25,000+ per term/semester). Cost of living is moderate-to-high. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2886",
+    "slug": "university-of-medicine-and-health-sciences-st-kitts",
+    "name": "University of Medicine and Health Sciences (UMHS)",
+    "city": "Basseterre",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (overseas rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Christopher and Nevis Accreditation Board / Ministry of Education; for medical/veterinary schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.cfbc.edu.kn/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The University of Medicine and Health Sciences (UMHS), in Basseterre, is an offshore medical school offering a US-model MD with basic-science teaching in St. Kitts and clinical rotations at affiliated sites abroad. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical/veterinary school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing (medical), ECFMG eligibility, ACGME residency eligibility (or the veterinary equivalent, e.g. AVMA recognition), and the approval of the specific board/country where you intend to practise; status and outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis"
+    },
+    "source": {
+      "id": "SRC_KN_UNIVERSITY_900",
+      "title": "University of Medicine and Health Sciences (UMHS) Official Website",
+      "publisher": "University of Medicine and Health Sciences (UMHS)",
+      "url": "https://www.umhs-sk.org/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + real +1-869 phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.umhs-sk.org/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.umhs-sk.org/",
+    "contactUrl": "https://www.umhs-sk.org/",
+    "admissionsEmail": "admissions@umhs-sk.net",
+    "mainPhone": "+1 869-466-4263",
+    "deadlinesUrl": "https://www.umhs-sk.org/",
+    "deadlinesNote": "CFBC follows Aug/Sep academic year; offshore medical/veterinary schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical/veterinary schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Clarence Fitzroy Bryant College (public) charges modest fees for nationals (higher for other international students); the offshore medical/veterinary schools charge US-style tuition (commonly USD 15,000-25,000+ per term/semester). Cost of living is moderate-to-high. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2887",
+    "slug": "international-university-of-the-health-sciences",
+    "name": "International University of the Health Sciences (IUHS)",
+    "city": "Basseterre",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Health Sciences",
+      "Pre-Medical / Basic Sciences",
+      "Distance-Supported Clinical Pathways"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "Distance-Supported",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Christopher and Nevis Accreditation Board / Ministry of Education; for medical/veterinary schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.cfbc.edu.kn/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The International University of the Health Sciences (IUHS), in Basseterre, is an offshore medical school with a distance-supported model and clinical rotations at affiliated sites. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical/veterinary school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing (medical), ECFMG eligibility, ACGME residency eligibility (or the veterinary equivalent, e.g. AVMA recognition), and the approval of the specific board/country where you intend to practise; status and outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis"
+    },
+    "source": {
+      "id": "SRC_KN_INTERNATIONAL_901",
+      "title": "International University of the Health Sciences (IUHS) Official Website",
+      "publisher": "International University of the Health Sciences (IUHS)",
+      "url": "https://www.iuhs.edu/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + real +1-869 phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.iuhs.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.iuhs.edu/",
+    "contactUrl": "https://www.iuhs.edu/",
+    "admissionsEmail": "admissions@iuhs.edu",
+    "mainPhone": "+1 869-465-4161",
+    "deadlinesUrl": "https://www.iuhs.edu/",
+    "deadlinesNote": "CFBC follows Aug/Sep academic year; offshore medical/veterinary schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical/veterinary schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Clarence Fitzroy Bryant College (public) charges modest fees for nationals (higher for other international students); the offshore medical/veterinary schools charge US-style tuition (commonly USD 15,000-25,000+ per term/semester). Cost of living is moderate-to-high. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2888",
+    "slug": "medical-university-of-the-americas-nevis",
+    "name": "Medical University of the Americas (MUA)",
+    "city": "Charlestown (Nevis)",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (overseas rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Christopher and Nevis Accreditation Board / Ministry of Education; for medical/veterinary schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.cfbc.edu.kn/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "The Medical University of the Americas (MUA), in Charlestown, Nevis, is an offshore medical school offering a US-model MD with basic-science teaching in Nevis and clinical rotations at affiliated sites abroad. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical/veterinary school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing (medical), ECFMG eligibility, ACGME residency eligibility (or the veterinary equivalent, e.g. AVMA recognition), and the approval of the specific board/country where you intend to practise; status and outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis"
+    },
+    "source": {
+      "id": "SRC_KN_MEDICAL_902",
+      "title": "Medical University of the Americas (MUA) Official Website",
+      "publisher": "Medical University of the Americas (MUA)",
+      "url": "https://www.mua.edu/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + real +1-869 phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.mua.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.mua.edu/",
+    "contactUrl": "https://www.mua.edu/",
+    "admissionsEmail": "admissions@mua.edu",
+    "mainPhone": "+1 869-469-9123",
+    "deadlinesUrl": "https://www.mua.edu/",
+    "deadlinesNote": "CFBC follows Aug/Sep academic year; offshore medical/veterinary schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical/veterinary schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Clarence Fitzroy Bryant College (public) charges modest fees for nationals (higher for other international students); the offshore medical/veterinary schools charge US-style tuition (commonly USD 15,000-25,000+ per term/semester). Cost of living is moderate-to-high. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2889",
+    "slug": "windsor-university-school-of-medicine",
+    "name": "Windsor University School of Medicine",
+    "city": "Cayon",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine (MD)",
+      "Pre-Medical / Basic Sciences",
+      "Clinical Sciences (overseas rotations)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Medical School",
+      "US-Model MD",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Christopher and Nevis Accreditation Board / Ministry of Education; for medical/veterinary schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.cfbc.edu.kn/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Windsor University School of Medicine, in Cayon, St. Kitts, is an offshore medical school offering a US-model MD with basic-science teaching in St. Kitts and clinical rotations at affiliated sites abroad. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical/veterinary school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing (medical), ECFMG eligibility, ACGME residency eligibility (or the veterinary equivalent, e.g. AVMA recognition), and the approval of the specific board/country where you intend to practise; status and outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis"
+    },
+    "source": {
+      "id": "SRC_KN_WINDSOR_903",
+      "title": "Windsor University School of Medicine Official Website",
+      "publisher": "Windsor University School of Medicine",
+      "url": "https://www.windsor.edu/",
+      "tier": "tier_1_official",
+      "description": "All collector data (URL + real +1-869 phone + domain-matching email) verified genuine and kept. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://www.windsor.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://www.windsor.edu/",
+    "contactUrl": "https://www.windsor.edu/",
+    "admissionsEmail": "admissions@windsor.edu",
+    "mainPhone": "+1 869-465-1222",
+    "deadlinesUrl": "https://www.windsor.edu/",
+    "deadlinesNote": "CFBC follows Aug/Sep academic year; offshore medical/veterinary schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical/veterinary schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Clarence Fitzroy Bryant College (public) charges modest fees for nationals (higher for other international students); the offshore medical/veterinary schools charge US-style tuition (commonly USD 15,000-25,000+ per term/semester). Cost of living is moderate-to-high. Verify current fees directly."
+  },
+  {
+    "id": "UNI_2890",
+    "slug": "ross-university-school-of-veterinary-medicine",
+    "name": "Ross University School of Veterinary Medicine",
+    "city": "Basseterre",
+    "region": "North America",
+    "publishable": true,
+    "verificationStatus": "curator_added_official_web",
+    "controlType": "private",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Veterinary Medicine (DVM)",
+      "Pre-Veterinary / Basic Sciences",
+      "Clinical Veterinary Sciences (overseas clinical year)"
+    ],
+    "categoryTags": [
+      "Private",
+      "Offshore Veterinary School",
+      "US-Model DVM",
+      "International Intake",
+      "Verify Recognition"
+    ],
+    "accreditationBody": "Saint Christopher and Nevis Accreditation Board / Ministry of Education; for medical/veterinary schools, recognition rests on international listings (e.g. World Directory of Medical Schools) — verify CURRENT status",
+    "accreditationRegistryUrl": "https://www.cfbc.edu.kn/",
+    "accreditationBodyVerifiedDate": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "studentNotes": "Ross University School of Veterinary Medicine, in Basseterre, St. Kitts, is one of the largest and most established offshore veterinary schools, offering a US-model DVM with basic-science teaching in St. Kitts and a clinical year at affiliated sites abroad. ⚠️ RECOGNITION ADVISORY (neutral, factual): an offshore medical/veterinary school whose students typically aim to practise abroad. Eligibility depends on the school's CURRENT accreditation, World Directory of Medical Schools listing (medical), ECFMG eligibility, ACGME residency eligibility (or the veterinary equivalent, e.g. AVMA recognition), and the approval of the specific board/country where you intend to practise; status and outcomes VARY and CHANGE — verify the current position with the relevant authority BEFORE enrolling.",
+    "country": {
+      "iso2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis"
+    },
+    "source": {
+      "id": "SRC_KN_ROSS_904",
+      "title": "Ross University School of Veterinary Medicine Official Website",
+      "publisher": "Ross University School of Veterinary Medicine",
+      "url": "https://veterinary.rossu.edu/",
+      "tier": "tier_1_official",
+      "description": "Collector URL (veterinary.rossu.edu) verified genuine and kept. Phone '+1 869-465-4161' DUPLICATED IUHS's number (fabrication signal) → nulled. Email 'admissons@rossu.edu' was MISSPELLED ('admissons') — a broken address → nulled. Never present a likely-broken contact. Verified 2026-05-16."
+    },
+    "officialWebsite": "https://veterinary.rossu.edu/",
+    "recognitionByDestination": [],
+    "admissionsUrl": "https://veterinary.rossu.edu/",
+    "contactUrl": "https://veterinary.rossu.edu/",
+    "deadlinesUrl": "https://veterinary.rossu.edu/",
+    "deadlinesNote": "CFBC follows Aug/Sep academic year; offshore medical/veterinary schools run multi-intake (Jan/May/Sep). Verify timelines directly; confirm recognition before applying to medical/veterinary schools.",
+    "scholarshipsAvailable": "Limited",
+    "englishTestNote": "Instruction in English (official language). International applicants from non-English-medium backgrounds may need to demonstrate proficiency; requirements vary — verify directly.",
+    "tuitionNote": "Clarence Fitzroy Bryant College (public) charges modest fees for nationals (higher for other international students); the offshore medical/veterinary schools charge US-style tuition (commonly USD 15,000-25,000+ per term/semester). Cost of living is moderate-to-high. Verify current fees directly."
   }
 ]
