@@ -202086,5 +202086,322 @@
     "deadlinesUrl": null,
     "deadlinesNote": "Admission cycles vary; confirm directly with the university / Ministère.",
     "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3350",
+    "slug": "universite-de-bangui",
+    "name": "Université de Bangui",
+    "country": {
+      "iso2": "CF",
+      "name": "Central African Republic",
+      "slug": "central-african-republic"
+    },
+    "city": "Bangui",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Medicine & Health Sciences",
+      "Law",
+      "Social Sciences",
+      "Education",
+      "Engineering & Technology"
+    ],
+    "categoryTags": [
+      "Ministère de l'Enseignement Supérieur",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in French; French proficiency is generally required.",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the institution.",
+    "studentNotes": "Recognised public university in Central African Republic. Verify recognition with the national Ministère de l'Enseignement Supérieur and that the qualification is recognised in your target country before enrolling; instruction is in French. PATH-B NOTE: this records the high-confidence university-level institution(s) of Central African Republic. It is NOT guaranteed exhaustive — other institutes may exist and can be added from the national Ministère de l'Enseignement Supérieur register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank.",
+    "accreditationBody": "Ministère de l'Enseignement Supérieur — République centrafricaine",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-CF-3350",
+      "title": "Ministère de l'Enseignement Supérieur (Central African Republic); national university",
+      "publisher": "Government of Central African Republic",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence university-level institution. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the national Ministère de l'Enseignement Supérieur. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive. 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the institution / Ministère.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3351",
+    "slug": "universite-gamal-abdel-nasser-de-conakry",
+    "name": "Université Gamal Abdel Nasser de Conakry",
+    "country": {
+      "iso2": "GN",
+      "name": "Guinea",
+      "slug": "guinea"
+    },
+    "city": "Conakry",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Medicine & Health Sciences",
+      "Law",
+      "Social Sciences",
+      "Engineering & Technology",
+      "Education"
+    ],
+    "categoryTags": [
+      "Ministère de l'Enseignement Supérieur et",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in French; French proficiency is generally required.",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the institution.",
+    "studentNotes": "Recognised public university in Guinea. Verify recognition with the national Ministère de l'Enseignement Supérieur and that the qualification is recognised in your target country before enrolling; instruction is in French. PATH-B NOTE: this records the high-confidence university-level institution(s) of Guinea. It is NOT guaranteed exhaustive — other institutes may exist and can be added from the national Ministère de l'Enseignement Supérieur register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank. NOTE: this is Guinea (GN, Conakry) — distinct from Guinea-Bissau and from Equatorial Guinea (GQ), both of which are already in the dataset.",
+    "accreditationBody": "Ministère de l'Enseignement Supérieur et de la Recherche Scientifique — Guinée",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-GN-3351",
+      "title": "Ministère de l'Enseignement Supérieur (Guinea); national university",
+      "publisher": "Government of Guinea",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence university-level institution. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the national Ministère de l'Enseignement Supérieur. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive. NOTE: this is Guinea (GN, Conakry) — distinct from Guinea-Bissau and from Equatorial Guinea (GQ), both of which are already in the dataset. 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the institution / Ministère.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3352",
+    "slug": "universite-general-lansana-conte-de-sonfonia",
+    "name": "Université Général Lansana Conté de Sonfonia",
+    "country": {
+      "iso2": "GN",
+      "name": "Guinea",
+      "slug": "guinea"
+    },
+    "city": "Conakry",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Science"
+    ],
+    "categoryTags": [
+      "Ministère de l'Enseignement Supérieur et",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in French; French proficiency is generally required.",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the institution.",
+    "studentNotes": "Recognised public university in Guinea. Verify recognition with the national Ministère de l'Enseignement Supérieur and that the qualification is recognised in your target country before enrolling; instruction is in French. PATH-B NOTE: this records the high-confidence university-level institution(s) of Guinea. It is NOT guaranteed exhaustive — other institutes may exist and can be added from the national Ministère de l'Enseignement Supérieur register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank. NOTE: this is Guinea (GN, Conakry) — distinct from Guinea-Bissau and from Equatorial Guinea (GQ), both of which are already in the dataset.",
+    "accreditationBody": "Ministère de l'Enseignement Supérieur et de la Recherche Scientifique — Guinée",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-GN-3352",
+      "title": "Ministère de l'Enseignement Supérieur (Guinea); national university",
+      "publisher": "Government of Guinea",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence university-level institution. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the national Ministère de l'Enseignement Supérieur. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive. NOTE: this is Guinea (GN, Conakry) — distinct from Guinea-Bissau and from Equatorial Guinea (GQ), both of which are already in the dataset. 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the institution / Ministère.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3353",
+    "slug": "universite-kofi-annan-de-guinee",
+    "name": "Université Kofi Annan de Guinée",
+    "country": {
+      "iso2": "GN",
+      "name": "Guinea",
+      "slug": "guinea"
+    },
+    "city": "Conakry",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Computer Science & IT",
+      "Social Sciences",
+      "Law"
+    ],
+    "categoryTags": [
+      "Ministère de l'Enseignement Supérieur et",
+      "Private"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in French; French proficiency is generally required.",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the institution.",
+    "studentNotes": "Recognised private university in Guinea. Verify recognition with the national Ministère de l'Enseignement Supérieur and that the qualification is recognised in your target country before enrolling; instruction is in French. PATH-B NOTE: this records the high-confidence university-level institution(s) of Guinea. It is NOT guaranteed exhaustive — other institutes may exist and can be added from the national Ministère de l'Enseignement Supérieur register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank. NOTE: this is Guinea (GN, Conakry) — distinct from Guinea-Bissau and from Equatorial Guinea (GQ), both of which are already in the dataset.",
+    "accreditationBody": "Ministère de l'Enseignement Supérieur et de la Recherche Scientifique — Guinée",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-GN-3353",
+      "title": "Ministère de l'Enseignement Supérieur (Guinea); national university",
+      "publisher": "Government of Guinea",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence university-level institution. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the national Ministère de l'Enseignement Supérieur. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive. NOTE: this is Guinea (GN, Conakry) — distinct from Guinea-Bissau and from Equatorial Guinea (GQ), both of which are already in the dataset. 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the institution / Ministère.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3354",
+    "slug": "universite-abdou-moumouni",
+    "name": "Université Abdou Moumouni",
+    "country": {
+      "iso2": "NE",
+      "name": "Niger",
+      "slug": "niger"
+    },
+    "city": "Niamey",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Medicine & Health Sciences",
+      "Law",
+      "Social Sciences",
+      "Education",
+      "Agriculture & Environmental Studies"
+    ],
+    "categoryTags": [
+      "Ministère de l'Enseignement Supérieur, d",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in French; French proficiency is generally required.",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the institution.",
+    "studentNotes": "Recognised public university in Niger. Verify recognition with the national Ministère de l'Enseignement Supérieur and that the qualification is recognised in your target country before enrolling; instruction is in French. PATH-B NOTE: this records the high-confidence university-level institution(s) of Niger. It is NOT guaranteed exhaustive — other institutes may exist and can be added from the national Ministère de l'Enseignement Supérieur register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank. NOTE: this is Niger (NE, Niamey) — distinct from Nigeria (NG), which is already in the dataset.",
+    "accreditationBody": "Ministère de l'Enseignement Supérieur, de la Recherche et de l'Innovation — Niger",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-NE-3354",
+      "title": "Ministère de l'Enseignement Supérieur (Niger); national university",
+      "publisher": "Government of Niger",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence university-level institution. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the national Ministère de l'Enseignement Supérieur. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive. NOTE: this is Niger (NE, Niamey) — distinct from Nigeria (NG), which is already in the dataset. 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the institution / Ministère.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3355",
+    "slug": "universite-islamique-du-niger",
+    "name": "Université Islamique du Niger",
+    "country": {
+      "iso2": "NE",
+      "name": "Niger",
+      "slug": "niger"
+    },
+    "city": "Say",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Law",
+      "Social Sciences",
+      "Education"
+    ],
+    "categoryTags": [
+      "Ministère de l'Enseignement Supérieur, d",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in French; French proficiency is generally required.",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the institution.",
+    "studentNotes": "Recognised public university in Niger. Verify recognition with the national Ministère de l'Enseignement Supérieur and that the qualification is recognised in your target country before enrolling; instruction is in French. PATH-B NOTE: this records the high-confidence university-level institution(s) of Niger. It is NOT guaranteed exhaustive — other institutes may exist and can be added from the national Ministère de l'Enseignement Supérieur register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank. NOTE: this is Niger (NE, Niamey) — distinct from Nigeria (NG), which is already in the dataset.",
+    "accreditationBody": "Ministère de l'Enseignement Supérieur, de la Recherche et de l'Innovation — Niger",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-NE-3355",
+      "title": "Ministère de l'Enseignement Supérieur (Niger); national university",
+      "publisher": "Government of Niger",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence university-level institution. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the national Ministère de l'Enseignement Supérieur. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive. NOTE: this is Niger (NE, Niamey) — distinct from Nigeria (NG), which is already in the dataset. 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the institution / Ministère.",
+    "scholarshipsUrl": null
   }
 ]
