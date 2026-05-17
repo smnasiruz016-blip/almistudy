@@ -183294,5 +183294,119 @@
     "deadlinesUrl": null,
     "deadlinesNote": "Admission periods are announced by the Ministry of Education.",
     "scholarshipsUrl": "https://www.moe.gov.ki/"
+  },
+  {
+    "id": "UNI_2997",
+    "slug": "college-of-the-marshall-islands",
+    "name": "College of the Marshall Islands",
+    "country": {
+      "iso2": "MH",
+      "name": "Marshall Islands",
+      "slug": "marshall-islands"
+    },
+    "city": "Majuro",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.cmi.edu/",
+    "admissionsUrl": "https://www.cmi.edu/admission-guidelines/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Architecture & Design",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Community College",
+      "Higher Education",
+      "Accredited Institution"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English is the primary language of instruction; additional English proficiency documentation may be required for international applicants.",
+    "tuitionNote": "Tuition and fees vary by programme and residency status; refer to the official website for current fee schedules.",
+    "studentNotes": "The College of the Marshall Islands is the national post-secondary institution of the Republic of the Marshall Islands, in Majuro, primarily offering associate degrees and certificate programmes (a community college rather than a four-year university — confirm this matches your goal). It is accredited by ACCJC/WASC; verify the current accreditation directly on the accreditor's official directory and confirm credit transfer or recognition in your target country before enrolling. Honest context: the Marshall Islands carries the legacy of US nuclear testing (1946-1958) and is highly climate-vulnerable; consider programme continuity for multi-year study.",
+    "accreditationBody": "Accrediting Commission for Community and Junior Colleges (ACCJC), Western Association of Schools and Colleges (WASC)",
+    "accreditationRegistryUrl": "https://accjc.org/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-MH-CMI-001",
+      "title": "College of the Marshall Islands — official website",
+      "publisher": "College of the Marshall Islands",
+      "url": "https://www.cmi.edu/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.cmi.edu/contact/",
+    "admissionsEmail": "info@cmi.edu",
+    "mainPhone": "+692 625 3394",
+    "deadlinesUrl": "https://www.cmi.edu/admission-guidelines/",
+    "deadlinesNote": "Admissions available for Fall, Spring and Summer semesters.",
+    "scholarshipsUrl": "https://www.cmi.edu/financial-aid/"
+  },
+  {
+    "id": "UNI_2998",
+    "slug": "university-of-the-south-pacific-marshall-islands-campus",
+    "name": "University of the South Pacific (Marshall Islands Campus)",
+    "country": {
+      "iso2": "MH",
+      "name": "Marshall Islands",
+      "slug": "marshall-islands"
+    },
+    "city": "Majuro",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.usp.ac.fj/",
+    "admissionsUrl": "https://www.usp.ac.fj/study-at-usp/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Business & Management",
+      "Social Sciences",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Regional University",
+      "Public",
+      "Distance Learning"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English language proficiency may be required depending on programme.",
+    "tuitionNote": "Tuition varies by programme and student residency status (regional vs international).",
+    "studentNotes": "Curator-added: the University of the South Pacific maintains a campus in Majuro serving Marshall Islands students (the RMI is one of USP's 12 member states), offering in-person, blended and distance learning. Campus-specific phone and email are left blank rather than guessed; contact via USP's official channels. Verify current programme accreditation and recognition with USP and in your intended country before enrolling. Honest advisory: the RMI is highly climate-vulnerable and carries the legacy of US nuclear testing — consider continuity and delivery mode for multi-year study.",
+    "accreditationBody": "University of the South Pacific (regional, 12 member countries incl. the Marshall Islands)",
+    "accreditationRegistryUrl": "https://www.usp.ac.fj/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-MH-USP-001",
+      "title": "University of the South Pacific — official website",
+      "publisher": "University of the South Pacific",
+      "url": "https://www.usp.ac.fj/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.usp.ac.fj/contact-us/",
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.usp.ac.fj/study-at-usp/how-to-apply/",
+    "deadlinesNote": "Application deadlines vary by semester and programme.",
+    "scholarshipsUrl": "https://www.usp.ac.fj/study-at-usp/scholarships/"
   }
 ]
