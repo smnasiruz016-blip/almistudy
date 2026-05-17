@@ -201141,5 +201141,301 @@
     "deadlinesUrl": "https://www.canberra.edu.au",
     "deadlinesNote": "Intakes vary by course (commonly semester 1 and 2); confirm via the official site.",
     "scholarshipsUrl": "https://www.canberra.edu.au"
+  },
+  {
+    "id": "UNI_3332",
+    "slug": "eritrea-institute-of-technology",
+    "name": "Eritrea Institute of Technology",
+    "country": {
+      "iso2": "ER",
+      "name": "Eritrea",
+      "slug": "eritrea"
+    },
+    "city": "Mai Nefhi",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "http://eit.edu.er",
+    "admissionsUrl": "http://eit.edu.er",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Science",
+      "Engineering & Technology",
+      "Education",
+      "Computer Science & IT",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "National Board for Higher Education",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction at tertiary level is generally in English; Tigrinya and Arabic are national languages.",
+    "tuitionNote": "Public colleges; confirm fees, admission and national-service conditions directly.",
+    "studentNotes": "Recognised Eritrean public college (post-2006 decentralized system). Verify recognition with Eritrea's National Board for Higher Education / Ministry of Education and that the qualification is recognised in your target country before enrolling. Honest practical note: following the dismantling of the University of Asmara around 2006, Eritrean higher education is delivered through separate government colleges; public web presence is limited and the system is highly centralized. Eritrea's prolonged/indefinite national-service obligation has been the subject of United Nations and other international human-rights reporting. Verify current operating status, admission conditions and any national-service implications directly before enrolling — this is neutral consumer information, not a political statement.",
+    "accreditationBody": "National Board for Higher Education (Eritrea) — Ministry of Education",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-ER-3364",
+      "title": "Institution official website where verified; national higher-education authority",
+      "publisher": "Government of Eritrea",
+      "url": "http://eit.edu.er",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "http://eit.edu.er",
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": "http://eit.edu.er",
+    "deadlinesNote": "Admission cycles vary by programme; confirm directly with the institution / authority.",
+    "scholarshipsUrl": "http://eit.edu.er"
+  },
+  {
+    "id": "UNI_3333",
+    "slug": "asmara-college-of-health-sciences",
+    "name": "Asmara College of Health Sciences",
+    "country": {
+      "iso2": "ER",
+      "name": "Eritrea",
+      "slug": "eritrea"
+    },
+    "city": "Asmara",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine & Health Sciences",
+      "Science"
+    ],
+    "categoryTags": [
+      "National Board for Higher Education",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction at tertiary level is generally in English; Tigrinya and Arabic are national languages.",
+    "tuitionNote": "Public colleges; confirm fees, admission and national-service conditions directly.",
+    "studentNotes": "Recognised Eritrean public college (post-2006 decentralized system). Verify recognition with Eritrea's National Board for Higher Education / Ministry of Education and that the qualification is recognised in your target country before enrolling. Honest practical note: following the dismantling of the University of Asmara around 2006, Eritrean higher education is delivered through separate government colleges; public web presence is limited and the system is highly centralized. Eritrea's prolonged/indefinite national-service obligation has been the subject of United Nations and other international human-rights reporting. Verify current operating status, admission conditions and any national-service implications directly before enrolling — this is neutral consumer information, not a political statement.",
+    "accreditationBody": "National Board for Higher Education (Eritrea) — Ministry of Education",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-ER-3365",
+      "title": "Institution official website where verified; national higher-education authority",
+      "publisher": "Government of Eritrea",
+      "url": null,
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary by programme; confirm directly with the institution / authority.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3334",
+    "slug": "adi-keih-college-of-arts-and-social-sciences",
+    "name": "Adi-Keih College of Arts and Social Sciences",
+    "country": {
+      "iso2": "ER",
+      "name": "Eritrea",
+      "slug": "eritrea"
+    },
+    "city": "Adi Keyh",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Social Sciences",
+      "Law",
+      "Education"
+    ],
+    "categoryTags": [
+      "National Board for Higher Education",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction at tertiary level is generally in English; Tigrinya and Arabic are national languages.",
+    "tuitionNote": "Public colleges; confirm fees, admission and national-service conditions directly.",
+    "studentNotes": "Recognised Eritrean public college (post-2006 decentralized system). Verify recognition with Eritrea's National Board for Higher Education / Ministry of Education and that the qualification is recognised in your target country before enrolling. Honest practical note: following the dismantling of the University of Asmara around 2006, Eritrean higher education is delivered through separate government colleges; public web presence is limited and the system is highly centralized. Eritrea's prolonged/indefinite national-service obligation has been the subject of United Nations and other international human-rights reporting. Verify current operating status, admission conditions and any national-service implications directly before enrolling — this is neutral consumer information, not a political statement.",
+    "accreditationBody": "National Board for Higher Education (Eritrea) — Ministry of Education",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-ER-3366",
+      "title": "Institution official website where verified; national higher-education authority",
+      "publisher": "Government of Eritrea",
+      "url": null,
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary by programme; confirm directly with the institution / authority.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3335",
+    "slug": "hamelmalo-college-of-agriculture",
+    "name": "Hamelmalo College of Agriculture",
+    "country": {
+      "iso2": "ER",
+      "name": "Eritrea",
+      "slug": "eritrea"
+    },
+    "city": "Hamelmalo",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Agriculture & Environmental Studies",
+      "Science"
+    ],
+    "categoryTags": [
+      "National Board for Higher Education",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction at tertiary level is generally in English; Tigrinya and Arabic are national languages.",
+    "tuitionNote": "Public colleges; confirm fees, admission and national-service conditions directly.",
+    "studentNotes": "Recognised Eritrean public college (post-2006 decentralized system). Verify recognition with Eritrea's National Board for Higher Education / Ministry of Education and that the qualification is recognised in your target country before enrolling. Honest practical note: following the dismantling of the University of Asmara around 2006, Eritrean higher education is delivered through separate government colleges; public web presence is limited and the system is highly centralized. Eritrea's prolonged/indefinite national-service obligation has been the subject of United Nations and other international human-rights reporting. Verify current operating status, admission conditions and any national-service implications directly before enrolling — this is neutral consumer information, not a political statement.",
+    "accreditationBody": "National Board for Higher Education (Eritrea) — Ministry of Education",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-ER-3367",
+      "title": "Institution official website where verified; national higher-education authority",
+      "publisher": "Government of Eritrea",
+      "url": null,
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary by programme; confirm directly with the institution / authority.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3336",
+    "slug": "halhale-college-of-business-and-economics",
+    "name": "Halhale College of Business and Economics",
+    "country": {
+      "iso2": "ER",
+      "name": "Eritrea",
+      "slug": "eritrea"
+    },
+    "city": "Halhal",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business & Management",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "National Board for Higher Education",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction at tertiary level is generally in English; Tigrinya and Arabic are national languages.",
+    "tuitionNote": "Public colleges; confirm fees, admission and national-service conditions directly.",
+    "studentNotes": "Recognised Eritrean public college (post-2006 decentralized system). Verify recognition with Eritrea's National Board for Higher Education / Ministry of Education and that the qualification is recognised in your target country before enrolling. Honest practical note: following the dismantling of the University of Asmara around 2006, Eritrean higher education is delivered through separate government colleges; public web presence is limited and the system is highly centralized. Eritrea's prolonged/indefinite national-service obligation has been the subject of United Nations and other international human-rights reporting. Verify current operating status, admission conditions and any national-service implications directly before enrolling — this is neutral consumer information, not a political statement.",
+    "accreditationBody": "National Board for Higher Education (Eritrea) — Ministry of Education",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-ER-3368",
+      "title": "Institution official website where verified; national higher-education authority",
+      "publisher": "Government of Eritrea",
+      "url": null,
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary by programme; confirm directly with the institution / authority.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3337",
+    "slug": "university-of-seychelles",
+    "name": "University of Seychelles",
+    "country": {
+      "iso2": "SC",
+      "name": "Seychelles",
+      "slug": "seychelles"
+    },
+    "city": "Anse Royale, Mahé",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://unisey.ac.sc",
+    "admissionsUrl": "https://unisey.ac.sc",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Seychelles Qualifications Authority",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is primarily in English (Seychellois Creole and French are also national languages).",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the university.",
+    "studentNotes": "The University of Seychelles (established 2009) is the national university of Seychelles. Verify SQA recognition and that the qualification is recognised in your target country before enrolling; instruction is primarily in English.",
+    "accreditationBody": "Seychelles Qualifications Authority (SQA) — Government of Seychelles",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-SC-3369",
+      "title": "Institution official website where verified; national higher-education authority",
+      "publisher": "Government of Seychelles",
+      "url": "https://unisey.ac.sc",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://unisey.ac.sc",
+    "admissionsEmail": "Marketing@unisey.ac.sc",
+    "mainPhone": "+248 438 1222",
+    "deadlinesUrl": "https://unisey.ac.sc",
+    "deadlinesNote": "Admission cycles vary by programme; confirm directly with the institution / authority.",
+    "scholarshipsUrl": "https://unisey.ac.sc"
   }
 ]
