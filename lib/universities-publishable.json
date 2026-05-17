@@ -201978,5 +201978,113 @@
     "deadlinesUrl": null,
     "deadlinesNote": "Admission cycles vary; confirm directly with the university / Ministry.",
     "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3348",
+    "slug": "universite-marien-ngouabi",
+    "name": "Université Marien Ngouabi",
+    "country": {
+      "iso2": "CG",
+      "name": "Republic of the Congo",
+      "slug": "republic-of-the-congo"
+    },
+    "city": "Brazzaville",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Medicine & Health Sciences",
+      "Law",
+      "Social Sciences",
+      "Education",
+      "Engineering & Technology",
+      "Business & Management",
+      "Agriculture & Environmental Studies"
+    ],
+    "categoryTags": [
+      "Ministère de l'Enseignement Supérieur (Congo)",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in French; French proficiency is generally required.",
+    "tuitionNote": "Public university; confirm current fees and admission conditions directly.",
+    "studentNotes": "Recognised public university in the Republic of the Congo (Brazzaville). Verify recognition with the Ministère de l'Enseignement Supérieur and that the qualification is recognised in your target country before enrolling; instruction is in French. PATH-B NOTE: this records the high-confidence public university-level institutions of the Republic of the Congo (Brazzaville). It is NOT guaranteed exhaustive — small private institutes may exist and can be added from the Ministère de l'Enseignement Supérieur register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank. NOTE: this is the Republic of the Congo (CG, Brazzaville), distinct from the Democratic Republic of the Congo (CD, Kinshasa).",
+    "accreditationBody": "Ministère de l'Enseignement Supérieur — République du Congo",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-CG-3348",
+      "title": "Ministère de l'Enseignement Supérieur (Republic of the Congo); national university",
+      "publisher": "Government of the Republic of the Congo",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence public university. Country is the REPUBLIC OF THE CONGO (CG, Brazzaville) — distinct from the Democratic Republic of the Congo (CD, Kinshasa) which is already in the dataset. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the Ministère de l'Enseignement Supérieur. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive (see studentNotes). 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the university / Ministère.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3349",
+    "slug": "universite-denis-sassou-nguesso",
+    "name": "Université Denis Sassou Nguesso",
+    "country": {
+      "iso2": "CG",
+      "name": "Republic of the Congo",
+      "slug": "republic-of-the-congo"
+    },
+    "city": "Kintélé",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "French",
+    "subjects": [
+      "Science",
+      "Engineering & Technology",
+      "Computer Science & IT",
+      "Business & Management",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Ministère de l'Enseignement Supérieur (Congo)",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in French; French proficiency is generally required.",
+    "tuitionNote": "Public university; confirm current fees and admission conditions directly.",
+    "studentNotes": "Recognised public university in the Republic of the Congo (Brazzaville). Verify recognition with the Ministère de l'Enseignement Supérieur and that the qualification is recognised in your target country before enrolling; instruction is in French. PATH-B NOTE: this records the high-confidence public university-level institutions of the Republic of the Congo (Brazzaville). It is NOT guaranteed exhaustive — small private institutes may exist and can be added from the Ministère de l'Enseignement Supérieur register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank. NOTE: this is the Republic of the Congo (CG, Brazzaville), distinct from the Democratic Republic of the Congo (CD, Kinshasa).",
+    "accreditationBody": "Ministère de l'Enseignement Supérieur — République du Congo",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-CG-3349",
+      "title": "Ministère de l'Enseignement Supérieur (Republic of the Congo); national university",
+      "publisher": "Government of the Republic of the Congo",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence public university. Country is the REPUBLIC OF THE CONGO (CG, Brazzaville) — distinct from the Democratic Republic of the Congo (CD, Kinshasa) which is already in the dataset. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the Ministère de l'Enseignement Supérieur. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive (see studentNotes). 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the university / Ministère.",
+    "scholarshipsUrl": null
   }
 ]
