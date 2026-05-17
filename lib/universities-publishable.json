@@ -185031,5 +185031,265 @@
     "deadlinesUrl": null,
     "deadlinesNote": "Admission timelines are announced by the Ministry of Education.",
     "scholarshipsUrl": "https://meys.gov.tv/"
+  },
+  {
+    "id": "UNI_3029",
+    "slug": "university-of-the-south-pacific-emalus-campus",
+    "name": "University of the South Pacific (Emalus Campus)",
+    "country": {
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "slug": "vanuatu"
+    },
+    "city": "Port Vila",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.usp.ac.fj",
+    "admissionsUrl": "https://www.usp.ac.fj/study-at-usp/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Business & Management",
+      "Law",
+      "Education",
+      "Social Sciences",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies"
+    ],
+    "categoryTags": [
+      "Regional University",
+      "Law",
+      "Pacific Studies",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "IELTS/TOEFL accepted for international applicants.",
+    "tuitionNote": "Programme-specific tuition applies; fees vary by residency category (regional vs international).",
+    "studentNotes": "The Emalus Campus of the University of the South Pacific, in Port Vila, is the home of USP's regional School of Law serving the whole Pacific (Vanuatu is one of USP's 12 member states), alongside other USP programmes delivered in person and by distance / blended learning. Verify current programme accreditation and recognition with USP and in your intended country before enrolling. Honest advisory: Vanuatu is among the world's most natural-disaster-exposed countries (cyclones, volcanoes, earthquakes); consider continuity for multi-year study.",
+    "accreditationBody": "University of the South Pacific (regional, 12 member countries incl. Vanuatu); the Emalus Campus hosts USP's regional School of Law",
+    "accreditationRegistryUrl": "https://www.usp.ac.fj",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-VU-001",
+      "title": "University of the South Pacific — official website (Emalus Campus)",
+      "publisher": "University of the South Pacific",
+      "url": "https://www.usp.ac.fj",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.usp.ac.fj/contact-us/",
+    "admissionsEmail": "studentrecruitment@usp.ac.fj",
+    "mainPhone": "+678 22170",
+    "deadlinesUrl": "https://www.usp.ac.fj/study-at-usp/how-to-apply/",
+    "deadlinesNote": "Semester-based admissions.",
+    "scholarshipsUrl": "https://www.usp.ac.fj/study-at-usp/scholarships/"
+  },
+  {
+    "id": "UNI_3030",
+    "slug": "national-university-of-vanuatu",
+    "name": "National University of Vanuatu",
+    "country": {
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "slug": "vanuatu"
+    },
+    "city": "Port Vila",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.univ.edu.vu/en/",
+    "admissionsUrl": "https://www.univ.edu.vu/en/",
+    "primaryLanguage": "English, French",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies"
+    ],
+    "categoryTags": [
+      "National University",
+      "Public",
+      "Bilingual"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "English / French proficiency may be required depending on programme.",
+    "tuitionNote": "Affordable national tuition structure; confirm current fees with the institution.",
+    "studentNotes": "The National University of Vanuatu, in Port Vila, is the national public university, established by Act No. 34 of 2019, teaching bilingually in English and French (reflecting Vanuatu's dual colonial heritage). As a young institution, confirm the official website, programmes and current recognition (Government of Vanuatu) directly, and verify recognition in your target country before enrolling.",
+    "accreditationBody": "Government of Vanuatu (established by the National University of Vanuatu Act No. 34 of 2019)",
+    "accreditationRegistryUrl": "https://www.gov.vu",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-VU-002",
+      "title": "National University of Vanuatu / Government of Vanuatu",
+      "publisher": "Government of Vanuatu",
+      "url": "https://www.gov.vu",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": "https://www.univ.edu.vu/en/",
+    "admissionsEmail": "info@univ.edu.vu",
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.univ.edu.vu/en/",
+    "deadlinesNote": "Annual admissions cycle; confirm on the official website.",
+    "scholarshipsUrl": "https://www.univ.edu.vu/en/"
+  },
+  {
+    "id": "UNI_3031",
+    "slug": "vanuatu-institute-of-technology",
+    "name": "Vanuatu Institute of Technology",
+    "country": {
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "slug": "vanuatu"
+    },
+    "city": "Port Vila",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English, French",
+    "subjects": [
+      "Engineering & Technology",
+      "Business & Management",
+      "Computer Science & IT",
+      "Education"
+    ],
+    "categoryTags": [
+      "Technical Institute",
+      "Vocational",
+      "Public"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "Language requirements depend on the programme (English / French).",
+    "tuitionNote": "Technical and vocational fee structure; confirm with the institute / Ministry.",
+    "studentNotes": "The Vanuatu Institute of Technology, in Port Vila, is the country's principal public technical and vocational training institute. Honest note: it does not maintain a separate verified institutional website (the collector provided only the general Vanuatu government portal), so website and generic government email were left blank rather than presented as the institute's own. Confirm programmes, intake and recognition of the qualification in your target country directly with the institute / Vanuatu Ministry of Education before enrolling.",
+    "accreditationBody": "Government of Vanuatu — Ministry of Education and Training",
+    "accreditationRegistryUrl": "https://www.gov.vu",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-VU-003",
+      "title": "Government of Vanuatu — education portal",
+      "publisher": "Government of Vanuatu",
+      "url": "https://www.gov.vu",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Programme-based intakes; confirm with the institute / Ministry.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3032",
+    "slug": "vanuatu-institute-of-teacher-education",
+    "name": "Vanuatu Institute of Teacher Education",
+    "country": {
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "slug": "vanuatu"
+    },
+    "city": "Port Vila",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English, French",
+    "subjects": [
+      "Education",
+      "Arts & Humanities",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Teacher Training",
+      "Education",
+      "Public"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "Teaching programmes may require English / French proficiency.",
+    "tuitionNote": "Education-focused fee structure; confirm with the institute / Ministry.",
+    "studentNotes": "The Vanuatu Institute of Teacher Education, in Port Vila, is the national teacher-training institution. Honest note: it does not maintain a separate verified institutional website (the collector provided only the general Vanuatu government portal), so website and generic government email were left blank rather than presented as the institute's own. Confirm programmes, intake and recognition of the qualification in your target country directly with the institute / Vanuatu Ministry of Education before enrolling.",
+    "accreditationBody": "Government of Vanuatu — Ministry of Education and Training",
+    "accreditationRegistryUrl": "https://www.gov.vu",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-VU-004",
+      "title": "Government of Vanuatu — education portal",
+      "publisher": "Government of Vanuatu",
+      "url": "https://www.gov.vu",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Academic-year admissions; confirm with the institute / Ministry.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3033",
+    "slug": "vanuatu-college-of-nursing-education",
+    "name": "Vanuatu College of Nursing Education",
+    "country": {
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "slug": "vanuatu"
+    },
+    "city": "Port Vila",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine & Health Sciences",
+      "Science"
+    ],
+    "categoryTags": [
+      "Nursing",
+      "Health Sciences",
+      "Public"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "English proficiency recommended.",
+    "tuitionNote": "Healthcare-training fees apply; confirm with the college / Ministry of Health.",
+    "studentNotes": "The Vanuatu College of Nursing Education, in Port Vila, is the national nursing college under the Vanuatu Ministry of Health. Honest note: it does not maintain a separate verified institutional website (only the general government portal was provided), so website and generic government email were left blank rather than presented as the college's own. RECOGNITION ADVISORY: before enrolling, confirm programmes and intake with the Ministry of Health, and verify that the nursing qualification is recognised by the Vanuatu Nursing Council and by the nursing regulator of any country where you intend to register and practise — neutral consumer information, not a judgement on the college.",
+    "accreditationBody": "Ministry of Health, Vanuatu; nursing registration via the Vanuatu Nursing Council",
+    "accreditationRegistryUrl": "https://www.gov.vu",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-VU-005",
+      "title": "Government of Vanuatu — Ministry of Health",
+      "publisher": "Government of Vanuatu",
+      "url": "https://www.gov.vu",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Health-programme intakes vary; confirm with the Ministry of Health.",
+    "scholarshipsUrl": null
   }
 ]
