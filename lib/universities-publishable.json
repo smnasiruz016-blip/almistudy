@@ -184345,5 +184345,162 @@
     "deadlinesUrl": "https://www.pau.ac.pg",
     "deadlinesNote": "Refer to the official admissions notices / academic calendar.",
     "scholarshipsUrl": "https://www.pau.ac.pg"
+  },
+  {
+    "id": "UNI_3016",
+    "slug": "national-university-of-samoa",
+    "name": "National University of Samoa",
+    "country": {
+      "iso2": "WS",
+      "name": "Samoa",
+      "slug": "samoa"
+    },
+    "city": "Apia",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://nus.edu.ws/",
+    "admissionsUrl": "https://nus.edu.ws/admission/",
+    "primaryLanguage": "English, Samoan",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Engineering & Technology",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Public",
+      "Research",
+      "National University"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "IELTS/TOEFL may apply for international applicants depending on programme.",
+    "tuitionNote": "Tuition fees vary by programme and applicant status; confirm current fees on the official website.",
+    "studentNotes": "The National University of Samoa, in Apia, is Samoa's national public university (bilingual English/Samoan, with a Centre for Samoan Studies and an Institute of Technology), offering undergraduate and postgraduate programmes. Verify current Samoa Qualifications Authority (SQA) recognition and that your qualification is recognised in your target country before enrolling.",
+    "accreditationBody": "Samoa Qualifications Authority (SQA)",
+    "accreditationRegistryUrl": "https://www.sqa.gov.ws/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-WS-001",
+      "title": "National University of Samoa — official website",
+      "publisher": "National University of Samoa",
+      "url": "https://nus.edu.ws/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://nus.edu.ws/contact/",
+    "admissionsEmail": "info@nus.edu.ws",
+    "mainPhone": "+685 20072",
+    "deadlinesUrl": "https://nus.edu.ws/admission/",
+    "deadlinesNote": "Semester-based intakes; check the official admissions page.",
+    "scholarshipsUrl": "https://nus.edu.ws/"
+  },
+  {
+    "id": "UNI_3017",
+    "slug": "university-of-the-south-pacific-alafua-campus",
+    "name": "University of the South Pacific - Alafua Campus",
+    "country": {
+      "iso2": "WS",
+      "name": "Samoa",
+      "slug": "samoa"
+    },
+    "city": "Apia",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.usp.ac.fj/",
+    "admissionsUrl": "https://www.usp.ac.fj/study-at-usp/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Science",
+      "Agriculture & Environmental Studies",
+      "Business & Management",
+      "Computer Science & IT",
+      "Education"
+    ],
+    "categoryTags": [
+      "Regional University",
+      "Agriculture",
+      "Research"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English proficiency requirements apply for international students.",
+    "tuitionNote": "Fees vary by programme and citizenship category (regional vs international); confirm with USP.",
+    "studentNotes": "The Alafua Campus, in Apia, is the University of the South Pacific's home for the School of Agriculture and Food Technology (Samoa is one of USP's 12 member states); it also delivers other USP programmes via in-person and distance / blended learning. Verify current programme accreditation and recognition with USP and in your intended country before enrolling. The phone listed is a genuine Samoa campus line; broader contact is via USP's official regional channels.",
+    "accreditationBody": "University of the South Pacific (regional, 12 member countries incl. Samoa); recognised in Samoa via the Samoa Qualifications Authority (SQA)",
+    "accreditationRegistryUrl": "https://www.usp.ac.fj/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-WS-002",
+      "title": "University of the South Pacific — official website (Alafua Campus, Samoa)",
+      "publisher": "University of the South Pacific",
+      "url": "https://www.usp.ac.fj/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.usp.ac.fj/contact-us/",
+    "admissionsEmail": "studenthelp@usp.ac.fj",
+    "mainPhone": "+685 21671",
+    "deadlinesUrl": "https://www.usp.ac.fj/study-at-usp/how-to-apply/",
+    "deadlinesNote": "Semester intakes and application deadlines are published online.",
+    "scholarshipsUrl": "https://www.usp.ac.fj/study-at-usp/scholarships/"
+  },
+  {
+    "id": "UNI_3018",
+    "slug": "oceania-university-of-medicine",
+    "name": "Oceania University of Medicine",
+    "country": {
+      "iso2": "WS",
+      "name": "Samoa",
+      "slug": "samoa"
+    },
+    "city": "Apia",
+    "region": "Oceania",
+    "controlType": "private",
+    "officialWebsite": "https://oum.edu.ws/",
+    "admissionsUrl": "https://oum.edu.ws/admissions/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine & Health Sciences",
+      "Science"
+    ],
+    "categoryTags": [
+      "Medical School",
+      "Private University"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "English language proficiency required for admission.",
+    "tuitionNote": "Medical-programme tuition fees apply per term; confirm current fees and the full cost of required clinical rotations.",
+    "studentNotes": "Oceania University of Medicine is a private medical school based in Apia, Samoa, that enrols international students (including mature / working students) in a distributed model with clinical rotations. IMPORTANT RECOGNITION ADVISORY: before enrolling, independently verify the school's current listing in the World Directory of Medical Schools, its status for ECFMG / sponsor-note purposes, and — critically — the licensure and recognition requirements of the specific medical board and country where you intend to train and practise, as recognition of an international medical degree varies by jurisdiction. Confirm clinical-placement arrangements and the total cost in writing. This advisory is neutral consumer information and is not a judgement on the institution.",
+    "accreditationBody": "Samoa Qualifications Authority (SQA) — registered in Samoa",
+    "accreditationRegistryUrl": "https://www.sqa.gov.ws/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-WS-003",
+      "title": "Oceania University of Medicine — official website",
+      "publisher": "Oceania University of Medicine",
+      "url": "https://oum.edu.ws/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://oum.edu.ws/contact/",
+    "admissionsEmail": "admissions@oum.edu.ws",
+    "mainPhone": "+685 27727",
+    "deadlinesUrl": "https://oum.edu.ws/admissions/",
+    "deadlinesNote": "Multiple admission cycles may be available annually; confirm on the official website.",
+    "scholarshipsUrl": "https://oum.edu.ws/"
   }
 ]
