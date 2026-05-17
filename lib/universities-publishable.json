@@ -184663,5 +184663,215 @@
     "deadlinesUrl": null,
     "deadlinesNote": "Admission periods vary annually; confirm directly with the institution / Atoifi Adventist Hospital.",
     "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3022",
+    "slug": "tonga-national-university",
+    "name": "Tonga National University",
+    "country": {
+      "iso2": "TO",
+      "name": "Tonga",
+      "slug": "tonga"
+    },
+    "city": "Nuku'alofa",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://tnu.edu.to",
+    "admissionsUrl": "https://tnu.edu.to",
+    "primaryLanguage": "English, Tongan",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies"
+    ],
+    "categoryTags": [
+      "National University",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English proficiency may be required depending on programme.",
+    "tuitionNote": "Tuition varies by programme and residency status; confirm current fees with the institution.",
+    "studentNotes": "Tonga National University, in Nuku'alofa, is the national public university formed around 2023 through the merger of government tertiary institutions (covering nursing/health, education, science & technology and agriculture). It is recognised via the Tonga National Qualifications and Accreditation Board (TNQAB). As a very new institution, confirm the official website, programmes and current TNQAB registration directly, and verify recognition in your target country before enrolling.",
+    "accreditationBody": "Tonga National Qualifications and Accreditation Board (TNQAB)",
+    "accreditationRegistryUrl": "https://tnqab.to/registrations/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TO-001",
+      "title": "Tonga National Qualifications and Accreditation Board (TNQAB) — registered institutions",
+      "publisher": "TNQAB (Government of Tonga)",
+      "url": "https://tnqab.to/registrations/",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": "https://tnu.edu.to",
+    "admissionsEmail": "info@tnu.edu.to",
+    "mainPhone": null,
+    "deadlinesUrl": "https://tnu.edu.to",
+    "deadlinesNote": "Check the official university website for current deadlines.",
+    "scholarshipsUrl": "https://tnu.edu.to"
+  },
+  {
+    "id": "UNI_3023",
+    "slug": "university-of-the-south-pacific-tonga-campus",
+    "name": "University of the South Pacific (Tonga Campus)",
+    "country": {
+      "iso2": "TO",
+      "name": "Tonga",
+      "slug": "tonga"
+    },
+    "city": "Nuku'alofa",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.usp.ac.fj",
+    "admissionsUrl": "https://www.usp.ac.fj/study-at-usp/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Regional University",
+      "Public",
+      "Distance Learning"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "IELTS/TOEFL accepted for international applicants.",
+    "tuitionNote": "Programme-based tuition fees apply; fees vary by residency category (regional vs international).",
+    "studentNotes": "The Tonga Campus of the University of the South Pacific, in Nuku'alofa, serves Tongan students (Tonga is one of USP's 12 member states) through in-person and distance / blended learning. Verify current programme accreditation and recognition with USP and in your intended country before enrolling. Contact is via USP's official regional channels (the campus does not publish a separate Tonga phone line).",
+    "accreditationBody": "University of the South Pacific (regional, 12 member countries incl. Tonga); recognised in Tonga via the Tonga National Qualifications and Accreditation Board (TNQAB)",
+    "accreditationRegistryUrl": "https://www.usp.ac.fj",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TO-002",
+      "title": "University of the South Pacific — official website (Tonga Campus)",
+      "publisher": "University of the South Pacific",
+      "url": "https://www.usp.ac.fj",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.usp.ac.fj/contact-us/",
+    "admissionsEmail": "studenthelp@usp.ac.fj",
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.usp.ac.fj/study-at-usp/how-to-apply/",
+    "deadlinesNote": "Semester-based intakes; deadlines published online.",
+    "scholarshipsUrl": "https://www.usp.ac.fj/study-at-usp/scholarships/"
+  },
+  {
+    "id": "UNI_3024",
+    "slug": "tupou-tertiary-institute",
+    "name": "Tupou Tertiary Institute",
+    "country": {
+      "iso2": "TO",
+      "name": "Tonga",
+      "slug": "tonga"
+    },
+    "city": "Nuku'alofa",
+    "region": "Oceania",
+    "controlType": "private",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English, Tongan",
+    "subjects": [
+      "Arts & Humanities",
+      "Education",
+      "Business & Management",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Tertiary Institute",
+      "Faith-based Institution",
+      "Private"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "Institution-specific requirements apply.",
+    "tuitionNote": "Fees available from the institution; confirm directly.",
+    "studentNotes": "Tupou Tertiary Institute, in Nuku'alofa, is a TNQAB-registered tertiary institution affiliated with the Free Wesleyan Church of Tonga (part of the historic Tupou education system). Honest note: an independent official website/contacts were not captured, so those fields are left blank rather than guessed. Confirm programmes, intake and current TNQAB registration directly with the institution, and verify recognition in your target country before enrolling.",
+    "accreditationBody": "Tonga National Qualifications and Accreditation Board (TNQAB); affiliated with the Free Wesleyan Church of Tonga",
+    "accreditationRegistryUrl": "https://tnqab.to/registrations/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TO-004",
+      "title": "Tonga National Qualifications and Accreditation Board (TNQAB) — registered institutions",
+      "publisher": "TNQAB (Government of Tonga)",
+      "url": "https://tnqab.to/registrations/",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Contact the institution directly for intake dates.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3025",
+    "slug": "hango-agricultural-college",
+    "name": "Hango Agricultural College",
+    "country": {
+      "iso2": "TO",
+      "name": "Tonga",
+      "slug": "tonga"
+    },
+    "city": "'Eua",
+    "region": "Oceania",
+    "controlType": "private",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English, Tongan",
+    "subjects": [
+      "Agriculture & Environmental Studies",
+      "Science"
+    ],
+    "categoryTags": [
+      "Agricultural College",
+      "Faith-based Institution",
+      "Private"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "Programme-specific requirements apply.",
+    "tuitionNote": "Confirm fees directly with the institution.",
+    "studentNotes": "Hango Agricultural College, located at Hango on 'Eua island, is a long-established TNQAB-registered agricultural training college affiliated with the Free Wesleyan Church of Tonga. Honest notes: the collector listed the location as Tongatapu; the college is at Hango on 'Eua and the location was corrected. An independent official website/contacts were not captured and are left blank rather than guessed. Confirm programmes, intake and current TNQAB registration directly, and verify recognition in your target country before enrolling.",
+    "accreditationBody": "Tonga National Qualifications and Accreditation Board (TNQAB); affiliated with the Free Wesleyan Church of Tonga",
+    "accreditationRegistryUrl": "https://tnqab.to/registrations/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TO-005",
+      "title": "Tonga National Qualifications and Accreditation Board (TNQAB) — registered institutions",
+      "publisher": "TNQAB (Government of Tonga)",
+      "url": "https://tnqab.to/registrations/",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Contact the institution directly for intake dates.",
+    "scholarshipsUrl": null
   }
 ]
