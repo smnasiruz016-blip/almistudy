@@ -201437,5 +201437,169 @@
     "deadlinesUrl": "https://unisey.ac.sc",
     "deadlinesNote": "Admission cycles vary by programme; confirm directly with the institution / authority.",
     "scholarshipsUrl": "https://unisey.ac.sc"
+  },
+  {
+    "id": "UNI_3338",
+    "slug": "university-of-namibia",
+    "name": "University of Namibia",
+    "country": {
+      "iso2": "NA",
+      "name": "Namibia",
+      "slug": "namibia"
+    },
+    "city": "Windhoek",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://www.unam.edu.na",
+    "admissionsUrl": "https://www.unam.edu.na",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Architecture & Design",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "NCHE-recognized",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in English (Namibia's official language); some programmes may require IELTS/TOEFL for international applicants.",
+    "tuitionNote": "Public universities are generally lower-cost than the private university; confirm current fees and admission conditions directly.",
+    "studentNotes": "Recognised Namibian university. Verify registration and accreditation with the National Council for Higher Education (NCHE) / Namibia Qualifications Authority (NQA), and that the qualification is recognised in your target country, before enrolling; instruction is in English. PATH-B NOTE: this is a verified set of Namibia's well-established, high-confidence university-level institutions — it is NOT guaranteed exhaustive; smaller private colleges may exist and can be added from the official NCHE register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank.",
+    "accreditationBody": "National Council for Higher Education (NCHE) — Namibia; Namibia Qualifications Authority (NQA)",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-NA-3338",
+      "title": "Institution official website; NCHE / NQA recognition (Namibia)",
+      "publisher": "Government of Namibia (NCHE / NQA)",
+      "url": "https://www.unam.edu.na",
+      "tier": "tier_1_official",
+      "description": "Path-B verified set: well-established, high-confidence university-level institution. Official .edu.na/.na domain is well-established and kept (root). Phone/email not known with confidence -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive (see studentNotes). 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.unam.edu.na",
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.unam.edu.na",
+    "deadlinesNote": "Admission cycles vary by programme; confirm via the official site / NCHE.",
+    "scholarshipsUrl": "https://www.unam.edu.na"
+  },
+  {
+    "id": "UNI_3339",
+    "slug": "namibia-university-of-science-and-technology",
+    "name": "Namibia University of Science and Technology",
+    "country": {
+      "iso2": "NA",
+      "name": "Namibia",
+      "slug": "namibia"
+    },
+    "city": "Windhoek",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": "https://www.nust.na",
+    "admissionsUrl": "https://www.nust.na",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Engineering & Technology",
+      "Science",
+      "Computer Science & IT",
+      "Business & Management",
+      "Agriculture & Environmental Studies",
+      "Architecture & Design",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "NCHE-recognized",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in English (Namibia's official language); some programmes may require IELTS/TOEFL for international applicants.",
+    "tuitionNote": "Public universities are generally lower-cost than the private university; confirm current fees and admission conditions directly.",
+    "studentNotes": "Recognised Namibian university. Verify registration and accreditation with the National Council for Higher Education (NCHE) / Namibia Qualifications Authority (NQA), and that the qualification is recognised in your target country, before enrolling; instruction is in English. PATH-B NOTE: this is a verified set of Namibia's well-established, high-confidence university-level institutions — it is NOT guaranteed exhaustive; smaller private colleges may exist and can be added from the official NCHE register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank.",
+    "accreditationBody": "National Council for Higher Education (NCHE) — Namibia; Namibia Qualifications Authority (NQA)",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-NA-3339",
+      "title": "Institution official website; NCHE / NQA recognition (Namibia)",
+      "publisher": "Government of Namibia (NCHE / NQA)",
+      "url": "https://www.nust.na",
+      "tier": "tier_1_official",
+      "description": "Path-B verified set: well-established, high-confidence university-level institution. Official .edu.na/.na domain is well-established and kept (root). Phone/email not known with confidence -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive (see studentNotes). 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.nust.na",
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.nust.na",
+    "deadlinesNote": "Admission cycles vary by programme; confirm via the official site / NCHE.",
+    "scholarshipsUrl": "https://www.nust.na"
+  },
+  {
+    "id": "UNI_3340",
+    "slug": "international-university-of-management",
+    "name": "International University of Management",
+    "country": {
+      "iso2": "NA",
+      "name": "Namibia",
+      "slug": "namibia"
+    },
+    "city": "Windhoek",
+    "region": "Africa",
+    "controlType": "private",
+    "officialWebsite": "https://www.ium.edu.na",
+    "admissionsUrl": "https://www.ium.edu.na",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business & Management",
+      "Social Sciences",
+      "Education",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "NCHE-recognized",
+      "Private"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in English (Namibia's official language); some programmes may require IELTS/TOEFL for international applicants.",
+    "tuitionNote": "Public universities are generally lower-cost than the private university; confirm current fees and admission conditions directly.",
+    "studentNotes": "Recognised Namibian university. Verify registration and accreditation with the National Council for Higher Education (NCHE) / Namibia Qualifications Authority (NQA), and that the qualification is recognised in your target country, before enrolling; instruction is in English. PATH-B NOTE: this is a verified set of Namibia's well-established, high-confidence university-level institutions — it is NOT guaranteed exhaustive; smaller private colleges may exist and can be added from the official NCHE register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank.",
+    "accreditationBody": "National Council for Higher Education (NCHE) — Namibia; Namibia Qualifications Authority (NQA)",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-NA-3340",
+      "title": "Institution official website; NCHE / NQA recognition (Namibia)",
+      "publisher": "Government of Namibia (NCHE / NQA)",
+      "url": "https://www.ium.edu.na",
+      "tier": "tier_1_official",
+      "description": "Path-B verified set: well-established, high-confidence university-level institution. Official .edu.na/.na domain is well-established and kept (root). Phone/email not known with confidence -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive (see studentNotes). 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.ium.edu.na",
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.ium.edu.na",
+    "deadlinesNote": "Admission cycles vary by programme; confirm via the official site / NCHE.",
+    "scholarshipsUrl": "https://www.ium.edu.na"
   }
 ]
