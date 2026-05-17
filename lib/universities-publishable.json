@@ -183976,5 +183976,61 @@
     "deadlinesUrl": "https://www.wgtn.ac.nz/study/apply",
     "deadlinesNote": "Main intakes are February and July depending on programme.",
     "scholarshipsUrl": "https://www.wgtn.ac.nz/study/scholarships-and-awards"
+  },
+  {
+    "id": "UNI_3009",
+    "slug": "palau-community-college",
+    "name": "Palau Community College",
+    "country": {
+      "iso2": "PW",
+      "name": "Palau",
+      "slug": "palau"
+    },
+    "city": "Koror",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://palau.edu",
+    "admissionsUrl": "https://palau.edu/admissions/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Business & Management",
+      "Education",
+      "Social Sciences",
+      "Science",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Medicine & Health Sciences",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Community College",
+      "Higher Education",
+      "Accredited"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English is the primary language of instruction; international applicants may be required to demonstrate English proficiency.",
+    "tuitionNote": "Tuition varies by residency and programme; confirm current fees on the official website.",
+    "studentNotes": "Palau Community College is the national public higher-education institution of the Republic of Palau, in Koror, primarily offering associate degrees and certificate programmes (a community college rather than a four-year university — confirm this matches your goal), with notable strengths in agriculture, natural resources / marine studies, nursing/allied health, business, education and trades. Accredited by ACCJC/WASC; verify the current accreditation on the accreditor's official directory and confirm credit transfer or recognition in your target country before enrolling. Honest context: Palau is bound to the US by a Compact of Free Association and is climate-vulnerable; consider programme continuity for multi-year study.",
+    "accreditationBody": "Accrediting Commission for Community and Junior Colleges (ACCJC), Western Association of Schools and Colleges (WASC)",
+    "accreditationRegistryUrl": "https://accjc.org/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-PW-001",
+      "title": "Palau Community College — official website",
+      "publisher": "Palau Community College",
+      "url": "https://palau.edu",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://palau.edu/contact/",
+    "admissionsEmail": "admissions@palau.edu",
+    "mainPhone": "+680-488-2470",
+    "deadlinesUrl": "https://palau.edu/admissions/",
+    "deadlinesNote": "Check the official admissions page for current deadlines.",
+    "scholarshipsUrl": "https://palau.edu/financial-aid/"
   }
 ]
