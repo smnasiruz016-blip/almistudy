@@ -199243,5 +199243,215 @@
     "deadlinesUrl": "https://www.ucsm.edu.pe",
     "deadlinesNote": "Admission cycles vary by programme; confirm via the official site / SUNEDU.",
     "scholarshipsUrl": "https://www.ucsm.edu.pe"
+  },
+  {
+    "id": "UNI_3279",
+    "slug": "anton-de-kom-university-of-suriname",
+    "name": "Anton de Kom University of Suriname",
+    "country": {
+      "iso2": "SR",
+      "name": "Suriname",
+      "slug": "suriname"
+    },
+    "city": "Paramaribo",
+    "region": "South America",
+    "controlType": "public",
+    "officialWebsite": "https://www.uvs.edu",
+    "admissionsUrl": "https://www.uvs.edu",
+    "primaryLanguage": "Dutch",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "NOVA-recognized",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in Dutch (Suriname is the only Dutch-speaking country in South America); English requirements vary by programme.",
+    "tuitionNote": "Tuition varies by faculty and programme; confirm fees and student-status conditions directly.",
+    "studentNotes": "The Anton de Kom University of Suriname is the country's largest and main public (national) university; instruction is in Dutch. Verify NOVA accreditation / Ministry recognition and that the qualification is recognised in your target country before enrolling; note instruction is in Dutch.",
+    "accreditationBody": "NOVA — National Accreditation Organisation of Suriname (Nationaal Orgaan voor Accreditatie), under the Ministry of Education, Science and Culture",
+    "accreditationRegistryUrl": "https://www.gov.sr",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-SR-3303",
+      "title": "Institution official website; NOVA / Ministry recognition (Suriname)",
+      "publisher": "Government of Suriname",
+      "url": "https://www.uvs.edu",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.uvs.edu",
+    "admissionsEmail": "info@uvs.edu",
+    "mainPhone": "+597 465558",
+    "deadlinesUrl": "https://www.uvs.edu",
+    "deadlinesNote": "Admission deadlines vary by faculty/programme; confirm via the official site.",
+    "scholarshipsUrl": "https://www.uvs.edu"
+  },
+  {
+    "id": "UNI_3280",
+    "slug": "polytechnic-college-suriname",
+    "name": "Polytechnic College Suriname",
+    "country": {
+      "iso2": "SR",
+      "name": "Suriname",
+      "slug": "suriname"
+    },
+    "city": "Paramaribo",
+    "region": "South America",
+    "controlType": "public",
+    "officialWebsite": "https://ptc.edu.sr",
+    "admissionsUrl": "https://ptc.edu.sr",
+    "primaryLanguage": "Dutch",
+    "subjects": [
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "NOVA-recognized",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in Dutch (Suriname is the only Dutch-speaking country in South America); English requirements vary by programme.",
+    "tuitionNote": "Tuition varies by faculty and programme; confirm fees and student-status conditions directly.",
+    "studentNotes": "A public technical and vocational higher-education college in Paramaribo; instruction is in Dutch. Verify NOVA accreditation / Ministry recognition and that the qualification is recognised in your target country before enrolling; note instruction is in Dutch.",
+    "accreditationBody": "NOVA — National Accreditation Organisation of Suriname (Nationaal Orgaan voor Accreditatie), under the Ministry of Education, Science and Culture",
+    "accreditationRegistryUrl": "https://www.gov.sr",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-SR-3304",
+      "title": "Institution official website; NOVA / Ministry recognition (Suriname)",
+      "publisher": "Government of Suriname",
+      "url": "https://ptc.edu.sr",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://ptc.edu.sr",
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": "https://ptc.edu.sr",
+    "deadlinesNote": "Admission deadlines vary by faculty/programme; confirm via the official site.",
+    "scholarshipsUrl": "https://ptc.edu.sr"
+  },
+  {
+    "id": "UNI_3281",
+    "slug": "academy-for-higher-art-and-cultural-education",
+    "name": "Academy for Higher Art and Cultural Education",
+    "country": {
+      "iso2": "SR",
+      "name": "Suriname",
+      "slug": "suriname"
+    },
+    "city": "Paramaribo",
+    "region": "South America",
+    "controlType": "public",
+    "officialWebsite": "https://ahkco.sr",
+    "admissionsUrl": "https://ahkco.sr",
+    "primaryLanguage": "Dutch",
+    "subjects": [
+      "Arts & Humanities",
+      "Architecture & Design",
+      "Education",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "NOVA-recognized",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in Dutch (Suriname is the only Dutch-speaking country in South America); English requirements vary by programme.",
+    "tuitionNote": "Tuition varies by faculty and programme; confirm fees and student-status conditions directly.",
+    "studentNotes": "A specialised public institution for higher art and cultural education in Paramaribo; instruction is in Dutch. Verify NOVA accreditation / Ministry recognition and that the qualification is recognised in your target country before enrolling; note instruction is in Dutch.",
+    "accreditationBody": "NOVA — National Accreditation Organisation of Suriname (Nationaal Orgaan voor Accreditatie), under the Ministry of Education, Science and Culture",
+    "accreditationRegistryUrl": "https://www.gov.sr",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-SR-3305",
+      "title": "Institution official website; NOVA / Ministry recognition (Suriname)",
+      "publisher": "Government of Suriname",
+      "url": "https://ahkco.sr",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://ahkco.sr",
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": "https://ahkco.sr",
+    "deadlinesNote": "Admission deadlines vary by faculty/programme; confirm via the official site.",
+    "scholarshipsUrl": "https://ahkco.sr"
+  },
+  {
+    "id": "UNI_3282",
+    "slug": "fhr-institute-for-higher-education",
+    "name": "FHR Institute for Higher Education",
+    "country": {
+      "iso2": "SR",
+      "name": "Suriname",
+      "slug": "suriname"
+    },
+    "city": "Paramaribo",
+    "region": "South America",
+    "controlType": "private",
+    "officialWebsite": "https://fhrinstitute.sr",
+    "admissionsUrl": "https://fhrinstitute.sr",
+    "primaryLanguage": "Dutch",
+    "subjects": [
+      "Business & Management",
+      "Law",
+      "Social Sciences",
+      "Computer Science & IT",
+      "Engineering & Technology"
+    ],
+    "categoryTags": [
+      "NOVA-recognized",
+      "Private"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in Dutch (Suriname is the only Dutch-speaking country in South America); English requirements vary by programme.",
+    "tuitionNote": "Tuition varies by faculty and programme; confirm fees and student-status conditions directly.",
+    "studentNotes": "A private higher-education institute in Paramaribo offering business, law, social-science and IT programmes; instruction is in Dutch (some programmes may have English requirements). Verify NOVA accreditation / Ministry recognition and that the qualification is recognised in your target country before enrolling; note instruction is in Dutch.",
+    "accreditationBody": "NOVA — National Accreditation Organisation of Suriname (Nationaal Orgaan voor Accreditatie), under the Ministry of Education, Science and Culture",
+    "accreditationRegistryUrl": "https://www.gov.sr",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-SR-3306",
+      "title": "Institution official website; NOVA / Ministry recognition (Suriname)",
+      "publisher": "Government of Suriname",
+      "url": "https://fhrinstitute.sr",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://fhrinstitute.sr",
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": "https://fhrinstitute.sr",
+    "deadlinesNote": "Admission deadlines vary by faculty/programme; confirm via the official site.",
+    "scholarshipsUrl": "https://fhrinstitute.sr"
   }
 ]
