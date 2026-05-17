@@ -183129,5 +183129,170 @@
     "deadlinesUrl": "https://fulton.ac.fj/admissions/",
     "deadlinesNote": "Annual and semester intakes available.",
     "scholarshipsUrl": "https://fulton.ac.fj/"
+  },
+  {
+    "id": "UNI_2994",
+    "slug": "university-of-the-south-pacific-kiribati-campus",
+    "name": "University of the South Pacific (Kiribati Campus)",
+    "country": {
+      "iso2": "KI",
+      "name": "Kiribati",
+      "slug": "kiribati"
+    },
+    "city": "South Tarawa",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.usp.ac.fj/",
+    "admissionsUrl": "https://www.usp.ac.fj/study-at-usp/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Architecture & Design",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Regional University",
+      "Public",
+      "Research",
+      "Distance Learning"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English language proficiency may be required depending on programme.",
+    "tuitionNote": "Tuition varies by programme and student residency status (regional vs international).",
+    "studentNotes": "The Kiribati Campus of the University of the South Pacific, in South Tarawa, delivers USP programmes (in-person, blended and distance learning) to i-Kiribati students; USP is the Pacific's regional university, jointly owned by 12 member states. Verify the current accreditation and recognition of your specific programme with USP and in your intended country of study or practice before enrolling. Honest advisory: Kiribati is among the world's lowest-lying and most climate-vulnerable nations; for multi-year study, confirm programme continuity and any distance-learning options.",
+    "accreditationBody": "University of the South Pacific (regional, 12 member countries incl. Kiribati); Government of Kiribati",
+    "accreditationRegistryUrl": "https://www.usp.ac.fj/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-KI-001",
+      "title": "University of the South Pacific — official website",
+      "publisher": "University of the South Pacific",
+      "url": "https://www.usp.ac.fj/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.usp.ac.fj/contact-us/",
+    "admissionsEmail": "studentadmin@usp.ac.fj",
+    "mainPhone": "+686 22266",
+    "deadlinesUrl": "https://www.usp.ac.fj/study-at-usp/how-to-apply/",
+    "deadlinesNote": "Application deadlines vary by semester and programme.",
+    "scholarshipsUrl": "https://www.usp.ac.fj/study-at-usp/scholarships/"
+  },
+  {
+    "id": "UNI_2995",
+    "slug": "kiribati-institute-of-technology",
+    "name": "Kiribati Institute of Technology (KIT)",
+    "country": {
+      "iso2": "KI",
+      "name": "Kiribati",
+      "slug": "kiribati"
+    },
+    "city": "South Tarawa",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Technical Institute",
+      "Vocational Education",
+      "Public"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "English used as the medium of instruction.",
+    "tuitionNote": "Publicly funded technical and vocational education; programme-based fees. Confirm current fees with the institution / Ministry.",
+    "studentNotes": "Kiribati Institute of Technology is the country's public technical and vocational education and training (TVET) institution in South Tarawa. Honest note: an independent official institutional website for KIT could not be verified at the time of listing, so it is left blank rather than guessed; oversight and recognition sit with the Kiribati Ministry of Education. Confirm programmes, intake and recognition directly with the Ministry of Education before enrolling, and check recognition of the qualification in your target country.",
+    "accreditationBody": "Government of Kiribati — Ministry of Education",
+    "accreditationRegistryUrl": "https://www.moe.gov.ki/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-KI-002",
+      "title": "Kiribati Ministry of Education",
+      "publisher": "Government of Kiribati",
+      "url": "https://www.moe.gov.ki/",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": "https://www.moe.gov.ki/",
+    "admissionsEmail": null,
+    "mainPhone": "+686 28000",
+    "deadlinesUrl": null,
+    "deadlinesNote": "Intake periods vary by vocational programme; confirm with the Ministry of Education.",
+    "scholarshipsUrl": "https://www.moe.gov.ki/"
+  },
+  {
+    "id": "UNI_2996",
+    "slug": "kiribati-teachers-college",
+    "name": "Kiribati Teachers College (KTC)",
+    "country": {
+      "iso2": "KI",
+      "name": "Kiribati",
+      "slug": "kiribati"
+    },
+    "city": "South Tarawa",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Education",
+      "Social Sciences",
+      "Science",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Teacher Training",
+      "Public College"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English proficiency required for teacher-training programmes.",
+    "tuitionNote": "Government-supported teacher-education programmes; confirm current fees with the Ministry of Education.",
+    "studentNotes": "Kiribati Teachers College is the national primary-teacher-training institution, operating under the Kiribati Ministry of Education in South Tarawa. Honest note: KTC does not maintain a separate official institutional website; the Ministry of Education is recorded as the verifiable registry rather than presenting a Ministry page as the college's own site. Confirm admission periods, programmes and qualification recognition directly with the Ministry of Education before enrolling.",
+    "accreditationBody": "Government of Kiribati — Ministry of Education",
+    "accreditationRegistryUrl": "https://www.moe.gov.ki/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-KI-003",
+      "title": "Kiribati Ministry of Education",
+      "publisher": "Government of Kiribati",
+      "url": "https://www.moe.gov.ki/",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": "https://www.moe.gov.ki/",
+    "admissionsEmail": "education@moe.gov.ki",
+    "mainPhone": "+686 74028533",
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission periods are announced by the Ministry of Education.",
+    "scholarshipsUrl": "https://www.moe.gov.ki/"
   }
 ]
