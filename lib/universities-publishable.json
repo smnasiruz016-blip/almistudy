@@ -201925,5 +201925,58 @@
     "deadlinesUrl": null,
     "deadlinesNote": "Admission cycles are disrupted by the conflict; confirm directly with the institution / Ministry.",
     "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3347",
+    "slug": "universidade-de-sao-tome-e-principe",
+    "name": "Universidade de São Tomé e Príncipe",
+    "country": {
+      "iso2": "ST",
+      "name": "São Tomé and Príncipe",
+      "slug": "sao-tome-and-principe"
+    },
+    "city": "São Tomé",
+    "region": "Africa",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "Portuguese",
+    "subjects": [
+      "Education",
+      "Science",
+      "Health Sciences",
+      "Social Sciences",
+      "Agriculture & Environmental Studies",
+      "Business & Management"
+    ],
+    "categoryTags": [
+      "Ministry of Education (São Tomé and Príncipe)",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Instruction is in Portuguese; Portuguese proficiency is generally required.",
+    "tuitionNote": "Public national university; confirm current fees and admission conditions directly.",
+    "studentNotes": "The Universidade de São Tomé e Príncipe is the public national university of São Tomé and Príncipe (established 2014). Verify recognition with the Ministry of Education and Higher Education and that the qualification is recognised in your target country before enrolling; instruction is in Portuguese. PATH-B NOTE: São Tomé and Príncipe has a very small higher-education sector; this records the one high-confidence public national university. It is NOT guaranteed exhaustive — any small private/health institutes can be added from the Ministry register or a regulator-based collector file later. No fabricated data was added; uncertain fields left blank.",
+    "accreditationBody": "Ministry of Education and Higher Education — São Tomé and Príncipe",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-ST-3347",
+      "title": "Ministry of Education and Higher Education (São Tomé and Príncipe); national university",
+      "publisher": "Government of São Tomé and Príncipe",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: the one high-confidence public national university. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the Ministry of Education and Higher Education. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). region canonical 'Africa'. Set is NOT guaranteed exhaustive (see studentNotes). 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the university / Ministry.",
+    "scholarshipsUrl": null
   }
 ]
