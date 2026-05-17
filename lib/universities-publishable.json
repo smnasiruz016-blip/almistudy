@@ -184032,5 +184032,318 @@
     "deadlinesUrl": "https://palau.edu/admissions/",
     "deadlinesNote": "Check the official admissions page for current deadlines.",
     "scholarshipsUrl": "https://palau.edu/financial-aid/"
+  },
+  {
+    "id": "UNI_3010",
+    "slug": "university-of-papua-new-guinea",
+    "name": "University of Papua New Guinea",
+    "country": {
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "slug": "papua-new-guinea"
+    },
+    "city": "Port Moresby",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.upng.ac.pg",
+    "admissionsUrl": "https://www.upng.ac.pg",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Mathematics & Statistics",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Research University",
+      "Public",
+      "National Flagship"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English is the medium of instruction; IELTS/TOEFL may be required for international applicants.",
+    "tuitionNote": "Tuition varies by faculty/programme and residency status; confirm current fees on the official website.",
+    "studentNotes": "The University of Papua New Guinea (founded 1965) is the national flagship university, in Port Moresby, with PNG's principal university School of Medicine & Health Sciences and School of Law. Verify current DHERST recognition (PNG's higher-education authority) and that the qualification is recognised in your target country before enrolling; instruction is in English. Confirm current intake dates and fees on the official website, and check current local conditions and the institution's own international-student guidance before travelling.",
+    "accreditationBody": "Department of Higher Education, Research, Science and Technology (DHERST), Papua New Guinea",
+    "accreditationRegistryUrl": "https://www.dherst.gov.pg/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-PNG-001",
+      "title": "Institution official website; DHERST (PNG) recognised-providers list",
+      "publisher": "Institution / DHERST Papua New Guinea",
+      "url": "https://www.upng.ac.pg",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.upng.ac.pg",
+    "admissionsEmail": "registrar@upng.ac.pg",
+    "mainPhone": "+675 326 0900",
+    "deadlinesUrl": "https://www.upng.ac.pg",
+    "deadlinesNote": "Refer to the official admissions notices / academic calendar.",
+    "scholarshipsUrl": "https://www.upng.ac.pg"
+  },
+  {
+    "id": "UNI_3011",
+    "slug": "papua-new-guinea-university-of-technology",
+    "name": "Papua New Guinea University of Technology",
+    "country": {
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "slug": "papua-new-guinea"
+    },
+    "city": "Lae",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.unitech.ac.pg",
+    "admissionsUrl": "https://www.unitech.ac.pg",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Engineering & Technology",
+      "Science",
+      "Architecture & Design",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Technology University",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English is the medium of instruction; IELTS/TOEFL may be required for international applicants.",
+    "tuitionNote": "Tuition varies by faculty/programme and residency status; confirm current fees on the official website.",
+    "studentNotes": "Papua New Guinea University of Technology (Unitech), in Lae, is the country's leading technology and engineering university. Verify current DHERST recognition (PNG's higher-education authority) and that the qualification is recognised in your target country before enrolling; instruction is in English. Confirm current intake dates and fees on the official website, and check current local conditions and the institution's own international-student guidance before travelling.",
+    "accreditationBody": "Department of Higher Education, Research, Science and Technology (DHERST), Papua New Guinea",
+    "accreditationRegistryUrl": "https://www.dherst.gov.pg/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-PNG-002",
+      "title": "Institution official website; DHERST (PNG) recognised-providers list",
+      "publisher": "Institution / DHERST Papua New Guinea",
+      "url": "https://www.unitech.ac.pg",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.unitech.ac.pg",
+    "admissionsEmail": "admissions@unitech.ac.pg",
+    "mainPhone": "+675 473 4288",
+    "deadlinesUrl": "https://www.unitech.ac.pg",
+    "deadlinesNote": "Refer to the official admissions notices / academic calendar.",
+    "scholarshipsUrl": "https://www.unitech.ac.pg"
+  },
+  {
+    "id": "UNI_3012",
+    "slug": "university-of-goroka",
+    "name": "University of Goroka",
+    "country": {
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "slug": "papua-new-guinea"
+    },
+    "city": "Goroka",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://unigoroka.ac.pg",
+    "admissionsUrl": "https://unigoroka.ac.pg",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Education",
+      "Social Sciences",
+      "Arts & Humanities",
+      "Science"
+    ],
+    "categoryTags": [
+      "Teacher Education",
+      "Public"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "English is the medium of instruction; IELTS/TOEFL may be required for international applicants.",
+    "tuitionNote": "Tuition varies by faculty/programme and residency status; confirm current fees on the official website.",
+    "studentNotes": "The University of Goroka, in the Eastern Highlands, is PNG's principal university for teacher education and the social sciences. Verify current DHERST recognition (PNG's higher-education authority) and that the qualification is recognised in your target country before enrolling; instruction is in English. Confirm current intake dates and fees on the official website, and check current local conditions and the institution's own international-student guidance before travelling.",
+    "accreditationBody": "Department of Higher Education, Research, Science and Technology (DHERST), Papua New Guinea",
+    "accreditationRegistryUrl": "https://www.dherst.gov.pg/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-PNG-003",
+      "title": "Institution official website; DHERST (PNG) recognised-providers list",
+      "publisher": "Institution / DHERST Papua New Guinea",
+      "url": "https://unigoroka.ac.pg",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://unigoroka.ac.pg",
+    "admissionsEmail": "info@unigoroka.ac.pg",
+    "mainPhone": "+675 531 1733",
+    "deadlinesUrl": "https://unigoroka.ac.pg",
+    "deadlinesNote": "Refer to the official admissions notices / academic calendar.",
+    "scholarshipsUrl": "https://unigoroka.ac.pg"
+  },
+  {
+    "id": "UNI_3013",
+    "slug": "papua-new-guinea-university-of-natural-resources-and-environment",
+    "name": "Papua New Guinea University of Natural Resources and Environment",
+    "country": {
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "slug": "papua-new-guinea"
+    },
+    "city": "Vudal",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.unre.ac.pg",
+    "admissionsUrl": "https://www.unre.ac.pg",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Agriculture & Environmental Studies",
+      "Science",
+      "Business & Management"
+    ],
+    "categoryTags": [
+      "Agriculture University",
+      "Public"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "English is the medium of instruction; IELTS/TOEFL may be required for international applicants.",
+    "tuitionNote": "Tuition varies by faculty/programme and residency status; confirm current fees on the official website.",
+    "studentNotes": "The PNG University of Natural Resources and Environment, at Vudal (East New Britain), specialises in agriculture, natural resources and environmental studies. Verify current DHERST recognition (PNG's higher-education authority) and that the qualification is recognised in your target country before enrolling; instruction is in English. Confirm current intake dates and fees on the official website, and check current local conditions and the institution's own international-student guidance before travelling.",
+    "accreditationBody": "Department of Higher Education, Research, Science and Technology (DHERST), Papua New Guinea",
+    "accreditationRegistryUrl": "https://www.dherst.gov.pg/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-PNG-004",
+      "title": "Institution official website; DHERST (PNG) recognised-providers list",
+      "publisher": "Institution / DHERST Papua New Guinea",
+      "url": "https://www.unre.ac.pg",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.unre.ac.pg",
+    "admissionsEmail": "info@unre.ac.pg",
+    "mainPhone": "+675 982 1782",
+    "deadlinesUrl": "https://www.unre.ac.pg",
+    "deadlinesNote": "Refer to the official admissions notices / academic calendar.",
+    "scholarshipsUrl": "https://www.unre.ac.pg"
+  },
+  {
+    "id": "UNI_3014",
+    "slug": "divine-word-university",
+    "name": "Divine Word University",
+    "country": {
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "slug": "papua-new-guinea"
+    },
+    "city": "Madang",
+    "region": "Oceania",
+    "controlType": "private",
+    "officialWebsite": "https://www.dwu.ac.pg",
+    "admissionsUrl": "https://www.dwu.ac.pg",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Education",
+      "Computer Science & IT",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Catholic University",
+      "Private",
+      "Faith-based Institution"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English is the medium of instruction; IELTS/TOEFL may be required for international applicants.",
+    "tuitionNote": "Tuition varies by faculty/programme and residency status; confirm current fees on the official website.",
+    "studentNotes": "Divine Word University, in Madang, is a private Catholic university (Society of the Divine Word) well known for health sciences and business. Verify current DHERST recognition (PNG's higher-education authority) and that the qualification is recognised in your target country before enrolling; instruction is in English. Confirm current intake dates and fees on the official website, and check current local conditions and the institution's own international-student guidance before travelling.",
+    "accreditationBody": "Department of Higher Education, Research, Science and Technology (DHERST), Papua New Guinea",
+    "accreditationRegistryUrl": "https://www.dherst.gov.pg/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-PNG-005",
+      "title": "Institution official website; DHERST (PNG) recognised-providers list",
+      "publisher": "Institution / DHERST Papua New Guinea",
+      "url": "https://www.dwu.ac.pg",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.dwu.ac.pg",
+    "admissionsEmail": "webmaster@dwu.ac.pg",
+    "mainPhone": "+675 422 2937",
+    "deadlinesUrl": "https://www.dwu.ac.pg",
+    "deadlinesNote": "Refer to the official admissions notices / academic calendar.",
+    "scholarshipsUrl": "https://www.dwu.ac.pg"
+  },
+  {
+    "id": "UNI_3015",
+    "slug": "pacific-adventist-university",
+    "name": "Pacific Adventist University",
+    "country": {
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "slug": "papua-new-guinea"
+    },
+    "city": "Port Moresby",
+    "region": "Oceania",
+    "controlType": "private",
+    "officialWebsite": "https://www.pau.ac.pg",
+    "admissionsUrl": "https://www.pau.ac.pg",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Business & Management",
+      "Education",
+      "Arts & Humanities",
+      "Science",
+      "Theology",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "Faith-based University",
+      "Private",
+      "Seventh-day Adventist"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "English is the medium of instruction; IELTS/TOEFL may be required for international applicants.",
+    "tuitionNote": "Tuition varies by faculty/programme and residency status; confirm current fees on the official website.",
+    "studentNotes": "Pacific Adventist University, near Port Moresby, is a private university operated by the Seventh-day Adventist Church. Verify current DHERST recognition (PNG's higher-education authority) and that the qualification is recognised in your target country before enrolling; instruction is in English. Confirm current intake dates and fees on the official website, and check current local conditions and the institution's own international-student guidance before travelling.",
+    "accreditationBody": "Department of Higher Education, Research, Science and Technology (DHERST), Papua New Guinea",
+    "accreditationRegistryUrl": "https://www.dherst.gov.pg/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-PNG-006",
+      "title": "Institution official website; DHERST (PNG) recognised-providers list",
+      "publisher": "Institution / DHERST Papua New Guinea",
+      "url": "https://www.pau.ac.pg",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.pau.ac.pg",
+    "admissionsEmail": "info@pau.ac.pg",
+    "mainPhone": "+675 328 0200",
+    "deadlinesUrl": "https://www.pau.ac.pg",
+    "deadlinesNote": "Refer to the official admissions notices / academic calendar.",
+    "scholarshipsUrl": "https://www.pau.ac.pg"
   }
 ]
