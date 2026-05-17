@@ -196696,5 +196696,263 @@
     "deadlinesUrl": "https://www.yachaytech.edu.ec",
     "deadlinesNote": "Admission cycles vary by programme; confirm via the official site / SENESCYT.",
     "scholarshipsUrl": "https://www.yachaytech.edu.ec"
+  },
+  {
+    "id": "UNI_3234",
+    "slug": "university-of-guyana",
+    "name": "University of Guyana",
+    "country": {
+      "iso2": "GY",
+      "name": "Guyana",
+      "slug": "guyana"
+    },
+    "city": "Georgetown",
+    "region": "South America",
+    "controlType": "public",
+    "officialWebsite": "https://www.uog.edu.gy",
+    "admissionsUrl": "https://uog.edu.gy/admissions",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Medicine & Health Sciences",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Architecture & Design",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "National University",
+      "Public",
+      "Accredited"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English-medium instruction; IELTS/TOEFL may apply for some international students.",
+    "tuitionNote": "Tuition varies by faculty and programme; confirm with the university.",
+    "studentNotes": "The University of Guyana is Guyana's national public university, with campuses at Turkeyen (Georgetown) and Berbice; instruction is in English. Verify NAC-Guyana recognition and that the qualification is recognised in your target country before enrolling.",
+    "accreditationBody": "National Accreditation Council of Guyana (NAC-Guyana)",
+    "accreditationRegistryUrl": "https://www.nac.gov.gy",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-GY-3258",
+      "title": "University of Guyana — official website",
+      "publisher": "University of Guyana",
+      "url": "https://www.uog.edu.gy",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://uog.edu.gy/contact",
+    "admissionsEmail": "admissions@uog.edu.gy",
+    "mainPhone": "+592-222-2740",
+    "deadlinesUrl": "https://uog.edu.gy",
+    "deadlinesNote": "Deadlines vary by semester and programme.",
+    "scholarshipsUrl": "https://uog.edu.gy"
+  },
+  {
+    "id": "UNI_3235",
+    "slug": "texila-american-university-guyana",
+    "name": "Texila American University Guyana",
+    "country": {
+      "iso2": "GY",
+      "name": "Guyana",
+      "slug": "guyana"
+    },
+    "city": "Georgetown",
+    "region": "South America",
+    "controlType": "private",
+    "officialWebsite": "https://tauedu.org",
+    "admissionsUrl": "https://tauedu.org/admissions",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine & Health Sciences",
+      "Business & Management",
+      "Science",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Medical University",
+      "Private",
+      "International"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English proficiency required for international applicants.",
+    "tuitionNote": "Tuition varies by medical and postgraduate programme.",
+    "studentNotes": "Texila American University is a privately operated, internationally oriented university in Georgetown offering medical, health-science and other programmes; instruction is in English. RECOGNITION ADVISORY: this is a privately operated, internationally oriented medical institution. Registration with Guyana's National Accreditation Council is NOT the same as recognition by the medical licensing authority of the country where you intend to practise. Before enrolling or paying, verify the institution's listing in the World Directory of Medical Schools, its ECFMG eligibility, and acceptance by the specific medical/licensing board of your target country — this is neutral consumer information, not a judgement on the institution.",
+    "accreditationBody": "Registered with the National Accreditation Council of Guyana (NAC-Guyana) — see recognition advisory",
+    "accreditationRegistryUrl": "https://www.nac.gov.gy",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-GY-3259",
+      "title": "Texila American University — official website",
+      "publisher": "Texila American University",
+      "url": "https://tauedu.org",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://tauedu.org/contact-us",
+    "admissionsEmail": "admissions@tauedu.org",
+    "mainPhone": "+592-223-7931",
+    "deadlinesUrl": "https://tauedu.org",
+    "deadlinesNote": "Rolling admissions for some programmes.",
+    "scholarshipsUrl": "https://tauedu.org"
+  },
+  {
+    "id": "UNI_3236",
+    "slug": "georgetown-american-university",
+    "name": "Georgetown American University",
+    "country": {
+      "iso2": "GY",
+      "name": "Guyana",
+      "slug": "guyana"
+    },
+    "city": "Georgetown",
+    "region": "South America",
+    "controlType": "private",
+    "officialWebsite": "https://gau.edu.gy",
+    "admissionsUrl": "https://gau.edu.gy",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine & Health Sciences",
+      "Science",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "Medical University",
+      "Private",
+      "International"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English-medium programmes.",
+    "tuitionNote": "Programme-specific tuition structure.",
+    "studentNotes": "Georgetown American University is a privately operated, healthcare-oriented university in Georgetown; instruction is in English. RECOGNITION ADVISORY: this is a privately operated, internationally oriented medical institution. Registration with Guyana's National Accreditation Council is NOT the same as recognition by the medical licensing authority of the country where you intend to practise. Before enrolling or paying, verify the institution's listing in the World Directory of Medical Schools, its ECFMG eligibility, and acceptance by the specific medical/licensing board of your target country — this is neutral consumer information, not a judgement on the institution.",
+    "accreditationBody": "Registered with the National Accreditation Council of Guyana (NAC-Guyana) — see recognition advisory",
+    "accreditationRegistryUrl": "https://www.nac.gov.gy",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-GY-3260",
+      "title": "Georgetown American University — official website",
+      "publisher": "Georgetown American University",
+      "url": "https://gau.edu.gy",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://gau.edu.gy/contact-us/",
+    "admissionsEmail": "info@gau.edu.gy",
+    "mainPhone": "+592-225-7191",
+    "deadlinesUrl": "https://gau.edu.gy",
+    "deadlinesNote": "Admissions periods vary by programme.",
+    "scholarshipsUrl": "https://gau.edu.gy"
+  },
+  {
+    "id": "UNI_3237",
+    "slug": "greenheart-medical-university",
+    "name": "Greenheart Medical University",
+    "country": {
+      "iso2": "GY",
+      "name": "Guyana",
+      "slug": "guyana"
+    },
+    "city": "Georgetown",
+    "region": "South America",
+    "controlType": "private",
+    "officialWebsite": "https://gmu.edu.gy",
+    "admissionsUrl": "https://gmu.edu.gy",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine & Health Sciences",
+      "Science"
+    ],
+    "categoryTags": [
+      "Medical University",
+      "Private",
+      "International"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "English proficiency may be required.",
+    "tuitionNote": "Tuition varies by programme.",
+    "studentNotes": "Greenheart Medical University is a privately operated medical and health-sciences institution in Georgetown; instruction is in English. RECOGNITION ADVISORY: this is a privately operated, internationally oriented medical institution. Registration with Guyana's National Accreditation Council is NOT the same as recognition by the medical licensing authority of the country where you intend to practise. Before enrolling or paying, verify the institution's listing in the World Directory of Medical Schools, its ECFMG eligibility, and acceptance by the specific medical/licensing board of your target country — this is neutral consumer information, not a judgement on the institution.",
+    "accreditationBody": "Registered with the National Accreditation Council of Guyana (NAC-Guyana) — see recognition advisory",
+    "accreditationRegistryUrl": "https://www.nac.gov.gy",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-GY-3261",
+      "title": "Greenheart Medical University — official website",
+      "publisher": "Greenheart Medical University",
+      "url": "https://gmu.edu.gy",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://gmu.edu.gy/contact",
+    "admissionsEmail": "info@gmu.edu.gy",
+    "mainPhone": "+592-219-6558",
+    "deadlinesUrl": "https://gmu.edu.gy",
+    "deadlinesNote": "Check the official site for current intakes.",
+    "scholarshipsUrl": "https://gmu.edu.gy"
+  },
+  {
+    "id": "UNI_3238",
+    "slug": "lincoln-american-university",
+    "name": "Lincoln American University",
+    "country": {
+      "iso2": "GY",
+      "name": "Guyana",
+      "slug": "guyana"
+    },
+    "city": "Georgetown",
+    "region": "South America",
+    "controlType": "private",
+    "officialWebsite": "https://lau.edu.gy",
+    "admissionsUrl": "https://lau.edu.gy",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Medicine & Health Sciences",
+      "Science"
+    ],
+    "categoryTags": [
+      "Medical University",
+      "Private",
+      "International"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English proficiency required.",
+    "tuitionNote": "Medical tuition varies by intake and stage.",
+    "studentNotes": "Lincoln American University is a privately operated, internationally oriented medical education provider in Georgetown; instruction is in English. RECOGNITION ADVISORY: this is a privately operated, internationally oriented medical institution. Registration with Guyana's National Accreditation Council is NOT the same as recognition by the medical licensing authority of the country where you intend to practise. Before enrolling or paying, verify the institution's listing in the World Directory of Medical Schools, its ECFMG eligibility, and acceptance by the specific medical/licensing board of your target country — this is neutral consumer information, not a judgement on the institution.",
+    "accreditationBody": "Registered with the National Accreditation Council of Guyana (NAC-Guyana) — see recognition advisory",
+    "accreditationRegistryUrl": "https://www.nac.gov.gy",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-GY-3262",
+      "title": "Lincoln American University — official website",
+      "publisher": "Lincoln American University",
+      "url": "https://lau.edu.gy",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://lau.edu.gy/contact-us/",
+    "admissionsEmail": "admissions@lau.edu.gy",
+    "mainPhone": "+592-231-8448",
+    "deadlinesUrl": "https://lau.edu.gy",
+    "deadlinesNote": "Multiple intakes may be available.",
+    "scholarshipsUrl": "https://lau.edu.gy"
   }
 ]
