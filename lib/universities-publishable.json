@@ -183408,5 +183408,61 @@
     "deadlinesUrl": "https://www.usp.ac.fj/study-at-usp/how-to-apply/",
     "deadlinesNote": "Application deadlines vary by semester and programme.",
     "scholarshipsUrl": "https://www.usp.ac.fj/study-at-usp/scholarships/"
+  },
+  {
+    "id": "UNI_2999",
+    "slug": "college-of-micronesia-fsm",
+    "name": "College of Micronesia-FSM",
+    "country": {
+      "iso2": "FM",
+      "name": "Federated States of Micronesia",
+      "slug": "federated-states-of-micronesia"
+    },
+    "city": "Palikir",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.comfsm.edu.fm/",
+    "admissionsUrl": "https://www.comfsm.edu.fm/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Education",
+      "Business & Management",
+      "Social Sciences",
+      "Science",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Medicine & Health Sciences",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Public",
+      "Community College",
+      "Accredited"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English is the primary language of instruction; IELTS/TOEFL may be requested for international applicants.",
+    "tuitionNote": "Low tuition relative to international norms (roughly USD 2,000-5,000/year depending on residency and programme); confirm current fees on the official website.",
+    "studentNotes": "The College of Micronesia-FSM is the national public higher-education institution of the Federated States of Micronesia, with a national campus at Palikir (Pohnpei) and campuses across the FSM states (Chuuk, Yap, Kosrae, Pohnpei). It is a community college (primarily associate degrees, certificates and some teacher-education bachelor's pathways — confirm this matches your goal). Accredited by ACCJC; verify current accreditation on the accreditor's official directory and confirm credit transfer or recognition in your target country before enrolling. Honest context: the FSM is bound to the US by a Compact of Free Association and is climate-vulnerable; consider programme continuity for multi-year study.",
+    "accreditationBody": "Accrediting Commission for Community and Junior Colleges (ACCJC)",
+    "accreditationRegistryUrl": "https://www.accjc.org/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-FSM-001",
+      "title": "College of Micronesia-FSM — official website",
+      "publisher": "College of Micronesia-FSM",
+      "url": "https://www.comfsm.edu.fm/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.comfsm.edu.fm/",
+    "admissionsEmail": "admissions@comfsm.edu.fm",
+    "mainPhone": "+691 320 2480",
+    "deadlinesUrl": "https://www.comfsm.edu.fm/",
+    "deadlinesNote": "Application deadlines vary by semester and programme.",
+    "scholarshipsUrl": "https://www.comfsm.edu.fm/"
   }
 ]
