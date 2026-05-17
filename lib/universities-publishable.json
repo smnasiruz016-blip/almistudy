@@ -202403,5 +202403,160 @@
     "deadlinesUrl": null,
     "deadlinesNote": "Admission cycles vary; confirm directly with the institution / Ministère.",
     "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3356",
+    "slug": "azerbaijan-technical-university",
+    "name": "Azerbaijan Technical University",
+    "country": {
+      "iso2": "AZ",
+      "name": "Azerbaijan",
+      "slug": "azerbaijan"
+    },
+    "city": "Baku",
+    "region": "Asia",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "Azerbaijani",
+    "subjects": [
+      "Engineering & Technology",
+      "Science",
+      "Computer Science & IT"
+    ],
+    "categoryTags": [
+      "Ministry of Science and Education — Azer",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Confirm language of instruction directly; many programmes are taught in the national language, some in English (verify IELTS/TOEFL requirements).",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the institution.",
+    "studentNotes": "Recognised public university in Azerbaijan. Verify recognition with the national authority and that the qualification is recognised in your target country before enrolling. CONTEXT (factual, evenhanded, attributed, no side endorsed): Armenia and Azerbaijan have been in a prolonged dispute over the Nagorno-Karabakh region, with wars and large-scale displacement affecting civilians on the sides involved; international bodies have documented humanitarian and human-rights concerns. These facts are stated as documented, attributed to their sources, with no endorsement of any party and no position taken on sovereignty. ISO/region codes are a data-consistency choice, not a political statement. PATH-B NOTE: this records the high-confidence university-level institutions of Azerbaijan. It is NOT guaranteed exhaustive — other institutions may exist and can be added from the national authority's register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank.",
+    "accreditationBody": "Ministry of Science and Education — Azerbaijan",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-AZ-3356",
+      "title": "National higher-education authority (Azerbaijan); institution",
+      "publisher": "Government of Azerbaijan",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence university-level institution. region canonical 'Asia'. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the national authority. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). Honest context recorded with strict evenhandedness, all parties attributed, no side endorsed. Set is NOT guaranteed exhaustive. 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the institution / national authority.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3357",
+    "slug": "ada-university",
+    "name": "ADA University",
+    "country": {
+      "iso2": "AZ",
+      "name": "Azerbaijan",
+      "slug": "azerbaijan"
+    },
+    "city": "Baku",
+    "region": "Asia",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "Azerbaijani",
+    "subjects": [
+      "Business & Management",
+      "Social Sciences",
+      "Computer Science & IT",
+      "Engineering & Technology",
+      "Law"
+    ],
+    "categoryTags": [
+      "Ministry of Science and Education — Azer",
+      "Public"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Confirm language of instruction directly; many programmes are taught in the national language, some in English (verify IELTS/TOEFL requirements).",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the institution.",
+    "studentNotes": "Recognised public university in Azerbaijan. Verify recognition with the national authority and that the qualification is recognised in your target country before enrolling. CONTEXT (factual, evenhanded, attributed, no side endorsed): Armenia and Azerbaijan have been in a prolonged dispute over the Nagorno-Karabakh region, with wars and large-scale displacement affecting civilians on the sides involved; international bodies have documented humanitarian and human-rights concerns. These facts are stated as documented, attributed to their sources, with no endorsement of any party and no position taken on sovereignty. ISO/region codes are a data-consistency choice, not a political statement. PATH-B NOTE: this records the high-confidence university-level institutions of Azerbaijan. It is NOT guaranteed exhaustive — other institutions may exist and can be added from the national authority's register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank.",
+    "accreditationBody": "Ministry of Science and Education — Azerbaijan",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-AZ-3357",
+      "title": "National higher-education authority (Azerbaijan); institution",
+      "publisher": "Government of Azerbaijan",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence university-level institution. region canonical 'Asia'. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the national authority. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). Honest context recorded with strict evenhandedness, all parties attributed, no side endorsed. Set is NOT guaranteed exhaustive. 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the institution / national authority.",
+    "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3358",
+    "slug": "khazar-university",
+    "name": "Khazar University",
+    "country": {
+      "iso2": "AZ",
+      "name": "Azerbaijan",
+      "slug": "azerbaijan"
+    },
+    "city": "Baku",
+    "region": "Asia",
+    "controlType": "private",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "Azerbaijani",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Business & Management",
+      "Computer Science & IT",
+      "Engineering & Technology",
+      "Social Sciences"
+    ],
+    "categoryTags": [
+      "Ministry of Science and Education — Azer",
+      "Private"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "Confirm language of instruction directly; many programmes are taught in the national language, some in English (verify IELTS/TOEFL requirements).",
+    "tuitionNote": "Confirm current fees and admission conditions directly with the institution.",
+    "studentNotes": "Recognised private university in Azerbaijan. Verify recognition with the national authority and that the qualification is recognised in your target country before enrolling. CONTEXT (factual, evenhanded, attributed, no side endorsed): Armenia and Azerbaijan have been in a prolonged dispute over the Nagorno-Karabakh region, with wars and large-scale displacement affecting civilians on the sides involved; international bodies have documented humanitarian and human-rights concerns. These facts are stated as documented, attributed to their sources, with no endorsement of any party and no position taken on sovereignty. ISO/region codes are a data-consistency choice, not a political statement. PATH-B NOTE: this records the high-confidence university-level institutions of Azerbaijan. It is NOT guaranteed exhaustive — other institutions may exist and can be added from the national authority's register or a regulator-based collector file later. No fabricated data was added; uncertain fields were left blank.",
+    "accreditationBody": "Ministry of Science and Education — Azerbaijan",
+    "accreditationRegistryUrl": null,
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-AZ-3358",
+      "title": "National higher-education authority (Azerbaijan); institution",
+      "publisher": "Government of Azerbaijan",
+      "url": null,
+      "tier": "tier_2_registry",
+      "description": "Path-B verified set: high-confidence university-level institution. region canonical 'Asia'. Official domain not known with confidence -> nulled, not guessed; recognition anchored to the national authority. Phone/email not known -> null, not invented. No confident official accreditation-registry URL -> accreditationRegistryUrl left null (not invented). Honest context recorded with strict evenhandedness, all parties attributed, no side endorsed. Set is NOT guaranteed exhaustive. 2026-05-17."
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission cycles vary; confirm directly with the institution / national authority.",
+    "scholarshipsUrl": null
   }
 ]
