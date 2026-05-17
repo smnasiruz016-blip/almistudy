@@ -183464,5 +183464,62 @@
     "deadlinesUrl": "https://www.comfsm.edu.fm/",
     "deadlinesNote": "Application deadlines vary by semester and programme.",
     "scholarshipsUrl": "https://www.comfsm.edu.fm/"
+  },
+  {
+    "id": "UNI_3000",
+    "slug": "university-of-the-south-pacific-nauru-campus",
+    "name": "University of the South Pacific (Nauru Campus)",
+    "country": {
+      "iso2": "NR",
+      "name": "Nauru",
+      "slug": "nauru"
+    },
+    "city": "Yaren",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.usp.ac.fj/",
+    "admissionsUrl": "https://www.usp.ac.fj/study-at-usp/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Business & Management",
+      "Social Sciences",
+      "Law",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Regional University",
+      "Distance Learning",
+      "Public",
+      "Pacific Education"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "English is the primary language of instruction; IELTS/TOEFL may be required for some international admissions.",
+    "tuitionNote": "Tuition varies by programme and student residency status (regional vs international); confirm with USP admissions.",
+    "studentNotes": "The Nauru Campus of the University of the South Pacific, at Yaren, provides tertiary education to Nauruan students largely through regional and distance / blended learning (Nauru is one of USP's 12 member states); not all USP programmes are delivered in person on-island — confirm availability and mode for your specific programme. Note: USP does not operate a medical school, so medicine is not offered. Contact is via USP's official regional channels (the campus does not publish a separate Nauru phone line). Verify current programme accreditation and recognition with USP and in your intended country before enrolling. Honest context: Nauru's interior was severely degraded by a century of phosphate mining and the economy and environment remain fragile — consider continuity for multi-year study.",
+    "accreditationBody": "University of the South Pacific (regional, 12 member countries incl. Nauru)",
+    "accreditationRegistryUrl": "https://www.usp.ac.fj/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-NR-001",
+      "title": "University of the South Pacific — Nauru Campus",
+      "publisher": "University of the South Pacific",
+      "url": "https://www.usp.ac.fj/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.usp.ac.fj/contact-us/",
+    "admissionsEmail": "studentrecruitment@usp.ac.fj",
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.usp.ac.fj/study-at-usp/how-to-apply/",
+    "deadlinesNote": "Application deadlines vary by semester and programme.",
+    "scholarshipsUrl": "https://www.usp.ac.fj/study-at-usp/scholarships/"
   }
 ]
