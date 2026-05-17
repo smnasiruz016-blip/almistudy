@@ -184873,5 +184873,163 @@
     "deadlinesUrl": null,
     "deadlinesNote": "Contact the institution directly for intake dates.",
     "scholarshipsUrl": null
+  },
+  {
+    "id": "UNI_3026",
+    "slug": "university-of-the-south-pacific-tuvalu-campus",
+    "name": "The University of the South Pacific – Tuvalu Campus",
+    "country": {
+      "iso2": "TV",
+      "name": "Tuvalu",
+      "slug": "tuvalu"
+    },
+    "city": "Funafuti",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": "https://www.usp.ac.fj/",
+    "admissionsUrl": "https://www.usp.ac.fj/study-at-usp/",
+    "primaryLanguage": "English",
+    "subjects": [
+      "Arts & Humanities",
+      "Science",
+      "Engineering & Technology",
+      "Business & Management",
+      "Social Sciences",
+      "Education",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Regional University",
+      "Public",
+      "Distance Learning"
+    ],
+    "scholarshipsAvailable": true,
+    "englishTestNote": "IELTS/TOEFL/PTE requirements vary by programme.",
+    "tuitionNote": "Fees vary by programme and residency status (regional vs international); confirm with USP.",
+    "studentNotes": "The Tuvalu Campus of the University of the South Pacific, in Funafuti, serves Tuvaluan students (Tuvalu is one of USP's 12 member states) through in-person and distance / blended learning. Verify current programme accreditation and recognition with USP and in your intended country before enrolling. Contact is via USP's official regional channels (the campus does not publish a separate Tuvalu phone line). Honest advisory: Tuvalu is one of the world's lowest-lying and most climate-threatened nations; for multi-year study, confirm programme continuity and any distance-learning options.",
+    "accreditationBody": "University of the South Pacific (regional, 12 member countries incl. Tuvalu); recognised in Tuvalu via the Government of Tuvalu (Ministry of Education, Youth & Sports)",
+    "accreditationRegistryUrl": "https://www.usp.ac.fj/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TV-001",
+      "title": "University of the South Pacific — official website (Tuvalu Campus)",
+      "publisher": "The University of the South Pacific",
+      "url": "https://www.usp.ac.fj/",
+      "tier": "tier_1_official"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_official_web",
+    "publishable": true,
+    "contactUrl": "https://www.usp.ac.fj/contact-us/",
+    "admissionsEmail": "studenthelp@usp.ac.fj",
+    "mainPhone": null,
+    "deadlinesUrl": "https://www.usp.ac.fj/study-at-usp/how-to-apply/",
+    "deadlinesNote": "Multiple intakes annually depending on programme.",
+    "scholarshipsUrl": "https://www.usp.ac.fj/study-at-usp/scholarships/"
+  },
+  {
+    "id": "UNI_3027",
+    "slug": "tuvalu-maritime-training-institute",
+    "name": "Tuvalu Maritime Training Institute",
+    "country": {
+      "iso2": "TV",
+      "name": "Tuvalu",
+      "slug": "tuvalu"
+    },
+    "city": "Funafuti",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Maritime Studies",
+      "Engineering & Technology",
+      "Science"
+    ],
+    "categoryTags": [
+      "Maritime",
+      "Technical Education",
+      "Vocational"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "English proficiency may be required for maritime programmes.",
+    "tuitionNote": "Programme fees vary by maritime certification level; confirm directly with the institute.",
+    "studentNotes": "The Tuvalu Maritime Training Institute, on Amatuku islet in Funafuti atoll, is the country's specialised seafarer / maritime training institution — historically important to Tuvalu, which supplies many merchant-marine seafarers. Honest note: an independent official website could not be verified, so the website and matching email were left blank rather than guessed; oversight is via the Tuvalu Ministry of Education. IMPORTANT RECOGNITION ADVISORY: before enrolling, verify that the maritime qualifications are recognised under the relevant STCW / flag-state / IMO arrangements and accepted by the specific maritime authority, shipping employers and country where you intend to work — this is neutral consumer information, not a judgement on the institute.",
+    "accreditationBody": "Government of Tuvalu (Ministry of Education, Youth & Sports); maritime training",
+    "accreditationRegistryUrl": "https://meys.gov.tv/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TV-002",
+      "title": "Tuvalu Ministry of Education, Youth & Sports",
+      "publisher": "Government of Tuvalu",
+      "url": "https://meys.gov.tv/",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": null,
+    "admissionsEmail": null,
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission schedules are announced by the institute / Ministry of Education.",
+    "scholarshipsUrl": "https://meys.gov.tv/"
+  },
+  {
+    "id": "UNI_3028",
+    "slug": "tuvalu-atoll-science-technology-training-institute",
+    "name": "Tuvalu Atoll Science Technology Training Institute",
+    "country": {
+      "iso2": "TV",
+      "name": "Tuvalu",
+      "slug": "tuvalu"
+    },
+    "city": "Funafuti",
+    "region": "Oceania",
+    "controlType": "public",
+    "officialWebsite": null,
+    "admissionsUrl": null,
+    "primaryLanguage": "English",
+    "subjects": [
+      "Science",
+      "Engineering & Technology",
+      "Computer Science & IT",
+      "Agriculture & Environmental Studies",
+      "Mathematics & Statistics"
+    ],
+    "categoryTags": [
+      "Technical Training",
+      "TVET",
+      "Climate Resilience"
+    ],
+    "scholarshipsAvailable": false,
+    "englishTestNote": "Entry requirements depend on the technical programme.",
+    "tuitionNote": "Technical and vocational training fees vary; confirm with the Ministry of Education.",
+    "studentNotes": "The Tuvalu Atoll Science Technology Training Institute, in Funafuti, is a public technical and vocational training institution (with a focus on science and climate-resilience skills) operating under the Tuvalu Ministry of Education. Honest note: it does not maintain a separate official institutional website; the Ministry of Education is recorded as the verifiable registry rather than presenting a Ministry page as the institute's own site. Confirm programmes, intake and recognition of the qualification in your target country directly with the Ministry of Education before enrolling.",
+    "accreditationBody": "Government of Tuvalu — Ministry of Education, Youth & Sports",
+    "accreditationRegistryUrl": "https://meys.gov.tv/",
+    "accreditationBodyVerifiedDate": "2026-05-17",
+    "recognitionByDestination": [],
+    "source": {
+      "id": "SRC-TV-003",
+      "title": "Tuvalu Ministry of Education, Youth & Sports",
+      "publisher": "Government of Tuvalu",
+      "url": "https://meys.gov.tv/",
+      "tier": "tier_2_registry"
+    },
+    "lastVerified": "2026-05-17",
+    "verificationStatus": "curator_added_registry_only",
+    "publishable": true,
+    "contactUrl": "https://meys.gov.tv/",
+    "admissionsEmail": "info@meys.gov.tv",
+    "mainPhone": null,
+    "deadlinesUrl": null,
+    "deadlinesNote": "Admission timelines are announced by the Ministry of Education.",
+    "scholarshipsUrl": "https://meys.gov.tv/"
   }
 ]
