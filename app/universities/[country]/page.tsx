@@ -328,12 +328,12 @@ export default async function CountryPage({
           className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-sm mb-10"
         >
           <a
-            href="https://almicv.almiworld.com"
+            href={`https://almicv.almiworld.com/cv-guide/${country.slug}`}
             className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 dark:hover:border-zinc-600 transition-colors"
           >
-            <div className="font-semibold mb-1">Building your application CV next?</div>
+            <div className="font-semibold mb-1">Build a {country.name}-Ready CV →</div>
             <div className="text-zinc-600 dark:text-zinc-400">
-              AlmiCV has free templates for applicants applying internationally →
+              AlmiCV — guide tailored to {country.name} conventions.
             </div>
           </a>
           <a

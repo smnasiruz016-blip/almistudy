@@ -247,11 +247,11 @@ export default async function L4UniPage({
             <div className="text-zinc-600">What graduates earn, honest ranges.</div>
           </a>
           <a
-            href="https://almicv.almiworld.com"
+            href={`https://almicv.almiworld.com/cv-guide/${country}`}
             className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 transition-colors"
           >
-            <div className="font-semibold mb-1">Build your CV →</div>
-            <div className="text-zinc-600">Free templates, every country.</div>
+            <div className="font-semibold mb-1">Build a {c.name}-Ready CV →</div>
+            <div className="text-zinc-600">AlmiCV — guide tailored to {c.name} conventions.</div>
           </a>
           <a
             href={`https://almijob.almiworld.com/jobs/${country}`}

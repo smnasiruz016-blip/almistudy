@@ -193,12 +193,12 @@ function CrossProductCtas({ u }: { u: University }) {
         </div>
       </a>
       <a
-        href="https://almicv.almiworld.com"
+        href={`https://almicv.almiworld.com/cv-guide/${u.country.slug}`}
         className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 dark:hover:border-zinc-600 transition-colors"
       >
-        <div className="font-semibold mb-1">Build your CV for {u.country.name} →</div>
+        <div className="font-semibold mb-1">Build a {u.country.name}-Ready CV →</div>
         <div className="text-zinc-600 dark:text-zinc-400">
-          AlmiCV — free templates, every country.
+          AlmiCV — guide tailored to {u.country.name} conventions.
         </div>
       </a>
       <a
