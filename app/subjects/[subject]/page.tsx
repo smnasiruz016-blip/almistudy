@@ -1,60 +1,27 @@
-// Placeholder pages. Real subject pages ship after University.subjectCategories
-// controlled vocabulary migration (queued). Until then, each subject route
-// renders a brief explainer + cross-links to the working browse paths.
-
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import {
+  getCountriesForSubject,
+  getUniversitiesBySubject,
+} from "@/lib/page-relations";
+import {
+  SUBJECT_NAMES,
+  SUBJECT_ORDER,
+  type SubjectSlug,
+} from "@/lib/subject-mapper";
+
+export const revalidate = 86400;
+export const dynamicParams = true;
 
 const SITE_URL = "https://almistudy.almiworld.com";
+const PRINCIPLES_URL =
+  "https://github.com/smnasiruz016-blip/docs/blob/main/docs/AlmiStudy_Product_Principles.md";
 
-export type SubjectSlug =
-  | "medicine-health-sciences"
-  | "engineering-technology"
-  | "computer-science-it"
-  | "business-management"
-  | "law"
-  | "natural-sciences"
-  | "arts-humanities"
-  | "social-sciences"
-  | "education"
-  | "mathematics-statistics"
-  | "architecture-design"
-  | "agriculture-environment";
+type Params = { subject: string };
 
-export const SUBJECT_ORDER: SubjectSlug[] = [
-  "medicine-health-sciences",
-  "engineering-technology",
-  "computer-science-it",
-  "business-management",
-  "law",
-  "natural-sciences",
-  "arts-humanities",
-  "social-sciences",
-  "education",
-  "mathematics-statistics",
-  "architecture-design",
-  "agriculture-environment",
-];
-
-export const SUBJECT_NAMES: Record<SubjectSlug, string> = {
-  "medicine-health-sciences": "Medicine & Health Sciences",
-  "engineering-technology": "Engineering & Technology",
-  "computer-science-it": "Computer Science & IT",
-  "business-management": "Business & Management",
-  law: "Law",
-  "natural-sciences": "Natural Sciences",
-  "arts-humanities": "Arts & Humanities",
-  "social-sciences": "Social Sciences",
-  education: "Education",
-  "mathematics-statistics": "Mathematics & Statistics",
-  "architecture-design": "Architecture & Design",
-  "agriculture-environment": "Agriculture & Environment",
-};
-
-export function generateStaticParams() {
-  return SUBJECT_ORDER.map((subject) => ({ subject }));
-}
+export const SUBJECT_NAMES_REEXPORT = SUBJECT_NAMES; // legacy import compat
+export { SUBJECT_NAMES, SUBJECT_ORDER, type SubjectSlug };
 
 function isSubjectSlug(s: string): s is SubjectSlug {
   return (SUBJECT_ORDER as readonly string[]).includes(s);
@@ -63,17 +30,19 @@ function isSubjectSlug(s: string): s is SubjectSlug {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ subject: string }>;
+  params: Promise<Params>;
 }): Promise<Metadata> {
   const { subject } = await params;
   if (!isSubjectSlug(subject)) return {};
   const name = SUBJECT_NAMES[subject];
+  const unis = getUniversitiesBySubject(subject);
+  const countries = getCountriesForSubject(subject);
   const url = `${SITE_URL}/subjects/${subject}`;
-  const title = `${name} · AlmiStudy`;
-  const description = `${name} programs at verified-accreditation universities. Subject pages are in active development; explore by country or region while we complete the controlled-vocabulary tagging across all reviewed universities.`;
+  const title = `${name} Universities Worldwide | AlmiStudy`;
+  const description = `AlmiStudy lists ${unis.length} accredited universities teaching ${name} across ${countries.length} countries, all verified against national accreditation registries.`;
   return {
-    title,
-    description,
+    title: title.length <= 60 ? title : `${name} | AlmiStudy`,
+    description: description.length > 160 ? description.slice(0, 157) + "…" : description,
     alternates: { canonical: url },
     openGraph: { type: "website", url, title, description, siteName: "AlmiStudy" },
     twitter: { card: "summary_large_image", title, description },
@@ -83,63 +52,178 @@ export async function generateMetadata({
 export default async function SubjectPage({
   params,
 }: {
-  params: Promise<{ subject: string }>;
+  params: Promise<Params>;
 }) {
   const { subject } = await params;
   if (!isSubjectSlug(subject)) notFound();
   const name = SUBJECT_NAMES[subject];
+  const allUnis = getUniversitiesBySubject(subject);
+  const countries = getCountriesForSubject(subject);
+
+  // Top countries by uni count for this subject (head of long-tail)
+  const countriesByCount = countries
+    .slice()
+    .sort((a, b) => b.count - a.count);
+  const topCountries = countriesByCount.slice(0, 16);
+  const featuredUnis = allUnis.slice(0, 12);
+
+  const itemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListOrder: "https://schema.org/ItemListUnordered",
+    numberOfItems: featuredUnis.length,
+    itemListElement: featuredUnis.map((u, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "CollegeOrUniversity",
+        name: u.name,
+        url: `${SITE_URL}/university/${u.slug}`,
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: u.city,
+          addressCountry: u.country.iso2,
+        },
+      },
+    })),
+  };
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "AlmiStudy", item: SITE_URL },
+      { "@type": "ListItem", position: 3, name: "Subjects", item: `${SITE_URL}/subjects/${subject}` },
+      { "@type": "ListItem", position: 4, name: name, item: `${SITE_URL}/subjects/${subject}` },
+    ],
+  };
 
   return (
-    <main className="flex flex-col flex-1 px-6 py-10 sm:py-14 bg-cream">{/* Header + Footer provided by root layout */}
-        <div className="mx-auto w-full max-w-3xl">
-          <nav aria-label="Breadcrumb" className="text-xs sm:text-sm text-plum-faint mb-5">
-            <ol className="flex flex-wrap items-center gap-1.5">
-              <li>
-                <Link href="/" className="hover:text-coral transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li aria-hidden="true">·</li>
-              <li>
-                <span className="font-medium text-plum">{name}</span>
-              </li>
-            </ol>
-          </nav>
+    <main className="flex flex-col flex-1 px-6 py-10 sm:py-14 bg-cream">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+      <div className="mx-auto w-full max-w-4xl">
+        <nav aria-label="Breadcrumb" className="text-xs sm:text-sm text-plum-faint mb-5">
+          <ol className="flex flex-wrap items-center gap-1.5">
+            <li><Link href="/" className="hover:text-coral transition-colors">Home</Link></li>
+            <li aria-hidden="true">·</li>
+            <li><Link href="/universities" className="hover:text-coral transition-colors">AlmiStudy</Link></li>
+            <li aria-hidden="true">·</li>
+            <li><span className="font-medium text-plum">{name}</span></li>
+          </ol>
+        </nav>
 
-          <header className="mb-6">
-            <h1 className="text-2xl sm:text-4xl font-medium tracking-tight text-plum mb-3">
-              {name}
-            </h1>
-            <p className="text-base sm:text-lg text-plum-soft leading-relaxed">
-              We&apos;re building this section.
-            </p>
-          </header>
+        <header className="mb-8">
+          <h1 className="text-2xl sm:text-4xl font-medium tracking-tight text-plum mb-3">
+            Universities offering {name} worldwide
+          </h1>
+          <p className="text-base sm:text-lg text-plum-soft leading-relaxed max-w-3xl">
+            AlmiStudy lists {allUnis.length} accredited{" "}
+            {allUnis.length === 1 ? "university" : "universities"} teaching {name} across{" "}
+            {countries.length} {countries.length === 1 ? "country" : "countries"}, all verified
+            against national accreditation registries.
+          </p>
+        </header>
 
-          <section className="rounded-md border border-peach bg-cream-soft p-6 mb-10">
-            <p className="text-sm text-plum-soft leading-relaxed mb-4">
-              Subject filtering requires controlled-vocabulary tagging across all
-              reviewed universities. That work is in progress. In the meantime:
-            </p>
-            <ul className="text-sm text-plum-soft leading-relaxed space-y-2 list-disc pl-5">
-              <li>
-                <Link
-                  href="/universities"
-                  className="text-coral hover:text-coral-deep underline"
-                >
-                  Browse by country →
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/regions/asia"
-                  className="text-coral hover:text-coral-deep underline"
-                >
-                  Browse by region →
-                </Link>
-              </li>
+        {topCountries.length > 0 ? (
+          <section className="mb-10" aria-labelledby="top-countries">
+            <h2 id="top-countries" className="text-lg font-semibold tracking-tight text-plum mb-3">
+              Top countries for {name}
+            </h2>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+              {topCountries.map((c) => (
+                <li key={c.slug}>
+                  <Link
+                    href={`/study/${c.slug}/${subject}`}
+                    className="block rounded-md border border-peach bg-cream p-3 hover:bg-cream-soft transition-colors"
+                  >
+                    <p className="text-plum font-medium text-sm">{c.name}</p>
+                    <p className="text-plum-soft text-xs mt-1">{c.count} {c.count === 1 ? "university" : "universities"}</p>
+                  </Link>
+                </li>
+              ))}
             </ul>
           </section>
-        </div>
+        ) : null}
+
+        {featuredUnis.length > 0 ? (
+          <section className="mb-10" aria-labelledby="featured-unis">
+            <h2 id="featured-unis" className="text-lg font-semibold tracking-tight text-plum mb-3">
+              Featured universities
+            </h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {featuredUnis.map((u) => (
+                <li key={u.slug}>
+                  <Link
+                    href={`/university/${u.slug}`}
+                    className="block rounded-md border border-peach bg-cream p-4 hover:bg-cream-soft transition-colors"
+                  >
+                    <p className="text-plum font-medium text-sm">{u.name}</p>
+                    <p className="text-plum-soft text-xs mt-1">{u.city} · {u.country.name}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
+
+        {countriesByCount.length > 0 ? (
+          <section className="mb-10" aria-labelledby="all-countries">
+            <h2 id="all-countries" className="text-lg font-semibold tracking-tight text-plum mb-3">
+              All countries with {name} programs
+            </h2>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 text-sm">
+              {countriesByCount.map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/study/${c.slug}/${subject}`} className="text-plum hover:text-coral underline-offset-4 hover:underline">
+                    {c.name} <span className="text-plum-faint">({c.count})</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
+
+        <section
+          aria-label="Other AlmiWorld products"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 text-sm mb-10"
+        >
+          <a
+            href="https://almisalary.almiworld.com"
+            className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 transition-colors"
+          >
+            <div className="font-semibold mb-1">Salary by country →</div>
+            <div className="text-zinc-600">AlmiSalary — what graduates earn, honest ranges.</div>
+          </a>
+          <a
+            href="https://almicv.almiworld.com"
+            className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 transition-colors"
+          >
+            <div className="font-semibold mb-1">Build your CV →</div>
+            <div className="text-zinc-600">AlmiCV — free templates, every country.</div>
+          </a>
+          <a
+            href="https://almijob.almiworld.com"
+            className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 transition-colors"
+          >
+            <div className="font-semibold mb-1">Find jobs →</div>
+            <div className="text-zinc-600">AlmiJob — one CV, every site.</div>
+          </a>
+        </section>
+
+        <p className="text-xs text-plum-soft max-w-3xl leading-relaxed mb-2">
+          We list institutions whose accreditation we have verified against a recognized national or international accrediting body. Listing does not vouch for any specific program&apos;s recognition by destination-country regulators or individual admissions outcomes.
+        </p>
+        <footer className="text-xs text-plum-faint border-t border-peach pt-4 leading-relaxed mt-6">
+          <p>
+            Listings reviewed against{" "}
+            <a href={PRINCIPLES_URL} target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+              AlmiStudy product principles
+            </a>{" "}
+            (v1.0). Per §8.1, every listing is re-verified at least annually.
+          </p>
+        </footer>
+      </div>
     </main>
   );
 }

@@ -1,4 +1,5 @@
 import publishable from "@/lib/universities-publishable.json";
+import { getCanonicalSubjects, type SubjectSlug } from "./subject-mapper";
 
 export type University = {
   id: string;
@@ -123,4 +124,75 @@ export function getCountriesForHomepage(): CountryEntry[] {
     if (bi !== undefined) return 1;
     return a.name.localeCompare(b.name);
   });
+}
+
+// ─────────────────────────────────────────────────────────────────────
+// L1 + L4 indices (added in feat/4-layer-expansion).
+//   • BY_SLUG: O(1) university lookup for L1 /university/[slug]
+//   • BY_SUBJECT: every university teaching a given canonical subject
+//   • BY_COUNTRY_SUBJECT: country → subject → unis. Partial<Record> on
+//     the inner so callers get `undefined` (not empty array) when there
+//     is no data, distinguishing "we haven't reviewed this combo yet"
+//     from "we reviewed and found zero".
+// ─────────────────────────────────────────────────────────────────────
+
+const BY_SLUG: Map<string, University> = new Map(ALL.map((u) => [u.slug, u]));
+
+const BY_SUBJECT: Record<SubjectSlug, University[]> = (() => {
+  const out = {} as Record<SubjectSlug, University[]>;
+  for (const u of ALL) {
+    for (const s of getCanonicalSubjects(u)) {
+      (out[s] ??= []).push(u);
+    }
+  }
+  return out;
+})();
+
+const BY_COUNTRY_SUBJECT: Record<string, Partial<Record<SubjectSlug, University[]>>> = (() => {
+  const out: Record<string, Partial<Record<SubjectSlug, University[]>>> = {};
+  for (const u of ALL) {
+    const cs = u.country.slug;
+    out[cs] ??= {};
+    for (const s of getCanonicalSubjects(u)) {
+      (out[cs][s] ??= []).push(u);
+    }
+  }
+  return out;
+})();
+
+export function getUniversityBySlug(slug: string): University | undefined {
+  return BY_SLUG.get(slug);
+}
+
+export function getUniversitiesBySubject(subject: SubjectSlug): University[] {
+  return (BY_SUBJECT[subject] ?? []).slice().sort((a, b) => a.name.localeCompare(b.name));
+}
+
+/**
+ * Returns the universities matching {country × subject}, or `undefined`
+ * when AlmiStudy has no entry for that combination. Honest: distinguish
+ * "no data yet" from "we reviewed, found zero" — the former returns
+ * undefined, the latter is impossible because we only build the index
+ * from real publishable rows.
+ */
+export function getUniversitiesByCountrySubject(
+  countrySlug: string,
+  subject: SubjectSlug,
+): University[] | undefined {
+  const bySubject = BY_COUNTRY_SUBJECT[countrySlug];
+  if (!bySubject) return undefined;
+  const arr = bySubject[subject];
+  return arr ? arr.slice().sort((a, b) => a.name.localeCompare(b.name)) : undefined;
+}
+
+/** Sister subjects: SubjectSlugs the same country has at least one uni for. */
+export function getSubjectsForCountry(countrySlug: string): SubjectSlug[] {
+  const bySubject = BY_COUNTRY_SUBJECT[countrySlug];
+  if (!bySubject) return [];
+  return (Object.keys(bySubject) as SubjectSlug[]).sort();
+}
+
+/** Sister countries: countries that have at least one uni for the subject. */
+export function getCountriesForSubject(subject: SubjectSlug): CountryEntry[] {
+  return COUNTRIES.filter((c) => (BY_COUNTRY_SUBJECT[c.slug] ?? {})[subject]);
 }

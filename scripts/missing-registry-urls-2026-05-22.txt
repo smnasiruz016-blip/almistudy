@@ -1,0 +1,29 @@
+UNI_ID	COUNTRY	SLUG	NAME	ACCREDITATION_BODY
+UNI_3021	SB	atoifi-college-of-nursing	Atoifi College of Nursing	Recognised within Solomon Islands' health-education system (Ministry of Education; nursing registration via the Solomon Islands Nursing Council / Ministry of Health & Medical Services)
+UNI_3332	ER	eritrea-institute-of-technology	Eritrea Institute of Technology	National Board for Higher Education (Eritrea) — Ministry of Education
+UNI_3333	ER	asmara-college-of-health-sciences	Asmara College of Health Sciences	National Board for Higher Education (Eritrea) — Ministry of Education
+UNI_3334	ER	adi-keih-college-of-arts-and-social-sciences	Adi-Keih College of Arts and Social Sciences	National Board for Higher Education (Eritrea) — Ministry of Education
+UNI_3335	ER	hamelmalo-college-of-agriculture	Hamelmalo College of Agriculture	National Board for Higher Education (Eritrea) — Ministry of Education
+UNI_3336	ER	halhale-college-of-business-and-economics	Halhale College of Business and Economics	National Board for Higher Education (Eritrea) — Ministry of Education
+UNI_3337	SC	university-of-seychelles	University of Seychelles	Seychelles Qualifications Authority (SQA) — Government of Seychelles
+UNI_3338	NA	university-of-namibia	University of Namibia	National Council for Higher Education (NCHE) — Namibia; Namibia Qualifications Authority (NQA)
+UNI_3339	NA	namibia-university-of-science-and-technology	Namibia University of Science and Technology	National Council for Higher Education (NCHE) — Namibia; Namibia Qualifications Authority (NQA)
+UNI_3340	NA	international-university-of-management	International University of Management	National Council for Higher Education (NCHE) — Namibia; Namibia Qualifications Authority (NQA)
+UNI_3341	SD	university-of-khartoum	University of Khartoum	Ministry of Higher Education and Scientific Research — Sudan
+UNI_3342	SD	sudan-university-of-science-and-technology	Sudan University of Science and Technology	Ministry of Higher Education and Scientific Research — Sudan
+UNI_3343	SD	university-of-gezira	University of Gezira	Ministry of Higher Education and Scientific Research — Sudan
+UNI_3344	SD	omdurman-islamic-university	Omdurman Islamic University	Ministry of Higher Education and Scientific Research — Sudan
+UNI_3345	SD	ahfad-university-for-women	Ahfad University for Women	Ministry of Higher Education and Scientific Research — Sudan
+UNI_3346	SD	al-neelain-university	Al-Neelain University	Ministry of Higher Education and Scientific Research — Sudan
+UNI_3347	ST	universidade-de-sao-tome-e-principe	Universidade de São Tomé e Príncipe	Ministry of Education and Higher Education — São Tomé and Príncipe
+UNI_3348	CG	universite-marien-ngouabi	Université Marien Ngouabi	Ministère de l'Enseignement Supérieur — République du Congo
+UNI_3349	CG	universite-denis-sassou-nguesso	Université Denis Sassou Nguesso	Ministère de l'Enseignement Supérieur — République du Congo
+UNI_3350	CF	universite-de-bangui	Université de Bangui	Ministère de l'Enseignement Supérieur — République centrafricaine
+UNI_3351	GN	universite-gamal-abdel-nasser-de-conakry	Université Gamal Abdel Nasser de Conakry	Ministère de l'Enseignement Supérieur et de la Recherche Scientifique — Guinée
+UNI_3352	GN	universite-general-lansana-conte-de-sonfonia	Université Général Lansana Conté de Sonfonia	Ministère de l'Enseignement Supérieur et de la Recherche Scientifique — Guinée
+UNI_3353	GN	universite-kofi-annan-de-guinee	Université Kofi Annan de Guinée	Ministère de l'Enseignement Supérieur et de la Recherche Scientifique — Guinée
+UNI_3354	NE	universite-abdou-moumouni	Université Abdou Moumouni	Ministère de l'Enseignement Supérieur, de la Recherche et de l'Innovation — Niger
+UNI_3355	NE	universite-islamique-du-niger	Université Islamique du Niger	Ministère de l'Enseignement Supérieur, de la Recherche et de l'Innovation — Niger
+UNI_3356	AZ	azerbaijan-technical-university	Azerbaijan Technical University	Ministry of Science and Education — Azerbaijan
+UNI_3357	AZ	ada-university	ADA University	Ministry of Science and Education — Azerbaijan
+UNI_3358	AZ	khazar-university	Khazar University	Ministry of Science and Education — Azerbaijan

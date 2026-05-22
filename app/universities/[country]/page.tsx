@@ -337,7 +337,7 @@ export default async function CountryPage({
             </div>
           </a>
           <a
-            href="https://almisalary.almiworld.com"
+            href={`https://almisalary.almiworld.com/salary/${country.slug}`}
             className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 dark:hover:border-zinc-600 transition-colors"
           >
             <div className="font-semibold mb-1">Wondering what graduates earn?</div>
