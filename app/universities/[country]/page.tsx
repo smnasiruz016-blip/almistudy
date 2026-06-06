@@ -24,8 +24,10 @@ export async function generateMetadata({
   const c = getCountryBySlug(country);
   if (!c) return {};
   const url = `${SITE_URL}/universities/${c.slug}`;
-  const title = `${c.name} universities`;
-  const description = `Accredited universities in ${c.name}, verified against a recognized national accrediting body. ${c.count} ${c.count === 1 ? "institution" : "institutions"} reviewed.`;
+  const year = new Date().getFullYear();
+  // Bare title — the root layout template appends " · AlmiStudy" once.
+  const title = `${c.count.toLocaleString("en-US")} Accredited ${c.count === 1 ? "University" : "Universities"} in ${c.name} (${year})`;
+  const description = `All ${c.count.toLocaleString("en-US")} accredited ${c.count === 1 ? "university" : "universities"} in ${c.name}, each verified against a recognized national accrediting body — with subjects and registry links.`;
   return {
     title,
     description,

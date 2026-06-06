@@ -29,12 +29,17 @@ export async function generateMetadata({
   const name = V2_REGION_NAMES[region];
   const r = getRegionBySlug(region);
   const url = `${SITE_URL}/regions/${region}`;
+  const year = new Date().getFullYear();
   const description =
     r && r.status === "active"
-      ? `Accredited universities in ${name}. ${r.universityCount} ${r.universityCount === 1 ? "institution" : "institutions"} across ${r.countryCount} ${r.countryCount === 1 ? "country" : "countries"}, verified against recognized national accrediting bodies.`
-      : `${name} coverage is on the AlmiStudy roadmap. We expand deliberately, country by country, when accreditation can be verified.`;
+      ? `${r.universityCount.toLocaleString("en-US")} accredited universities across ${r.countryCount} ${r.countryCount === 1 ? "country" : "countries"} in ${name}, each verified against a recognized national accrediting body.`
+      : `${name} coverage is on the AlmiStudy roadmap — added country by country as accreditation is verified.`;
   // Bare title — the root layout template appends " · AlmiStudy" once.
-  const title = `${name} universities`;
+  // Active regions lead with the verified count; roadmap regions stay neutral.
+  const title =
+    r && r.status === "active"
+      ? `${r.universityCount.toLocaleString("en-US")} Accredited Universities in ${name} (${year})`
+      : `${name} Universities (${year})`;
   return {
     title,
     description,

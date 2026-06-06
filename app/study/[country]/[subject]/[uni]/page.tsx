@@ -25,17 +25,17 @@ function isSubjectSlug(s: string): s is SubjectSlug {
 }
 
 // Bare title — the root layout template appends " · AlmiStudy" once.
-function buildTitle(u: University, subjectName: string, countryName: string): string {
-  const candidate = `Study ${subjectName} at ${u.name} in ${countryName}`;
+function buildTitle(u: University, subjectName: string, countryName: string, year: number): string {
+  const candidate = `Study ${subjectName} at ${u.name} in ${countryName} (${year})`;
   if (candidate.length <= 60) return candidate;
-  const shortened = `${subjectName} at ${u.name.slice(0, 30)}…`;
-  return shortened.length <= 60 ? shortened : subjectName;
+  const shortened = `${subjectName} at ${u.name.slice(0, 30)}… (${year})`;
+  return shortened.length <= 60 ? shortened : `${subjectName} (${year})`;
 }
 
 function buildDescription(u: University, subjectName: string, countryName: string, peerCount: number): string {
   const accred = u.accreditationBody ?? "national accreditation";
   const verified = u.accreditationBodyVerifiedDate ?? u.lastVerified;
-  const base = `${u.name} offers ${subjectName} in ${u.city}, ${countryName}. Verified against ${accred}${verified ? ` on ${verified}` : ""}. One of ${peerCount} accredited ${peerCount === 1 ? "institution" : "institutions"} teaching ${subjectName} in ${countryName}.`;
+  const base = `${u.name} offers ${subjectName} in ${u.city}, ${countryName}. Verified against ${accred}${verified ? ` on ${verified}` : ""}. One of ${peerCount.toLocaleString("en-US")} accredited ${peerCount === 1 ? "institution" : "institutions"} teaching ${subjectName} in ${countryName}.`;
   if (base.length > 160) return base.slice(0, 157) + "…";
   return base;
 }
@@ -55,7 +55,7 @@ export async function generateMetadata({
   if (!uni) return {};
   const subjectName = SUBJECT_NAMES[subject];
   const url = `${SITE_URL}/study/${country}/${subject}/${uniSlug}`;
-  const title = buildTitle(uni, subjectName, c.name);
+  const title = buildTitle(uni, subjectName, c.name, new Date().getFullYear());
   const description = buildDescription(uni, subjectName, c.name, unis.length);
   return {
     title,
