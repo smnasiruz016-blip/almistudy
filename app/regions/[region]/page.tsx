@@ -33,7 +33,8 @@ export async function generateMetadata({
     r && r.status === "active"
       ? `Accredited universities in ${name}. ${r.universityCount} ${r.universityCount === 1 ? "institution" : "institutions"} across ${r.countryCount} ${r.countryCount === 1 ? "country" : "countries"}, verified against recognized national accrediting bodies.`
       : `${name} coverage is on the AlmiStudy roadmap. We expand deliberately, country by country, when accreditation can be verified.`;
-  const title = `${name} universities · AlmiStudy`;
+  // Bare title — the root layout template appends " · AlmiStudy" once.
+  const title = `${name} universities`;
   return {
     title,
     description,

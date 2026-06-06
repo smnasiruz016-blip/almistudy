@@ -36,12 +36,13 @@ export async function generateMetadata({
   const subjectName = SUBJECT_NAMES[subject];
   const unis = getUniversitiesByCountrySubject(country, subject);
   const url = `${SITE_URL}/study/${country}/${subject}`;
-  const title = `${subjectName} Universities in ${c.name} | AlmiStudy`;
+  // Bare title — the root layout template appends " · AlmiStudy" once.
+  const title = `${subjectName} Universities in ${c.name}`;
   const description = unis
     ? `${unis.length} accredited ${unis.length === 1 ? "university" : "universities"} in ${c.name} teaching ${subjectName}. Verified against national accreditation registries. AlmiStudy.`
     : `AlmiStudy hasn't yet verified ${subjectName} programs in ${c.name}. Browse ${subjectName} worldwide or other ${c.name} subjects.`;
   return {
-    title: title.length <= 60 ? title : `${subjectName} in ${c.name} | AlmiStudy`,
+    title: title.length <= 60 ? title : `${subjectName} in ${c.name}`,
     description: description.length > 160 ? description.slice(0, 157) + "…" : description,
     alternates: { canonical: url },
     openGraph: { type: "website", url, title, description, siteName: "AlmiStudy" },

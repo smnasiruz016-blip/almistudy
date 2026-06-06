@@ -24,11 +24,12 @@ function isSubjectSlug(s: string): s is SubjectSlug {
   return (SUBJECT_ORDER as readonly string[]).includes(s);
 }
 
+// Bare title — the root layout template appends " · AlmiStudy" once.
 function buildTitle(u: University, subjectName: string, countryName: string): string {
-  const candidate = `Study ${subjectName} at ${u.name} in ${countryName} | AlmiStudy`;
+  const candidate = `Study ${subjectName} at ${u.name} in ${countryName}`;
   if (candidate.length <= 60) return candidate;
-  const shortened = `${subjectName} at ${u.name.slice(0, 30)}… | AlmiStudy`;
-  return shortened.length <= 60 ? shortened : `${subjectName} | AlmiStudy`;
+  const shortened = `${subjectName} at ${u.name.slice(0, 30)}…`;
+  return shortened.length <= 60 ? shortened : subjectName;
 }
 
 function buildDescription(u: University, subjectName: string, countryName: string, peerCount: number): string {
