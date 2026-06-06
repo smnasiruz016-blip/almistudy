@@ -6,12 +6,16 @@ const SITE_URL = "https://almistudy.almiworld.com";
 const PRINCIPLES_URL =
   "https://github.com/smnasiruz016-blip/almistudy/blob/main/docs/AlmiStudy_Product_Principles.md";
 
-export const metadata: Metadata = {
-  title: "Accredited universities directory",
-  description:
-    "AlmiStudy university directory by country. Verified-accreditation institutions checked against recognized national accrediting bodies.",
-  alternates: { canonical: `${SITE_URL}/universities` }
-};
+export const metadata: Metadata = (() => {
+  const year = new Date().getFullYear();
+  return {
+    // Bare title — the root layout template appends " · AlmiStudy" once.
+    title: `Accredited Universities by Country (${year})`,
+    description:
+      "6,300+ accredited universities across 190+ countries, each verified against a recognized national accrediting body. Browse by country.",
+    alternates: { canonical: `${SITE_URL}/universities` }
+  };
+})();
 
 export default function UniversitiesIndexPage() {
   const countries = getAllCountries();

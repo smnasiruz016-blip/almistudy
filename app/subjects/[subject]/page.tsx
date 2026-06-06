@@ -38,11 +38,12 @@ export async function generateMetadata({
   const unis = getUniversitiesBySubject(subject);
   const countries = getCountriesForSubject(subject);
   const url = `${SITE_URL}/subjects/${subject}`;
+  const year = new Date().getFullYear();
   // Bare title — the root layout template appends " · AlmiStudy" once.
-  const title = `${name} Universities Worldwide`;
-  const description = `AlmiStudy lists ${unis.length} accredited universities teaching ${name} across ${countries.length} countries, all verified against national accreditation registries.`;
+  const title = `${name} Universities Worldwide (${year})`;
+  const description = `${unis.length.toLocaleString("en-US")} accredited universities teaching ${name} across ${countries.length} countries, each verified against a recognized national accrediting body.`;
   return {
-    title: title.length <= 60 ? title : name,
+    title: title.length <= 60 ? title : `${name} (${year})`,
     description: description.length > 160 ? description.slice(0, 157) + "…" : description,
     alternates: { canonical: url },
     openGraph: { type: "website", url, title, description, siteName: "AlmiStudy" },

@@ -18,10 +18,13 @@ const PRINCIPLES_URL =
 type Params = { slug: string };
 
 // Bare title — the root layout template appends " · AlmiStudy" once.
-function truncateTitle(name: string): string {
+// Name fits inside 60 chars alongside the " (YEAR)" freshness suffix.
+function truncateTitle(name: string, year: number): string {
+  const suffix = ` (${year})`;
   const max = 60;
-  if (name.length <= max) return name;
-  return name.slice(0, max - 1).trimEnd() + "…";
+  const room = max - suffix.length;
+  if (name.length <= room) return name + suffix;
+  return name.slice(0, room - 1).trimEnd() + "…" + suffix;
 }
 
 function buildDescription(u: University): string {
@@ -29,7 +32,7 @@ function buildDescription(u: University): string {
   const verified = u.accreditationBodyVerifiedDate ?? u.lastVerified;
   const base = `${u.name} in ${u.city}, ${u.country.name}: accredited by ${accred}. Subjects, registry link${
     verified ? `, last verified ${verified}` : ""
-  }. AlmiStudy.`;
+  }.`;
   if (base.length > 160) return base.slice(0, 157) + "…";
   return base;
 }
@@ -43,7 +46,7 @@ export async function generateMetadata({
   const u = getUniversityBySlug(slug);
   if (!u) return {};
   const url = `${SITE_URL}/university/${u.slug}`;
-  const title = truncateTitle(u.name);
+  const title = truncateTitle(u.name, new Date().getFullYear());
   const description = buildDescription(u);
   return {
     title,

@@ -36,13 +36,14 @@ export async function generateMetadata({
   const subjectName = SUBJECT_NAMES[subject];
   const unis = getUniversitiesByCountrySubject(country, subject);
   const url = `${SITE_URL}/study/${country}/${subject}`;
+  const year = new Date().getFullYear();
   // Bare title — the root layout template appends " · AlmiStudy" once.
-  const title = `${subjectName} Universities in ${c.name}`;
+  const title = `${subjectName} Universities in ${c.name} (${year})`;
   const description = unis
-    ? `${unis.length} accredited ${unis.length === 1 ? "university" : "universities"} in ${c.name} teaching ${subjectName}. Verified against national accreditation registries. AlmiStudy.`
+    ? `${unis.length.toLocaleString("en-US")} accredited ${unis.length === 1 ? "university" : "universities"} in ${c.name} teaching ${subjectName}, each verified against a recognized national accrediting body.`
     : `AlmiStudy hasn't yet verified ${subjectName} programs in ${c.name}. Browse ${subjectName} worldwide or other ${c.name} subjects.`;
   return {
-    title: title.length <= 60 ? title : `${subjectName} in ${c.name}`,
+    title: title.length <= 60 ? title : `${subjectName} in ${c.name} (${year})`,
     description: description.length > 160 ? description.slice(0, 157) + "…" : description,
     alternates: { canonical: url },
     openGraph: { type: "website", url, title, description, siteName: "AlmiStudy" },
