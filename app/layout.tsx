@@ -4,6 +4,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://almistudy.almiworld.com"),
   title: {
     default: "AlmiStudy — Where to study for credentials that transfer",
     template: "%s · AlmiStudy"

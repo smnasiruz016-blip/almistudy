@@ -17,12 +17,11 @@ const PRINCIPLES_URL =
 
 type Params = { slug: string };
 
+// Bare title — the root layout template appends " · AlmiStudy" once.
 function truncateTitle(name: string): string {
-  const suffix = " | AlmiStudy";
   const max = 60;
-  const room = max - suffix.length;
-  if (name.length <= room) return name + suffix;
-  return name.slice(0, room - 1).trimEnd() + "…" + suffix;
+  if (name.length <= max) return name;
+  return name.slice(0, max - 1).trimEnd() + "…";
 }
 
 function buildDescription(u: University): string {
