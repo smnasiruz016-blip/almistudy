@@ -8,17 +8,19 @@ import { SUBJECT_ORDER } from "@/lib/subject-mapper";
 import { V2_REGION_ORDER } from "@/lib/regions";
 
 /**
- * Flat sitemap covering all 4 layers + bonus pages.
+ * Flat sitemap of canonical, indexable URLs only.
  *
- * Total ~29,500 URLs at current scale (well under Google's 50k-per-sitemap
- * cap). When we cross ~45k, adopt the async-id chunked pattern from
- * almijob-v2/docs/SITEMAP_CHUNKING_FUTURE.md (the same fix AlmiSalary v2
- * uses today).
+ * Total ~5,700 URLs (statics + 12 subjects + 6 regions + 197 country
+ * pages + non-empty country×subject combos + 3,197 university pages).
+ * The 4th layer (study/[c]/[s]/[u], ~23.8k) is deliberately excluded —
+ * it canonicalises to /university/[slug], so it is not a canonical URL.
+ * Well under Google's 50k-per-sitemap cap; if we ever cross ~45k, adopt
+ * the async-id chunked pattern from almijob-v2/docs/SITEMAP_CHUNKING_FUTURE.md.
  *
- * Honesty: L4 Route B URLs are emitted ONLY for non-empty country×subject
- * combos. Empty combos are NOT in the sitemap — that page renders the
- * honest empty-state banner if a user lands there directly, but we don't
- * actively crawl-promote URLs we have no data for.
+ * Honesty: L4 Route B (study/[c]/[s]) URLs are emitted ONLY for non-empty
+ * country×subject combos. Empty combos are NOT in the sitemap — that page
+ * renders the honest empty-state banner if a user lands there directly,
+ * but we don't actively crawl-promote URLs we have no data for.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://almistudy.almiworld.com";
@@ -70,31 +72,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
         });
       }
     }
-    // L1 + L4 Route A per uni
+    // L1 per-uni canonical page
     const unis = getUniversitiesByCountrySlug(c.slug);
     for (const u of unis) {
-      // L1: per-uni canonical page
       out.push({
         url: `${base}/university/${u.slug}`,
         lastModified,
         changeFrequency: "monthly",
         priority: 0.6,
       });
-      // L4 Route A: every (country × canonical subject × uni) — derive
-      // each uni's canonical subjects via the country's index so we
-      // don't double-emit and don't emit triples with no real lookup.
-      for (const subject of SUBJECT_ORDER) {
-        const cs = getUniversitiesByCountrySubject(c.slug, subject);
-        if (cs && cs.some((cu) => cu.slug === u.slug)) {
-          out.push({
-            url: `${base}/study/${c.slug}/${subject}/${u.slug}`,
-            lastModified,
-            changeFrequency: "monthly",
-            priority: 0.5,
-          });
-        }
-      }
     }
+    // NOTE: L4 Route A (study/[c]/[s]/[u], ~23.8k URLs) is intentionally
+    // NOT in the sitemap. Those pages canonicalise to /university/[slug]
+    // (see app/study/[country]/[subject]/[uni]/page.tsx) — listing thin
+    // near-duplicates here would dilute crawl budget and contradict the
+    // "sitemap holds only canonical URLs" rule.
   }
 
   return out;
