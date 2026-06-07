@@ -55,13 +55,18 @@ export async function generateMetadata({
   if (!uni) return {};
   const subjectName = SUBJECT_NAMES[subject];
   const url = `${SITE_URL}/study/${country}/${subject}/${uniSlug}`;
+  // SEO consolidation: this 4th-layer page is a subject-scoped preview of the
+  // full /university/[slug] profile. To avoid 23k+ thin near-duplicates eating
+  // crawl budget, it canonicalises to the richer university page (and is kept
+  // out of the sitemap). The page still renders for users who land here.
+  const uniUrl = `${SITE_URL}/university/${uniSlug}`;
   const title = buildTitle(uni, subjectName, c.name, new Date().getFullYear());
   const description = buildDescription(uni, subjectName, c.name, unis.length);
   return {
     title,
     description,
-    alternates: { canonical: url },
-    openGraph: { type: "website", url, title, description, siteName: "AlmiStudy" },
+    alternates: { canonical: uniUrl },
+    openGraph: { type: "website", url: uniUrl, title, description, siteName: "AlmiStudy" },
     twitter: { card: "summary_large_image", title, description },
   };
 }

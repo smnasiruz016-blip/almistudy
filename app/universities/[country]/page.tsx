@@ -54,6 +54,24 @@ export default async function CountryPage({
 
   const unis = getUniversitiesByCountrySlug(slug);
 
+  // Real aggregates derived only from the verified set — no fabricated numbers.
+  const splitList = (v: string | null) =>
+    (v ?? "").split(/[;,/]/).map((s) => s.trim()).filter(Boolean);
+  const agg = {
+    pub: unis.filter((u) => u.controlType?.toLowerCase().includes("public")).length,
+    priv: unis.filter((u) => u.controlType?.toLowerCase().includes("private")).length,
+    cities: Array.from(new Set(unis.map((u) => u.city).filter(Boolean))),
+    languages: Array.from(new Set(unis.flatMap((u) => splitList(u.primaryLanguage)))),
+    subjects: Array.from(new Set(unis.flatMap((u) => u.subjects ?? []))),
+    verifiedLast12mo: unis.filter((u) => {
+      const d = u.accreditationBodyVerifiedDate ?? u.lastVerified;
+      if (!d) return false;
+      const oneYearAgo = new Date();
+      oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+      return new Date(d) >= oneYearAgo;
+    }).length,
+  };
+
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -117,6 +135,45 @@ export default async function CountryPage({
             {unis.length === 1 ? "university" : "universities"} for {country.name}. We&apos;re working on expanding coverage.
           </p>
         </header>
+
+        {/* Country snapshot — real aggregates from the verified set */}
+        {unis.length > 0 ? (
+          <section
+            className="mb-10 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4"
+            aria-label={`${country.name} coverage at a glance`}
+          >
+            <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 p-4">
+              <div className="text-2xl font-semibold tracking-tight">{unis.length.toLocaleString("en-US")}</div>
+              <div className="text-xs text-zinc-600 dark:text-zinc-400 mt-1">Accredited universities</div>
+            </div>
+            {agg.pub + agg.priv > 0 ? (
+              <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 p-4">
+                <div className="text-2xl font-semibold tracking-tight">{agg.pub} · {agg.priv}</div>
+                <div className="text-xs text-zinc-600 dark:text-zinc-400 mt-1">Public · private</div>
+              </div>
+            ) : null}
+            <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 p-4">
+              <div className="text-2xl font-semibold tracking-tight">{agg.cities.length.toLocaleString("en-US")}</div>
+              <div className="text-xs text-zinc-600 dark:text-zinc-400 mt-1">Cities</div>
+            </div>
+            <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 p-4">
+              <div className="text-2xl font-semibold tracking-tight">{agg.subjects.length.toLocaleString("en-US")}</div>
+              <div className="text-xs text-zinc-600 dark:text-zinc-400 mt-1">Subject areas</div>
+            </div>
+            {agg.languages.length > 0 ? (
+              <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 col-span-2 sm:col-span-3">
+                <div className="text-sm font-medium">{agg.languages.slice(0, 6).join(", ")}</div>
+                <div className="text-xs text-zinc-600 dark:text-zinc-400 mt-1">Languages of instruction on record</div>
+              </div>
+            ) : null}
+            {agg.verifiedLast12mo > 0 ? (
+              <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 p-4">
+                <div className="text-2xl font-semibold tracking-tight">{agg.verifiedLast12mo.toLocaleString("en-US")}</div>
+                <div className="text-xs text-zinc-600 dark:text-zinc-400 mt-1">Verified in last 12 mo</div>
+              </div>
+            ) : null}
+          </section>
+        ) : null}
 
         {/* University list */}
         <section aria-label={`Universities in ${country.name}`} className="space-y-4 sm:space-y-5 mb-10">

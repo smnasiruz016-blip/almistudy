@@ -72,6 +72,73 @@ export default async function L4SubjectInCountryPage({
     .filter((cc) => cc.slug !== country)
     .slice(0, 8);
 
+  // Real, page-specific aggregates derived ONLY from the verified set —
+  // no fabricated numbers. These values differ per (country, subject) page,
+  // which is what gives each combo page genuinely unique content.
+  const splitList = (v: string | null) =>
+    (v ?? "").split(/[;,/]/).map((s) => s.trim()).filter(Boolean);
+  const stats = unis
+    ? {
+        pub: unis.filter((u) => u.controlType?.toLowerCase().includes("public")).length,
+        priv: unis.filter((u) => u.controlType?.toLowerCase().includes("private")).length,
+        cities: Array.from(new Set(unis.map((u) => u.city).filter(Boolean))),
+        languages: Array.from(new Set(unis.flatMap((u) => splitList(u.primaryLanguage)))),
+        bodies: Array.from(
+          new Set(
+            unis
+              .map((u) => u.accreditationBody)
+              .filter((b): b is string => Boolean(b))
+              .map((b) => b.split(/[,—-]/)[0].trim()),
+          ),
+        ),
+        withScholarships: unis.filter((u) => u.scholarshipsAvailable).length,
+        withEnglishNote: unis.filter((u) => u.englishTestNote).length,
+      }
+    : null;
+
+  // FAQ — every answer is backed by the data above (visible on-page + schema).
+  const faqs =
+    unis && stats
+      ? [
+          {
+            q: `How many accredited universities teach ${subjectName} in ${c.name}?`,
+            a: `AlmiStudy lists ${unis.length.toLocaleString("en-US")} accredited ${unis.length === 1 ? "university" : "universities"} teaching ${subjectName} in ${c.name}, each verified against a recognized national accrediting body.`,
+          },
+          ...(stats.pub + stats.priv > 0
+            ? [
+                {
+                  q: `Are ${subjectName} universities in ${c.name} public or private?`,
+                  a: `Of the verified institutions on record, ${stats.pub} ${stats.pub === 1 ? "is" : "are"} publicly run and ${stats.priv} ${stats.priv === 1 ? "is" : "are"} private.`,
+                },
+              ]
+            : []),
+          ...(stats.languages.length > 0
+            ? [
+                {
+                  q: `What language are ${subjectName} programs taught in across ${c.name}?`,
+                  a: `The primary languages of instruction on record are ${stats.languages.join(", ")}. Confirm the language of each specific program directly with the university.`,
+                },
+              ]
+            : []),
+          {
+            q: `How does AlmiStudy verify these universities?`,
+            a: `Each listed university is checked against a recognized national accreditation body before publication${stats.bodies.length > 0 ? ` — for this set: ${stats.bodies.slice(0, 6).join(", ")}` : ""}. Listing does not guarantee a specific program's recognition by destination-country regulators.`,
+          },
+        ]
+      : [];
+  const faqJsonLd =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }
+      : null;
+
   const breadcrumbs = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -112,6 +179,9 @@ export default async function L4SubjectInCountryPage({
       {itemList ? (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }} />
       ) : null}
+      {faqJsonLd ? (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      ) : null}
       <div className="mx-auto w-full max-w-4xl">
         <nav aria-label="Breadcrumb" className="text-xs sm:text-sm text-zinc-500 mb-5">
           <ol className="flex flex-wrap items-center gap-1.5">
@@ -139,6 +209,55 @@ export default async function L4SubjectInCountryPage({
             </p>
           )}
         </header>
+
+        {unis && stats ? (
+          <section
+            className="mb-8 rounded-lg border border-peach bg-cream-soft p-5 sm:p-6"
+            aria-labelledby="snapshot"
+          >
+            <h2 id="snapshot" className="text-lg font-semibold tracking-tight mb-4">
+              {subjectName} in {c.name}: at a glance
+            </h2>
+            <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-sm">
+              <div className="flex justify-between gap-4 border-b border-peach/60 pb-2">
+                <dt className="text-plum-soft">Accredited universities</dt>
+                <dd className="font-medium text-plum text-right">{unis.length.toLocaleString("en-US")}</dd>
+              </div>
+              {stats.pub + stats.priv > 0 ? (
+                <div className="flex justify-between gap-4 border-b border-peach/60 pb-2">
+                  <dt className="text-plum-soft">Public · private</dt>
+                  <dd className="font-medium text-plum text-right">{stats.pub} · {stats.priv}</dd>
+                </div>
+              ) : null}
+              {stats.cities.length > 0 ? (
+                <div className="flex justify-between gap-4 border-b border-peach/60 pb-2">
+                  <dt className="text-plum-soft">Cities</dt>
+                  <dd className="font-medium text-plum text-right">
+                    {stats.cities.length} ({stats.cities.slice(0, 3).join(", ")}{stats.cities.length > 3 ? "…" : ""})
+                  </dd>
+                </div>
+              ) : null}
+              {stats.languages.length > 0 ? (
+                <div className="flex justify-between gap-4 border-b border-peach/60 pb-2">
+                  <dt className="text-plum-soft">Language(s) of instruction</dt>
+                  <dd className="font-medium text-plum text-right">{stats.languages.slice(0, 4).join(", ")}</dd>
+                </div>
+              ) : null}
+              {stats.withScholarships > 0 ? (
+                <div className="flex justify-between gap-4 border-b border-peach/60 pb-2">
+                  <dt className="text-plum-soft">List scholarships</dt>
+                  <dd className="font-medium text-plum text-right">{stats.withScholarships}</dd>
+                </div>
+              ) : null}
+              {stats.bodies.length > 0 ? (
+                <div className="flex justify-between gap-4 border-b border-peach/60 pb-2 sm:col-span-2">
+                  <dt className="text-plum-soft">Accrediting bodies</dt>
+                  <dd className="font-medium text-plum text-right">{stats.bodies.slice(0, 4).join(" · ")}</dd>
+                </div>
+              ) : null}
+            </dl>
+          </section>
+        ) : null}
 
         {unis ? (
           <section className="mb-10" aria-labelledby="unis-list">
@@ -218,6 +337,22 @@ export default async function L4SubjectInCountryPage({
                 </li>
               ))}
             </ul>
+          </section>
+        ) : null}
+
+        {faqs.length > 0 ? (
+          <section className="mb-10" aria-labelledby="faq">
+            <h2 id="faq" className="text-lg font-semibold tracking-tight mb-3">
+              Frequently asked questions
+            </h2>
+            <div className="space-y-4">
+              {faqs.map((f) => (
+                <div key={f.q}>
+                  <h3 className="text-sm font-medium text-plum mb-1">{f.q}</h3>
+                  <p className="text-sm text-plum-soft leading-relaxed max-w-3xl">{f.a}</p>
+                </div>
+              ))}
+            </div>
           </section>
         ) : null}
 
