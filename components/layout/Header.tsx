@@ -20,6 +20,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-6 text-sm text-plum-soft">
           <Link href="/" className="hover:text-coral transition-colors">AlmiStudy Home</Link>
           <a href="https://almicv.almiworld.com" className="hover:text-coral transition-colors">AlmiCV</a>
+          <a href="https://almiprep.almiworld.com" className="hover:text-coral transition-colors">AlmiPrep</a>
           <a href="https://almijob.almiworld.com" className="hover:text-coral transition-colors">AlmiJob</a>
           <a href="https://almisalary.almiworld.com" className="hover:text-coral transition-colors">Salary Checker</a>
           <a href="https://almiworld.com/ebooks-2/" className="hover:text-coral transition-colors">eBooks</a>
