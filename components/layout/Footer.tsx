@@ -16,6 +16,7 @@ export default function Footer() {
         <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-plum-soft mb-3">
           <a href="https://almiworld.com" className="hover:text-coral transition-colors">AlmiWorld</a>
           <a href="https://almicv.almiworld.com" className="hover:text-coral transition-colors">AlmiCV</a>
+          <a href="https://almiprep.almiworld.com" className="hover:text-coral transition-colors">AlmiPrep</a>
           <a href="https://almijob.almiworld.com" className="hover:text-coral transition-colors">AlmiJob</a>
           <a href="https://almisalary.almiworld.com" className="hover:text-coral transition-colors">Salary Checker</a>
           <a href="https://almiworld.com/ebooks-2/" className="hover:text-coral transition-colors">eBooks</a>
