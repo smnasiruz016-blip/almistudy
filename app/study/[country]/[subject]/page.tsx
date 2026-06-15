@@ -38,12 +38,13 @@ export async function generateMetadata({
   const url = `${SITE_URL}/study/${country}/${subject}`;
   const year = new Date().getFullYear();
   // Bare title — the root layout template appends " · AlmiStudy" once.
-  const title = `${subjectName} Universities in ${c.name} (${year})`;
+  // Lead with the high-volume "study {subject} in {country}" search query.
+  const title = `Study ${subjectName} in ${c.name} (${year})`;
   const description = unis
     ? `${unis.length.toLocaleString("en-US")} accredited ${unis.length === 1 ? "university" : "universities"} in ${c.name} teaching ${subjectName}, each verified against a recognized national accrediting body.`
     : `AlmiStudy hasn't yet verified ${subjectName} programs in ${c.name}. Browse ${subjectName} worldwide or other ${c.name} subjects.`;
   return {
-    title: title.length <= 60 ? title : `${subjectName} in ${c.name} (${year})`,
+    title: title.length <= 60 ? title : `Study ${subjectName} in ${c.name}`,
     description: description.length > 160 ? description.slice(0, 157) + "…" : description,
     alternates: { canonical: url },
     openGraph: { type: "website", url, title, description, siteName: "AlmiStudy" },
@@ -197,7 +198,7 @@ export default async function L4SubjectInCountryPage({
 
         <header className="mb-6">
           <h1 className="text-2xl sm:text-4xl font-semibold tracking-tight mb-3">
-            Universities offering {subjectName} in {c.name}
+            Study {subjectName} in {c.name}
           </h1>
           {unis ? (
             <p className="text-base sm:text-lg text-plum-soft leading-relaxed max-w-3xl">

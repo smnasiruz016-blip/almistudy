@@ -35,9 +35,9 @@ function maxLastVerified(unis: ReadonlyArray<{ lastVerified: string | null }>): 
 // Title is `absolute` to opt out of the layout's "%s · AlmiStudy" template
 // (this title already carries the brand) — no double-brand.
 export function generateMetadata(): Metadata {
-  const n = totalUniversitiesCount().toLocaleString();
-  const title = "Find Universities Worldwide — Free, Verified Directory | AlmiStudy";
-  const description = `Search ${n} verified universities around the world. A directory, not a counselor — verification, not opinion. Free, no account required. Find where you can actually study abroad.`;
+  const n = totalUniversitiesCount().toLocaleString("en-US");
+  const title = "Find Universities Abroad — Free Verified Directory | AlmiStudy";
+  const description = `Search ${n} verified universities abroad — free, no agent, no sign-up. Find universities by country and subject, with facts not commissions. Start now.`;
   return {
     title: { absolute: title },
     description,
@@ -52,63 +52,81 @@ const CTA_CLASS =
   "inline-flex min-h-[44px] items-center justify-center bg-coral hover:bg-coral-deep text-cream text-sm font-semibold px-6 py-3 rounded-lg transition-colors";
 
 const TRUST = [
-  { dot: "bg-coral", text: "A directory, not a counselor" },
-  { dot: "bg-sage", text: "Verification, not opinion" },
-  { dot: "bg-gold", text: "Free, no account required" },
+  { dot: "bg-coral", text: "A directory, not a commission-paid agent" },
+  { dot: "bg-sage", text: "Verified facts, not opinions" },
+  { dot: "bg-gold", text: "Free — no account, no sales calls" },
 ];
 
-const BENEFITS = [
-  {
-    title: "Verified, not hyped",
-    body: "Real, checked information. We show facts, not opinions or paid placements.",
-  },
-  {
-    title: "Search the whole world",
-    body: "Universities across the globe, in one place, free to explore.",
-  },
-  {
-    title: "No account, no catch",
-    body: "Search instantly. No sign-up wall, no spam, no agent calling you.",
-  },
-  {
-    title: "Built in the open",
-    body: "A directory you can trust because it isn't trying to sell you a specific school.",
-  },
-];
-
-// Bridge → the rest of the ecosystem (the conversion engine).
+// Bridge → the rest of the ecosystem (the conversion engine). The heading
+// uses "path" deliberately (a banned marketing cliche is avoided there).
 const BRIDGE = [
   {
-    label: "Need IELTS?",
-    body: "Practise with honest AI band scores",
+    label: "They'll want an English score.",
+    body: "Know your real IELTS band before test day",
     product: "AlmiPrep",
     href: "https://almiprep.almiworld.com",
   },
   {
-    label: "Application CV?",
-    body: "Build one that gets noticed",
+    label: "They'll want a standout application.",
+    body: "Build a CV that beats the ATS filter",
     product: "AlmiCV",
     href: "https://almicv.almiworld.com",
   },
   {
-    label: "Know what your degree will earn?",
-    body: "Check real salaries",
+    label: "Is the degree worth it?",
+    body: "See what it actually earns, worldwide",
     product: "AlmiSalary",
     href: "https://almisalary.almiworld.com",
+  },
+];
+
+const FAQS = [
+  {
+    q: "How do I find universities abroad for international students?",
+    a: "Search our free directory of verified universities by country and subject — no account, no agent, just facts.",
+  },
+  {
+    q: "How much does it cost to study abroad?",
+    a: "It varies hugely by country and university; our pages show the facts per place so you can compare honestly.",
+  },
+  {
+    q: "Do I need an agent to apply to a university abroad?",
+    a: "No. AlmiStudy gives you the verified information directly, so you can choose and apply yourself — without paying commissions.",
+  },
+  {
+    q: "Which countries can I study in?",
+    a: "Universities across the world are in the directory — search by country to see your options.",
   },
 ];
 
 export default function Home() {
   const countries = getAllCountries();
   const totalUniversities = countries.reduce((s, c) => s + c.count, 0);
-  const totalLabel = totalUniversities.toLocaleString();
+  const totalLabel = totalUniversities.toLocaleString("en-US");
   const regions = getRegionsForHomepage();
   const lastVerified = maxLastVerified(
     publishable as Array<{ lastVerified: string | null }>,
   );
-  const builtInOpenBullet = lastVerified
-    ? `Built in the open · ${totalLabel} universities · last verified ${lastVerified}`
-    : `Built in the open · ${totalLabel} universities`;
+
+  // Defined in-render so the count + verified date stay true to the data.
+  const BENEFITS = [
+    {
+      title: "Verified facts, not commissions",
+      body: `Real, checked information${lastVerified ? ` — last verified ${lastVerified}` : ""}. No paid placements, no agent steering you.`,
+    },
+    {
+      title: "Search universities worldwide",
+      body: `${totalLabel} universities abroad across the globe, by country and subject, free to explore in minutes.`,
+    },
+    {
+      title: "No account, no catch, no sales call",
+      body: "Search instantly. No sign-up wall, no spam, no agent phoning you at dinner.",
+    },
+    {
+      title: "Built to be trusted",
+      body: "Because we're not selling you a specific school — we're showing you all of them.",
+    },
+  ];
 
   const latestCountryUnis = getUniversitiesByCountrySlug(LATEST_COUNTRY_SLUG);
   const featured: University | undefined = latestCountryUnis.find(
@@ -120,13 +138,19 @@ export default function Home() {
       {/* HERO — result hook + one CTA (replaces the baked-text PNG banner) */}
       <section className="px-6 pt-14 pb-12 sm:pt-20">
         <div className="mx-auto w-full max-w-3xl text-center">
-          <h1 className="text-balance text-4xl font-semibold leading-tight text-plum sm:text-5xl">
-            Find the university that says yes.
+          <h1 className="text-sm font-semibold uppercase tracking-wide text-coral">
+            Find Universities Abroad — Free, Verified Directory
           </h1>
+          <p className="mt-3 text-balance text-4xl font-semibold leading-tight text-plum sm:text-5xl">
+            Find the university that says yes.
+          </p>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-plum-soft">
-            Stop drowning in options and agent opinions. Search {totalLabel}{" "}
-            verified universities worldwide — facts, not sales pitches — and find
-            the ones that actually fit you. Free, no account needed.
+            Choosing a university abroad is one of the biggest decisions of your
+            life — and most people make it on an agent&apos;s advice, an agent
+            paid to send them somewhere specific. AlmiStudy is the opposite:
+            search {totalLabel} verified universities worldwide, by country and
+            subject, with facts instead of commissions. Free. No account. No one
+            steering you.
           </p>
           <div className="mt-8 flex justify-center">
             <Link href={CTA_HREF} className={CTA_CLASS}>
@@ -152,7 +176,7 @@ export default function Home() {
             ))}
             <li className="flex items-center gap-2 text-sm sm:text-base text-plum-soft">
               <span className="inline-block w-2 h-2 rounded-full shrink-0 bg-plum" aria-hidden="true" />
-              <span>{builtInOpenBullet}</span>
+              <span>{totalLabel} universities abroad, worldwide</span>
             </li>
           </ul>
         </div>
@@ -162,19 +186,20 @@ export default function Home() {
       <section className="px-6 py-16">
         <div className="mx-auto w-full max-w-3xl">
           <h2 className="text-balance text-3xl font-semibold leading-tight text-plum">
-            Choosing a university abroad shouldn&apos;t mean trusting whoever
-            shouts loudest.
+            Choosing a university shouldn&apos;t mean trusting whoever gets paid
+            the most to send you there.
           </h2>
           <p className="mt-6 text-lg leading-8 text-plum-soft">
-            Agents push the universities that pay them. Forums are full of
-            guesses. And you&apos;re left making one of life&apos;s biggest
-            decisions on hype instead of facts.
+            Agents push the schools that pay them. Forums are full of strangers
+            guessing. And somehow you&apos;re expected to bet years of your life
+            and your family&apos;s money on their advice. You deserve better than
+            a sales pitch dressed as guidance.
           </p>
           <p className="mt-4 text-lg leading-8 text-plum-soft">
-            AlmiStudy is the opposite: a clean, verified directory of {totalLabel}{" "}
-            universities you can search yourself — no account, no sales pitch, no
-            one steering you toward a commission. Just the facts, so <em>you</em>{" "}
-            decide.
+            AlmiStudy hands you the facts directly: a free directory of{" "}
+            {totalLabel} verified universities abroad, searchable by you — no
+            commission, no hype, no one nudging you toward what pays them. Just
+            the truth, so the decision is finally <em>yours</em>.
           </p>
         </div>
       </section>
@@ -391,7 +416,8 @@ export default function Home() {
       <section className="bg-cream-soft px-6 py-16">
         <div className="mx-auto w-full max-w-4xl">
           <h2 className="text-2xl font-semibold text-plum">
-            Found your university? Here&apos;s your next step.
+            Found your university? You&apos;re one step in. Here&apos;s the rest
+            of the path.
           </h2>
           <p className="mt-3 text-base text-plum-soft">
             Most universities abroad need an English test score — and your
@@ -418,11 +444,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ — search-query shaped questions (SEO) */}
+      <section className="px-6 py-16">
+        <div className="mx-auto w-full max-w-3xl">
+          <h2 className="text-center text-2xl font-semibold text-plum">
+            Questions, answered.
+          </h2>
+          <div className="mt-8 space-y-4">
+            {FAQS.map((f) => (
+              <div
+                key={f.q}
+                className="rounded-md border border-peach bg-cream-soft p-5"
+              >
+                <h3 className="text-base font-medium text-plum">{f.q}</h3>
+                <p className="mt-2 text-sm text-plum-soft">{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FINAL CTA */}
       <section className="px-6 py-16">
         <div className="mx-auto w-full max-w-3xl text-center">
           <h2 className="text-balance text-3xl font-semibold text-plum">
-            Your university is in here. Go find it.
+            Your university is in here. Stop guessing — go find it.
           </h2>
           <div className="mt-7 flex justify-center">
             <Link href={CTA_HREF} className={CTA_CLASS}>
