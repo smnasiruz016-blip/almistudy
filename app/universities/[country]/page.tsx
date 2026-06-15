@@ -26,7 +26,9 @@ export async function generateMetadata({
   const url = `${SITE_URL}/universities/${c.slug}`;
   const year = new Date().getFullYear();
   // Bare title — the root layout template appends " · AlmiStudy" once.
-  const title = `${c.count.toLocaleString("en-US")} Accredited ${c.count === 1 ? "University" : "Universities"} in ${c.name} (${year})`;
+  // "Courses & Tuition" matches what the page actually shows (subjects +
+  // tuition notes); we don't claim "Admissions" data the page doesn't have.
+  const title = `Universities in ${c.name} ${year} — Courses & Tuition`;
   const description = `All ${c.count.toLocaleString("en-US")} accredited ${c.count === 1 ? "university" : "universities"} in ${c.name}, each verified against a recognized national accrediting body — with subjects and registry links.`;
   return {
     title,
@@ -125,7 +127,7 @@ export default async function CountryPage({
         {/* Hero */}
         <header className="mb-8">
           <h1 className="text-2xl sm:text-4xl font-semibold tracking-tight mb-3">
-            Accredited universities in {country.name}
+            Universities in {country.name}
           </h1>
           <p className="text-base sm:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed mb-3 max-w-3xl">
             Verified-accreditation universities in {country.name}. Each entry links to its national accrediting body so you can verify independently.
