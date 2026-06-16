@@ -1,27 +1,86 @@
-import Image from "next/image";
+// Family-wide footer — AlmiWorld Global Nav Spec v1 §3. Data-driven: adding a
+// product is a one-line change to the Products column, and the SAME structure
+// ships on every product. The current product (CURRENT_PRODUCT) renders bold +
+// unlinked; every cross-product link is a normal FOLLOWED <a> (network SEO —
+// no rel="nofollow"). Brand: ink-black + gold (Nav Spec v1).
+
+const CURRENT_PRODUCT = "AlmiStudy";
+
+type FooterLink = { label: string; href: string };
+type FooterColumn = { title: string; links: FooterLink[] };
+
+const FOOTER_COLUMNS: FooterColumn[] = [
+  {
+    title: "AlmiWorld",
+    links: [
+      { label: "Home", href: "https://almiworld.com/" },
+      { label: "Ebooks", href: "https://almiworld.com/ebooks-2/" },
+      { label: "Shamool Foundation", href: "https://shamoolfoundation.com/" },
+    ],
+  },
+  {
+    // All six products — one list, shared verbatim across every repo.
+    title: "Products",
+    links: [
+      { label: "AlmiJobs", href: "https://almijob.almiworld.com/" },
+      { label: "AlmiSalary", href: "https://almisalary.almiworld.com/" },
+      { label: "AlmiCV", href: "https://almicv.almiworld.com/" },
+      { label: "AlmiStudy", href: "https://almistudy.almiworld.com/" },
+      { label: "AlmiPrep", href: "https://almiprep.almiworld.com/" },
+      { label: "AlmiPTE", href: "https://almipte.almiworld.com/" },
+    ],
+  },
+  {
+    title: "Legal & Contact",
+    links: [
+      { label: "Contact Us", href: "https://almiworld.com/contact-us/" },
+      { label: "Refund and Return Policy", href: "https://almiworld.com/refund_returns/" },
+      { label: "Privacy Policy", href: "https://almiworld.com/privacy-policy/" },
+    ],
+  },
+];
 
 export default function Footer() {
-  const year = new Date().getFullYear();
   return (
-    <footer className="border-t border-peach bg-cream-soft mt-14">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 text-center">
-        <Image
-          src="https://almiworld.com/wp-content/uploads/2026/04/almi-latest.png"
-          alt="AlmiWorld"
-          width={120}
-          height={40}
-          className="h-10 w-auto mx-auto mb-4"
-          unoptimized
-        />
-        <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-plum-soft mb-3">
-          <a href="https://almiworld.com" className="hover:text-coral transition-colors">AlmiWorld</a>
-          <a href="https://almicv.almiworld.com" className="hover:text-coral transition-colors">AlmiCV</a>
-          <a href="https://almiprep.almiworld.com" className="hover:text-coral transition-colors">AlmiPrep</a>
-          <a href="https://almijob.almiworld.com" className="hover:text-coral transition-colors">AlmiJob</a>
-          <a href="https://almisalary.almiworld.com" className="hover:text-coral transition-colors">Salary Checker</a>
-          <a href="https://almiworld.com/ebooks-2/" className="hover:text-coral transition-colors">eBooks</a>
-        </nav>
-        <p className="text-xs text-plum-soft">© {year} AlmiWorld. Live beautifully.</p>
+    <footer className="bg-[#14110D] text-white/75 mt-14">
+      <div className="mx-auto max-w-6xl px-6 py-12">
+        <div className="grid gap-10 sm:grid-cols-3">
+          {FOOTER_COLUMNS.map((col) => (
+            <div key={col.title}>
+              <p className="text-xs font-bold uppercase tracking-wider text-[#D4A24C]">
+                {col.title}
+              </p>
+              <ul className="mt-4 space-y-2 text-sm">
+                {col.links.map((link) => {
+                  const isCurrent = link.label === CURRENT_PRODUCT;
+                  return (
+                    <li key={link.href}>
+                      {isCurrent ? (
+                        <span
+                          className="font-semibold text-white"
+                          aria-current="page"
+                        >
+                          {link.label}
+                        </span>
+                      ) : (
+                        <a
+                          href={link.href}
+                          className="text-white/75 transition-colors hover:text-[#D4A24C]"
+                        >
+                          {link.label}
+                        </a>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-12 border-t border-white/15 pt-6 text-center text-xs text-white/60">
+          © {new Date().getFullYear()} AlmiWorld. All rights reserved.
+        </div>
       </div>
     </footer>
   );
