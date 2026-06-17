@@ -8,6 +8,8 @@ import {
   findStudyOrigin,
   getStudyOriginLocalization,
   destScholarshipLinks,
+  STUDY_ORIGINS,
+  isStudyOriginIndexable,
 } from "@/lib/study-origin-localization";
 
 const SITE_URL = "https://almistudy.almiworld.com";
@@ -176,6 +178,33 @@ export function StudyOriginGuide({
             </ul>
           </section>
         ) : null}
+
+        {/* Sibling-origin strip — webs the origin pages together (no orphan) */}
+        {(() => {
+          const siblings = STUDY_ORIGINS.filter(
+            (o) => o.slug !== origin.slug && isStudyOriginIndexable(country.slug, o.slug),
+          );
+          if (siblings.length === 0) return null;
+          return (
+            <section className="mb-8" aria-labelledby="siblings-title">
+              <h2 id="siblings-title" className="text-base font-semibold tracking-tight mb-3">
+                Also studying in {country.name} from:
+              </h2>
+              <ul className="flex flex-wrap gap-2">
+                {siblings.map((o) => (
+                  <li key={o.slug}>
+                    <Link
+                      href={`/study/${country.slug}/from-${o.slug}`}
+                      className="inline-block px-3 py-1.5 rounded-full border border-peach bg-cream hover:bg-cream-soft text-sm text-plum transition-colors"
+                    >
+                      <span aria-hidden="true">{o.flag} </span>{o.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })()}
 
         {/* Cross-product — localized to the origin where it helps */}
         <section aria-label="Other AlmiWorld products" className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 text-sm mb-10">

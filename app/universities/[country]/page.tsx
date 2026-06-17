@@ -6,7 +6,7 @@ import {
   getCountryBySlug,
   getUniversitiesByCountrySlug
 } from "@/lib/page-relations";
-import { indefiniteArticle } from "@/lib/study-origin-localization";
+import { indefiniteArticle, STUDY_ORIGINS, isStudyOriginIndexable } from "@/lib/study-origin-localization";
 
 const SITE_URL = "https://almistudy.almiworld.com";
 const PRINCIPLES_URL =
@@ -383,6 +383,33 @@ export default async function CountryPage({
         <p className="text-xs text-zinc-600 dark:text-zinc-400 max-w-3xl leading-relaxed mb-10">
           When you click through to a university&apos;s website, you are interacting with that institution&apos;s admissions process under their terms. Our responsibility ends at pointing you to a verified-accreditation institution.
         </p>
+
+        {/* Origin down-links — push hub authority into the from-[origin] pages */}
+        {(() => {
+          const originLinks = STUDY_ORIGINS.filter(
+            (o) => country.count > 0 && isStudyOriginIndexable(country.slug, o.slug),
+          ).slice(0, 10);
+          if (originLinks.length === 0) return null;
+          return (
+            <section className="mb-10" aria-labelledby="origin-links-title">
+              <h2 id="origin-links-title" className="text-lg font-semibold tracking-tight mb-3">
+                Studying from a specific country?
+              </h2>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {originLinks.map((o) => (
+                  <li key={o.slug}>
+                    <Link
+                      href={`/study/${country.slug}/from-${o.slug}`}
+                      className="block rounded-md border border-peach bg-cream p-3 hover:bg-cream-soft transition-colors text-sm"
+                    >
+                      <span aria-hidden="true">{o.flag} </span>Study in {country.name} from {o.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })()}
 
         {/* Cross-product CTAs */}
         <section
