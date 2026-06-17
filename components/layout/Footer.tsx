@@ -28,6 +28,7 @@ const FOOTER_COLUMNS: FooterColumn[] = [
       { label: "AlmiStudy", href: "https://almistudy.almiworld.com/" },
       { label: "AlmiPrep", href: "https://almiprep.almiworld.com/" },
       { label: "AlmiPTE", href: "https://almipte.almiworld.com/" },
+      { label: "AlmiTOEFL", href: "https://almitoefl.almiworld.com/" },
     ],
   },
   {
