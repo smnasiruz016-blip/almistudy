@@ -6,6 +6,10 @@ import {
 } from "@/lib/page-relations";
 import { SUBJECT_ORDER } from "@/lib/subject-mapper";
 import { V2_REGION_ORDER } from "@/lib/regions";
+import {
+  STUDY_ORIGINS,
+  STUDY_ORIGIN_DESTINATIONS,
+} from "@/lib/study-origin-localization";
 
 /**
  * Flat sitemap of canonical, indexable URLs only.
@@ -87,6 +91,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // (see app/study/[country]/[subject]/[uni]/page.tsx) — listing thin
     // near-duplicates here would dilute crawl budget and contradict the
     // "sitemap holds only canonical URLs" rule.
+  }
+
+  // Origin × destination study guides (8 study destinations × 10 researched
+  // origins). Distinct funding-led copy → self-canonical + indexed (not thin).
+  // Emitted only where the destination actually has verified-uni data, so we
+  // never crawl-promote a data-less page. Promotion is data-only (add a slug).
+  for (const dest of STUDY_ORIGIN_DESTINATIONS) {
+    if (getUniversitiesByCountrySlug(dest).length === 0) continue;
+    for (const o of STUDY_ORIGINS) {
+      out.push({
+        url: `${base}/study/${dest}/from-${o.slug}`,
+        lastModified,
+        changeFrequency: "weekly",
+        priority: 0.6,
+      });
+    }
   }
 
   return out;

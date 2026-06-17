@@ -22,7 +22,7 @@ const FOOTER_COLUMNS: FooterColumn[] = [
     // All six products — one list, shared verbatim across every repo.
     title: "Products",
     links: [
-      { label: "AlmiJobs", href: "https://almijob.almiworld.com/" },
+      { label: "AlmiJob", href: "https://almijob.almiworld.com/" },
       { label: "AlmiSalary", href: "https://almisalary.almiworld.com/" },
       { label: "AlmiCV", href: "https://almicv.almiworld.com/" },
       { label: "AlmiStudy", href: "https://almistudy.almiworld.com/" },

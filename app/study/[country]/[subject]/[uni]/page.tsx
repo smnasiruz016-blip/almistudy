@@ -12,6 +12,7 @@ import {
   SUBJECT_ORDER,
   type SubjectSlug,
 } from "@/lib/subject-mapper";
+import { indefiniteArticle } from "@/lib/study-origin-localization";
 
 export const revalidate = 86400;
 export const dynamicParams = true;
@@ -256,7 +257,7 @@ export default async function L4UniPage({
             href={`https://almicv.almiworld.com/cv-guide/${country}`}
             className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 transition-colors"
           >
-            <div className="font-semibold mb-1">Build a {c.name}-Ready CV →</div>
+            <div className="font-semibold mb-1">Build {indefiniteArticle(c.name)} {c.name}-Ready CV →</div>
             <div className="text-zinc-600">AlmiCV — guide tailored to {c.name} conventions.</div>
           </a>
           <a

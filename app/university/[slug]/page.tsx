@@ -7,6 +7,7 @@ import {
   type University,
 } from "@/lib/page-relations";
 import { getCanonicalSubjects, SUBJECT_NAMES } from "@/lib/subject-mapper";
+import { indefiniteArticle } from "@/lib/study-origin-localization";
 
 export const revalidate = 86400;
 export const dynamicParams = true;
@@ -198,7 +199,7 @@ function CrossProductCtas({ u }: { u: University }) {
         href={`https://almicv.almiworld.com/cv-guide/${u.country.slug}`}
         className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 dark:hover:border-zinc-600 transition-colors"
       >
-        <div className="font-semibold mb-1">Build a {u.country.name}-Ready CV →</div>
+        <div className="font-semibold mb-1">Build {indefiniteArticle(u.country.name)} {u.country.name}-Ready CV →</div>
         <div className="text-zinc-600 dark:text-zinc-400">
           AlmiCV — guide tailored to {u.country.name} conventions.
         </div>

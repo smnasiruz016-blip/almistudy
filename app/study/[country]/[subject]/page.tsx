@@ -12,11 +12,21 @@ import {
   SUBJECT_ORDER,
   type SubjectSlug,
 } from "@/lib/subject-mapper";
+import { StudyOriginGuide } from "@/components/StudyOriginGuide";
+import {
+  findStudyOrigin,
+  isStudyOriginIndexable,
+} from "@/lib/study-origin-localization";
 
 export const revalidate = 86400;
 export const dynamicParams = true;
 
 const SITE_URL = "https://almistudy.almiworld.com";
+
+// The [subject] segment doubles as the origin segment when prefixed "from-"
+// (e.g. /study/canada/from-bangladesh). No subject slug starts with "from-",
+// so the dispatch is unambiguous — mirrors AlmiCV/AlmiJob origin nesting.
+const FROM = "from-";
 
 type Params = { country: string; subject: string };
 
@@ -30,6 +40,27 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { country, subject } = await params;
+
+  // Origin × destination study guide — distinct, self-canonical + indexed.
+  if (subject.startsWith(FROM)) {
+    const originSlug = subject.slice(FROM.length);
+    const c = getCountryBySlug(country);
+    const origin = findStudyOrigin(originSlug);
+    if (!c || c.count <= 0 || !origin || !isStudyOriginIndexable(c.slug, originSlug)) return {};
+    const url = `${SITE_URL}/study/${c.slug}/from-${origin.slug}`;
+    const year = new Date().getFullYear();
+    // Bare title — the root layout template appends " · AlmiStudy" once.
+    const title = `Study in ${c.name} from ${origin.name} — Scholarships & Universities (${year})`;
+    const description = `Fully-funded scholarships and accredited universities in ${c.name} for students from ${origin.name} — verified accreditation, no agent, no commission. ${year}.`;
+    return {
+      title,
+      description: description.length > 160 ? description.slice(0, 157) + "…" : description,
+      alternates: { canonical: url },
+      openGraph: { type: "website", url, title, description, siteName: "AlmiStudy" },
+      twitter: { card: "summary_large_image", title, description },
+    };
+  }
+
   if (!isSubjectSlug(subject)) return {};
   const c = getCountryBySlug(country);
   if (!c) return {};
@@ -58,6 +89,17 @@ export default async function L4SubjectInCountryPage({
   params: Promise<Params>;
 }) {
   const { country, subject } = await params;
+
+  // Origin × destination study guide (Tier 1).
+  if (subject.startsWith(FROM)) {
+    const originSlug = subject.slice(FROM.length);
+    const oc = getCountryBySlug(country);
+    if (!oc || oc.count <= 0 || !findStudyOrigin(originSlug) || !isStudyOriginIndexable(oc.slug, originSlug)) {
+      notFound();
+    }
+    return <StudyOriginGuide country={oc} originSlug={originSlug} year={new Date().getFullYear()} />;
+  }
+
   if (!isSubjectSlug(subject)) notFound();
   const c = getCountryBySlug(country);
   if (!c) notFound();
