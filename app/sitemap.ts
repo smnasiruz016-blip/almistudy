@@ -4,7 +4,7 @@ import {
   getUniversitiesByCountrySlug,
   getUniversitiesByCountrySubject,
 } from "@/lib/page-relations";
-import { SUBJECT_ORDER } from "@/lib/subject-mapper";
+import { SUBJECT_ORDER, getCanonicalSubjects } from "@/lib/subject-mapper";
 import { V2_REGION_ORDER } from "@/lib/regions";
 import {
   STUDY_ORIGINS,
@@ -12,100 +12,127 @@ import {
 } from "@/lib/study-origin-localization";
 
 /**
- * Flat sitemap of canonical, indexable URLs only.
+ * Chunked sitemap (Next 16 generateSitemaps async-id pattern).
  *
- * Total ~5,700 URLs (statics + 12 subjects + 6 regions + 197 country
- * pages + non-empty country×subject combos + 3,197 university pages).
- * The 4th layer (study/[c]/[s]/[u], ~23.8k) is deliberately excluded —
- * it canonicalises to /university/[slug], so it is not a canonical URL.
- * Well under Google's 50k-per-sitemap cap; if we ever cross ~45k, adopt
- * the async-id chunked pattern from almijob-v2/docs/SITEMAP_CHUNKING_FUTURE.md.
+ * The 2026 full-index scale makes EVERY data-real page indexable:
+ *   BASE (~24,868): home + /universities + 12 subjects + 6 regions + 197
+ *     country hubs + non-empty country×subject + origin study-guides + 3,197
+ *     universities + 19,310 university×subject-TAUGHT pages.
+ *   ORIGIN LEAVES (~3.8M): 19,310 uni×subject-taught × 197 origin countries
+ *     (/university/[uni]/[subject]/from-[origin]).
  *
- * Honesty: L4 Route B (study/[c]/[s]) URLs are emitted ONLY for non-empty
- * country×subject combos. Empty combos are NOT in the sitemap — that page
- * renders the honest empty-state banner if a user lands there directly,
- * but we don't actively crawl-promote URLs we have no data for.
+ * Real-data-or-canonical-up: only subjects a university actually teaches are
+ * emitted (getCanonicalSubjects). A uni×subject it does NOT teach canonicalises
+ * up to /university/[slug] and is never sitemapped — never a fabricated subject.
+ *
+ * MEMORY-SAFE: the ~3.8M origin leaves are NEVER materialised as one array. Each
+ * chunk computes its slice index-mathematically (pairIndex = L / nOrigins,
+ * originIndex = L % nOrigins). Only BASE_URLS (~25k) and PAIRS (~19k) are cached.
+ *
+ * Next 16: `id` is a Promise — await it, then Number(...). The manual index at
+ * app/sitemap-index.xml/route.ts MUST mirror NUM_CHUNKS exactly (no phantom
+ * chunks). Test sitemaps via build + next start + curl, never tsx.
  */
-export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://almistudy.almiworld.com";
-  const lastModified = new Date();
+
+const SITE = "https://almistudy.almiworld.com";
+const CHUNK = 45_000; // under Google's 50k/sitemap cap
+
+const ORIGIN_SLUGS: string[] = getAllCountries().map((c) => c.slug); // 197 real origin countries
+
+let _base: MetadataRoute.Sitemap | null = null;
+function baseUrls(): MetadataRoute.Sitemap {
+  if (_base) return _base;
+  const lm = new Date();
   const out: MetadataRoute.Sitemap = [];
-
-  // Statics
-  out.push({ url: base, lastModified, changeFrequency: "weekly", priority: 1.0 });
-  out.push({ url: `${base}/universities`, lastModified, changeFrequency: "weekly", priority: 0.9 });
-
-  // L2: 12 subject pages
-  for (const subject of SUBJECT_ORDER) {
-    out.push({
-      url: `${base}/subjects/${subject}`,
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    });
-  }
-
-  // Bonus: 6 region pages
-  for (const region of V2_REGION_ORDER) {
-    out.push({
-      url: `${base}/regions/${region}`,
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    });
-  }
-
-  // L3: 197 country pages + L4 + L1
-  const countries = getAllCountries();
-  for (const c of countries) {
-    // L3
-    out.push({
-      url: `${base}/universities/${c.slug}`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    });
-    // L4 Route B — only emit combos that actually have universities
-    for (const subject of SUBJECT_ORDER) {
-      if (getUniversitiesByCountrySubject(c.slug, subject)) {
-        out.push({
-          url: `${base}/study/${c.slug}/${subject}`,
-          lastModified,
-          changeFrequency: "monthly",
-          priority: 0.6,
-        });
+  out.push({ url: SITE, lastModified: lm, changeFrequency: "weekly", priority: 1.0 });
+  out.push({ url: `${SITE}/universities`, lastModified: lm, changeFrequency: "weekly", priority: 0.9 });
+  for (const s of SUBJECT_ORDER) out.push({ url: `${SITE}/subjects/${s}`, lastModified: lm, changeFrequency: "weekly", priority: 0.8 });
+  for (const r of V2_REGION_ORDER) out.push({ url: `${SITE}/regions/${r}`, lastModified: lm, changeFrequency: "weekly", priority: 0.7 });
+  for (const c of getAllCountries()) {
+    out.push({ url: `${SITE}/universities/${c.slug}`, lastModified: lm, changeFrequency: "monthly", priority: 0.7 });
+    for (const s of SUBJECT_ORDER) {
+      if (getUniversitiesByCountrySubject(c.slug, s)) {
+        out.push({ url: `${SITE}/study/${c.slug}/${s}`, lastModified: lm, changeFrequency: "monthly", priority: 0.6 });
       }
     }
-    // L1 per-uni canonical page
-    const unis = getUniversitiesByCountrySlug(c.slug);
-    for (const u of unis) {
-      out.push({
-        url: `${base}/university/${u.slug}`,
-        lastModified,
-        changeFrequency: "monthly",
-        priority: 0.6,
-      });
-    }
-    // NOTE: L4 Route A (study/[c]/[s]/[u], ~23.8k URLs) is intentionally
-    // NOT in the sitemap. Those pages canonicalise to /university/[slug]
-    // (see app/study/[country]/[subject]/[uni]/page.tsx) — listing thin
-    // near-duplicates here would dilute crawl budget and contradict the
-    // "sitemap holds only canonical URLs" rule.
   }
-
-  // Origin × destination study guides (8 study destinations × 10 researched
-  // origins). Distinct funding-led copy → self-canonical + indexed (not thin).
-  // Emitted only where the destination actually has verified-uni data, so we
-  // never crawl-promote a data-less page. Promotion is data-only (add a slug).
+  // Origin study guides (existing): destinations with data × researched origins.
   for (const dest of STUDY_ORIGIN_DESTINATIONS) {
     if (getUniversitiesByCountrySlug(dest).length === 0) continue;
     for (const o of STUDY_ORIGINS) {
-      out.push({
-        url: `${base}/study/${dest}/from-${o.slug}`,
-        lastModified,
-        changeFrequency: "weekly",
-        priority: 0.6,
-      });
+      out.push({ url: `${SITE}/study/${dest}/from-${o.slug}`, lastModified: lm, changeFrequency: "weekly", priority: 0.6 });
+    }
+  }
+  // ALL university pages (3,197 — every verified uni, even those with no mapped
+  // canonical subject).
+  for (const c of getAllCountries()) {
+    for (const u of getUniversitiesByCountrySlug(c.slug)) {
+      out.push({ url: `${SITE}/university/${u.slug}`, lastModified: lm, changeFrequency: "monthly", priority: 0.6 });
+    }
+  }
+  // University × subject-TAUGHT base pages (19,310, PAIRS order).
+  for (const p of pairsList()) {
+    out.push({ url: `${SITE}/university/${p.uni}/${p.subject}`, lastModified: lm, changeFrequency: "monthly", priority: 0.55 });
+  }
+  _base = out;
+  return out;
+}
+
+type Pair = { uni: string; subject: string };
+let _pairs: Pair[] | null = null;
+function pairsList(): Pair[] {
+  if (_pairs) return _pairs;
+  const out: Pair[] = [];
+  for (const c of getAllCountries()) {
+    for (const u of getUniversitiesByCountrySlug(c.slug)) {
+      for (const s of getCanonicalSubjects(u)) {
+        out.push({ uni: u.slug, subject: s });
+      }
+    }
+  }
+  _pairs = out;
+  return out;
+}
+
+function totalUrls(): number {
+  return baseUrls().length + pairsList().length * ORIGIN_SLUGS.length;
+}
+
+export function numSitemapChunks(): number {
+  return Math.max(1, Math.ceil(totalUrls() / CHUNK));
+}
+
+export async function generateSitemaps() {
+  return Array.from({ length: numSitemapChunks() }, (_, i) => ({ id: i }));
+}
+
+export default async function sitemap({
+  id,
+}: {
+  id: Promise<string>;
+}): Promise<MetadataRoute.Sitemap> {
+  const idNum = Number(await id);
+  const start = (Number.isNaN(idNum) ? 0 : idNum) * CHUNK;
+  const end = start + CHUNK;
+
+  const base = baseUrls();
+  const out: MetadataRoute.Sitemap = [];
+
+  // Base portion of this chunk.
+  for (let i = Math.max(0, start); i < Math.min(base.length, end); i++) out.push(base[i]);
+
+  // Origin-leaf portion (computed, never materialised whole).
+  const oStart = Math.max(0, start - base.length);
+  const oEnd = end - base.length;
+  if (oEnd > 0) {
+    const pairs = pairsList();
+    const nOrigins = ORIGIN_SLUGS.length;
+    const lm = new Date();
+    const cap = Math.min(pairs.length * nOrigins, oEnd);
+    for (let L = oStart; L < cap; L++) {
+      const p = pairs[Math.floor(L / nOrigins)];
+      const o = ORIGIN_SLUGS[L % nOrigins];
+      out.push({ url: `${SITE}/university/${p.uni}/${p.subject}/from-${o}`, lastModified: lm, changeFrequency: "monthly", priority: 0.45 });
     }
   }
 
