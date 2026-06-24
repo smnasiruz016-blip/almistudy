@@ -6,7 +6,15 @@ import {
   getCountryBySlug,
   getUniversitiesByCountrySlug
 } from "@/lib/page-relations";
-import { indefiniteArticle, STUDY_ORIGINS, isStudyOriginIndexable } from "@/lib/study-origin-localization";
+import { STUDY_ORIGINS, isStudyOriginIndexable } from "@/lib/study-origin-localization";
+import {
+  StudyMasterHook,
+  StudyMasterAntiAgent,
+  StudyMasterFaq,
+  StudyMasterCrossProduct,
+  StudyMasterShamool,
+  type StudyFaqItem,
+} from "@/components/study-master";
 
 const SITE_URL = "https://almistudy.almiworld.com";
 const PRINCIPLES_URL =
@@ -138,6 +146,8 @@ export default async function CountryPage({
             {unis.length === 1 ? "university" : "universities"} for {country.name}. We&apos;re working on expanding coverage.
           </p>
         </header>
+
+        <StudyMasterHook localizedSuffix={` in ${country.name}`} />
 
         {/* Country snapshot — real aggregates from the verified set */}
         {unis.length > 0 ? (
@@ -411,30 +421,23 @@ export default async function CountryPage({
           );
         })()}
 
-        {/* Cross-product CTAs */}
-        <section
-          aria-label="Other AlmiWorld products"
-          className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-sm mb-10"
-        >
-          <a
-            href={`https://almicv.almiworld.com/cv-guide/${country.slug}`}
-            className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 dark:hover:border-zinc-600 transition-colors"
-          >
-            <div className="font-semibold mb-1">Build {indefiniteArticle(country.name)} {country.name}-Ready CV →</div>
-            <div className="text-zinc-600 dark:text-zinc-400">
-              AlmiCV — guide tailored to {country.name} conventions.
-            </div>
-          </a>
-          <a
-            href={`https://almisalary.almiworld.com/salary/${country.slug}`}
-            className="block rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 hover:border-zinc-400 dark:hover:border-zinc-600 transition-colors"
-          >
-            <div className="font-semibold mb-1">Wondering what graduates earn?</div>
-            <div className="text-zinc-600 dark:text-zinc-400">
-              Check {country.name} salary ranges with AlmiSalary →
-            </div>
-          </a>
-        </section>
+        {/* MASTER blend — FAQ + anti-agent truth + rest-of-the-path + Shamool */}
+        <StudyMasterFaq
+          heading={`Universities in ${country.name} — questions answered`}
+          extra={[
+            {
+              q: `How many universities in ${country.name} does AlmiStudy verify?`,
+              a: `${unis.length} accredited ${unis.length === 1 ? "university" : "universities"} in ${country.name}, each checked against a recognized national accrediting body with a public registry link — no pay-to-list, no sponsored placements.`,
+            },
+            {
+              q: `Do I need an agent to apply to a university in ${country.name}?`,
+              a: `No. Universities in ${country.name} welcome direct applications. AlmiStudy gives you the verified data directly so you apply yourself — without losing thousands to a commission-paid middleman.`,
+            },
+          ] satisfies StudyFaqItem[]}
+        />
+        <StudyMasterAntiAgent />
+        <StudyMasterCrossProduct />
+        <StudyMasterShamool />
 
         {/* Footer */}
         <footer className="text-xs text-zinc-500 dark:text-zinc-500 border-t border-zinc-200 dark:border-zinc-800 pt-4 leading-relaxed">

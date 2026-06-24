@@ -2,6 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  StudyMasterHook,
+  StudyMasterAntiAgent,
+  StudyMasterFaq,
+  StudyMasterCrossProduct,
+  StudyMasterShamool,
+  type StudyFaqItem,
+} from "@/components/study-master";
+import {
   V2_REGION_ORDER,
   V2_REGION_NAMES,
   getCountriesByRegion,
@@ -96,6 +104,8 @@ export default async function RegionPage({
             )}
           </header>
 
+          <StudyMasterHook localizedSuffix={` in ${name}`} />
+
           {r.status === "active" ? (
             <section
               aria-label={`Countries in ${name}`}
@@ -129,6 +139,25 @@ export default async function RegionPage({
               </p>
             </section>
           )}
+
+          <StudyMasterFaq
+            heading={`Studying in ${name} — questions answered`}
+            extra={(r.status === "active"
+              ? [
+                  {
+                    q: `How many universities does AlmiStudy verify in ${name}?`,
+                    a: `${r.universityCount} ${r.universityCount === 1 ? "university" : "universities"} across ${r.countryCount} ${r.countryCount === 1 ? "country" : "countries"} in ${name}, each checked against a recognized national accrediting body.`,
+                  },
+                  {
+                    q: `Do I need an agent to apply to a university in ${name}?`,
+                    a: `No. Universities welcome direct applications. AlmiStudy gives you the verified data directly so you apply yourself — no commission-paid middleman.`,
+                  },
+                ]
+              : []) satisfies StudyFaqItem[]}
+          />
+          <StudyMasterAntiAgent />
+          <StudyMasterCrossProduct />
+          <StudyMasterShamool />
         </div>
     </main>
   );

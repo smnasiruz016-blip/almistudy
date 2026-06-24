@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  StudyMasterHook,
+  StudyMasterAntiAgent,
+  StudyMasterFaq,
+  StudyMasterShamool,
+  type StudyFaqItem,
+} from "@/components/study-master";
+import {
   getCountriesForSubject,
   getUniversitiesBySubject,
 } from "@/lib/page-relations";
@@ -127,6 +134,8 @@ export default async function SubjectPage({
           </p>
         </header>
 
+        <StudyMasterHook localizedSuffix={` for ${name}`} />
+
         {topCountries.length > 0 ? (
           <section className="mb-10" aria-labelledby="top-countries">
             <h2 id="top-countries" className="text-lg font-semibold tracking-tight text-plum mb-3">
@@ -212,6 +221,22 @@ export default async function SubjectPage({
             <div className="text-zinc-600">AlmiJob — one CV, every site.</div>
           </a>
         </section>
+
+        <StudyMasterFaq
+          heading={`Studying ${name} abroad — questions answered`}
+          extra={[
+            {
+              q: `Which universities teach ${name}?`,
+              a: `AlmiStudy verifies ${allUnis.length} accredited ${allUnis.length === 1 ? "university" : "universities"} teaching ${name} across ${countries.length} ${countries.length === 1 ? "country" : "countries"} — each checked against a national accreditation registry. Browse by country above.`,
+            },
+            {
+              q: `Do I need an agent to study ${name} abroad?`,
+              a: `No. Universities welcome direct applications. AlmiStudy gives you the verified ${name} directory directly, so you choose and apply yourself — without a commission-paid middleman.`,
+            },
+          ] satisfies StudyFaqItem[]}
+        />
+        <StudyMasterAntiAgent />
+        <StudyMasterShamool />
 
         <p className="text-xs text-plum-soft max-w-3xl leading-relaxed mb-2">
           We list institutions whose accreditation we have verified against a recognized national or international accrediting body. Listing does not vouch for any specific program&apos;s recognition by destination-country regulators or individual admissions outcomes.

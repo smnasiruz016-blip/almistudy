@@ -14,6 +14,12 @@ import {
 } from "@/lib/subject-mapper";
 import { StudyOriginGuide } from "@/components/StudyOriginGuide";
 import {
+  StudyMasterHook,
+  StudyMasterAntiAgent,
+  StudyMasterShamool,
+  STUDY_MASTER_FAQ,
+} from "@/components/study-master";
+import {
   findStudyOrigin,
   isStudyOriginIndexable,
 } from "@/lib/study-origin-localization";
@@ -169,12 +175,14 @@ export default async function L4SubjectInCountryPage({
           },
         ]
       : [];
+  // Append the master data-provenance / anti-agent Qs (one FAQPage JSON-LD).
+  const faqsAll = [...faqs, ...STUDY_MASTER_FAQ];
   const faqJsonLd =
-    faqs.length > 0
+    faqsAll.length > 0
       ? {
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: faqs.map((f) => ({
+          mainEntity: faqsAll.map((f) => ({
             "@type": "Question",
             name: f.q,
             acceptedAnswer: { "@type": "Answer", text: f.a },
@@ -252,6 +260,8 @@ export default async function L4SubjectInCountryPage({
             </p>
           )}
         </header>
+
+        <StudyMasterHook localizedSuffix={` for ${subjectName} in ${c.name}`} />
 
         {unis && stats ? (
           <section
@@ -383,13 +393,13 @@ export default async function L4SubjectInCountryPage({
           </section>
         ) : null}
 
-        {faqs.length > 0 ? (
+        {faqsAll.length > 0 ? (
           <section className="mb-10" aria-labelledby="faq">
             <h2 id="faq" className="text-lg font-semibold tracking-tight mb-3">
               Frequently asked questions
             </h2>
             <div className="space-y-4">
-              {faqs.map((f) => (
+              {faqsAll.map((f) => (
                 <div key={f.q}>
                   <h3 className="text-sm font-medium text-plum mb-1">{f.q}</h3>
                   <p className="text-sm text-plum-soft leading-relaxed max-w-3xl">{f.a}</p>
@@ -425,6 +435,9 @@ export default async function L4SubjectInCountryPage({
             <div className="text-zinc-600">One CV, every site.</div>
           </a>
         </section>
+
+        <StudyMasterAntiAgent />
+        <StudyMasterShamool />
 
         <p className="text-xs text-zinc-600 max-w-3xl leading-relaxed mb-6">
           We list institutions whose accreditation we have verified against a recognized national or international accrediting body. Listing does not vouch for any specific program&apos;s recognition by destination-country regulators or individual admissions outcomes.

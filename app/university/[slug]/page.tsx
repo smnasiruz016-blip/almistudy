@@ -8,6 +8,13 @@ import {
 } from "@/lib/page-relations";
 import { getCanonicalSubjects, SUBJECT_NAMES } from "@/lib/subject-mapper";
 import { indefiniteArticle } from "@/lib/study-origin-localization";
+import {
+  StudyMasterHook,
+  StudyMasterAntiAgent,
+  StudyMasterFaq,
+  StudyMasterShamool,
+  type StudyFaqItem,
+} from "@/components/study-master";
 
 export const revalidate = 86400;
 export const dynamicParams = true;
@@ -336,6 +343,8 @@ export default async function UniversityPage({
           <Intro u={u} canonicalSubjects={canonical} />
         </header>
 
+        <StudyMasterHook localizedSuffix={` at ${u.name}`} />
+
         <QuickFacts u={u} />
         <CanonicalSubjects u={u} />
         <RawSubjects u={u} />
@@ -347,7 +356,29 @@ export default async function UniversityPage({
         ) : null}
 
         <RelatedUniversities u={u} />
+
+        <StudyMasterFaq
+          heading={`${u.name} — questions answered`}
+          extra={[
+            {
+              q: `Is ${u.name} accredited?`,
+              a: u.accreditationBody
+                ? `Yes — ${u.name} is accredited by ${u.accreditationBody}${u.accreditationBodyVerifiedDate ? `, last verified ${u.accreditationBodyVerifiedDate}` : ""}. You can check it yourself on the public registry we link.`
+                : `${u.name} is listed in our verified directory. Confirm its current accreditation on the official registry for ${u.country.name}.`,
+            },
+            {
+              q: `Can international students apply to ${u.name}?`,
+              a: `Yes — ${u.name} accepts direct international applications. You'll meet the programme's entry requirements and typically a verified English score (IELTS/TOEFL/PTE), then apply directly on its official admissions page.`,
+            },
+            {
+              q: `Do I need an agent to apply to ${u.name}?`,
+              a: `No. AlmiStudy gives you ${u.name}'s verified data directly so you can apply yourself — without a commission-paid middleman.`,
+            },
+          ] satisfies StudyFaqItem[]}
+        />
+        <StudyMasterAntiAgent />
         <CrossProductCtas u={u} />
+        <StudyMasterShamool />
 
         <p className="text-xs text-zinc-600 dark:text-zinc-400 max-w-3xl leading-relaxed mb-2">
           We list institutions whose accreditation we have verified against a recognized national or international accrediting body. Listing does not vouch for any specific program&apos;s recognition by destination-country regulators, individual admissions outcomes, or post-graduation credential transferability.

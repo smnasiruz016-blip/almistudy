@@ -11,6 +11,13 @@ import {
   STUDY_ORIGINS,
   isStudyOriginIndexable,
 } from "@/lib/study-origin-localization";
+import {
+  StudyMasterHook,
+  StudyMasterAntiAgent,
+  StudyMasterFaq,
+  StudyMasterShamool,
+  type StudyFaqItem,
+} from "@/components/study-master";
 
 const SITE_URL = "https://almistudy.almiworld.com";
 
@@ -91,6 +98,8 @@ export function StudyOriginGuide({
             {local.subHook}
           </p>
         </header>
+
+        <StudyMasterHook localizedSuffix={` in ${country.name} from ${origin.name}`} />
 
         {/* Origin-specific section — the localized angle + honesty */}
         <section aria-labelledby="origin-title" className="mb-8 rounded-lg border border-peach bg-cream-soft p-5 sm:p-6">
@@ -230,6 +239,23 @@ export function StudyOriginGuide({
             <div className="text-zinc-600">AlmiSalary — honest ranges, native currency.</div>
           </a>
         </section>
+
+        {/* MASTER blend — FAQ + anti-agent truth + Shamool */}
+        <StudyMasterFaq
+          heading={`Studying in ${country.name} from ${origin.name} — questions answered`}
+          extra={[
+            {
+              q: `Can a student from ${origin.name} study in ${country.name}?`,
+              a: `Yes — ${country.name} universities accept direct international applications from ${origin.name}. AlmiStudy verifies ${unis.length} accredited ${unis.length === 1 ? "institution" : "institutions"} there, with scholarships and English requirements noted where available; apply directly, no agent needed.`,
+            },
+            {
+              q: `Do I need an agent to study in ${country.name} from ${origin.name}?`,
+              a: `No. AlmiStudy takes no commission and is not an agent — we give you the verified data directly so you choose and apply yourself, without losing thousands to a middleman.`,
+            },
+          ] satisfies StudyFaqItem[]}
+        />
+        <StudyMasterAntiAgent />
+        <StudyMasterShamool />
 
         {/* Disclaimer — verified accreditation, not an agent */}
         <p className="text-xs text-zinc-600 dark:text-zinc-400 max-w-3xl leading-relaxed mb-2">
