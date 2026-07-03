@@ -29,6 +29,7 @@ export default function Header() {
           <a href="https://almidet.almiworld.com" className="hover:text-coral transition-colors">AlmiDET</a>
           <a href="https://almicelpip.almiworld.com" className="hover:text-coral transition-colors">AlmiCELPIP</a>
           <a href="https://almigoethe.almiworld.com" className="hover:text-coral transition-colors">AlmiGoethe</a>
+          <a href="https://almifrench.almiworld.com" className="hover:text-coral transition-colors">AlmiFrench</a>
           <a href="https://almispanish.almiworld.com" className="hover:text-coral transition-colors">AlmiSpanish</a>
           <a href="https://almijapanese.almiworld.com" className="hover:text-coral transition-colors">AlmiJapanese</a>
           <a href="https://almiworld.com/ebooks-2/" className="hover:text-coral transition-colors">eBooks</a>
