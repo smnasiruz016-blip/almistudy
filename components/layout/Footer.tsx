@@ -1,10 +1,6 @@
-// Family-wide footer — AlmiWorld Global Nav Spec v1 §3. Data-driven: adding a
-// product is a one-line change to the Products column, and the SAME structure
-// ships on every product. The current product (CURRENT_PRODUCT) renders bold +
-// unlinked; every cross-product link is a normal FOLLOWED <a> (network SEO —
-// no rel="nofollow"). Brand: ink-black + gold (Nav Spec v1).
-
-const CURRENT_PRODUCT = "AlmiStudy";
+// Family-wide footer — AlmiWorld Global Nav Spec v1 §3. Data-driven: every family
+// product except this site's own is a followed cross-link, strengthening the
+// network's SEO (spec §3 note).
 
 type FooterLink = { label: string; href: string };
 type FooterColumn = { title: string; links: FooterLink[] };
@@ -58,28 +54,16 @@ export default function Footer() {
                 {col.title}
               </p>
               <ul className="mt-4 space-y-2 text-sm">
-                {col.links.map((link) => {
-                  const isCurrent = link.label === CURRENT_PRODUCT;
-                  return (
-                    <li key={link.href}>
-                      {isCurrent ? (
-                        <span
-                          className="font-semibold text-white"
-                          aria-current="page"
-                        >
-                          {link.label}
-                        </span>
-                      ) : (
-                        <a
-                          href={link.href}
-                          className="text-white/75 transition-colors hover:text-[#D4A24C]"
-                        >
-                          {link.label}
-                        </a>
-                      )}
-                    </li>
-                  );
-                })}
+                {col.links.map((link) => (
+                  <li key={link.href}>
+                    <a
+                      href={link.href}
+                      className="text-white/75 transition-colors hover:text-[#D4A24C]"
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           ))}
