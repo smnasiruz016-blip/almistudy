@@ -10,7 +10,7 @@ const FOOTER_COLUMNS: FooterColumn[] = [
     title: "AlmiWorld",
     links: [
       { label: "Home", href: "https://almiworld.com/" },
-      { label: "Ebooks", href: "https://almiworld.com/ebooks-2/" },
+      { label: "eBooks", href: "https://almiworld.com/ebooks-2/" },
       { label: "Shamool Foundation", href: "https://shamoolfoundation.com/" },
     ],
   },
@@ -19,7 +19,7 @@ const FOOTER_COLUMNS: FooterColumn[] = [
     title: "Products",
     links: [
       { label: "AlmiJob", href: "https://almijob.almiworld.com/" },
-      { label: "AlmiSalary", href: "https://almisalary.almiworld.com/" },
+      { label: "Salary Checker", href: "https://almisalary.almiworld.com/" },
       { label: "AlmiCV", href: "https://almicv.almiworld.com/" },
       { label: "AlmiPrep", href: "https://almiprep.almiworld.com/" },
       { label: "AlmiPTE", href: "https://almipte.almiworld.com/" },
@@ -27,10 +27,12 @@ const FOOTER_COLUMNS: FooterColumn[] = [
       { label: "AlmiOET", href: "https://almioet.almiworld.com/" },
       { label: "AlmiDET", href: "https://almidet.almiworld.com/" },
       { label: "AlmiCELPIP", href: "https://almicelpip.almiworld.com/" },
-      { label: "AlmiGoethe", href: "https://almigoethe.almiworld.com/" },
       { label: "AlmiFrench", href: "https://almifrench.almiworld.com/" },
       { label: "AlmiSpanish", href: "https://almispanish.almiworld.com/" },
       { label: "AlmiJapanese", href: "https://almijapanese.almiworld.com/" },
+      { label: "AlmiKorean", href: "https://almikorean.almiworld.com/" },
+      { label: "AlmiGoethe", href: "https://almigoethe.almiworld.com/" },
+      { label: "AlmiItalian", href: "https://almiitalian.almiworld.com/" },
     ],
   },
   {
