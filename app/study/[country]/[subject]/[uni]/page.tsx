@@ -14,7 +14,10 @@ import {
 } from "@/lib/subject-mapper";
 import { indefiniteArticle } from "@/lib/study-origin-localization";
 
-export const revalidate = 86400;
+// Cache indefinitely (revalidate:Infinity). Page data is static in-repo JSON that
+// only changes on redeploy (which cold-starts the ISR cache -- pages re-render on
+// next hit); a timed TTL only produced byte-identical daily ISR re-writes (cost).
+export const revalidate = false;
 export const dynamicParams = true;
 
 const SITE_URL = "https://almistudy.almiworld.com";

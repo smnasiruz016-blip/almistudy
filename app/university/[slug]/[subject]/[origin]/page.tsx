@@ -27,7 +27,10 @@ import {
   type StudyFaqItem,
 } from "@/components/study-master";
 
-export const revalidate = 86400;
+// Cache indefinitely (revalidate:Infinity). Page data is static in-repo JSON that
+// only changes on redeploy (which cold-starts the ISR cache -- pages re-render on
+// next hit); a timed TTL only produced byte-identical daily ISR re-writes (cost).
+export const revalidate = false;
 // On-demand ISR — the origin universe is millions of leaves; we seed nothing and
 // render each on first request, exactly like the big matrix routes on the other
 // products. (generateStaticParams returns [] so the build never enumerates them.)

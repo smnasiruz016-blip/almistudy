@@ -37,12 +37,18 @@ import {
 const SITE = "https://almistudy.almiworld.com";
 const CHUNK = 45_000; // under Google's 50k/sitemap cap
 
+// Data-snapshot date, NOT wall-clock. The pages are built from static in-repo JSON;
+// emitting `new Date()` told crawlers every URL "just changed" on every fetch, driving
+// needless re-crawls (and thus ISR first-write cost). Bump this ONLY when the
+// underlying university/subject/country data actually changes.
+const LASTMOD = new Date("2026-07-12");
+
 const ORIGIN_SLUGS: string[] = getAllCountries().map((c) => c.slug); // 197 real origin countries
 
 let _base: MetadataRoute.Sitemap | null = null;
 function baseUrls(): MetadataRoute.Sitemap {
   if (_base) return _base;
-  const lm = new Date();
+  const lm = LASTMOD;
   const out: MetadataRoute.Sitemap = [];
   out.push({ url: SITE, lastModified: lm, changeFrequency: "weekly", priority: 1.0 });
   out.push({ url: `${SITE}/universities`, lastModified: lm, changeFrequency: "weekly", priority: 0.9 });
@@ -127,7 +133,7 @@ export default async function sitemap({
   if (oEnd > 0) {
     const pairs = pairsList();
     const nOrigins = ORIGIN_SLUGS.length;
-    const lm = new Date();
+    const lm = LASTMOD;
     const cap = Math.min(pairs.length * nOrigins, oEnd);
     for (let L = oStart; L < cap; L++) {
       const p = pairs[Math.floor(L / nOrigins)];
