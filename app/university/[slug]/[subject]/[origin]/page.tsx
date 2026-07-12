@@ -18,6 +18,7 @@ import {
 } from "@/lib/page-relations";
 import { getCanonicalSubjects, SUBJECT_NAMES, SUBJECT_ORDER, type SubjectSlug } from "@/lib/subject-mapper";
 import { getStudyOriginLocalization } from "@/lib/study-origin-localization";
+import { resolveOriginRecognition } from "@/lib/origin-localization-recognition";
 import {
   StudyMasterHook,
   StudyMasterAntiAgent,
@@ -171,6 +172,7 @@ export default async function OriginLeafPage({
 
   // ── Full self-canonical origin leaf (real data: the uni teaches the subject) ──
   const local = getStudyOriginLocalization(originSlug, u.country.slug); // rich for 8 dests × 10 origins, else null
+  const rec = resolveOriginRecognition(originSlug, origin); // home-country recognition body (verified | honest-generic)
   const year = new Date().getFullYear();
 
   const localizedFaq: StudyFaqItem[] = [
@@ -247,6 +249,23 @@ export default async function OriginLeafPage({
               confirm the live requirement on its official admissions page.
             </p>
           )}
+          {/* Home-country degree RECOGNITION (Localization Standard) — verified body
+              per origin, or honest-generic. Makes a "from Pakistan" leaf differ from
+              "from Nigeria" beyond a name-swap. */}
+          <p className="mt-4 text-sm sm:text-base text-zinc-700 dark:text-zinc-300 leading-relaxed max-w-3xl">
+            {rec.localized ? (
+              <>
+                Back in {origin}, a foreign degree is recognised through <strong>{rec.recognitionBody}</strong>
+                {rec.recognitionUrl ? (
+                  <> (<a href={rec.recognitionUrl} target="_blank" rel="noopener noreferrer nofollow" className="underline hover:no-underline">{rec.recognitionUrl.replace(/^https?:\/\//, "")}</a>)</>
+                ) : null}
+                . {rec.equivalenceNote} A common concern from {origin} is &ldquo;{rec.commonConcern}&rdquo; — worth planning early.
+                {rec.sourceNote ? ` Note: ${rec.sourceNote}` : ""}
+              </>
+            ) : (
+              <>{rec.equivalenceNote}</>
+            )}
+          </p>
         </section>
 
         {/* MASTER FAQ (localized + master Qs) */}
