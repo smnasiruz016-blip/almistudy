@@ -44,3 +44,5 @@ next-env.d.ts
 
 # local QA screenshots (not part of the app)
 .screenshots/
+
+.env*
