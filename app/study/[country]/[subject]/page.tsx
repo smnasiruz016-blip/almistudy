@@ -81,7 +81,7 @@ export async function generateMetadata({
   // Lead with the high-volume "study {subject} in {country}" search query.
   const title = `Study ${subjectName} in ${c.name} (${year})`;
   const description = unis
-    ? `${unis.length.toLocaleString("en-US")} accredited ${unis.length === 1 ? "university" : "universities"} in ${c.name} teaching ${subjectName}, each verified against a recognized national accrediting body.`
+    ? `${unis.length.toLocaleString("en-US")} accredited ${unis.length === 1 ? "university" : "universities"} in ${c.name} teaching ${subjectName}, each verified against a recognized national accrediting body. No agent, no commission.`
     : `AlmiStudy hasn't yet verified ${subjectName} programs in ${c.name}. Browse ${subjectName} worldwide or other ${c.name} subjects.`;
   return {
     title: title.length <= 60 ? title : `Study ${subjectName} in ${c.name}`,
