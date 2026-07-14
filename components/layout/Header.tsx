@@ -25,6 +25,7 @@ const FAMILY_LINKS = [
   { label: "AlmiItalian", href: "https://almiitalian.almiworld.com/" },
   { label: "AlmiDutch", href: "https://almidutch.almiworld.com/" },
   { label: "AlmiIcelandic", href: "https://almiicelandic.almiworld.com/" },
+  { label: "AlmiDanish", href: "https://almidanish.almiworld.com/" },
   { label: "Contact Us", href: "https://almiworld.com/contact-us/" },
   { label: "Shamool Foundation", href: "https://shamoolfoundation.com/" },
 ];
