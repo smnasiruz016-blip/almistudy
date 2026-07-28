@@ -17,12 +17,18 @@ import {
   SUBJECT_ORDER,
   type SubjectSlug,
 } from "@/lib/subject-mapper";
+import * as StaticIndex from "@/lib/static-index";
 
 // Cache indefinitely (revalidate:Infinity). Page data is static in-repo JSON that
 // only changes on redeploy (which cold-starts the ISR cache -- pages re-render on
 // next hit); a timed TTL only produced byte-identical daily ISR re-writes (cost).
 export const revalidate = false;
-export const dynamicParams = true;
+export const dynamicParams = false;
+
+// Prebuilt: all 12 canonical subjects. Anything else 404s.
+export function generateStaticParams() {
+  return StaticIndex.subjects().map((subject) => ({ subject }));
+}
 
 const SITE_URL = "https://almistudy.almiworld.com";
 const PRINCIPLES_URL =

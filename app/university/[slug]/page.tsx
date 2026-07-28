@@ -15,12 +15,18 @@ import {
   StudyMasterShamool,
   type StudyFaqItem,
 } from "@/components/study-master";
+import * as StaticIndex from "@/lib/static-index";
 
 // Cache indefinitely (revalidate:Infinity). Page data is static in-repo JSON that
 // only changes on redeploy (which cold-starts the ISR cache -- pages re-render on
 // next hit); a timed TTL only produced byte-identical daily ISR re-writes (cost).
 export const revalidate = false;
-export const dynamicParams = true;
+export const dynamicParams = false;
+
+// Prebuilt: every verified university (3,197). Anything else 404s.
+export function generateStaticParams() {
+  return StaticIndex.universities().map((slug) => ({ slug }));
+}
 
 const SITE_URL = "https://almistudy.almiworld.com";
 const PRINCIPLES_URL =

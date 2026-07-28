@@ -32,10 +32,23 @@ import {
 // only changes on redeploy (which cold-starts the ISR cache -- pages re-render on
 // next hit); a timed TTL only produced byte-identical daily ISR re-writes (cost).
 export const revalidate = false;
-// On-demand ISR — the origin universe is millions of leaves; we seed nothing and
-// render each on first request, exactly like the big matrix routes on the other
-// products. (generateStaticParams returns [] so the build never enumerates them.)
-export const dynamicParams = true;
+// RETIRED 2026-07-28 — this route no longer serves anything.
+//
+// It was on-demand ISR over 19,310 taught pairs x 197 origin countries = 3,804,070
+// leaves: nothing seeded, each rendered on first request. That is one ISR write per
+// unique URL, re-armed on every deploy because a deploy resets the ISR cache, and it
+// billed $89.07 on this project in the 2026-07 cycle against $4.36 of ISR reads
+// team-wide — written far more than ever read.
+//
+// generateStaticParams still returns [], but dynamicParams is now false, so that
+// empty list means "none of these exist" instead of "mint them all on demand". Every
+// origin leaf 404s, and app/sitemap.ts no longer advertises them.
+//
+// The file is kept rather than deleted: the renderer and its origin-recognition logic
+// are what a future, DELIBERATELY BOUNDED origin set would be built from. Re-enabling
+// it means giving generateStaticParams a real, finite list — never flipping
+// dynamicParams back to true.
+export const dynamicParams = false;
 
 const SITE_URL = "https://almistudy.almiworld.com";
 const FROM = "from-";

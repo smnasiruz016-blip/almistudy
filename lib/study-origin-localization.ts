@@ -369,8 +369,33 @@ export function findStudyOrigin(slug: string): StudyOrigin | undefined {
 export function isStudyOriginIndexable(destSlug: string, originSlug: string): boolean {
   return (
     (STUDY_ORIGIN_DESTINATIONS as readonly string[]).includes(destSlug) &&
-    ORIGIN_BY_SLUG.has(originSlug)
+    ORIGIN_BY_SLUG.has(originSlug) &&
+    hasOriginContent(originSlug)
   );
+}
+
+/** Does this origin have LOCAL copy, not merely a shared identity?
+ *
+ *  ⚠️ THIS IS THE GHANA BUG, AND IT WAS LIVE. STUDY_ORIGINS is read from
+ *  @smnasiruz016-blip/almi-data — a SHARED list, 11 origins — while BUILDERS below is
+ *  a LOCAL map of 10. Nothing checked that they agreed. When `ghana` was added
+ *  upstream, this file's own comment still said "the 10 researched origins", every
+ *  destination gained a /study/<dest>/from-ghana URL, the sitemap advertised all 8 of
+ *  them, and getStudyOriginLocalization called BUILDERS["ghana"](dest) — undefined as
+ *  a function. Measured on production 2026-07-28: 8 of 88 origin guides returned
+ *  HTTP 500, every one of them a ghana page, and they had been doing so silently
+ *  because on-demand rendering fails one request at a time.
+ *
+ *  Identity is not content. An origin we have not written copy for is not a page we
+ *  have — the same rule getCanonicalSubjects already applies to subjects a university
+ *  does not teach. Gating on this makes an uncovered origin absent instead of broken. */
+export function hasOriginContent(originSlug: string): boolean {
+  return typeof BUILDERS[originSlug] === "function";
+}
+
+/** The origins we actually have copy for — what may be built and advertised. */
+export function studyOriginsWithContent(): StudyOrigin[] {
+  return STUDY_ORIGINS.filter((o) => hasOriginContent(o.slug));
 }
 
 export function getStudyOriginLocalization(

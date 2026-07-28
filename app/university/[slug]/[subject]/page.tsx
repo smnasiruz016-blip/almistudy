@@ -17,19 +17,22 @@ import {
   StudyMasterShamool,
   type StudyFaqItem,
 } from "@/components/study-master";
+import * as StaticIndex from "@/lib/static-index";
 
 // Cache indefinitely (revalidate:Infinity). Page data is static in-repo JSON that
 // only changes on redeploy (which cold-starts the ISR cache -- pages re-render on
 // next hit); a timed TTL only produced byte-identical daily ISR re-writes (cost).
 export const revalidate = false;
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 const SITE_URL = "https://almistudy.almiworld.com";
 
 type Params = { slug: string; subject: string };
 
+// Prebuilt: 19,310 university x subject-TAUGHT pairs. A uni x subject it does not
+// teach is not built, is not sitemapped, and now 404s instead of minting itself.
 export function generateStaticParams() {
-  return [];
+  return StaticIndex.universitySubjectPairs();
 }
 
 function resolve(p: { slug: string; subject: string }) {
