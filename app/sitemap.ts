@@ -41,7 +41,7 @@ const CHUNK = 45_000; // under Google's 50k/sitemap cap
 // emitting `new Date()` told crawlers every URL "just changed" on every fetch, driving
 // needless re-crawls (and thus ISR first-write cost). Bump this ONLY when the
 // underlying university/subject/country data actually changes.
-const LASTMOD = new Date("2026-07-12");
+export const LASTMOD = new Date("2026-07-12");
 
 const ORIGIN_SLUGS: string[] = getAllCountries().map((c) => c.slug); // 197 real origin countries
 
