@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/uniqueness-gate.mjs && node scripts/isr-cost-gate.mjs && tsx scripts/sitemap-prebuild-gate.mts && next build",
+    "build": "node scripts/uniqueness-gate.mjs && tsx scripts/isr-cost-gate.mts && tsx scripts/sitemap-prebuild-gate.mts && next build",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "validate:data": "node scripts/validate-universities.mjs",
-    "gate:isr": "node scripts/isr-cost-gate.mjs",
+    "gate:isr": "tsx scripts/isr-cost-gate.mts",
     "gate:sitemap": "tsx scripts/sitemap-prebuild-gate.mts"
   },
   "dependencies": {

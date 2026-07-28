@@ -20,29 +20,25 @@
 import * as StaticIndex from "../lib/static-index";
 import { STUDY_ORIGINS, studyOriginsWithContent } from "../lib/study-origin-localization";
 
-const prebuilt = new Set<string>();
-
-prebuilt.add("");
-prebuilt.add("/universities");
-for (const s of StaticIndex.subjects()) prebuilt.add(`/subjects/${s}`);
-for (const r of StaticIndex.regions()) prebuilt.add(`/regions/${r}`);
-for (const c of StaticIndex.countries()) prebuilt.add(`/universities/${c}`);
-for (const u of StaticIndex.universities()) prebuilt.add(`/university/${u}`);
-for (const p of StaticIndex.universitySubjectPairs()) prebuilt.add(`/university/${p.slug}/${p.subject}`);
-for (const p of StaticIndex.countrySubjectPairs()) prebuilt.add(`/study/${p.country}/${p.subject}`);
-for (const g of StaticIndex.originGuides()) prebuilt.add(`/study/${g.country}/${g.subject}`);
+// SERVABLE = prebuilt at build time  +  bounded-on-demand (finite, data-derived,
+// allowlisted in lib/isr-policy.ts). Both are pages this site really has; the second
+// group simply renders on first request because prebuilding it produced 244,331 output
+// files and failed the deployment.
+const prebuilt = new Set<string>(StaticIndex.prebuiltPaths());
+const bounded = new Set<string>(StaticIndex.boundedOnDemandPaths());
+const servable = new Set<string>([...prebuilt, ...bounded]);
 
 const advertised = StaticIndex.sitemapPaths();
-const orphans = advertised.filter((p) => !prebuilt.has(p));
+const orphans = advertised.filter((p) => !servable.has(p));
 const advertisedSet = new Set(advertised);
-const unadvertised = [...prebuilt].filter((p) => !advertisedSet.has(p));
+const unadvertised = [...servable].filter((p) => !advertisedSet.has(p));
 
 const dupes = advertised.length - new Set(advertised).size;
 
 if (orphans.length || dupes || unadvertised.length) {
-  console.error(`\n✗ SITEMAP == PREBUILT GATE FAILED\n`);
+  console.error(`\n✗ SITEMAP == SERVABLE GATE FAILED\n`);
   if (orphans.length) {
-    console.error(`  ${orphans.length} advertised URL(s) are NOT prebuilt and would 404:`);
+    console.error(`  ${orphans.length} advertised URL(s) are neither prebuilt nor bounded-on-demand and would 404:`);
     for (const o of orphans.slice(0, 10)) console.error(`    ${o}`);
     if (orphans.length > 10) console.error(`    … and ${orphans.length - 10} more`);
   }
@@ -72,6 +68,7 @@ if (drift.length) {
 }
 
 console.log(
-  `✓ SITEMAP == PREBUILT GATE: ${advertised.length.toLocaleString()} advertised URL(s) ` +
-  `and ${prebuilt.size.toLocaleString()} prebuilt page(s) — identical sets.`,
+  `✓ SITEMAP == SERVABLE GATE: ${advertised.length.toLocaleString()} advertised URL(s) == ` +
+  `${servable.size.toLocaleString()} servable page(s) — identical sets ` +
+  `(${prebuilt.size.toLocaleString()} prebuilt + ${bounded.size.toLocaleString()} bounded-on-demand).`,
 );

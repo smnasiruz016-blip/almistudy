@@ -159,9 +159,9 @@ export function originGuides(): Array<{ country: string; subject: string }> {
  *  pages again, the question to answer first is what they would say that
  *  /university/[slug]/[subject] does not. */
 
-/** Every URL PATH this site advertises, in sitemap order. The sitemap is built from
- *  this and nothing else, so it cannot drift from what the routes prebuild. */
-export function sitemapPaths(): string[] {
+/** Paths that are PREBUILT at build time (dynamicParams = false → unknown 404s).
+ *  Deliberately small: this is everything except the 19,310 pair pages. */
+export function prebuiltPaths(): string[] {
   const out: string[] = ["", "/universities"];
   for (const s of subjects()) out.push(`/subjects/${s}`);
   for (const r of regions()) out.push(`/regions/${r}`);
@@ -169,6 +169,19 @@ export function sitemapPaths(): string[] {
   for (const p of countrySubjectPairs()) out.push(`/study/${p.country}/${p.subject}`);
   for (const g of originGuides()) out.push(`/study/${g.country}/${g.subject}`);
   for (const u of universities()) out.push(`/university/${u}`);
-  for (const p of universitySubjectPairs()) out.push(`/university/${p.slug}/${p.subject}`);
   return out;
+}
+
+/** Paths served BOUNDED-ON-DEMAND — real, finite, advertised, but not prebuilt.
+ *  See lib/isr-policy.ts. Prebuilding these produced 244,331 output files and failed
+ *  the deployment; they are the one route allowed to render on first request. */
+export function boundedOnDemandPaths(): string[] {
+  return universitySubjectPairs().map((p) => `/university/${p.slug}/${p.subject}`);
+}
+
+/** Every URL PATH this site advertises = prebuilt + bounded-on-demand, and NOTHING
+ *  else. The sitemap is built from this and nothing else, so it can advertise neither
+ *  a page that does not exist nor an unbounded space. */
+export function sitemapPaths(): string[] {
+  return [...prebuiltPaths(), ...boundedOnDemandPaths()];
 }

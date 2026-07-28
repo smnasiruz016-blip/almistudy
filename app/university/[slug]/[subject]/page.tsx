@@ -23,16 +23,28 @@ import * as StaticIndex from "@/lib/static-index";
 // only changes on redeploy (which cold-starts the ISR cache -- pages re-render on
 // next hit); a timed TTL only produced byte-identical daily ISR re-writes (cost).
 export const revalidate = false;
-export const dynamicParams = false;
+// BOUNDED ON DEMAND — see lib/isr-policy.ts for the rule and the entry.
+//
+// 19,310 university x subject-TAUGHT pairs. They are NOT prebuilt: doing so produced
+// 244,331 of the 270,400 output files that made the 2026-07-28 deployment fail after
+// a successful 7-minute build. They render on first request instead — ~19,310 ISR
+// writes per deploy, pennies against the millions that caused the $254.57 bill.
+//
+// This is safe ONLY because the valid space is finite and known: resolve() returns
+// null for any slug or subject outside the in-repo data and the page calls notFound(),
+// so an invented URL costs one cached 404, never a fabricated page. The sitemap
+// advertises exactly these 19,310 and nothing more.
+export const dynamicParams = true;
 
 const SITE_URL = "https://almistudy.almiworld.com";
 
 type Params = { slug: string; subject: string };
 
-// Prebuilt: 19,310 university x subject-TAUGHT pairs. A uni x subject it does not
-// teach is not built, is not sitemapped, and now 404s instead of minting itself.
+// Intentionally empty: this route is bounded-on-demand, not prebuilt. The valid set
+// lives in StaticIndex.universitySubjectPairs() and is what the SITEMAP advertises —
+// it is not returned here, or Next would prebuild all 19,310 and blow the output limit.
 export function generateStaticParams() {
-  return StaticIndex.universitySubjectPairs();
+  return [];
 }
 
 function resolve(p: { slug: string; subject: string }) {

@@ -25,14 +25,39 @@
 //     returns [] → DEFECT 2
 
 import fs from "node:fs";
+import { isBoundedOnDemand, BOUNDED_ON_DEMAND } from "../lib/isr-policy";
 import path from "node:path";
 
 const APP = path.join(process.cwd(), "app");
-const failures = [];
+const failures: string[] = [];
+
+// ── THE ALLOWLIST IS NOT A RUBBER STAMP ─────────────────────────────────────
+// Proven while building it: adding the 3,804,070-page origin route to
+// BOUNDED_ON_DEMAND made this gate pass in silence — the exact bug that cost $254.57,
+// waved through by a one-line edit. An exemption that anything can claim protects
+// nothing. So a declared bound above this ceiling is itself a failure: past a certain
+// size "bounded" stops meaning anything a build can rely on, and the route needs a
+// decision, not an entry.
+const MAX_BOUNDED_PAGES = 50_000;
+for (const r of BOUNDED_ON_DEMAND) {
+  if (r.approxPages > MAX_BOUNDED_PAGES) {
+    failures.push(
+      `lib/isr-policy.ts — ${r.file} declares ${r.approxPages.toLocaleString()} pages:
+` +
+      `      that is above the ${MAX_BOUNDED_PAGES.toLocaleString()} ceiling for a bounded route.
+` +
+      `      A space this size is not "bounded by real data", it is a page factory with
+` +
+      `      a note attached. Shrink the route or retire it — do not widen the ceiling
+` +
+      `      without deciding what the pages are for.`,
+    );
+  }
+}
 
 /** Every .ts/.tsx under app/, recursively. */
-function walk(dir) {
-  const out = [];
+function walk(dir: string): string[] {
+  const out: string[] = [];
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, e.name);
     if (e.isDirectory()) out.push(...walk(full));
@@ -82,6 +107,11 @@ for (const f of files) {
   const src = fs.readFileSync(f, "utf8");
   const dynamicTrue = /export\s+const\s+dynamicParams\s*=\s*true/.test(src);
   if (!dynamicTrue) continue;
+  // ALLOWLISTED BOUNDED ROUTES. On-demand is not forbidden — unbounded on-demand is.
+  // A route may render on first request when its valid space is finite, derived from
+  // in-repo data, and advertised in full by the sitemap. lib/isr-policy.ts holds the
+  // entry and the written reason; an unlisted route still fails exactly as before.
+  if (isBoundedOnDemand(rel)) continue;
   const hasGsp = /function\s+generateStaticParams|const\s+generateStaticParams/.test(src);
   const why = !hasGsp
     ? "dynamicParams = true and NO generateStaticParams at all"
@@ -107,4 +137,6 @@ if (failures.length) {
   process.exit(1);
 }
 
+const allow = BOUNDED_ON_DEMAND.map((r) => `${r.file} (~${r.approxPages.toLocaleString()} pages)`).join(", ");
+if (allow) console.log(`  bounded-on-demand allowlist: ${allow}`);
 console.log(`✓ ISR COST GATE: ${files.length} app route file(s) scanned; no wall-clock sitemap, no unbounded page factory.`);
