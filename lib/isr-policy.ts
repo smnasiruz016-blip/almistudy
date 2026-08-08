@@ -42,12 +42,12 @@ export type BoundedRoute = {
 export const BOUNDED_ON_DEMAND: BoundedRoute[] = [
   {
     file: "app/university/[slug]/[subject]/page.tsx",
-    approxPages: 21484,
+    approxPages: 23902,
     reason:
-      "21,484 university x subject-TAUGHT pairs — finite, derived from in-repo JSON via " +
+      "23,902 university x subject-TAUGHT pairs — finite, derived from in-repo JSON via " +
       "getCanonicalSubjects(), and advertised in full by lib/static-index.ts. Prebuilding " +
       "them produced 244,331 of the 270,400 output files that made the 2026-07-28 " +
-      "deployment fail, so these render on first request instead: ~21,484 ISR writes per " +
+      "deployment fail, so these render on first request instead: ~23,902 ISR writes per " +
       "deploy, which is pennies against the millions that caused the bill. resolve() " +
       "returns null for a slug or subject outside the data and the page calls notFound(), " +
       "so an invented URL costs one cached 404 rather than a fabricated page.",
