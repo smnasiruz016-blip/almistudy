@@ -42,15 +42,19 @@ export type BoundedRoute = {
 export const BOUNDED_ON_DEMAND: BoundedRoute[] = [
   {
     file: "app/university/[slug]/[subject]/page.tsx",
-    approxPages: 23902,
+    approxPages: 27653,
     reason:
-      "23,902 university x subject-TAUGHT pairs — finite, derived from in-repo JSON via " +
+      "27,653 university x subject-TAUGHT pairs — finite, derived from in-repo JSON via " +
       "getCanonicalSubjects(), and advertised in full by lib/static-index.ts. Prebuilding " +
       "them produced 244,331 of the 270,400 output files that made the 2026-07-28 " +
-      "deployment fail, so these render on first request instead: ~23,902 ISR writes per " +
+      "deployment fail, so these render on first request instead: ~27,653 ISR writes per " +
       "deploy, which is pennies against the millions that caused the bill. resolve() " +
       "returns null for a slug or subject outside the data and the page calls notFound(), " +
-      "so an invented URL costs one cached 404 rather than a fabricated page.",
+      "so an invented URL costs one cached 404 rather than a fabricated page. " +
+      "Counted 2026-08-08 against 5,445 universities (was 23,902 at 4,277): 5.08 taught " +
+      "pairs per university, so the 50,000 ceiling arrives at roughly 9,800 universities. " +
+      "That is two or three enrichment passes away, and the decision it forces — shrink " +
+      "the route, split it, or raise the ceiling with a written reason — is still open.",
   },
 ];
 
