@@ -47,7 +47,29 @@ export type University = {
   publishable: boolean;
 };
 
-const ALL: University[] = publishable as University[];
+/**
+ * `publishable: false` MEANS IT, and until 2026-08-08 it did not.
+ *
+ * Every row carries a `publishable` flag and the file is literally named
+ * universities-publishable.json, but this module read the array verbatim — so the flag
+ * was honoured by the static satellite generator ("N publishable, M skipped") and
+ * silently inert in the Next.js app. A row could be marked unpublishable and still get a
+ * page, a sitemap entry and a country-page listing.
+ *
+ * Found the hard way: UNI_5227 arrived in the Turkey batch as a leftover marker — slug
+ * "placeholder", name "Bolu — see Bolu Abant İzzet Baysal (placeholder removed)", city
+ * null, subjects [], studentNotes "IGNORE - placeholder". It merged cleanly and served a
+ * real page at /university/placeholder in production. The actual university is live and
+ * correct at UNI_5153.
+ *
+ * Filtering here rather than at each call site is deliberate: lib/static-index.ts derives
+ * the whole advertised URL set from this module, so prebuilt pages, generateStaticParams
+ * and the sitemap all stay consistent with one filter, and the sitemap==servable gate
+ * keeps proving it.
+ */
+const ALL: University[] = (publishable as University[]).filter(
+  (u) => u.publishable !== false,
+);
 
 export type CountryEntry = {
   slug: string;
