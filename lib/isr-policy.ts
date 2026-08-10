@@ -57,19 +57,20 @@ export const BOUNDED_ON_DEMAND: BoundedRoute[] = [];
 export const FROZEN_UNDER_HOLDING: BoundedRoute[] = [
   {
     file: "app/university/[slug]/[subject]/page.tsx",
-    approxPages: 34431,
+    approxPages: 38426,
     reason:
-      "34,431 university x subject-TAUGHT pairs — finite, derived from in-repo JSON via " +
-      "getCanonicalSubjects(), and advertised in full by lib/static-index.ts. Prebuilding " +
-      "them produced 244,331 of the 270,400 output files that made the 2026-07-28 " +
-      "deployment fail, so these render on first request instead: ~34,431 ISR writes per " +
-      "deploy, which is pennies against the millions that caused the bill. resolve() " +
-      "returns null for a slug or subject outside the data and the page calls notFound(), " +
-      "so an invented URL costs one cached 404 rather than a fabricated page. " +
-      "Counted 2026-08-09 against 7,609 universities (was 23,902 at 4,277): 4.53 taught " +
-      "pairs per university, so the 50,000 ceiling arrives at roughly 11,000 universities. " +
-      "That is two or three enrichment passes away, and the decision it forces — shrink " +
-      "the route, split it, or raise the ceiling with a written reason — is still open.",
+      "38,426 university x subject-TAUGHT pairs — finite, derived from in-repo JSON via " +
+      "getCanonicalSubjects(). Prebuilding them produced 244,331 of the 270,400 output files " +
+      "that made the 2026-07-28 deployment fail, so on-demand was the only shape that worked: " +
+      "~38,426 ISR writes per deploy. Under the holding freeze the route is dark instead, so " +
+      "that number is now the size of the DATA asset, not of anything being generated. " +
+      "Recounted 2026-08-10 after the Q/R/India/Indonesia merge against 8,860 universities " +
+      "(was 34,431 at 7,609; 23,902 at 4,277): 4.34 taught pairs per university. " +
+      "⚠️ THE CEILING IS NOW CLOSE. At 4.34 pairs/uni the 50,000 ceiling arrives at roughly " +
+      "11,520 universities — one enrichment pass away, not three. Whoever lifts the freeze " +
+      "must decide first: shrink the route, split it, or raise the ceiling with a written " +
+      "reason. Un-freezing without that decision walks straight into the failure this file " +
+      "exists to prevent.",
   },
 ];
 
