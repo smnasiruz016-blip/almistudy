@@ -39,7 +39,22 @@ export type BoundedRoute = {
   reason: string;
 };
 
-export const BOUNDED_ON_DEMAND: BoundedRoute[] = [
+/**
+ * HOLDING 2026-08-09 — EMPTY, deliberately. Page generation is frozen network-wide
+ * until the page factory rebuilds these pages properly, so no route may render on
+ * demand: the one entry below is retired (kept as FROZEN_UNDER_HOLDING so the reason
+ * and the counted bound survive the freeze rather than being rediscovered later).
+ *
+ * With this empty, isr-cost-gate's allowlist check has nothing to wave through — any
+ * route that sets `dynamicParams = true` now fails the build, which is exactly the
+ * holding invariant. Reversing the freeze means moving the entry back into
+ * BOUNDED_ON_DEMAND, restoring `dynamicParams = true` on the route, and restoring
+ * boundedOnDemandPaths() in lib/static-index.ts. All three, or the gates fail.
+ */
+export const BOUNDED_ON_DEMAND: BoundedRoute[] = [];
+
+/** The single entry retired by the 2026-08-09 holding freeze. Not read by the gate. */
+export const FROZEN_UNDER_HOLDING: BoundedRoute[] = [
   {
     file: "app/university/[slug]/[subject]/page.tsx",
     approxPages: 34431,

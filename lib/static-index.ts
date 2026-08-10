@@ -174,9 +174,22 @@ export function prebuiltPaths(): string[] {
 
 /** Paths served BOUNDED-ON-DEMAND — real, finite, advertised, but not prebuilt.
  *  See lib/isr-policy.ts. Prebuilding these produced 244,331 output files and failed
- *  the deployment; they are the one route allowed to render on first request. */
+ *  the deployment; they were the one route allowed to render on first request.
+ *
+ *  HOLDING 2026-08-09 — EMPTY. Page generation is frozen network-wide until the page
+ *  factory rebuilds these pages properly, so no route renders on demand any more:
+ *  app/university/[slug]/[subject]/page.tsx is now dynamicParams = false, which means
+ *  those ~34,431 pairs 404 rather than minting themselves. They must therefore leave
+ *  the sitemap too — advertising a URL that 404s spends crawl budget to teach Google
+ *  the page is missing. sitemap-prebuild-gate asserts this both ways, so this function
+ *  and that route have to move together.
+ *
+ *  Note this cannot become "prebuild them instead": that is the 244,331-file failure.
+ *  Reversing the freeze means restoring the return below AND dynamicParams = true AND
+ *  the lib/isr-policy.ts allowlist entry. universitySubjectPairs() is untouched — the
+ *  data is intact, only the serving is off. */
 export function boundedOnDemandPaths(): string[] {
-  return universitySubjectPairs().map((p) => `/university/${p.slug}/${p.subject}`);
+  return [];
 }
 
 /** Every URL PATH this site advertises = prebuilt + bounded-on-demand, and NOTHING
