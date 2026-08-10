@@ -34,7 +34,17 @@ export const revalidate = false;
 // null for any slug or subject outside the in-repo data and the page calls notFound(),
 // so an invented URL costs one cached 404, never a fabricated page. The sitemap
 // advertises exactly these 19,310 and nothing more.
-export const dynamicParams = true;
+// HOLDING 2026-08-09 — was `true`. Page generation is frozen network-wide until the page
+// factory rebuilds these pages properly, so this last on-demand route is off too: nothing is
+// prebuilt and nothing renders on demand, which means all ~34,431 pairs now 404 and the
+// ~34,431 ISR writes per deploy go to zero. Prebuilding them instead is NOT the alternative —
+// that is the 244,331-file build that failed the 2026-07-28 deployment.
+//
+// The paired edits, which must move together or the gates fail: boundedOnDemandPaths() in
+// lib/static-index.ts returns [] (so the sitemap stops advertising URLs that 404), and the
+// lib/isr-policy.ts allowlist entry is retired to FROZEN_UNDER_HOLDING. The data behind
+// universitySubjectPairs() is untouched — only the serving is off. Restore all three to reverse.
+export const dynamicParams = false;
 
 const SITE_URL = "https://almistudy.almiworld.com";
 
