@@ -24,6 +24,12 @@ export function generateStaticParams() {
   return getAllCountries().map((c) => ({ country: c.slug }));
 }
 
+// COST FIX (Oct 2026): fully static. Every country hub is prebuilt above and
+// never revalidated; an unknown country is a cheap 404, never an on-demand
+// render or ISR write.
+export const dynamicParams = false;
+export const revalidate = false;
+
 export async function generateMetadata({
   params
 }: {
