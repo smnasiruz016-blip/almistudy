@@ -6,11 +6,6 @@ import {
   getUniversitiesByCountrySlug,
   type University,
 } from "@/lib/page-relations";
-import { getRegionsForHomepage } from "@/lib/regions";
-import {
-  SUBJECT_ORDER,
-  SUBJECT_NAMES,
-} from "@/app/subjects/[subject]/page";
 
 // Manual curation: update when a new country flagship ships.
 const LATEST_COUNTRY_SLUG = "canada";
@@ -103,7 +98,6 @@ export default function Home() {
   const countries = getAllCountries();
   const totalUniversities = countries.reduce((s, c) => s + c.count, 0);
   const totalLabel = totalUniversities.toLocaleString("en-US");
-  const regions = getRegionsForHomepage();
   const lastVerified = maxLastVerified(
     publishable as Array<{ lastVerified: string | null }>,
   );
@@ -215,70 +209,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* BROWSE BY REGION — the SEO directory (kept) */}
-      <section className="px-6 py-8 sm:py-10">
-        <div className="mx-auto w-full max-w-4xl">
-          <div className="flex items-baseline justify-between mb-4">
-            <h2 className="text-xl font-medium text-plum">Browse by region</h2>
-            <p className="text-sm text-plum-faint">
-              {regions.length} regions · {countries.length} countries
-            </p>
-          </div>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {regions.map((r) => {
-              if (r.status === "active") {
-                return (
-                  <li key={r.slug}>
-                    <Link
-                      href={`/regions/${r.slug}`}
-                      className="block rounded-md border border-peach bg-cream px-4 py-3 hover:bg-cream-soft transition-colors"
-                    >
-                      <p className="text-lg font-medium text-plum">{r.name}</p>
-                      <p className="text-sm text-plum-soft mt-1">
-                        {r.universityCount} universities · {r.countryCount}{" "}
-                        {r.countryCount === 1 ? "country" : "countries"}
-                      </p>
-                    </Link>
-                  </li>
-                );
-              }
-              return (
-                <li
-                  key={r.slug}
-                  className="rounded-md border border-peach bg-cream-soft px-4 py-3 opacity-70"
-                  aria-label={`${r.name} — coverage coming`}
-                >
-                  <p className="text-lg font-medium text-plum-soft">{r.name}</p>
-                  <p className="text-sm text-plum-faint mt-1">Coverage coming</p>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </section>
-
-      {/* BROWSE BY SUBJECT — the SEO directory (kept) */}
-      <section className="px-6 py-8 sm:py-10">
-        <div className="mx-auto w-full max-w-4xl">
-          <div className="flex items-baseline justify-between mb-4">
-            <h2 className="text-xl font-medium text-plum">Browse by subject</h2>
-            <p className="text-sm text-plum-faint">{SUBJECT_ORDER.length} categories</p>
-          </div>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {SUBJECT_ORDER.map((slug) => (
-              <li key={slug}>
-                <Link
-                  href={`/subjects/${slug}`}
-                  className="block rounded-md border border-peach bg-cream px-3 py-2.5 text-base text-plum hover:bg-cream-soft transition-colors"
-                >
-                  {SUBJECT_NAMES[slug]}
-                </Link>
-              </li>
-            ))}
-          </ul>
         </div>
       </section>
 

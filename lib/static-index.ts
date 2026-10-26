@@ -161,13 +161,16 @@ export function originGuides(): Array<{ country: string; subject: string }> {
 
 /** Paths that are PREBUILT at build time (dynamicParams = false → unknown 404s).
  *  Deliberately small: this is everything except the 19,310 pair pages. */
+//
+// COST FIX (Oct 2026): /subjects/[subject], /regions/[region],
+// /study/[country]/[subject] (incl. the from-[origin] guides) and
+// /university/[slug]/[subject](/[origin]) were removed (owner ruling 17 Oct;
+// they answer 410 Gone from proxy.ts), so they are no longer prebuilt or
+// sitemapped. subjects(), regions(), countrySubjectPairs(), originGuides() and
+// universitySubjectPairs() stay as data accessors only.
 export function prebuiltPaths(): string[] {
   const out: string[] = ["", "/universities"];
-  for (const s of subjects()) out.push(`/subjects/${s}`);
-  for (const r of regions()) out.push(`/regions/${r}`);
   for (const c of countries()) out.push(`/universities/${c}`);
-  for (const p of countrySubjectPairs()) out.push(`/study/${p.country}/${p.subject}`);
-  for (const g of originGuides()) out.push(`/study/${g.country}/${g.subject}`);
   for (const u of universities()) out.push(`/university/${u}`);
   return out;
 }
