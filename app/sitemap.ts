@@ -40,11 +40,8 @@ export const LASTMOD = new Date("2026-07-12");
 function weight(path: string): { priority: number; changeFrequency: "weekly" | "monthly" } {
   if (path === "") return { priority: 1.0, changeFrequency: "weekly" };
   if (path === "/universities") return { priority: 0.9, changeFrequency: "weekly" };
-  if (path.startsWith("/subjects/")) return { priority: 0.8, changeFrequency: "weekly" };
-  if (path.startsWith("/regions/")) return { priority: 0.7, changeFrequency: "weekly" };
   const depth = path.split("/").filter(Boolean).length;
   if (path.startsWith("/universities/")) return { priority: 0.7, changeFrequency: "monthly" };
-  if (path.startsWith("/study/")) return { priority: 0.6, changeFrequency: "monthly" };
   return { priority: depth >= 3 ? 0.55 : 0.6, changeFrequency: "monthly" };
 }
 

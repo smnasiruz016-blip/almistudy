@@ -169,12 +169,10 @@ function CanonicalSubjects({ u }: { u: University }) {
       <ul className="flex flex-wrap gap-2 mb-3">
         {canonical.map((s) => (
           <li key={s}>
-            <Link
-              href={`/study/${u.country.slug}/${s}/${u.slug}`}
-              className="inline-block px-3 py-1.5 rounded-full border border-peach bg-cream hover:bg-cream-soft text-sm text-plum transition-colors"
-            >
+            {/* Plain label: the per-subject pages were removed (410, Oct 2026). */}
+            <span className="inline-block px-3 py-1.5 rounded-full border border-peach bg-cream text-sm text-plum">
               {SUBJECT_NAMES[s]}
-            </Link>
+            </span>
           </li>
         ))}
       </ul>
