@@ -23,6 +23,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
+      # RR-399 A8: .npmrc reads @smnasiruz016-blip/almi-data from GitHub Packages with ${NODE_AUTH_TOKEN}, which this job never set
+      # (every run failed with 401). The owner stores a read-only packages token as the repo secret ALMI_DATA_TOKEN.
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.ALMI_DATA_TOKEN }}
       run: |
         npm install
         npx webpack

@@ -28,7 +28,7 @@ export function StudyMasterHook({
 }) {
   return (
     <section className="mb-10 rounded-xl border border-peach bg-cream-soft dark:border-zinc-800 dark:bg-zinc-900/40 p-6">
-      <p className="text-xs font-semibold uppercase tracking-wide text-coral mb-2">
+      <p className="text-xs font-semibold uppercase tracking-wide text-coral-deep dark:text-coral mb-2">
         Free, verified directory · no agent commissions · no sign-up wall
       </p>
       <p className="text-xl sm:text-2xl font-semibold tracking-tight text-plum dark:text-zinc-100 mb-2">
@@ -42,14 +42,14 @@ export function StudyMasterHook({
         with confidence.
       </p>
       <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-1.5 text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">
-        <li className="flex items-center gap-1.5"><span aria-hidden className="text-coral">✓</span> A true directory, not a commission-paid agent</li>
-        <li className="flex items-center gap-1.5"><span aria-hidden className="text-coral">✓</span> Verified facts — checked, not guessed</li>
-        <li className="flex items-center gap-1.5"><span aria-hidden className="text-coral">✓</span> Free — no account, no sales calls</li>
+        <li className="flex items-center gap-1.5"><span aria-hidden className="text-coral-deep dark:text-coral">✓</span> A true directory, not a commission-paid agent</li>
+        <li className="flex items-center gap-1.5"><span aria-hidden className="text-coral-deep dark:text-coral">✓</span> Verified facts — checked, not guessed</li>
+        <li className="flex items-center gap-1.5"><span aria-hidden className="text-coral-deep dark:text-coral">✓</span> Free — no account, no sales calls</li>
       </ul>
       <div className="mt-5">
         <Link
           href={ctaHref}
-          className="inline-block rounded-pill bg-coral px-6 py-3 text-sm font-semibold text-white hover:bg-coral-deep transition-colors"
+          className="inline-block rounded-pill bg-coral-deep px-6 py-3 text-sm font-semibold text-white hover:bg-coral-ink transition-colors"
         >
           Search {TOTAL} Universities — Free →
         </Link>
