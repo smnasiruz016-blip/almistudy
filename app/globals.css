@@ -5,10 +5,13 @@
   --color-cream-soft: #FFF5E8;
   --color-peach: #FFE8D6;
   --color-coral: #FF7A6B;
-  --color-coral-deep: #D85A4D;
+  /* RR-400: coral-deep is the TEXT and white-text BUTTON shade. #D85A4D was 3.6-3.8:1 (fails WCAG AA); #B84237 is 5.3:1 on cream, 5.4:1 under white, 4.6:1 on peach. */
+  --color-coral-deep: #B84237;
+  --color-coral-ink: #9E372E;
   --color-plum: #2D1B3D;
   --color-plum-soft: #6B5B7A;
-  --color-plum-faint: #9D8FAB;
+  /* RR-400: was #9D8FAB (2.8-2.9:1 on cream). */
+  --color-plum-faint: #736384;
   --color-sage: #A8D5BA;
   --color-gold: #D4A24C;
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;

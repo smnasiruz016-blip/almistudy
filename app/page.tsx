@@ -44,7 +44,7 @@ export function generateMetadata(): Metadata {
 // One primary CTA, repeated. Search-the-directory is the action.
 const CTA_HREF = "/universities";
 const CTA_CLASS =
-  "inline-flex min-h-[44px] items-center justify-center bg-coral hover:bg-coral-deep text-cream text-sm font-semibold px-6 py-3 rounded-lg transition-colors";
+  "inline-flex min-h-[44px] items-center justify-center bg-coral-deep hover:bg-coral-ink text-cream text-sm font-semibold px-6 py-3 rounded-lg transition-colors";
 
 const TRUST = [
   { dot: "bg-coral", text: "A directory, not a commission-paid agent" },
@@ -132,7 +132,7 @@ export default function Home() {
       {/* HERO — result hook + one CTA (replaces the baked-text PNG banner) */}
       <section className="px-6 pt-14 pb-12 sm:pt-20">
         <div className="mx-auto w-full max-w-3xl text-center">
-          <h1 className="text-sm font-semibold uppercase tracking-wide text-coral">
+          <h1 className="text-sm font-semibold uppercase tracking-wide text-coral-deep">
             Find Universities Abroad — Free, Verified Directory
           </h1>
           <p className="mt-3 text-balance text-4xl font-semibold leading-tight text-plum sm:text-5xl">
@@ -257,7 +257,7 @@ export default function Home() {
                         href={featured.accreditationRegistryUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-coral hover:text-coral-deep underline"
+                        className="text-coral-deep hover:text-coral-ink underline"
                       >
                         Verify on registry
                       </a>
@@ -276,7 +276,7 @@ export default function Home() {
                     <dd>
                       <a
                         href={`tel:${featured.mainPhone}`}
-                        className="text-coral hover:text-coral-deep underline"
+                        className="text-coral-deep hover:text-coral-ink underline"
                       >
                         {featured.mainPhone}
                       </a>
@@ -291,7 +291,7 @@ export default function Home() {
                         href={featured.deadlinesUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-coral hover:text-coral-deep underline"
+                        className="text-coral-deep hover:text-coral-ink underline"
                       >
                         View official deadlines
                       </a>
@@ -311,7 +311,7 @@ export default function Home() {
                     href={featured.officialWebsite}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
-                    className="text-coral hover:text-coral-deep underline"
+                    className="text-coral-deep hover:text-coral-ink underline"
                   >
                     Official website →
                   </a>
@@ -321,7 +321,7 @@ export default function Home() {
                     href={featured.admissionsUrl}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
-                    className="text-coral hover:text-coral-deep underline"
+                    className="text-coral-deep hover:text-coral-ink underline"
                   >
                     Admissions →
                   </a>
@@ -331,7 +331,7 @@ export default function Home() {
                     href={featured.scholarshipsUrl}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
-                    className="text-coral hover:text-coral-deep underline"
+                    className="text-coral-deep hover:text-coral-ink underline"
                   >
                     Scholarships info →
                   </a>
@@ -362,7 +362,7 @@ export default function Home() {
                 >
                   <p className="text-sm font-medium text-plum">{b.label}</p>
                   <p className="mt-1 text-sm text-plum-soft">{b.body}</p>
-                  <p className="mt-3 text-sm font-semibold text-coral">{b.product} →</p>
+                  <p className="mt-3 text-sm font-semibold text-coral-deep">{b.product} →</p>
                 </a>
               </li>
             ))}
