@@ -1,84 +1,17 @@
-// Family-wide footer — AlmiWorld Global Nav Spec v1 §3. Data-driven: every family
-// product except this site's own is a followed cross-link, strengthening the
-// network's SEO (spec §3 note).
-
-type FooterLink = { label: string; href: string };
-type FooterColumn = { title: string; links: FooterLink[] };
-
-const FOOTER_COLUMNS: FooterColumn[] = [
-  {
-    title: "AlmiWorld",
-    links: [
-      { label: "Home", href: "https://almiworld.com/" },
-      { label: "eBooks", href: "https://almiworld.com/ebooks-2/" },
-      { label: "Shamool Foundation", href: "https://shamoolfoundation.com/" },
-    ],
-  },
-  {
-    // All six products — one list, shared verbatim across every repo.
-    title: "Products",
-    links: [
-      { label: "AlmiJob", href: "https://almijob.almiworld.com/" },
-      { label: "Salary Checker", href: "https://almisalary.almiworld.com/" },
-      { label: "AlmiCV", href: "https://almicv.almiworld.com/" },
-      { label: "AlmiPrep", href: "https://almiprep.almiworld.com/" },
-      { label: "AlmiPTE", href: "https://almipte.almiworld.com/" },
-      { label: "AlmiTOEFL", href: "https://almitoefl.almiworld.com/" },
-      { label: "AlmiOET", href: "https://almioet.almiworld.com/" },
-      { label: "AlmiDET", href: "https://almidet.almiworld.com/" },
-      { label: "AlmiCELPIP", href: "https://almicelpip.almiworld.com/" },
-      { label: "AlmiFrench", href: "https://almifrench.almiworld.com/" },
-      { label: "AlmiSpanish", href: "https://almispanish.almiworld.com/" },
-      { label: "AlmiJapanese", href: "https://almijapanese.almiworld.com/" },
-      { label: "AlmiKorean", href: "https://almikorean.almiworld.com/" },
-      { label: "AlmiGoethe", href: "https://almigoethe.almiworld.com/" },
-      { label: "AlmiPortuguese", href: "https://almiportuguese.almiworld.com/" },
-      { label: "AlmiItalian", href: "https://almiitalian.almiworld.com/" },
-      { label: "AlmiDutch", href: "https://almidutch.almiworld.com/" },
-      { label: "AlmiIcelandic", href: "https://almiicelandic.almiworld.com/" },
-      { label: "AlmiDanish", href: "https://almidanish.almiworld.com/" },
-    ],
-  },
-  {
-    title: "Legal & Contact",
-    links: [
-      { label: "Contact Us", href: "https://almiworld.com/contact-us/" },
-      { label: "Refund and Return Policy", href: "https://almiworld.com/refund_returns/" },
-      { label: "Privacy Policy", href: "https://almiworld.com/privacy-policy/" },
-    ],
-  },
-];
+// RR-398 · the AlmiWorld family footer (the same columns and links as almiworld.com), from the one generated kit
+// (lib/almiworld-family.ts + components/almiworld/, made by almiworld-site/tools/make-family-kit.mjs). No eBooks, no old
+// WordPress links. AlmiStudy's own links sit in one row under the columns.
+import { AlmiWorldFooter } from "@/components/almiworld/AlmiWorldFooter";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#14110D] text-white/75 mt-14">
-      <div className="mx-auto max-w-6xl px-6 py-12">
-        <div className="grid gap-10 sm:grid-cols-3">
-          {FOOTER_COLUMNS.map((col) => (
-            <div key={col.title}>
-              <p className="text-xs font-bold uppercase tracking-wider text-[#D4A24C]">
-                {col.title}
-              </p>
-              <ul className="mt-4 space-y-2 text-sm">
-                {col.links.map((link) => (
-                  <li key={link.href}>
-                    <a
-                      href={link.href}
-                      className="text-white/75 transition-colors hover:text-[#D4A24C]"
-                    >
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-12 border-t border-white/15 pt-6 text-center text-xs text-white/60">
-          © {new Date().getFullYear()} AlmiWorld. All rights reserved.
-        </div>
-      </div>
-    </footer>
+    <div className="mt-14">
+      <AlmiWorldFooter
+        own={[
+          { label: "AlmiStudy", href: "/" },
+          { label: "Universities", href: "/universities" },
+        ]}
+      />
+    </div>
   );
 }

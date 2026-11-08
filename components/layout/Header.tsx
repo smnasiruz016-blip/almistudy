@@ -1,38 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
+import { AlmiWorldBar } from "@/components/almiworld/AlmiWorldBar";
 
-// Full canonical AlmiWorld family strip. Every sibling product + network links,
-// with AlmiStudy (this site) omitted — its own home is the logo. Rendered inline
-// as real <a> anchors that wrap to 2–3 rows; no dropdown, no overflow clipping.
-const FAMILY_LINKS = [
-  { label: "Home", href: "https://almiworld.com/" },
-  { label: "eBooks", href: "https://almiworld.com/ebooks-2/" },
-  { label: "AlmiJob", href: "https://almijob.almiworld.com/" },
-  { label: "Salary Checker", href: "https://almisalary.almiworld.com/" },
-  { label: "AlmiCV", href: "https://almicv.almiworld.com/" },
-  { label: "AlmiPrep", href: "https://almiprep.almiworld.com/" },
-  { label: "AlmiPTE", href: "https://almipte.almiworld.com/" },
-  { label: "AlmiTOEFL", href: "https://almitoefl.almiworld.com/" },
-  { label: "AlmiOET", href: "https://almioet.almiworld.com/" },
-  { label: "AlmiDET", href: "https://almidet.almiworld.com/" },
-  { label: "AlmiCELPIP", href: "https://almicelpip.almiworld.com/" },
-  { label: "AlmiFrench", href: "https://almifrench.almiworld.com/" },
-  { label: "AlmiSpanish", href: "https://almispanish.almiworld.com/" },
-  { label: "AlmiJapanese", href: "https://almijapanese.almiworld.com/" },
-  { label: "AlmiKorean", href: "https://almikorean.almiworld.com/" },
-  { label: "AlmiGoethe", href: "https://almigoethe.almiworld.com/" },
-  { label: "AlmiPortuguese", href: "https://almiportuguese.almiworld.com/" },
-  { label: "AlmiItalian", href: "https://almiitalian.almiworld.com/" },
-  { label: "AlmiDutch", href: "https://almidutch.almiworld.com/" },
-  { label: "AlmiIcelandic", href: "https://almiicelandic.almiworld.com/" },
-  { label: "AlmiDanish", href: "https://almidanish.almiworld.com/" },
-  { label: "Contact Us", href: "https://almiworld.com/contact-us/" },
-  { label: "Shamool Foundation", href: "https://shamoolfoundation.com/" },
-];
-
+// AlmiStudy header. RR-398: on top, the AlmiWorld family bar (logo + Home to almiworld.com, and the same menus as almiworld.com)
+// from the one generated kit (lib/almiworld-family.ts + components/almiworld/). Under it AlmiStudy's own logo link and its own
+// "Browse universities" button. The old family strip (with its eBooks and WordPress links) is gone; the family links, including
+// their phone menu ("AlmiWorld ☰"), live in the bar.
 export default function Header() {
   return (
     <header className="sticky top-0 z-30 bg-cream/95 backdrop-blur-sm border-b border-peach">
+      <AlmiWorldBar />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3">
         <div className="flex items-center justify-between gap-3">
           <Link href="/" className="flex items-center shrink-0">
@@ -54,18 +31,6 @@ export default function Header() {
             Browse universities
           </Link>
         </div>
-
-        <nav className="hidden md:flex flex-wrap items-center gap-x-4 gap-y-1 mt-2 text-base font-semibold text-plum-soft">
-          {FAMILY_LINKS.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="hover:text-coral transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
       </div>
     </header>
   );
