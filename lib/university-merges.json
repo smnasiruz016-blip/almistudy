@@ -980,6 +980,21 @@
       "fromId": "UNI_4575",
       "toId": "UNI_0861",
       "why": "same name and city (Pune); one row has no website"
+    },
+    {
+      "from": "university-of-swat",
+      "to": "university-of-engineering-and-applied-sciences-swat",
+      "fromId": "UNI_3824",
+      "toId": "UNI_0759",
+      "why": "beta-g 9 Nov: same official website (uswat.edu.pk); Mingora is the city of Swat"
+    },
+    {
+      "from": "osh-state-medical-faculty",
+      "to": "osh-state-university",
+      "fromId": "UNI_1166",
+      "toId": "UNI_1157",
+      "why": "beta-g 9 Nov: a faculty of Osh State University (same website oshsu.kg), sent to its parent university's page"
     }
-  ]
+  ],
+  "_decisions": "beta-g 9 Nov: Madan Bhandari (Hetauda / Chitlang) and EAUR (Kigali / Nyagatare) kept as separate campuses: one row of each pair has no official website, so the same website is not shown."
 }

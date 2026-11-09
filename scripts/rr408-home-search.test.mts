@@ -166,6 +166,12 @@ test("A5 · each merged slug answers 308 to the kept page and leaves the sitemap
     assert.ok(!ix.rows.some((x) => x[0] === m.from), `${m.from}: out of the search`);
     assert.ok(!merges.merges.some((x) => x.from === m.to), `${m.to} is not itself merged away (no chain)`);
   }
+  /* beta-g 9 Nov: Swat merged (one website), Osh medical faculty to its parent; Madan Bhandari and EAUR stay two campuses */
+  const to = (from: string) => merges.merges.find((x) => x.from === from)?.to;
+  assert.equal(to("osh-state-medical-faculty"), "osh-state-university");
+  assert.ok(to("university-of-swat") || to("university-of-engineering-and-applied-sciences-swat"), "the Swat pair is one page");
+  for (const s of ["madan-bhandari-university", "madan-bhandari-university-of-science-and-technology", "east-african-university-rwanda", "east-african-university-rwanda-eaur"])
+    assert.ok(pages.has(s), `${s} kept as its own campus page`);
   /* the total drops by exactly the number merged (rows marked publishable:false were never counted) */
   const live = (publishable as University[]).filter((u) => u.publishable !== false).length;
   assert.equal(getAllCountries().reduce((n, c) => n + c.count, 0), live - merges.merges.length);
