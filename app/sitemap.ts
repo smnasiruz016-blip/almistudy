@@ -34,12 +34,13 @@ const CHUNK = 45_000; // under Google's 50k/sitemap cap
 // Exported because app/sitemap-index.xml/route.ts needs the SAME value: it was still
 // stamping wall-clock into every <lastmod> long after this constant was introduced
 // here, which is why the 2026-07-12 fix looked applied while the bill continued.
-export const LASTMOD = new Date("2026-07-12");
+export const LASTMOD = new Date("2026-11-09"); // RR-408: titles carry the place, duplicates merged, region pages back
 
 /** Priority + change frequency by path shape. Hubs rank above leaves. */
 function weight(path: string): { priority: number; changeFrequency: "weekly" | "monthly" } {
   if (path === "") return { priority: 1.0, changeFrequency: "weekly" };
   if (path === "/universities") return { priority: 0.9, changeFrequency: "weekly" };
+  if (path.startsWith("/regions/")) return { priority: 0.8, changeFrequency: "monthly" };
   const depth = path.split("/").filter(Boolean).length;
   if (path.startsWith("/universities/")) return { priority: 0.7, changeFrequency: "monthly" };
   return { priority: depth >= 3 ? 0.55 : 0.6, changeFrequency: "monthly" };
