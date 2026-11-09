@@ -1,4 +1,5 @@
 import publishable from "@/lib/universities-publishable.json";
+import merges from "@/lib/university-merges.json";
 import { getCanonicalSubjects, type SubjectSlug } from "./subject-mapper";
 
 export type University = {
@@ -67,8 +68,16 @@ export type University = {
  * and the sitemap all stay consistent with one filter, and the sitemap==servable gate
  * keeps proving it.
  */
+/**
+ * RR-408 A5 · MERGED DUPLICATES. lib/university-merges.json names the slugs that were the same university listed a
+ * second time (same country, same city, same official website). They leave here, so they leave every page, list,
+ * count, the sitemap and the search together; next.config.ts sends each one 308 to the kept page. Their rows stay in
+ * universities-publishable.json untouched (deactivate, never delete).
+ */
+const MERGED = new Set(merges.merges.map((m) => m.from));
+
 const ALL: University[] = (publishable as University[]).filter(
-  (u) => u.publishable !== false,
+  (u) => u.publishable !== false && !MERGED.has(u.slug),
 );
 
 export type CountryEntry = {

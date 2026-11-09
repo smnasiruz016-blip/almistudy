@@ -31,7 +31,7 @@ import {
   getUniversitiesByCountrySubject,
 } from "@/lib/page-relations";
 import { SUBJECT_ORDER, getCanonicalSubjects, type SubjectSlug } from "@/lib/subject-mapper";
-import { V2_REGION_ORDER } from "@/lib/regions";
+import { getRegions } from "@/lib/regions";
 import {
   STUDY_ORIGINS,
   STUDY_ORIGIN_DESTINATIONS,
@@ -45,9 +45,9 @@ export function subjects(): SubjectSlug[] {
   return [...SUBJECT_ORDER];
 }
 
-/** All 6 regions. Rendered by /regions/[region], which has its own params. */
+/** RR-408: the regions on the home page (lib/regions.ts), each with its page /regions/[region]. */
 export function regions(): string[] {
-  return [...V2_REGION_ORDER];
+  return getRegions().map((r) => r.slug);
 }
 
 /** Every verified university. Route: /university/[slug]
@@ -170,6 +170,8 @@ export function originGuides(): Array<{ country: string; subject: string }> {
 // universitySubjectPairs() stay as data accessors only.
 export function prebuiltPaths(): string[] {
   const out: string[] = ["", "/universities"];
+  // RR-408 A8: the region pages are back as a fixed, prebuilt set (ten at most; no ISR, no on-demand render).
+  for (const r of regions()) out.push(`/regions/${r}`);
   for (const c of countries()) out.push(`/universities/${c}`);
   for (const u of universities()) out.push(`/university/${u}`);
   return out;

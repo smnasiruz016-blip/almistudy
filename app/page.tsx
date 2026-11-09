@@ -1,11 +1,15 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import publishable from "@/lib/universities-publishable.json";
 import {
   getAllCountries,
   getUniversitiesByCountrySlug,
   type University,
 } from "@/lib/page-relations";
+import { getRegions, getCountriesByRegion } from "@/lib/regions";
+import { SUBJECT_ORDER, SUBJECT_NAMES } from "@/lib/subject-mapper";
+import { HOME_CANONICAL, CHIP_SLUGS, websiteJsonLd } from "@/lib/home-seo";
+import HomeSearch from "@/components/HomeSearch";
+import RegionBrowser, { type RegionCard } from "@/components/RegionBrowser";
 
 // Manual curation: update when a new country flagship ships.
 const LATEST_COUNTRY_SLUG = "canada";
@@ -36,6 +40,8 @@ export function generateMetadata(): Metadata {
   return {
     title: { absolute: title },
     description,
+    // RR-408 A8: the home page's canonical (the scan found it missing)
+    alternates: { canonical: HOME_CANONICAL },
     openGraph: { title, description },
     twitter: { title, description },
   };
@@ -98,9 +104,15 @@ export default function Home() {
   const countries = getAllCountries();
   const totalUniversities = countries.reduce((s, c) => s + c.count, 0);
   const totalLabel = totalUniversities.toLocaleString("en-US");
+  // RR-408 A6: the date reads the published list (after the merges), as every count on this page does
   const lastVerified = maxLastVerified(
-    publishable as Array<{ lastVerified: string | null }>,
+    countries.flatMap((c) => getUniversitiesByCountrySlug(c.slug)),
   );
+  const regions: RegionCard[] = getRegions().map((r) => ({
+    ...r,
+    countries: getCountriesByRegion(r.slug).map((c) => ({ slug: c.slug, name: c.name, count: c.count })),
+  }));
+  const chips = CHIP_SLUGS.flatMap((ch) => (countries.some((c) => c.slug === ch.slug) ? [{ slug: ch.slug, name: ch.label }] : []));
 
   // Defined in-render so the count + verified date stay true to the data.
   const BENEFITS = [
@@ -129,16 +141,29 @@ export default function Home() {
 
   return (
     <main className="flex flex-col flex-1 bg-cream">
-      {/* HERO — result hook + one CTA (replaces the baked-text PNG banner) */}
-      <section className="px-6 pt-14 pb-12 sm:pt-20">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd()) }} />
+      {/* HERO — result hook + the search (replaces the single "Search universities" button) */}
+      <section className="px-4 sm:px-6 pt-10 pb-10 sm:pt-16">
         <div className="mx-auto w-full max-w-3xl text-center">
           <h1 className="text-sm font-semibold uppercase tracking-wide text-coral-deep">
             Find Universities Abroad — Free, Verified Directory
           </h1>
-          <p className="mt-3 text-balance text-4xl font-semibold leading-tight text-plum sm:text-5xl">
+          <p className="mt-3 text-balance text-3xl font-semibold leading-tight text-plum sm:text-5xl">
             Find the university that says yes.
           </p>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-plum-soft">
+          {/* RR-408 A2/A4: search first (the box, the filters, the popular-destination chips, results on this page) */}
+          <div className="mt-6 sm:mt-8">
+            <HomeSearch
+              countries={countries.map((c) => ({ slug: c.slug, name: c.name }))}
+              subjects={SUBJECT_ORDER.map((s) => ({ slug: s, name: SUBJECT_NAMES[s] }))}
+              chips={chips}
+            />
+          </div>
+          <p className="mt-4 text-sm text-plum-faint">
+            Free. No sign-up. {totalLabel} universities
+            {lastVerified ? ` · last verified ${lastVerified}` : ""}.
+          </p>
+          <p className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-plum-soft">
             Choosing a university abroad is one of the biggest decisions of your
             life — and most people make it on an agent&apos;s advice, an agent
             paid to send them somewhere specific. AlmiStudy is the opposite:
@@ -146,15 +171,19 @@ export default function Home() {
             subject, with facts instead of commissions. Free. No account. No one
             steering you.
           </p>
-          <div className="mt-8 flex justify-center">
-            <Link href={CTA_HREF} className={CTA_CLASS}>
-              Search universities
-            </Link>
+        </div>
+      </section>
+
+      {/* RR-408 A3: browse in three clicks — region → its countries → the country's list */}
+      <section id="browse-regions" className="scroll-mt-20 px-4 sm:px-6 pb-12">
+        <div className="mx-auto w-full max-w-5xl">
+          <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
+            <h2 className="text-xl sm:text-2xl font-semibold text-plum">Browse by region</h2>
+            <p className="text-sm text-plum-faint">
+              {regions.length} regions · {countries.length} countries · {totalLabel} universities
+            </p>
           </div>
-          <p className="mt-4 text-sm text-plum-faint">
-            Free. No sign-up. {totalLabel} universities
-            {lastVerified ? ` · last verified ${lastVerified}` : ""}.
-          </p>
+          <RegionBrowser regions={regions} />
         </div>
       </section>
 

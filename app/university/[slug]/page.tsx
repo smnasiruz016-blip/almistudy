@@ -16,6 +16,7 @@ import {
   type StudyFaqItem,
 } from "@/components/study-master";
 import * as StaticIndex from "@/lib/static-index";
+import { universityTitle, universityDescription, universityHeading } from "@/lib/university-title";
 
 // Cache indefinitely (revalidate:Infinity). Page data is static in-repo JSON that
 // only changes on redeploy (which cold-starts the ISR cache -- pages re-render on
@@ -35,24 +36,8 @@ const PRINCIPLES_URL =
 type Params = { slug: string };
 
 // Bare title — the root layout template appends " · AlmiStudy" once.
-// Name fits inside 60 chars alongside the " (YEAR)" freshness suffix.
-function truncateTitle(name: string, year: number): string {
-  const suffix = ` (${year})`;
-  const max = 60;
-  const room = max - suffix.length;
-  if (name.length <= room) return name + suffix;
-  return name.slice(0, room - 1).trimEnd() + "…" + suffix;
-}
-
-function buildDescription(u: University): string {
-  const accred = u.accreditationBody ?? "national accrediting body";
-  const verified = u.accreditationBodyVerifiedDate ?? u.lastVerified;
-  const base = `${u.name} in ${u.city}, ${u.country.name}: accredited by ${accred}. Subjects, registry link${
-    verified ? `, last verified ${verified}` : ""
-  }.`;
-  if (base.length > 160) return base.slice(0, 157) + "…";
-  return base;
-}
+// RR-408 A5: the title, h1 and description carry the city and country (lib/university-title.ts), so no two
+// university pages share a title; a long name is shortened, the place never dropped.
 
 export async function generateMetadata({
   params,
@@ -63,8 +48,8 @@ export async function generateMetadata({
   const u = getUniversityBySlug(slug);
   if (!u) return {};
   const url = `${SITE_URL}/university/${u.slug}`;
-  const title = truncateTitle(u.name, new Date().getFullYear());
-  const description = buildDescription(u);
+  const title = universityTitle(u, new Date().getFullYear());
+  const description = universityDescription(u);
   return {
     title,
     description,
@@ -346,7 +331,7 @@ export default async function UniversityPage({
         </nav>
 
         <header className="mb-6">
-          <h1 className="text-2xl sm:text-4xl font-semibold tracking-tight mb-3">{u.name}</h1>
+          <h1 className="text-2xl sm:text-4xl font-semibold tracking-tight mb-3">{universityHeading(u)}</h1>
           <Intro u={u} canonicalSubjects={canonical} />
         </header>
 
